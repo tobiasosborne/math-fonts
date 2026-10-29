@@ -1,0 +1,28 @@
+{
+  "target": "O",
+  "method": "Confirmed connected O: translation+one uniform scale only; root coordinates retained.",
+  "metrics": {
+    "silhouette_iou": 0.9250814332247557,
+    "boundary_mean_master_px": 0.6841588149729154,
+    "boundary_p95_master_px": 1.4142135623730951,
+    "boundary_max_master_px": 2.0,
+    "boundary_mean_fraction_height": 0.004686019280636407,
+    "darkness_rmse_union": 0.1874988079071045,
+    "ink_area_change_fraction": -0.013445378151260456,
+    "aspect_change_fraction": -0.026598998887652936,
+    "master_counters": 1,
+    "enlarged_counters": 1,
+    "master_thickness_proxy_px": 10.0,
+    "enlarged_thickness_proxy_px": 19.06840225908899,
+    "master_glyph_height_px": 146,
+    "extra_dark_pixels_outside_main_component": 0,
+    "master_extra_dark_pixels": 0,
+    "registration": {
+      "uniform_scale": 0.15885576650500707,
+      "translate_x": 33.688456075078264,
+      "translate_y": 32.624866124748735,
+      "function_evaluations": 229,
+      "independent_width_stretch": false
+    }
+  }
+}

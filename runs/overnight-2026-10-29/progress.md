@@ -53,3 +53,10 @@ Upright H enlarged once and traced with topology preserved. Master overlay is
 close; detailed fidelity diagnostics and remaining font-proof obligations are
 in pilot/H/review.md. No correction call used. Campaign total: three image
 calls (one master, two enlargements). Next target is upright O.
+
+## Third scheduled continuation
+
+Upright O enlarged once, traced and reviewed. Its one counter survives;
+slightly narrower proportions and contour drift are recorded for font-proof
+review. No correction used. Four image calls total: one root, three pilot
+enlargements. Next is italic Greek alpha from the SAME regular-companion root.

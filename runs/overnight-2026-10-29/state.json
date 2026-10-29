@@ -1,31 +1,33 @@
 {
   "schema_version": 1,
   "stage": "pilot_enlargements",
-  "status": "pilot_H_enlarged_traced_reviewed",
+  "status": "pilot_O_enlarged_traced_reviewed",
   "image_calls": {
     "master_design": 1,
-    "pilot_enlargements": 2,
+    "pilot_enlargements": 3,
     "correction_pool": 0,
-    "total": 3
+    "total": 4
   },
   "active_image_request": null,
   "accepted_root": "runs/unified-master-2026-10-29/candidate-01/master.png",
   "major_blockers": [],
-  "next_action": "Next bounded step: faithful enlargement of upright O (cell index2) from the SAME root, exact crop and substantial Storm reference. Trace, measure and review before advancing. No new root or correction needed.",
+  "next_action": "Next bounded step: faithful enlargement of italic Greek alpha (cell index3, U+1D6FC) from the SAME regular-companion root and exact crop, with substantial Storm reference. Preserve alpha bowl, counter and tail; do not substitute old heavier seed. Trace, measure and review; no root/correction change requested.",
   "latest_master_candidate": "runs/unified-master-2026-10-29/candidate-01/master.png",
   "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
   "cell_manifest": "runs/unified-master-2026-10-29/candidate-01/cells.json",
-  "next_pilot_cell_index": 2,
+  "next_pilot_cell_index": 3,
   "open_issues": "runs/unified-master-2026-10-29/candidate-01/issues.json",
   "component_tracing": "tools/math_trace.py",
   "small_source_control": "runs/unified-master-2026-10-29/candidate-01/small-source-traces/summary.json",
   "completed_pilot_targets": [
     "A",
-    "H"
+    "H",
+    "O"
   ],
   "pilot_reviews": {
     "A": "runs/overnight-2026-10-29/pilot/A/review.md",
-    "H": "runs/overnight-2026-10-29/pilot/H/review.md"
+    "H": "runs/overnight-2026-10-29/pilot/H/review.md",
+    "O": "runs/overnight-2026-10-29/pilot/O/review.md"
   },
   "registration_caution": "Legacy registered() selects largest component; use only for confirmed connected targets. Equals needs full-component registration, not silent band loss."
 }
