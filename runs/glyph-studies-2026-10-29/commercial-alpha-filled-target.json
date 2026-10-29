@@ -1,0 +1,21 @@
+{
+  "source": "commercial-alpha-study.png",
+  "source_sha256": "3416a9c555da7388dd68e205775b58c8b303a91de6a8ebdb8930350a7a6df3e6",
+  "crop_box_xyxy": [
+    180,
+    145,
+    840,
+    735
+  ],
+  "output": "commercial-alpha-filled-target.png",
+  "output_sha256": "20c0e658bbbb31a0203147d5b136965a9ead000c535ba5732bc0551f317562e1",
+  "dimensions": [
+    660,
+    590
+  ],
+  "processing": "Unresized rectangular crop only; original pixels preserved, including any light guide fragments. No tracing, repainting or image generation.",
+  "purpose": "Canonical filled silhouette for subsequent contour extraction and measured smooth-curve fitting.",
+  "new_image_generation_calls": 0,
+  "prompt_revision": "commercial-alpha-filled-only-prompt.txt",
+  "limitation": "This image remains a generated reference drawing, not verified vector geometry or font metrics."
+}

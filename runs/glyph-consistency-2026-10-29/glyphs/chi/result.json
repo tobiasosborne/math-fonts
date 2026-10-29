@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/chi/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-7fd5992a-30ca-4123-9ae0-d1f63d7d0775.png",
+  "sha256": "6e105ec031c8fbd31b4485b1ee2a5858447b770129dc0c6d340c066a41f65b4b",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "chi",
+  "index": 22,
+  "finished_at": "2026-10-29T18:30:09.742Z"
+}

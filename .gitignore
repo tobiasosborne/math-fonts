@@ -1,0 +1,38 @@
+# Local environments and caches for the fresh project.
+/.venv/
+/.pytest_cache/
+**/__pycache__/
+*.pyc
+
+# Archive-specific font and output exclusions live in the snapshot's .gitignore.
+
+# Local source fonts, compiled fonts and embedded-font proof PDFs for smoke runs.
+/runs/*/private/
+
+# Campaign inputs and compiled artifacts contain supplied/derived fonts.
+/fonts/private/
+/runs/campaign-*/round-*/private/
+/runs/greek-campaign-*/round-*/private/
+/runs/arena-*/entrants/*/private/
+/runs/arena-*/matches/*/private/
+
+# Public release boundary. Keep historical backup and all nested licensed
+# font/proof material local, including private folders below proof outputs.
+/archive/
+**/private/
+/research/**/resources/
+/research/sublimite/snapshot/
+
+# Publish the accepted image-derived pipeline, not rejected font experiments.
+/runs/*
+!/runs/glyph-consistency-2026-10-29/
+!/runs/glyph-studies-2026-10-29/
+!/runs/entropy-2026-10-29/
+!/runs/pipeline-reproduction-2026-10-29/
+!/runs/overnight-2026-10-29/
+!/runs/unified-master-2026-10-29/
+
+# Account snapshots and local campaign coordination are never public inputs.
+/.local/
+/.env
+/.env.*

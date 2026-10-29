@@ -1,0 +1,59 @@
+{
+  "snapshot": "2026-10-29",
+  "sources": [
+    {
+      "id": "fontdef.dtx",
+      "url": "https://raw.githubusercontent.com/latex3/latex2e/main/base/fontdef.dtx",
+      "sha256": "a3376423114232dc36439df7388b588d5b3bc42655d31f87800bb55fb0109dc4",
+      "bytes": 61488
+    },
+    {
+      "id": "amsfonts.dtx",
+      "url": "https://mirrors.ctan.org/fonts/amsfonts/source/amsfonts.dtx",
+      "sha256": "30d2cee6f2063e25dbaff776ca2693cba30c22ba6a3c826c72b5828ab6cfae03",
+      "bytes": 23053
+    },
+    {
+      "id": "amssymb.dtx",
+      "url": "https://mirrors.ctan.org/fonts/amsfonts/source/amssymb.dtx",
+      "sha256": "03db1bd30858f16bdc0506ab2f8eca181dfddff205828826634c6fd5b2ace1d1",
+      "bytes": 16019
+    },
+    {
+      "id": "amsmath-release.dtx",
+      "url": "https://mirrors.ctan.org/macros/latex/required/amsmath/amsmath.dtx",
+      "sha256": "ee230f5ba2b5151f1bddda1ea5d7e3fd9806f6c5410b3e72c02a83419accb716",
+      "bytes": 235844
+    },
+    {
+      "id": "amsopn-release.dtx",
+      "url": "https://mirrors.ctan.org/macros/latex/required/amsmath/amsopn.dtx",
+      "sha256": "5d3afcd3828f9a1fe14b8aa7fa43f1cd37e0919057b97e9c95431aa605cd0237",
+      "bytes": 10199
+    },
+    {
+      "id": "unicode-math-table.tex",
+      "url": "https://tug.ctan.org/macros/unicodetex/latex/unicode-math/unicode-math-table.tex",
+      "sha256": "3976ff8f39c84b61055b1cb6851a1b2cfdefa918a2a642c954e6ceafdca7277e",
+      "bytes": 241443
+    },
+    {
+      "id": "um-code-epilogue.dtx",
+      "url": "https://tug.ctan.org/macros/unicodetex/latex/unicode-math/um-code-epilogue.dtx",
+      "sha256": "cf18f8106fa76ea868ddc765804c653c02e82e06bf60bdd23e7a92d05ef5e98d",
+      "bytes": 11123
+    },
+    {
+      "id": "UnicodeData.txt",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "sha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c",
+      "bytes": 2198209
+    },
+    {
+      "id": "StandardizedVariants.txt",
+      "url": "https://www.unicode.org/Public/17.0.0/ucd/StandardizedVariants.txt",
+      "sha256": "f55100b2fb11d3d75a37b8c1ab752192dbd1c4b12328c5ec6b38e3807c0ca597",
+      "bytes": 71251
+    }
+  ]
+}

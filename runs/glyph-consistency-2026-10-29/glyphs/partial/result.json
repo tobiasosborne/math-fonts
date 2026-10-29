@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/partial/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-03a00749-b6c3-49a8-898f-1ad217075e4e.png",
+  "sha256": "034e86b24d63f961a6b3bdd0e1250233068c96a07d9f7058c28dcae4b74748bf",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "partial",
+  "index": 31,
+  "finished_at": "2026-10-29T18:34:22.941Z"
+}

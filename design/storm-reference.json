@@ -1,0 +1,269 @@
+{
+  "purpose": "Substantial Storm Baskerville 10 Pro visual reference for unified master and production prompts",
+  "image": "fonts/private/reference-specimens/storm-baskerville-2026-10-29/storm-baskerville-reference.png",
+  "sha256": "a0ff84fe38a27b8839f7b7dddb5fafbaa80b64873a0acb2aaf648e30b8647dce",
+  "dimensions": [
+    2560,
+    4800
+  ],
+  "dpi": 300,
+  "faces": [
+    {
+      "style": "Regular",
+      "filename": "Baskerville10Pro.otf",
+      "source": "/home/tobias/.local/share/fonts/Baskerville 10 Pro/Baskerville10Pro.otf",
+      "sha256": "402c85ca431a105b56e34cdbd5a01dae9f44f129e6b4f3c2e062cf5cb21dad3e",
+      "weight_class": 400,
+      "units_per_em": 1000,
+      "sx_height": 458,
+      "cap_height": 712,
+      "sample_baselines": [
+        813,
+        905,
+        997,
+        1089
+      ],
+      "guidelines": [
+        {
+          "sample_index": 1,
+          "kind": "baseline",
+          "y": 905.0
+        },
+        {
+          "sample_index": 1,
+          "kind": "x-height",
+          "y": 872.024
+        },
+        {
+          "sample_index": 1,
+          "kind": "cap height",
+          "y": 853.736
+        },
+        {
+          "sample_index": 3,
+          "kind": "baseline",
+          "y": 1089.0
+        },
+        {
+          "sample_index": 3,
+          "kind": "x-height",
+          "y": 1056.024
+        },
+        {
+          "sample_index": 3,
+          "kind": "cap height",
+          "y": 1037.736
+        }
+      ],
+      "image_crop_box": [
+        80,
+        215,
+        2480,
+        1320
+      ],
+      "body_font_pixels": 56,
+      "scan_font_pixels": 72,
+      "crop": "storm-regular.png",
+      "crop_sha256": "bf6a4489d48f6dc30acea16f457eb75ef1e39f9131787e0a4118cb0243b2fbab",
+      "guides_crop": "storm-regular-guides.png"
+    },
+    {
+      "style": "Italic",
+      "filename": "Baskerville10Pro-Italic.otf",
+      "source": "/home/tobias/.local/share/fonts/Baskerville 10 Pro/Baskerville10Pro-Italic.otf",
+      "sha256": "b7c1c8e26c169eaa8a05d1354793a3cb9351c7a763c1e0864189f41860c652af",
+      "weight_class": 400,
+      "units_per_em": 1000,
+      "sx_height": 476,
+      "cap_height": 723,
+      "sample_baselines": [
+        1860,
+        1952,
+        2044,
+        2136
+      ],
+      "guidelines": [
+        {
+          "sample_index": 1,
+          "kind": "baseline",
+          "y": 1952.0
+        },
+        {
+          "sample_index": 1,
+          "kind": "x-height",
+          "y": 1917.728
+        },
+        {
+          "sample_index": 1,
+          "kind": "cap height",
+          "y": 1899.944
+        },
+        {
+          "sample_index": 3,
+          "kind": "baseline",
+          "y": 2136.0
+        },
+        {
+          "sample_index": 3,
+          "kind": "x-height",
+          "y": 2101.728
+        },
+        {
+          "sample_index": 3,
+          "kind": "cap height",
+          "y": 2083.944
+        }
+      ],
+      "image_crop_box": [
+        80,
+        1335,
+        2480,
+        2440
+      ],
+      "body_font_pixels": 56,
+      "scan_font_pixels": 72,
+      "crop": "storm-italic.png",
+      "crop_sha256": "4152d393f48c15feaa716a66c7c4e8eaf22ad580bb4783e4d55dc64e25557a5c",
+      "guides_crop": "storm-italic-guides.png"
+    },
+    {
+      "style": "Bold",
+      "filename": "Baskerville10Pro-Bold.otf",
+      "source": "/home/tobias/.local/share/fonts/Baskerville 10 Pro/Baskerville10Pro-Bold.otf",
+      "sha256": "ddc7383e768b3291368a454efef9f2bbddfd36aa55b6b4fc92e61d2bcbcaaa4a",
+      "weight_class": 700,
+      "units_per_em": 1000,
+      "sx_height": 471,
+      "cap_height": 713,
+      "sample_baselines": [
+        3053,
+        3145,
+        3237,
+        3329
+      ],
+      "guidelines": [
+        {
+          "sample_index": 1,
+          "kind": "baseline",
+          "y": 3145.0
+        },
+        {
+          "sample_index": 1,
+          "kind": "x-height",
+          "y": 3111.088
+        },
+        {
+          "sample_index": 1,
+          "kind": "cap height",
+          "y": 3093.664
+        },
+        {
+          "sample_index": 3,
+          "kind": "baseline",
+          "y": 3329.0
+        },
+        {
+          "sample_index": 3,
+          "kind": "x-height",
+          "y": 3295.088
+        },
+        {
+          "sample_index": 3,
+          "kind": "cap height",
+          "y": 3277.664
+        }
+      ],
+      "image_crop_box": [
+        80,
+        2455,
+        2480,
+        3560
+      ],
+      "body_font_pixels": 56,
+      "scan_font_pixels": 72,
+      "crop": "storm-bold.png",
+      "crop_sha256": "5e89e38ac77607d45a14089c5bd30d9293379ece66cf8e2f8637e19e32197885",
+      "guides_crop": "storm-bold-guides.png"
+    },
+    {
+      "style": "Bold italic",
+      "filename": "Baskerville10Pro-BoldItalic.otf",
+      "source": "/home/tobias/.local/share/fonts/Baskerville 10 Pro/Baskerville10Pro-BoldItalic.otf",
+      "sha256": "4430977b025b08c62f975fbfc06d120fde12be4cab08119fd89ae3752d5bf81f",
+      "weight_class": 700,
+      "units_per_em": 1000,
+      "sx_height": 488,
+      "cap_height": 718,
+      "sample_baselines": [
+        4173,
+        4265,
+        4357,
+        4449
+      ],
+      "guidelines": [
+        {
+          "sample_index": 1,
+          "kind": "baseline",
+          "y": 4265.0
+        },
+        {
+          "sample_index": 1,
+          "kind": "x-height",
+          "y": 4229.864
+        },
+        {
+          "sample_index": 1,
+          "kind": "cap height",
+          "y": 4213.304
+        },
+        {
+          "sample_index": 3,
+          "kind": "baseline",
+          "y": 4449.0
+        },
+        {
+          "sample_index": 3,
+          "kind": "x-height",
+          "y": 4413.864
+        },
+        {
+          "sample_index": 3,
+          "kind": "cap height",
+          "y": 4397.304
+        }
+      ],
+      "image_crop_box": [
+        80,
+        3575,
+        2480,
+        4680
+      ],
+      "body_font_pixels": 56,
+      "scan_font_pixels": 72,
+      "crop": "storm-bold-italic.png",
+      "crop_sha256": "5a83bf3012407fe2c19fc8693441e6298ac1e2a972a428da8c2369cfd38d5e67",
+      "guides_crop": "storm-bold-italic-guides.png"
+    }
+  ],
+  "guidelines": {
+    "overlay": "guidelines-overlay.png",
+    "mask": "guidelines-mask.png",
+    "guided_view": "storm-baskerville-guided.png",
+    "coordinates": "Baseline, x-height and cap height from source font metrics at 72px em; overlay on lowercase Latin and Greek specimen lines.",
+    "math_axis": "Not a text font metric; set only after unified math-master calibration.",
+    "mask_semantics": "White excludes guide ink; clean original must be used for tracing, never erase this mask from a flattened annotated glyph."
+  },
+  "paragraph": "A mathematical page should read with the calm rhythm of a well-set book. Letters, figures and punctuation share the same light, while their varied shapes give each line its movement. A narrow counter must stay open; a fine stroke must survive at reading size. The italic turns within the roman texture without breaking it. In a companion mathematics family, Greek letters and symbols should feel at home beside these words, with clear distinctions and a consistent balance of black and white.",
+  "sample_lines": [
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "abcdefghijklmnopqrstuvwxyz",
+    "0123456789  (1,234.56)  + - = / : ; ! ? &",
+    "α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω"
+  ],
+  "note": "Same point scale, not normalized x-height; use separate matched-apparent-size proofs for weight calibration. No font binary is included. These reference shapes do not override the approved unified math master.",
+  "reference_directory": "fonts/private/reference-specimens/storm-baskerville-2026-10-29",
+  "reference_usage": "Required substantial visual input in unified-master prompts; for glyph enlargements root and exact crop govern anatomy. Include whole text reference and/or relevant unaltered face crops for calibration.",
+  "distribution": "Reference font binaries are external/user supplied; generated sample and detailed local manifest remain private.",
+  "root_authority": "design/unified-master.json",
+  "weight_status": "Current Greek was requested regular italic, but looks heavy; uncalibrated until matched-apparent-size comparison."
+}

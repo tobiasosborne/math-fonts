@@ -1,0 +1,26 @@
+{
+  "name": "omega",
+  "mode": "lanczos8",
+  "input_dimensions": [
+    1152,
+    1728
+  ],
+  "glyph_height": 652,
+  "render_supersample": 2,
+  "optimization_tolerance_px": 0.978,
+  "cubic_segments": 179,
+  "explicit_corner_segments": 1,
+  "closed_contours": 1,
+  "max_smooth_join_angle_degrees": 1.2074182697257333e-06,
+  "median_normalized_curvature_jump": 37.872132569287594,
+  "curvature_continuity_guaranteed": false,
+  "own_source_iou": 0.995623031060947,
+  "own_source_boundary_mean_px": 0.2437177947281279,
+  "own_source_boundary_p95_px": 1.0,
+  "own_source_boundary_mean_per_1000_height": 0.37380029866277287,
+  "own_source_darkness_rmse_union": 0.0880332738161087,
+  "source_counters": 0,
+  "vector_counters": 0,
+  "original_master_iou_after_uniform_registration": 0.9941266598569969,
+  "original_master_boundary_mean_px": 0.040214477211796246
+}

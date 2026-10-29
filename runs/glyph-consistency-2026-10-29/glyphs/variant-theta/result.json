@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-theta/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-79b0a219-fc3b-4545-b592-06209a7a1dbf.png",
+  "sha256": "63938abbbaec9a9a3708869f95b77c058475a89a5ff4ccf9de3a8078f2349e05",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "variant-theta",
+  "index": 26,
+  "finished_at": "2026-10-29T18:31:54.317Z"
+}

@@ -1,0 +1,18 @@
+Use case: stylized-concept
+Asset type: one portrait high-resolution typography design proof sheet, black ink on pure white.
+
+Input image 1 is a REFERENCE: an exact 600dpi specimen of our current unfinished Baskerville math companion, including its Greek alphabet and its use in realistic mathematics alongside Baskerville prose. It is a starting point and context, NOT a design to reproduce unchanged.
+
+Primary request: imagine a substantially redesigned lowercase Greek mathematical typeface as if an adventurous František Štorm-inspired designer had taken the commission. Make a real visual design proposal: authored new glyph anatomy, expressive but disciplined calligraphic stress, beautifully judged sharp and rounded terminals, assured curves, generous living counterforms, lucid mathematical distinctions, rich yet controlled rhythm. Seek the individual character and conviction of a leading Czech type designer's editorial work while harmonizing with the precise, high-contrast Baskerville prose. This is an independent AI concept, not work by Štorm; include only the small title “Štorm-inspired exploration” and a quiet “AI design study” label. No signature or claim of his authorship.
+
+The subject is THE REDESIGNED TYPEFACE, not a decorated poster. Depart constructively and noticeably from the reference's actual letterforms. Do not merely copy its alphabet and change the layout. Do not turn all Greek into Latin serif forms or into handwriting. Make the italic Greek feel naturally Greek and convincingly italic; make its ν, υ, and Latin v distinct through more than a tiny base detail. Resolve the bold as an intentional companion with open counters and expressive joins. Make small script forms visibly designed for their role.
+
+Composition: an exceptionally clear flat type designer's specimen, portrait A4 proportions, highest practical resolution. Top half devoted to substantial, inspectable newly designed Greek alphabet rows: upright, italic, bold, and bold italic. Show the complete lowercase sequence exactly:
+“α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω”
+Show the conventional variant pairs distinctly, not merged:
+“ε ϵ   θ ϑ   κ ϰ   φ ϕ   ρ ϱ   π ϖ   ∂”
+Give selected redesigned forms α β θ ν υ φ ξ ω and the v / ν / υ contrast one enlarged detail row. Allow ample internal and interletter white and generous margins; no letters clipped by the sheet edge. A few very fine baseline guides are acceptable but natural black-on-white specimens dominate.
+
+Lower half: demonstrate this same newly designed mathface in refined realistic mathematics with unchanged Baskerville-like prose at reading size. Use two short prose passages such as “A localized disturbance spreads by diffusion. The diffusivity κ controls the scale.” and “A Gaussian measurement has location μ and standard deviation σ.” Show coherent mathematical formula typography, e.g. ∂u/∂t = κ ∂²u/∂x² and ρ(x|μ,σ) = exp[−(x−μ)²/(2σ²)] / (σ√(2π)), with proper fractions, radicals, accents and nested Greek indices. Include a tiny text/script/script-script comparison using α, ν, υ, θ, φ, ω. Use the reference's real use contexts as guidance, not text to hallucinate as ornamental texture.
+
+Constraints: preserve Greek character identities, final sigma, semantic variant distinctions and mathematical readability. One consistent proposed type family across the whole sheet, rather than unrelated decorative alternates. Sharp, clean, high-resolution original image; no photograph, paper texture, desk, book mockup, shadows, brush drawing, ornamental frame, color, watermark, fake provenance, or decorative gibberish. Let the new letterforms themselves carry the creative entropy.

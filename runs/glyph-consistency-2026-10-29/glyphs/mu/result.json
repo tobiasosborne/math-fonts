@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/mu/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-8d56d511-813f-43f6-9bbc-2479913e7701.png",
+  "sha256": "be8976ae45578458b63fc59848892cc573231f30f37e8c7872801f50da94c9c1",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "mu",
+  "index": 11,
+  "finished_at": "2026-10-29T18:26:28.263Z"
+}

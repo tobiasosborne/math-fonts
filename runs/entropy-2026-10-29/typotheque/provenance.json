@@ -1,0 +1,60 @@
+{
+  "title": "Typotheque-inspired exploration",
+  "status": "AI design study; unscored raster concept, not a font or foundry product",
+  "method": "built-in image_gen.imagegen",
+  "actual_generation_call_count": 1,
+  "iterations": 0,
+  "cli_or_api_fallback": false,
+  "transparent_background": false,
+  "input": {
+    "path": "/home/tobias/.t3/projects/math-fonts/runs/entropy-2026-10-29/current-design-600dpi.png",
+    "role": "sole reference; retained 0.152 native specimen",
+    "viewed_before_generation": true,
+    "sha256": "3c8f512cba3cb07189cb04206f89224bacafd30ba1c0b15803a8ac7b5f375fc1",
+    "dimensions_px": [4961, 7016],
+    "mode": "RGB"
+  },
+  "prompt": {
+    "path": "/home/tobias/.t3/projects/math-fonts/runs/entropy-2026-10-29/typotheque/prompt.txt",
+    "saved_before_generation": true,
+    "sha256": "92bdd7a1643f17dcffa4556274ca792e12e0fcfafd51f26bbeae30143de3ed8b",
+    "bytes": 5786
+  },
+  "output": {
+    "path": "/home/tobias/.t3/projects/math-fonts/runs/entropy-2026-10-29/typotheque/redesigned.png",
+    "original_tool_path": "/home/tobias/.codex/generated_images/01a18867-7860-7510-8f03-07fadd443f73/exec-470a64aa-e452-4581-a958-98d4fa738f2d.png",
+    "sha256": "8ddb06203612d6ce66a52a3fa467394e79db836c52401abe66cd52ca35e44002",
+    "dimensions_px": [1055, 1491],
+    "mode": "RGB",
+    "bytes": 1407858,
+    "original_png_copied_byte_for_byte": true,
+    "upscaled": false,
+    "resolution_note": "Prompt requested 2048 x 2896 or higher available original resolution; actual built-in output is 1055 x 1491. No resizing or repair."
+  },
+  "sources": [
+    {
+      "url": "https://www.typotheque.com/fonts/lava",
+      "basis": "Primary source and observations supplied by parent in foundry-sources.json; no claim of independent page inspection in this subtask.",
+      "reference_observation": "Lava is described for magazine/text use at small and large sizes; Greek and Latin credited to Peter Bilak.",
+      "creative_inference": "Native-script integrity, warm rhythm, open counters and robust small forms are proposed exploration goals, not a claim to copy Lava outlines or represent all Typotheque work."
+    }
+  ],
+  "useful_glyph_ideas": [
+    "Large italic theta: broad oval, generous interior light, level crossing and stronger outer stroke; deliberately reconstruct and balance both counter spaces.",
+    "Large italic beta: tall curved spine with unequal bowls and a narrow open transition; explore the lower bowl width without congesting the join.",
+    "Large italic xi: three clearly staged motions with a small upper flick and broad lower returning curve; consider as a rhythm proposal rather than tracing it.",
+    "Large italic alpha: asymmetric open-looking counter relationship, firm rising right stroke and economical exit; retain Greek identity while testing text rhythm.",
+    "Upsilon has a spacious cupped body while nu has a sharper asymmetric trough; this is a useful construction hypothesis for separating the Greek pair.",
+    "Bold rows suggest retaining broad theta/omicron spaces and open Greek flow as weight grows; exact family compatibility still requires vector work."
+  ],
+  "visible_errors_and_limitations": [
+    "Critical contrast failure: the enlarged glyph labelled Latin v has a rounded, returning Greek-like construction instead of the requested angular Latin wedge. Do not adopt it as Latin v or treat the trio as a solved distinction.",
+    "Upright and italic full alphabets, final sigma and variant rows appear present on visual inspection; raster appearance cannot establish Unicode coverage or exact variant mappings.",
+    "Script kappa resembles a cursive x and alternate rho has a q-like return; semantic recognizability and distinction from Latin x/q require scrutiny at actual size.",
+    "The two displayed equations appear mathematically correct on inspection: diffusion equation and normalized Gaussian density. This does not certify a working math font, MATH table, shaping or formula layout.",
+    "Text/Script/Script-script examples are labelled 12/10/8 pt inside an image. These labels are not calibrated physical sizes and do not demonstrate a true optical-size system; the small rows may largely be scaled forms.",
+    "The image emphasizes open curves but much of the full alphabet remains conservative and close to familiar Greek math conventions. It is a selective anatomy direction rather than proof of a wholly new coherent family.",
+    "Actual resolution is below the requested target, so contour decisions, fine terminal behavior and small-size reliability cannot be read as precise geometry.",
+    "No foundry authorship, expert endorsement, council score, vector quality or production readiness is implied."
+  ]
+}

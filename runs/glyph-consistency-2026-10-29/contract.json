@@ -1,0 +1,12 @@
+{
+  "purpose": "Test fixed specimen sheet to independently generated enlarged glyphs, including family consistency and shape fidelity.",
+  "user_scope": "Alphabet and variants:32glyphs",
+  "master_calls": 1,
+  "enlargement_calls_authorized": 32,
+  "automatic_retries": 0,
+  "automatic_correction_calls": 0,
+  "source_policy": "Every call receives exact same fixed master plus unaltered cell crop, never prior enlarged output.",
+  "master_sha256": "7538ac467dc73705b289ea99937d6d659c01cff5052d20b212fffc77ed4af98e",
+  "quota_estimate": "Each call planning average3\u20135 comparable plain text turns; actual account quota/token usage unavailable.",
+  "master_identity_caveat": "Ordinary/variant epsilon and kappa, and possibly phi, are near-duplicates in this master. Faithfulness and correct mathematical identity are assessed separately; source is not silently repaired mid-experiment."
+}

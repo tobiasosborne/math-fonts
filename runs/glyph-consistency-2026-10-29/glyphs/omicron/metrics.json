@@ -1,0 +1,27 @@
+{
+  "name": "omicron",
+  "char": "\u03bf",
+  "status": "complete",
+  "silhouette_iou": 0.9479632063074901,
+  "boundary_mean_master_px": 0.4470219605629141,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 1.4142135623730951,
+  "boundary_mean_fraction_height": 0.004858934353944719,
+  "darkness_rmse_union": 0.12250711023807526,
+  "ink_area_change_fraction": 0.005411255411255311,
+  "aspect_change_fraction": 0.020772775611485494,
+  "master_counters": 1,
+  "enlarged_counters": 1,
+  "master_thickness_proxy_px": 18.439088914585774,
+  "enlarged_thickness_proxy_px": 18.219544457292887,
+  "master_glyph_height_px": 92,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.14745820554220157,
+    "translate_x": 21.91707543769816,
+    "translate_y": 86.07801064351655,
+    "function_evaluations": 159,
+    "independent_width_stretch": false
+  }
+}

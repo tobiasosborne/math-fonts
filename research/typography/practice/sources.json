@@ -1,0 +1,112 @@
+{
+  "sources": [
+    {
+      "id": "P01",
+      "author": "Adobe Systems",
+      "title": "Designing Multiple Master Typefaces",
+      "url": "https://partners.adobe.com/public/developer/en/font/5091.Design_MM_Fonts.pdf",
+      "locator": "pp. 17–19",
+      "evidence_type": "technical design manual",
+      "license_access_copy_status": "Public first-party PDF; copyright; redistribution permission unverified",
+      "local_path": "resources/adobe-design-mm.pdf",
+      "sha256": "69e5232c6ad5cd38885cbc7f2344810c1daec7db8bff85cd8a103e16c54cf637",
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "id": "P02",
+      "author": "Glyphs",
+      "title": "Spacing — Glyphs Handbook (current web edition)",
+      "url": "https://handbook.glyphsapp.com/spacing/",
+      "locator": "Opening paragraphs under Spacing; related Kerning chapter P09",
+      "evidence_type": "practitioner handbook",
+      "license_access_copy_status": "Current first-party web chapter directly verified 2026-10-29; notes only. Earlier indexed PDF URL returned 404 and is superseded for this criterion.",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "id": "P03",
+      "author": "Glyphs",
+      "title": "Drawing good paths",
+      "url": "https://glyphsapp.com/learn/drawing-good-paths",
+      "locator": "Extremum points; Harmony",
+      "evidence_type": "practitioner tutorial",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "id": "P04",
+      "author": "Glyphs",
+      "title": "Harmonization",
+      "url": "https://glyphsapp.com/learn/harmonization",
+      "locator": "Step 2: Curve fitting",
+      "evidence_type": "practitioner tutorial",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "id": "P05",
+      "author": "Frank Grießhammer / Adobe",
+      "title": "Source Serif gets optical sizes",
+      "url": "https://blog.adobe.com/en/publish/2021/03/04/source-serif-gets-optical-sizes",
+      "locator": "article body",
+      "evidence_type": "designer account",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "id": "P06",
+      "author": "Paul Barnes / Commercial Type",
+      "title": "Marian Collection",
+      "url": "https://commercialtype.com/uploads/0816/a78211661e73a5f0f931ee4b093d79d5772a8e776b3fef864e3f8f76f17b4073/Marian-collection.pdf",
+      "locator": "Marian 1757 section; internal page label 38 of 69 (PDF has 73 physical pages)",
+      "evidence_type": "designer specimen",
+      "license_access_copy_status": "First-party PDF directly verified with web tool 2026-10-29; copyright; notes only",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "id": "P07",
+      "author": "Peter Biľak / Typotheque",
+      "title": "Typeface design beyond a single script",
+      "url": "https://www.typotheque.com/articles/typeface-design-beyond-a-single-script",
+      "locator": "Romulus Greek discussion",
+      "evidence_type": "foundry practitioner essay",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "id": "P08",
+      "author": "Robert Slimbach / Adobe",
+      "title": "Adobe Aldine: A contemporary interpretation of the humanist book types",
+      "url": "https://assets.fonts.adobe.com/v4k131cywewadll0ib768wamdlq3",
+      "locator": "Filling in the Gaps; Optical Sizes",
+      "evidence_type": "designer specimen and account",
+      "license_access_copy_status": "Indexed first-party PDF lead only; parent direct retrieval returned 404 on 2026-10-29. Not eligible to support an adopted rubric rule until resolved.",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29"
+    },
+    {
+      "id": "P09",
+      "author": "Glyphs",
+      "title": "Kerning",
+      "url": "https://handbook.glyphsapp.com/kerning/",
+      "locator": "Kerning introduction",
+      "evidence_type": "practitioner handbook",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29"
+    }
+  ]
+}

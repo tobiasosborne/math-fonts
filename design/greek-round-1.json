@@ -1,0 +1,9 @@
+{
+ "version":160,
+ "input":"fonts/private/delivery/BaskervilleCompanionMath-Experimental-0.152.otf",
+ "input_sha256":"c00cb777cadca12c268e291d727b722568715fda3f58635f40066d918c04327c",
+ "hypothesis":"Retain the native Greek alphabet while redistributing selected open-entry space and preserving diagonal exit clearance; relieve enclosed bold counters, reinforce script ink without closing counters, and restore a more flowing but distinct native Greek italic nu posture.",
+ "scope":"32 Greek forms × four serif styles × three existing optical roles; no unrelated glyph or radical changes.",
+ "practice_sources":["P07 Greek script integrity","P02/S02 fitting and inner/outer white","P01/P05 optical sizes","S01 proofing","M08 mathematical distinctions"],
+ "parameters_are":"A single designer proposal, not universal typographic numerical standards. Fixed specimens test it against the incumbent."
+}

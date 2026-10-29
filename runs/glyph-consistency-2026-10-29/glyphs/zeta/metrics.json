@@ -1,0 +1,27 @@
+{
+  "name": "zeta",
+  "char": "\u03b6",
+  "status": "complete",
+  "silhouette_iou": 0.8509392534764577,
+  "boundary_mean_master_px": 1.0039055166520368,
+  "boundary_p95_master_px": 2.23606797749979,
+  "boundary_max_master_px": 5.0990195135927845,
+  "boundary_mean_fraction_height": 0.005836659980535098,
+  "darkness_rmse_union": 0.3080862760543823,
+  "ink_area_change_fraction": 0.029152179727199856,
+  "aspect_change_fraction": 0.07644449352992044,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 12.649110640673518,
+  "enlarged_thickness_proxy_px": 12.649110640673518,
+  "master_glyph_height_px": 172,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.14410060975030647,
+    "translate_x": 23.45665572014902,
+    "translate_y": 38.564241610560806,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

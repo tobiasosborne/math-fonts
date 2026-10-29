@@ -1,0 +1,27 @@
+{
+  "name": "sigma",
+  "char": "\u03c3",
+  "status": "complete",
+  "silhouette_iou": 0.9170666666666667,
+  "boundary_mean_master_px": 0.6450023382823239,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 3.0,
+  "boundary_mean_fraction_height": 0.007247217284071055,
+  "darkness_rmse_union": 0.18782831728458405,
+  "ink_area_change_fraction": -0.005271920088790183,
+  "aspect_change_fraction": 0.049206853708572806,
+  "master_counters": 1,
+  "enlarged_counters": 1,
+  "master_thickness_proxy_px": 14.142135623730951,
+  "enlarged_thickness_proxy_px": 14.0,
+  "master_glyph_height_px": 89,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.13462928895585377,
+    "translate_x": 15.36862745143161,
+    "translate_y": 77.75662697504427,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

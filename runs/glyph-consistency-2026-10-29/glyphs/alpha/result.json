@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/alpha/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-85d954ac-622c-4eba-b1e2-865a2211d794.png",
+  "sha256": "ac29711838aa7918e24adbd1b8ac505c6c92799f6a624e167f8a9fc7dbfb67a0",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "alpha",
+  "index": 0,
+  "finished_at": "2026-10-29T18:23:30.921Z"
+}

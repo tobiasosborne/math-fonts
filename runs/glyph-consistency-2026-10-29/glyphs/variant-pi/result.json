@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-pi/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-601802c1-3cbb-4b1c-aa14-b9653fa6bf39.png",
+  "sha256": "50d10cb97c2f45dd23c558715da5f55884bc947000f5137e8b80a93ea3275bc4",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "variant-pi",
+  "index": 30,
+  "finished_at": "2026-10-29T18:33:52.228Z"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/xi/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-1325d7e8-f10b-4b79-a82e-02254b72d242.png",
+  "sha256": "e1de3de9bc5947e2255f42562a36122c6f5764221babefc143ce5743cd2ab568",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "xi",
+  "index": 13,
+  "finished_at": "2026-10-29T18:27:03.294Z"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-kappa/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-e5b541bc-a819-4b90-9802-4fb7a23af519.png",
+  "sha256": "930ef7668b7b55417aba99dfa7543373f02b28cbe7befbb61f91d76c9860af71",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "variant-kappa",
+  "index": 27,
+  "finished_at": "2026-10-29T18:32:18.289Z"
+}

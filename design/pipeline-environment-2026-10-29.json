@@ -1,0 +1,15 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+  "pillow": "13.0.0",
+  "numpy": "1.26.4",
+  "scipy": "1.11.4",
+  "pycairo": "1.25.1",
+  "cairo": "1.18.0",
+  "fonttools": "4.68.0",
+  "potrace": "potracelib 1.16",
+  "system_python_package_fallback": "/usr/lib/python3/dist-packages",
+  "label_font": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+  "label_font_sha256": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280",
+  "note": "Observed working local environment, not a portable dependency lock. Image generation is not deterministic; preserve raster inputs."
+}

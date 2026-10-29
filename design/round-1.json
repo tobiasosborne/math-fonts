@@ -1,0 +1,26 @@
+{
+  "recipe": "radicals-v1",
+  "family": "radicals",
+  "hypothesis": "A robust descending check stroke, a lighter rising stroke, a softened entry and a unified script/extension family will make radicals more coherent and less mechanically polygonal.",
+  "source_ids": [
+    "M03",
+    "M08",
+    "P03",
+    "P04",
+    "P05"
+  ],
+  "parameters": {
+    "rule_thickness": 48,
+    "upper_rising_stroke_horizontal_span": 40,
+    "advance": 800,
+    "assembly_connector_x": [
+      602,
+      650
+    ],
+    "script_compensation": {
+      "rising_inner_x_offset": -5,
+      "descending_inner_x_offset": 6
+    }
+  },
+  "scope": "Four finite radical outlines, two optical-script outlines and three assembly parts, plus construction mappings for the two script alternates. All other glyph outlines and metrics are retained. These parameters are design choices, not universal typographic laws."
+}

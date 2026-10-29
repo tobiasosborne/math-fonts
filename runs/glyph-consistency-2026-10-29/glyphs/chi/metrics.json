@@ -1,0 +1,27 @@
+{
+  "name": "chi",
+  "char": "\u03c7",
+  "status": "complete",
+  "silhouette_iou": 0.9324744557974234,
+  "boundary_mean_master_px": 0.512495134541145,
+  "boundary_p95_master_px": 1.4142135623730951,
+  "boundary_max_master_px": 2.23606797749979,
+  "boundary_mean_fraction_height": 0.004133025278557622,
+  "darkness_rmse_union": 0.17368799448013306,
+  "ink_area_change_fraction": 0.02184522426214275,
+  "aspect_change_fraction": 0.0548511298808636,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 15.620499351813308,
+  "enlarged_thickness_proxy_px": 15.620499351813308,
+  "master_glyph_height_px": 124,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.1396058005731476,
+    "translate_x": 9.491505654253894,
+    "translate_y": 80.763954664422,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

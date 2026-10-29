@@ -1,0 +1,23 @@
+Use case: stylized-concept
+Asset type: one exceptionally sharp portrait typography design proof, black type on pure white. Highest available ORIGINAL resolution, aim at least 2048 × 2896 if supported, not an upscaled small image.
+
+Image 1 is the REFERENCE showing our current unfinished Baskerville mathematical companion at 600 dpi in actual use. It is use context and the problem to solve, NOT a finished design to copy. Do not preserve its glyph outlines unchanged.
+
+Imagine a new commission through a Hoefler & Co.-inspired sensibility: a precise, self-assured editorial mathematical Greek family that harmonizes with Baskerville. The primary design notes are Mercury Text's carefully related text/display roles and multiple grades. Translate that attention to optical purpose into your own original Greek math proposal; do not copy Mercury or any existing Hoefler font. Label the sheet “Hoefler & Co.-inspired exploration” and “AI design study”. No claim that the foundry designed this.
+
+Make the GLYPH DESIGN noticeably new and authored. Emphasize crisp modulated stress, restrained decisive terminals, poised joins, economical strong silhouettes, an incisive but fluid true Greek italic, controlled fit and extraordinarily lucid white. Avoid a generic Times-like mathematical alphabet, handwriting, or the blunt softened shapes of the input. The direction should feel disciplined and editorial rather than exuberantly flourished: architectural composure with living pen logic. More than a poster layout change is required.
+
+Concrete form opportunities: asymmetrical yet poised beta bowls and a clean waist; alpha with a deliberate crossing and living counter; theta with an open oval and carefully weighted bar; xi with three distinct rhythmic turns rather than stacked black knots; lambda with a decisive rise and elegant entry; nu with a clearly forward Greek gesture and pointed-but-not-pinched turn; upsilon with a distinct rounded bowl/terminal; omega with balanced spacious lobes and a controlled central join; phi with open counters around an assured stem. Develop these ideas across the WHOLE alphabet and four styles; don't just redesign nu. Do not force Latin serif anatomy onto Greek. Bold must be its own carefully articulated companion, not simply swollen regular strokes. Small script forms need visibly more resilient counters, fit and articulation without becoming crude.
+
+Composition: clean flat portrait proof sheet, generous outer margins and sharp black original glyphs as the main subject. No photograph, book mockup, paper texture, shadows, color, decorative frame, watermark or signature. Top two thirds: large inspectable rows of the complete newly designed Greek alphabet in upright, italic, bold, and bold italic. Keep every character uncut and correctly ordered:
+“α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω”
+Show the conventional semantic variants clearly and separately, preferably in one tidy regular/italic comparison:
+“ε ϵ   θ ϑ   κ ϰ   φ ϕ   ρ ϱ   π ϖ   ∂”
+Include one enlarged detail line of α β θ ξ ν υ φ ω. Include an individually labelled Latin v / Greek ν / Greek υ comparison; make all three distinct without grotesque exaggeration. Keep the same proposed family language in every specimen. Fine baseline guides are optional; the natural type should dominate.
+
+Lower third: demonstrate the new Greek mathface in two short accurate real mathematical settings beside excellent Baskerville prose. Use these exact sentences and formulas, with professionally arranged mathematical notation (proper fractions and radicals, not a string of slash abbreviations):
+“A localized disturbance spreads by diffusion. The diffusivity κ controls the scale.”
+∂u/∂t = κ ∂²u/∂x²
+“A Gaussian measurement has location μ and standard deviation σ.”
+ρ(x|μ,σ) = exp[−(x−μ)²/(2σ²)] / (σ√(2π))
+Finish with a small text/script/script-script comparison using α, ν, υ, θ, φ, ω and nested Greek indices and accents. Keep those marks intelligible; simplify surrounding copy rather than inventing ornamental mathematical gibberish. Preserve semantic character identities and meaningful variant distinctions. The result is an original IMAGE of a rigorous proposed typeface, suitable for a font designer to reinterpret deliberately into vectors, not claimed proof of a real compiled font.

@@ -1,0 +1,26 @@
+{
+  "name": "alpha",
+  "mode": "generated",
+  "input_dimensions": [
+    1024,
+    1536
+  ],
+  "glyph_height": 641,
+  "render_supersample": 2,
+  "optimization_tolerance_px": 0.9615,
+  "cubic_segments": 24,
+  "explicit_corner_segments": 2,
+  "closed_contours": 2,
+  "max_smooth_join_angle_degrees": 1.2074182697257333e-06,
+  "median_normalized_curvature_jump": 0.9969773222397449,
+  "curvature_continuity_guaranteed": false,
+  "own_source_iou": 0.9961225824535177,
+  "own_source_boundary_mean_px": 0.2214039247047887,
+  "own_source_boundary_p95_px": 1.0,
+  "own_source_boundary_mean_per_1000_height": 0.34540393869701824,
+  "own_source_darkness_rmse_union": 0.030811721459031105,
+  "source_counters": 1,
+  "vector_counters": 1,
+  "original_master_iou_after_uniform_registration": 0.917458306945324,
+  "original_master_boundary_mean_px": 0.6445306364424533
+}

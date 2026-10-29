@@ -1,0 +1,27 @@
+{
+  "name": "iota",
+  "char": "\u03b9",
+  "status": "complete",
+  "silhouette_iou": 0.9453924914675768,
+  "boundary_mean_master_px": 0.43886636973584775,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 2.0,
+  "boundary_mean_fraction_height": 0.005044441031446526,
+  "darkness_rmse_union": 0.1406310796737671,
+  "ink_area_change_fraction": 0.016169782718544745,
+  "aspect_change_fraction": 0.034654731457800514,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 20.8806130178211,
+  "enlarged_thickness_proxy_px": 21.540659228538015,
+  "master_glyph_height_px": 87,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.12825824191191687,
+    "translate_x": 42.339616959151506,
+    "translate_y": 89.93317324105034,
+    "function_evaluations": 227,
+    "independent_width_stretch": false
+  }
+}

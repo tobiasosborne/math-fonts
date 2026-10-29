@@ -1,0 +1,21 @@
+PLANNED MASTER DESIGN / REVISION. This template is not a dispatched query.
+
+Inputs, explicitly identified:
+1. The accepted current Greek master, or the latest approved unified family master on a later revision. This fixes the current visual identity and is the sole family design root.
+2. The substantial clean Storm Baskerville 10 Pro reference page: regular, italic, bold and bold italic, with paragraphs, capitals/lowercase, numerals, punctuation and Greek. These are actual rendered source-font faces, not generic substitutes or synthetic weights.
+3. Unaltered readable crops of the relevant faces from that same Storm reference page.
+4. Optional deterministic guide overlay / layout template with named baseline, x-height, cap height, math axis and cell coordinates where already calibrated. Guides are metadata, not ink to reproduce.
+
+Goal: expand the accepted Greek visual language into ONE thematically unified Baskerville mathematics design image. Continue its anatomy and character. Study the substantial Storm samples for proportions, contrast, stress, terminals, weight and page colour. Do not create independent stylistic directions for different categories. The output is the next version of the same unified master composition, not a miscellaneous collage of attractive glyphs.
+
+Coverage for THIS bounded root revision: {{explicit_inventory_ids_and_cell_plan}}.
+Previously approved regions to preserve: {{protected_regions_and_hashes}}.
+Intentional changes and affected regions: {{revision_reason_and_impact_list}}.
+Decided weight/style calibration: {{matched_size_reference_and_decision}}.
+Unresolved design questions, to keep explicit: {{issues}}.
+
+All faces and categories must follow the same family grammar. Distinguish italic posture from weight; the initial Greek was prompted regular italic but appears heavy, so do not silently relabel or thin it. Correct semantic variant distinctions intentionally in the root. Show supported style contrasts together in the same composition and retain realistic Baskerville text/math context for comparison.
+
+Follow the indexed cells and common typographic scale. Preserve actual width, ascender and descender differences. Required new glyphs must be legible enough to become faithful enlargement targets; do not fake completeness with tiny illegible signs or repeated placeholders. Preserve approved regions. Do not invent extra font families or copy commercial source outlines into a font file.
+
+Return ONE high-resolution unified master image, clean black filled glyphs on white, no decorative handles or control points, no shadows or texture. Keep labels and optional measured guide marks outside extraction regions, or omit them from the clean output as the template specifies. The clean image is the source; overlays and masks are applied deterministically afterward. This is a root design step, not a production enlargement. The result requires whole-family review and a recorded version/hash before any new production glyph is accepted.

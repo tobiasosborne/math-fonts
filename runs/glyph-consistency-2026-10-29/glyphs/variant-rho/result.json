@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-rho/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-d6294431-8f97-413f-82c1-a8a95947bd2a.png",
+  "sha256": "dd5d5e0dd380377c6e3d096c6b616cb549926d642f5bd2a830d8c685b8e3c9b0",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "variant-rho",
+  "index": 29,
+  "finished_at": "2026-10-29T18:33:22.455Z"
+}

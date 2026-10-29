@@ -1,0 +1,58 @@
+{
+  "source": "/home/tobias/Projects/sublimite",
+  "commit": "c95b6ebc3dc365c7c428dff35d8d739ba52bab8d",
+  "retrieved": "2026-10-29",
+  "purpose": "Reference snapshot; not active implementation. Source repository LICENSE included.",
+  "files": [
+    {
+      "path": "docs/design/council.md",
+      "sha256": "c226bf24d95ae12c9c5f6a7af513a8a29bc4276c875d3a8f3d70a9e7b67e575e",
+      "bytes": 3382
+    },
+    {
+      "path": "docs/design/rubric.md",
+      "sha256": "6edf9060246474354e6edba5240b8f9d7cb9800f8e548198ea4b5316d5b75ba1",
+      "bytes": 9620
+    },
+    {
+      "path": "docs/design/state-of-design-2026.md",
+      "sha256": "49ee603b6ab62156e3bc3b4243d99c56057433ec09336e808868a546d18913bc",
+      "bytes": 33766
+    },
+    {
+      "path": "docs/reviews/use-findings-2026-10-27/research.json",
+      "sha256": "ffa1ac4e9e1d46912951b29dd399e27415c681181a0cc50e2e3006062ece3d79",
+      "bytes": 142234
+    },
+    {
+      "path": "docs/reviews/design-council-typeface-2026-10-28.md",
+      "sha256": "a88bd3a245e0eca23af67369f330d20bc5976fd6c3b5e5c9ae0a083e29f951f4",
+      "bytes": 14334
+    },
+    {
+      "path": "docs/reviews/design-council-2026-10-28-r3.md",
+      "sha256": "8a11f4ade2af772726e2b054a1ee3eab90a1f0800449923ebeb40f279f7935d6",
+      "bytes": 14511
+    },
+    {
+      "path": "tools/council_run.py",
+      "sha256": "3a12ea7cb121378f1a3d57cc5025635c1104104c8d7c47c4148ad3dbb870bf46",
+      "bytes": 16723
+    },
+    {
+      "path": "tests/council_aggregate_test.py",
+      "sha256": "d6b637b7df1906ab287b01741e54695b4ded7f9836d30d04bbb0f8fd17423695",
+      "bytes": 5205
+    },
+    {
+      "path": "tests/rubric_lint_test.py",
+      "sha256": "b19949e5940edcc36605fde659ea1e1e00ad0126985abbcce5cef7e3fcab50a5",
+      "bytes": 2742
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8d56b405468aad11f87ab5763f901e276e08d9646ff5c8481b1762b6b789e9ed",
+      "bytes": 34524
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "id": "F01",
+    "author": "Microsoft",
+    "title": "Registered design-variation axis tag: opsz",
+    "url": "https://learn.microsoft.com/en-us/typography/opentype/otspec182/dvaraxistag_opsz",
+    "retrieved": "2026-10-29",
+    "locator": "Axis definition; Additional information",
+    "evidence_type": "standard",
+    "license_access_copy_status": "Public; copyright; notes only",
+    "artifacts": []
+  },
+  {
+    "id": "F02",
+    "author": "Microsoft",
+    "title": "Recommendations for OpenType Fonts",
+    "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/recom",
+    "retrieved": "2026-10-29",
+    "locator": "Families with Optical Size Variants",
+    "evidence_type": "standard",
+    "license_access_copy_status": "Public; copyright; notes only",
+    "artifacts": []
+  },
+  {
+    "id": "F03",
+    "author": "Microsoft",
+    "title": "MATH \u2014 mathematical typesetting table",
+    "url": "https://learn.microsoft.com/en-us/typography/opentype/otspec190/math",
+    "retrieved": "2026-10-29",
+    "locator": "MathConstants; MathGlyphInfo; MathVariants",
+    "evidence_type": "standard",
+    "license_access_copy_status": "Public; copyright; notes only",
+    "artifacts": []
+  },
+  {
+    "id": "F04",
+    "author": "Wallace et al.",
+    "title": "Towards Individuated Reading Experiences",
+    "url": "https://jeffhuang.com/papers/Readability_TOCHI22.pdf",
+    "retrieved": "2026-10-29",
+    "locator": "sections 4\u20136; Figure 13",
+    "evidence_type": "primary empirical study",
+    "license_access_copy_status": "Author-hosted public PDF; reuse license unverified; not copied",
+    "artifacts": []
+  },
+  {
+    "id": "F05",
+    "author": "Font Bakery contributors",
+    "title": "Font Bakery README",
+    "url": "https://github.com/fonttools/fontbakery/blob/main/README.md",
+    "retrieved": "2026-10-29",
+    "locator": "README; License",
+    "evidence_type": "tool documentation",
+    "license_access_copy_status": "Apache-2.0; copied README and license",
+    "artifacts": [
+      {
+        "path": "resources/fontbakery-readme.md",
+        "sha256": "ace138dd6701514482989be78109841f30a47b8ca3f714f84830b12325f40057"
+      },
+      {
+        "path": "resources/fontbakery-license.txt",
+        "sha256": "b04c8850fdf64d17233f0acbe4eb632f03bd663094233c949bdbe788858bb841"
+      }
+    ]
+  },
+  {
+    "id": "F06",
+    "author": "fontTools contributors",
+    "title": "fontTools README",
+    "url": "https://github.com/fonttools/fonttools/blob/main/README.rst",
+    "retrieved": "2026-10-29",
+    "locator": "README",
+    "evidence_type": "tool documentation",
+    "license_access_copy_status": "MIT license; copied README and license",
+    "artifacts": [
+      {
+        "path": "resources/fonttools-readme.rst",
+        "sha256": "369e1d74e6568fd01e624569edd3754c18336585a7f9aa73546b3833aa4f6899"
+      },
+      {
+        "path": "resources/fonttools-license.txt",
+        "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383"
+      }
+    ]
+  },
+  {
+    "id": "F07",
+    "author": "Google Fonts contributors",
+    "title": "Diffenator 2 README",
+    "url": "https://github.com/googlefonts/diffenator2/blob/main/README.md",
+    "retrieved": "2026-10-29",
+    "locator": "Features; Caveats; Usage",
+    "evidence_type": "tool documentation",
+    "license_access_copy_status": "Public; license not verified; notes only",
+    "artifacts": []
+  },
+  {
+    "id": "F08",
+    "author": "Microsoft",
+    "title": "Font selection",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/directwrite/font-selection",
+    "retrieved": "2026-10-29",
+    "locator": "Typographic font selection and optical size",
+    "evidence_type": "platform documentation",
+    "license_access_copy_status": "Public; copyright; notes only",
+    "artifacts": []
+  }
+]

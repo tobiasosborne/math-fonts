@@ -1,0 +1,26 @@
+{
+  "name": "nu",
+  "mode": "lanczos8",
+  "input_dimensions": [
+    1152,
+    1728
+  ],
+  "glyph_height": 709,
+  "render_supersample": 2,
+  "optimization_tolerance_px": 1.0635000000000001,
+  "cubic_segments": 96,
+  "explicit_corner_segments": 0,
+  "closed_contours": 1,
+  "max_smooth_join_angle_degrees": 1.4787793334710982e-06,
+  "median_normalized_curvature_jump": 21.03809237958157,
+  "curvature_continuity_guaranteed": false,
+  "own_source_iou": 0.9966132349812044,
+  "own_source_boundary_mean_px": 0.19848130176298287,
+  "own_source_boundary_p95_px": 1.0,
+  "own_source_boundary_mean_per_1000_height": 0.27994541856556115,
+  "own_source_darkness_rmse_union": 0.0866447314620018,
+  "source_counters": 0,
+  "vector_counters": 0,
+  "original_master_iou_after_uniform_registration": 0.9954614220877458,
+  "original_master_boundary_mean_px": 0.032167832167832165
+}

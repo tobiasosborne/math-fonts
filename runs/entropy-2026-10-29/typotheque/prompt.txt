@@ -1,0 +1,32 @@
+Use case: stylized-concept
+Asset type: one high-resolution portrait typography design proof sheet, clean black type on pure white. Aim 2048 x 2896 pixels or higher available original resolution, approximately A4 proportions.
+
+Input image 1 is a REFERENCE: the exact retained 0.152 Baskerville math specimen. Use it to understand the mathematical use, existing limitations, and the relationship with Baskerville prose. It is not an outline to preserve or a layout to imitate. Create a noticeably new family of lowercase Greek glyphs.
+
+Primary request: imagine a rigorous new commission for a Baskerville-compatible mathematical Greek family through a Typotheque-inspired sensibility. The reference idea is Lava's sustained magazine/text use, legibility at small sizes and elegance at large sizes, and native Greek/Latin design integrity. This is an independent AI design study, not a Typotheque product, not designed by Peter Bilak, and not a copy of Lava or any specific typeface. Include the exact modest title “Typotheque-inspired exploration” and small label “AI design study”. No logo, signature, authorship attribution or provenance claim.
+
+Design the glyph anatomy itself, not merely a new presentation of the reference. Seek humane flowing Greek construction, warm controlled rhythm, expansive living counters and open apertures, supple continuous curve tension, crisp but gently softened terminal decisions, generous interior light, and robust small optical forms. Combine these into a coherent distinctive mathematical identity system beside high-contrast Baskerville prose. Maintain Greek script integrity. Do not impose Roman serif construction on every Greek letter. Do not make handwriting or decorative calligraphy.
+
+Concrete design exploration: an alpha with a spacious asymmetric eye and a short rising exit; beta with a gracious tall spine and two unequal, lucid bowls; theta with a broad light-filled oval and a precisely separated crossing; epsilon with an open mouth and a short assured middle arm; xi with a lucid three-tier rhythm and airy lower turn; omega with two spacious bowls and a calm open center. Give nu a decisive descending entry and a soft asymmetric bottom turn, upsilon a wider cupped body and clearly rising right side, and Latin v a plainly angular wedge construction. Their distinctions must remain visible at reading size, not depend only on tiny terminal dots. Native flowing joins and deliberate asymmetric white space should unify the letters. Upright has balanced near-vertical posture; italic has genuine rhythm, coordinated slant and Greek motion, not a mechanically skewed upright. Bold adds substance while preserving light-filled counters and open joins. Bold italic retains this same design logic without black congestion. Small optical forms have reduced contrast, enlarged counters, sturdier thin strokes and more breathing room.
+
+Composition: a flat professional type-design proof sheet with generous white margins. Main subject is substantial inspectable glyphs. Devote roughly the upper two thirds to the redesigned alphabet, semantic variants, and enlarged details. Four plainly labelled sections, Upright, Italic, Bold, Bold italic. In EACH section show the exact complete lowercase sequence, wrap into two generously spaced rows if needed:
+“α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω”
+Show in EACH style the conventional distinct variant pairs plus partial differential, exactly:
+“ε ϵ   θ ϑ   κ ϰ   φ ϕ   ρ ϱ   π ϖ   ∂”
+Keep every pair visibly distinct and meaningful. The phi pair is a loopy Greek form versus a straight-stem centered form; theta versus script theta; epsilon versus lunate epsilon; kappa versus script kappa; rho versus tailed rho; pi versus omega-like varpi. Preserve final sigma ς separately from σ.
+
+Below these sections give a large detail row “α β θ ξ φ ω” and a clearly labelled contrast “Latin v / Greek ν / Greek υ” with enlarged matching italic glyphs “v ν υ”. Let their different construction be easy to inspect. No glyph clipped by page edge. Keep labels quiet and all body text sharp.
+
+Lower third: two short realistic mathematical uses set with refined Baskerville-like prose and the SAME proposed mathematical family. Verbatim prose:
+“A localized disturbance spreads by diffusion. The diffusivity κ controls the scale.”
+Display the EXACT correct equation with stacked fractions and proper superscripts:
+∂u/∂t = κ ∂²u/∂x²
+Verbatim second prose:
+“A Gaussian measurement has location μ and standard deviation σ.”
+Display the EXACT normalized Gaussian density with a proper stacked fraction, clear radical and brackets:
+ρ(x | μ, σ) = 1/(σ√(2π)) exp[−(x−μ)²/(2σ²)]
+Do not add integral identities or invented equations. Every μ, σ, κ, π and ρ must be the same redesigned family used in the specimen.
+
+At the foot show “Text / Script / Script-script” with three visibly designed optical size examples of the same sequence “α ν υ θ φ ω” at successively smaller sizes, and one nested-index example α_{β_{ν}}. Small forms should open up rather than become fragile miniatures. Keep ample white around these so they remain readable.
+
+Constraints: one coherent authored design family, black on pure white, clean crisp original image at highest available resolution. No photograph, paper texture, book mockup, desk, shadows, ornamental border, color, brush sketch, watermark, fake foundry branding, decorative gibberish, compressed overlapping glyphs or invented characters. This is a serious visual design proposal for later deliberate vector construction. The glyph redesign must be noticeable compared with the reference; the alphabet must carry the invention.

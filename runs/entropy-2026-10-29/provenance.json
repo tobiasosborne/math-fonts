@@ -1,0 +1,50 @@
+{
+  "purpose": "One-shot constructive image-design exploration, separate from bounded font council.",
+  "reference_font": "/home/tobias/.t3/projects/math-fonts/fonts/private/delivery/BaskervilleCompanionMath-Experimental-0.152.otf",
+  "reference_font_sha256": "c00cb777cadca12c268e291d727b722568715fda3f58635f40066d918c04327c",
+  "reference_png": "/home/tobias/.t3/projects/math-fonts/runs/entropy-2026-10-29/current-design-600dpi.png",
+  "reference_png_sha256": "3c8f512cba3cb07189cb04206f89224bacafd30ba1c0b15803a8ac7b5f375fc1",
+  "reference_dimensions": [
+    4961,
+    7016
+  ],
+  "reference_dpi": 600,
+  "reference_tex_sha256": "916d47a1644cb0ff020dae1e28958633d3bf7849252a8b6c6ff0823ab752a179",
+  "reference_pdf_sha256": "5326d2352703413270a1c5d8656f7d2b3b06bdc74d936d3da266f8c92be491b1",
+  "reference_checks": {
+    "one_page": true,
+    "missing_characters": false,
+    "overfull_boxes": false,
+    "actual_current_font_embedded": true,
+    "visually_inspected": true
+  },
+  "explicitly_adopted_reference_setup": "Fresh reference.tex borrows fontspec/unicode-math rendering setup from active tools/greek_proofs.py; existing campaign files read-only.",
+  "chosen_design_reference": "Franti\u0161ek \u0160torm, inspiration only, not an authorship claim",
+  "prompt": "/home/tobias/.t3/projects/math-fonts/runs/entropy-2026-10-29/prompt.txt",
+  "prompt_sha256": "9535a3f08bec1e6bb4daa880309d4b701aefbb67218ac5e4f457c544b4b79da2",
+  "requested_image_calls": 1,
+  "actual_image_calls": 1,
+  "tool_mode": "built-in image_gen; no CLI fallback authorized",
+  "status": "complete",
+  "generated_png": "/home/tobias/.t3/projects/math-fonts/runs/entropy-2026-10-29/redesigned-storm-inspired.png",
+  "generated_png_sha256": "78841d03c22cb5a71a5d5a2c535671a767d08672b8d6bbe4ff3abe93f7fc58a9",
+  "generated_dimensions": [
+    1055,
+    1491
+  ],
+  "generated_original_path": "/home/tobias/.codex/generated_images/01a18860-c2f7-7763-826c-f6f3ed89ce32/exec-2b4833c2-3f77-44dd-8eba-f37fa1bf63a1.png",
+  "generation_mode": "One built-in image_gen call with exact current-design PNG reference; no CLI, retries, image post-processing or upscaling.",
+  "useful_ideas": [
+    "Greek nu acquires a broader, more flowing right arm/entry relationship in the large row, with a clearer pointed-versus-rounded nu/upsilon contrast.",
+    "Large beta, theta, phi and omega suggest more expansive white and rounded calligraphic turns against firm vertical strokes.",
+    "Variant/style rows encourage testing a coherent family gesture rather than only local geometric fixes."
+  ],
+  "limitations": [
+    "Output is1055x1491 pixels, substantially below the4961x7016 reference; it is not a600dpi deliverable. The original was saved without artificial upscaling.",
+    "This is a raster visual idea, not a font, compiled outlines, exact metrics, kerning, MATH data or validated glyph coverage.",
+    "The model largely retained the reference sheet structure; substantial originality or a faithful match to any actual Storm typeface is not established.",
+    "The generated heat-kernel integral visibly loses the lower integration limit, and small script identities/indices are altered or indistinct.",
+    "Variant rows are redundant, with inconsistent labelling and potentially weakened kappa/epsilon distinctions. The large v/nu/upsilon row has no individual labels and changes the Latin-v appearance.",
+    "Generated prose/math must not be used as ground-truth typography or exact mathematical copy; all potential design ideas require deliberate reconstruction and normal proofing."
+  ]
+}

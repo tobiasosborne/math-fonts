@@ -1,0 +1,27 @@
+{
+  "name": "omega",
+  "char": "\u03c9",
+  "status": "complete",
+  "silhouette_iou": 0.9490890940853506,
+  "boundary_mean_master_px": 0.3631484794275492,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 1.0,
+  "boundary_mean_fraction_height": 0.0044833145608339404,
+  "darkness_rmse_union": 0.11624433845281601,
+  "ink_area_change_fraction": 0.0020507562163547544,
+  "aspect_change_fraction": 0.01316101845806883,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 11.65685424949238,
+  "enlarged_thickness_proxy_px": 12.165525060596439,
+  "master_glyph_height_px": 81,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.13876509381441815,
+    "translate_x": 10.543156188807181,
+    "translate_y": 84.88621525154397,
+    "function_evaluations": 173,
+    "independent_width_stretch": false
+  }
+}

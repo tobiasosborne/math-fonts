@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/upsilon/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-28b20445-67d7-43e6-9568-3381c10d4b1e.png",
+  "sha256": "f47175128c37c09b73ac93af2dde612e1d3f6e35175e89c8f318aa6cc40ea608",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "upsilon",
+  "index": 20,
+  "finished_at": "2026-10-29T18:29:36.905Z"
+}

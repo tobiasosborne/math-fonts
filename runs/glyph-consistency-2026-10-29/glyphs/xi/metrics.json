@@ -1,0 +1,27 @@
+{
+  "name": "xi",
+  "char": "\u03be",
+  "status": "complete",
+  "silhouette_iou": 0.9284738041002278,
+  "boundary_mean_master_px": 0.4869739587654097,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 2.0,
+  "boundary_mean_fraction_height": 0.0027987009124448834,
+  "darkness_rmse_union": 0.16640163958072662,
+  "ink_area_change_fraction": -0.00518378887841664,
+  "aspect_change_fraction": 0.012158054711246091,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 12.0,
+  "enlarged_thickness_proxy_px": 12.0,
+  "master_glyph_height_px": 174,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.1322182433977595,
+    "translate_x": 26.250514082547664,
+    "translate_y": 39.91333863837859,
+    "function_evaluations": 181,
+    "independent_width_stretch": false
+  }
+}

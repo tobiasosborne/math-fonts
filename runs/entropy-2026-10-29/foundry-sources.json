@@ -1,0 +1,8 @@
+{
+  "purpose": "Primary design references for new unscored image directions. This does not alter the frozen council rubric, registered sources or scale.",
+  "sources": [
+    {"direction":"Hoefler & Co.","url":"https://www.typography.com/fonts/mercury-text","observed":"Mercury Text has separate text/display counterparts and four grades; foundry page provides design and use notes.","additional_primary":"https://jonathanhoefler.com/typefaces","creative_brief":"Assured editorial precision, crisp modulation, carefully related optical roles. These are the proposed exploration goals, not universal foundry rules."},
+    {"direction":"Commercial Type","url":"https://commercialtype.com/catalog/lyon_text","observed":"Lyon Text credits Kai Bernau with Irene Vlachou and Ilya Ruderman, draws on Granjon in a contemporary editorial text family, and includes Greek.","creative_brief":"Restrained literary elegance, fluid Greek rhythm and lucid small-size detail; reinterpret for the Baskerville brief rather than copying Lyon."},
+    {"direction":"Typotheque","url":"https://www.typotheque.com/fonts/lava","observed":"Lava is described as a magazine/text family for both small and large sizes; it includes Greek, credited with Latin to Peter Bilak.","creative_brief":"Script integrity, expansive living counters, warm controlled rhythm and robust small forms; a proposed synthesis rather than copied Lava outlines."}
+  ]
+}

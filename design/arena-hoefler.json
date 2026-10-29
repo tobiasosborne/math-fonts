@@ -1,0 +1,48 @@
+{
+  "direction": "Hoefler-inspired independent editorial Greek",
+  "input": "fonts/private/delivery/BaskervilleCompanionMath-Experimental-0.152.otf",
+  "input_sha256": "c00cb777cadca12c268e291d727b722568715fda3f58635f40066d918c04327c",
+  "passes_authorized": 2,
+  "authored_forms": [
+    "β",
+    "θ",
+    "ν"
+  ],
+  "local_landmark_redraws": [
+    "α",
+    "δ",
+    "ε",
+    "ζ",
+    "κ",
+    "λ",
+    "ξ",
+    "υ",
+    "φ",
+    "ω",
+    "ϵ"
+  ],
+  "retained_forms": [
+    "γ",
+    "η",
+    "ι",
+    "μ",
+    "ο",
+    "π",
+    "ρ",
+    "ς",
+    "σ",
+    "τ",
+    "χ",
+    "ψ",
+    "ϑ",
+    "ϰ",
+    "ϕ",
+    "ϱ",
+    "ϖ",
+    "∂"
+  ],
+  "design": "Poised unequal beta bowls, long theta interior and slightly rising bar, forward Greek nu, articulated xi turns, balanced omega lobes, native semantic variant anatomy. Bold gets its own counter boundaries; script roles get particular counter and spacing decisions.",
+  "pass_2_refinements": "Replace beta rectangular counter passage with one authored cubic white contour; strengthen nu left-stroke return boundary (regular and bold separately); lift theta bar three units; reduce xi modulation to 83%; strengthen bold omega local centre/lobe edit 12%. All decisions follow the inspected pass-1 article/grids/scripts/masks recorded in pass-1-critique.md.",
+  "adopted_active_helpers": "design_greek_campaign.py inventory/path/contours/install/bounds/recording/upper_ink_centroid; arena_proofs.py fixed final suite (which adopts greek_proofs.py diagnostic utilities). No archived code or rejected Greek G1/G2 components.",
+  "authorship": "Independent AI work, not a Hoefler & Co. commission or foundry-authored design. Raster concept used for inspiration, never tracing."
+}

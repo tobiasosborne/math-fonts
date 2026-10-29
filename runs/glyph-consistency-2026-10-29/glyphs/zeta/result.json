@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/zeta/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-c6643a4f-5e07-4435-a8fe-47f076fbaaad.png",
+  "sha256": "4dff84d3816e8b6cfa10102d642777a22d1a71d7826586c53ab2e93ab4d1b95d",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "zeta",
+  "index": 5,
+  "finished_at": "2026-10-29T18:24:56.998Z"
+}

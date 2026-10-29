@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/omicron/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-78e69a78-913c-4416-a069-2ea7c4762ea9.png",
+  "sha256": "00c758d1957b24ee1351900ec392241f8e7b034bb818917023e2e12ee27755ce",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "omicron",
+  "index": 14,
+  "finished_at": "2026-10-29T18:27:25.317Z"
+}

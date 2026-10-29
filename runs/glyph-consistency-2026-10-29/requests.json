@@ -1,0 +1,546 @@
+[
+  {
+    "index": 0,
+    "name": "alpha",
+    "char": "α",
+    "codepoint": "U+03B1",
+    "row": 1,
+    "column": 1,
+    "master_crop_box": [
+      23,
+      90,
+      167,
+      306
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/alpha/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for alpha, Unicode U+03B1, the glyph “α” at row1, column1. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/alpha"
+  },
+  {
+    "index": 1,
+    "name": "beta",
+    "char": "β",
+    "codepoint": "U+03B2",
+    "row": 1,
+    "column": 2,
+    "master_crop_box": [
+      175,
+      90,
+      319,
+      306
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/beta/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for beta, Unicode U+03B2, the glyph “β” at row1, column2. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/beta"
+  },
+  {
+    "index": 2,
+    "name": "gamma",
+    "char": "γ",
+    "codepoint": "U+03B3",
+    "row": 1,
+    "column": 3,
+    "master_crop_box": [
+      327,
+      90,
+      471,
+      306
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/gamma/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for gamma, Unicode U+03B3, the glyph “γ” at row1, column3. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/gamma"
+  },
+  {
+    "index": 3,
+    "name": "delta",
+    "char": "δ",
+    "codepoint": "U+03B4",
+    "row": 1,
+    "column": 4,
+    "master_crop_box": [
+      479,
+      90,
+      623,
+      306
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/delta/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for delta, Unicode U+03B4, the glyph “δ” at row1, column4. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/delta"
+  },
+  {
+    "index": 4,
+    "name": "epsilon",
+    "char": "ε",
+    "codepoint": "U+03B5",
+    "row": 1,
+    "column": 5,
+    "master_crop_box": [
+      631,
+      90,
+      775,
+      306
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/epsilon/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for epsilon, Unicode U+03B5, the glyph “ε” at row1, column5. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/epsilon"
+  },
+  {
+    "index": 5,
+    "name": "zeta",
+    "char": "ζ",
+    "codepoint": "U+03B6",
+    "row": 1,
+    "column": 6,
+    "master_crop_box": [
+      783,
+      90,
+      927,
+      306
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/zeta/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for zeta, Unicode U+03B6, the glyph “ζ” at row1, column6. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/zeta"
+  },
+  {
+    "index": 6,
+    "name": "eta",
+    "char": "η",
+    "codepoint": "U+03B7",
+    "row": 1,
+    "column": 7,
+    "master_crop_box": [
+      935,
+      90,
+      1079,
+      306
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/eta/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for eta, Unicode U+03B7, the glyph “η” at row1, column7. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/eta"
+  },
+  {
+    "index": 7,
+    "name": "theta",
+    "char": "θ",
+    "codepoint": "U+03B8",
+    "row": 1,
+    "column": 8,
+    "master_crop_box": [
+      1087,
+      90,
+      1231,
+      306
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/theta/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for theta, Unicode U+03B8, the glyph “θ” at row1, column8. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/theta"
+  },
+  {
+    "index": 8,
+    "name": "iota",
+    "char": "ι",
+    "codepoint": "U+03B9",
+    "row": 2,
+    "column": 1,
+    "master_crop_box": [
+      23,
+      364,
+      167,
+      580
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/iota/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for iota, Unicode U+03B9, the glyph “ι” at row2, column1. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/iota"
+  },
+  {
+    "index": 9,
+    "name": "kappa",
+    "char": "κ",
+    "codepoint": "U+03BA",
+    "row": 2,
+    "column": 2,
+    "master_crop_box": [
+      175,
+      364,
+      319,
+      580
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/kappa/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for kappa, Unicode U+03BA, the glyph “κ” at row2, column2. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/kappa"
+  },
+  {
+    "index": 10,
+    "name": "lambda",
+    "char": "λ",
+    "codepoint": "U+03BB",
+    "row": 2,
+    "column": 3,
+    "master_crop_box": [
+      327,
+      364,
+      471,
+      580
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/lambda/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for lambda, Unicode U+03BB, the glyph “λ” at row2, column3. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/lambda"
+  },
+  {
+    "index": 11,
+    "name": "mu",
+    "char": "μ",
+    "codepoint": "U+03BC",
+    "row": 2,
+    "column": 4,
+    "master_crop_box": [
+      479,
+      364,
+      623,
+      580
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/mu/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for mu, Unicode U+03BC, the glyph “μ” at row2, column4. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/mu"
+  },
+  {
+    "index": 12,
+    "name": "nu",
+    "char": "ν",
+    "codepoint": "U+03BD",
+    "row": 2,
+    "column": 5,
+    "master_crop_box": [
+      631,
+      364,
+      775,
+      580
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/nu/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for nu, Unicode U+03BD, the glyph “ν” at row2, column5. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/nu"
+  },
+  {
+    "index": 13,
+    "name": "xi",
+    "char": "ξ",
+    "codepoint": "U+03BE",
+    "row": 2,
+    "column": 6,
+    "master_crop_box": [
+      783,
+      364,
+      927,
+      580
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/xi/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for xi, Unicode U+03BE, the glyph “ξ” at row2, column6. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/xi"
+  },
+  {
+    "index": 14,
+    "name": "omicron",
+    "char": "ο",
+    "codepoint": "U+03BF",
+    "row": 2,
+    "column": 7,
+    "master_crop_box": [
+      935,
+      364,
+      1079,
+      580
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/omicron/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for omicron, Unicode U+03BF, the glyph “ο” at row2, column7. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/omicron"
+  },
+  {
+    "index": 15,
+    "name": "pi",
+    "char": "π",
+    "codepoint": "U+03C0",
+    "row": 2,
+    "column": 8,
+    "master_crop_box": [
+      1087,
+      364,
+      1231,
+      580
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/pi/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for pi, Unicode U+03C0, the glyph “π” at row2, column8. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/pi"
+  },
+  {
+    "index": 16,
+    "name": "rho",
+    "char": "ρ",
+    "codepoint": "U+03C1",
+    "row": 3,
+    "column": 1,
+    "master_crop_box": [
+      23,
+      640,
+      167,
+      856
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/rho/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for rho, Unicode U+03C1, the glyph “ρ” at row3, column1. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/rho"
+  },
+  {
+    "index": 17,
+    "name": "final-sigma",
+    "char": "ς",
+    "codepoint": "U+03C2",
+    "row": 3,
+    "column": 2,
+    "master_crop_box": [
+      175,
+      640,
+      319,
+      856
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/final-sigma/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for final-sigma, Unicode U+03C2, the glyph “ς” at row3, column2. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/final-sigma"
+  },
+  {
+    "index": 18,
+    "name": "sigma",
+    "char": "σ",
+    "codepoint": "U+03C3",
+    "row": 3,
+    "column": 3,
+    "master_crop_box": [
+      327,
+      640,
+      471,
+      856
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/sigma/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for sigma, Unicode U+03C3, the glyph “σ” at row3, column3. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/sigma"
+  },
+  {
+    "index": 19,
+    "name": "tau",
+    "char": "τ",
+    "codepoint": "U+03C4",
+    "row": 3,
+    "column": 4,
+    "master_crop_box": [
+      479,
+      640,
+      623,
+      856
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/tau/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for tau, Unicode U+03C4, the glyph “τ” at row3, column4. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/tau"
+  },
+  {
+    "index": 20,
+    "name": "upsilon",
+    "char": "υ",
+    "codepoint": "U+03C5",
+    "row": 3,
+    "column": 5,
+    "master_crop_box": [
+      631,
+      640,
+      775,
+      856
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/upsilon/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for upsilon, Unicode U+03C5, the glyph “υ” at row3, column5. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/upsilon"
+  },
+  {
+    "index": 21,
+    "name": "phi",
+    "char": "φ",
+    "codepoint": "U+03C6",
+    "row": 3,
+    "column": 6,
+    "master_crop_box": [
+      783,
+      640,
+      927,
+      856
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/phi/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for phi, Unicode U+03C6, the glyph “φ” at row3, column6. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/phi"
+  },
+  {
+    "index": 22,
+    "name": "chi",
+    "char": "χ",
+    "codepoint": "U+03C7",
+    "row": 3,
+    "column": 7,
+    "master_crop_box": [
+      935,
+      640,
+      1079,
+      856
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/chi/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for chi, Unicode U+03C7, the glyph “χ” at row3, column7. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/chi"
+  },
+  {
+    "index": 23,
+    "name": "psi",
+    "char": "ψ",
+    "codepoint": "U+03C8",
+    "row": 3,
+    "column": 8,
+    "master_crop_box": [
+      1087,
+      640,
+      1231,
+      856
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/psi/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for psi, Unicode U+03C8, the glyph “ψ” at row3, column8. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/psi"
+  },
+  {
+    "index": 24,
+    "name": "omega",
+    "char": "ω",
+    "codepoint": "U+03C9",
+    "row": 4,
+    "column": 1,
+    "master_crop_box": [
+      23,
+      916,
+      167,
+      1132
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/omega/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for omega, Unicode U+03C9, the glyph “ω” at row4, column1. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/omega"
+  },
+  {
+    "index": 25,
+    "name": "variant-epsilon",
+    "char": "ϵ",
+    "codepoint": "U+03F5",
+    "row": 4,
+    "column": 2,
+    "master_crop_box": [
+      175,
+      916,
+      319,
+      1132
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-epsilon/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for variant-epsilon, Unicode U+03F5, the glyph “ϵ” at row4, column2. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-epsilon"
+  },
+  {
+    "index": 26,
+    "name": "variant-theta",
+    "char": "ϑ",
+    "codepoint": "U+03D1",
+    "row": 4,
+    "column": 3,
+    "master_crop_box": [
+      327,
+      916,
+      471,
+      1132
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-theta/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for variant-theta, Unicode U+03D1, the glyph “ϑ” at row4, column3. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-theta"
+  },
+  {
+    "index": 27,
+    "name": "variant-kappa",
+    "char": "ϰ",
+    "codepoint": "U+03F0",
+    "row": 4,
+    "column": 4,
+    "master_crop_box": [
+      479,
+      916,
+      623,
+      1132
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-kappa/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for variant-kappa, Unicode U+03F0, the glyph “ϰ” at row4, column4. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-kappa"
+  },
+  {
+    "index": 28,
+    "name": "variant-phi",
+    "char": "ϕ",
+    "codepoint": "U+03D5",
+    "row": 4,
+    "column": 5,
+    "master_crop_box": [
+      631,
+      916,
+      775,
+      1132
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-phi/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for variant-phi, Unicode U+03D5, the glyph “ϕ” at row4, column5. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-phi"
+  },
+  {
+    "index": 29,
+    "name": "variant-rho",
+    "char": "ϱ",
+    "codepoint": "U+03F1",
+    "row": 4,
+    "column": 6,
+    "master_crop_box": [
+      783,
+      916,
+      927,
+      1132
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-rho/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for variant-rho, Unicode U+03F1, the glyph “ϱ” at row4, column6. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-rho"
+  },
+  {
+    "index": 30,
+    "name": "variant-pi",
+    "char": "ϖ",
+    "codepoint": "U+03D6",
+    "row": 4,
+    "column": 7,
+    "master_crop_box": [
+      935,
+      916,
+      1079,
+      1132
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-pi/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for variant-pi, Unicode U+03D6, the glyph “ϖ” at row4, column7. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-pi"
+  },
+  {
+    "index": 31,
+    "name": "partial",
+    "char": "∂",
+    "codepoint": "U+2202",
+    "row": 4,
+    "column": 8,
+    "master_crop_box": [
+      1087,
+      916,
+      1231,
+      1132
+    ],
+    "crop": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/partial/master-crop.png",
+    "prompt": "Use case: faithful typography reference enlargement, NOT a new design.\nImage 1 is the AUTHORITATIVE MASTER SHEET of a single regular italic Greek mathematical family. Image 2 is its unaltered 144x216-pixel cell crop for partial, Unicode U+2202, the glyph “∂” at row4, column8. These images are references to ONE fixed target. Ignore the printed name labels in the full sheet.\n\nProduce ONE large, clean, black FILLED enlargement of EXACTLY that cell's glyph on pure white, on a portrait 2:3 canvas such as1024x1536 at highest practical original resolution. Use a uniform enlargement of the entire reference cell: preserve the glyph's natural relative width, its position and surrounding white, the ascender/descender extent, slant, stroke contrast, terminals, joins and counter shapes. Do NOT stretch width/height independently or maximize this glyph's black bounding box to fill the page. A large beta or theta and a small iota must retain their different natural extents at the SAME typographic scale. The crop's geometry, not a generic font or verbal name, defines the silhouette to match.\n\nReproduce the actual master shape faithfully. Resolve pixel edges into smooth, sharp contours with the same visible character. Do not beautify, redesign, substitute a more conventional glyph, change the weight, or add details. Use the whole master only to preserve family context; this specific crop is authoritative for anatomy. In particular do not silently correct a master variant into some other form.\n\nExactly one glyph, completely unclipped, on white. NO text/labels/headings, guide lines, grid, second glyph, outlines, handles, nodes, arrows, paper texture, shadow or ornamental marks. The only black ink is the enlarged target silhouette. This is a controlled sheet-to-glyph consistency experiment, not a font-design competition.",
+    "folder": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/partial"
+  }
+]

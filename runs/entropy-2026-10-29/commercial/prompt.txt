@@ -1,0 +1,26 @@
+Use case: stylized-concept
+Asset type: one high-resolution portrait typography proof sheet; black type on pure white, flat artwork.
+
+Input image 1 is a REFERENCE ONLY: the exact retained 0.152 Baskerville math companion specimen. Its prose, mathematics and coverage explain the use case. Invent substantially redesigned Greek letterforms; do not reproduce its outlines or simply relayout the same alphabet.
+
+Primary request: imagine a rigorous independent commission for a new Baskerville-compatible mathematical lowercase Greek family through a Commercial Type-inspired editorial sensibility. The creative point of departure is the restrained literary elegance of contemporary editorial text typography: fluid native Greek rhythm, beautifully modulated contrast, warm but disciplined curves, finely controlled terminal details that remain lucid at small sizes. Lyon Text is background inspiration as a Granjon-related contemporary editorial text family with Greek, not an outline source to copy. This is an original AI design study, not work by Commercial Type or its designers. Set the small title exactly “Commercial Type-inspired exploration” and the quiet label exactly “AI design study”. No authorship claim or signature.
+
+Design the GLYPHS themselves noticeably anew. Seek slender, quietly incisive entries, generous open inner spaces, smooth continuous bowls and a poised, slightly narrow literary rhythm. Let upright Greek retain a mild handwritten heritage without becoming slanted Latin. Give italic Greek a fluid diagonal movement with deliberate exit strokes, neither mechanically sheared upright nor decorative calligraphy. Consider a pear-shaped alpha counter with a clean right exit, asymmetrical open beta bowls, a clear theta interior, a generous upsilon bowl, compact serpentine xi, and a balanced broad omega. Resolve these as one authored anatomy across the alphabet. Bold and bold italic need independently opened counters and controlled joins, not swollen hairlines. This direction should feel lucid, literary and unusually well judged beside Baskerville prose. Preserve semantic identities and conventional Greek forms.
+
+Composition: an exceptionally clear portrait A4-proportioned type designer's proof, maximum available original resolution, aim at least 2048 by 2896 pixels. Large, inspectable specimens fill the upper two thirds with ample margins. Show FOUR separately labeled full-alphabet rows or paired lines: Upright, Italic, Bold, Bold italic. Every style must contain this exact complete sequence, in this order:
+“α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ ς σ τ υ φ χ ψ ω”
+Do not drop final sigma ς or confuse it with ordinary σ.
+
+Show distinct conventional variant pairs in each of the four styles, with ample separating space and no merged characters:
+“ε ϵ   θ ϑ   κ ϰ   φ ϕ   ρ ϱ   π ϖ   ∂”
+Give the enlarged detail line to α β θ ν υ φ ξ ω, and include the exact contrast group “Latin v / Greek ν / Greek υ”. Make v, nu and upsilon unmistakable through complete silhouette, shoulder and bowl design rather than a microscopic tail difference. Show the redesign's internal negative spaces clearly. A single thin baseline is permissible but no grid clutter.
+
+The lower third demonstrates the same proposed Greek family with refined Baskerville-like prose at reading size. Use ONLY these two short mathematically correct contexts, with the prose exactly as quoted:
+“A localized disturbance spreads by diffusion. The diffusivity κ controls the scale.”
+Displayed equation: ∂u/∂t = κ ∂²u/∂x². Typeset each derivative as a true stacked fraction with correct numerator, denominator and squared exponents.
+“A Gaussian measurement has location μ and standard deviation σ.”
+Displayed equation: ρ(x | μ, σ) = [1 / (σ√(2π))] exp[−(x − μ)² / (2σ²)]. Typeset the prefactor and exponential argument as proper clear fractions; the radical covers 2π, the minus sign applies to the whole squared-distance fraction, and no denominator or square is missing.
+
+Finish with a compact optical script study labeled Text / Script / Script-script using α, ν, υ, θ, φ, ω, and one nested example α_{ν_υ} + θ_{φ_ω}. The small forms should have visibly more open counters, firmer thin strokes and generous spacing rather than mere scaling. Keep them correctly Greek at each size.
+
+Constraints: one coherent new Greek family throughout. Preserve normal Greek identities and variant distinctions. Favor glyph inspection over decoration. Black ink on white only; crisp edges; no cropping, photographic mockup, paper texture, shadow, color, decorative rules, frame, watermark, fake font provenance, extra mathematical equations or gibberish text. Do not imitate an existing Commercial Type font verbatim. No ornamental poster treatment. Let exceptional new letterform anatomy and quiet typographic control carry the proposal.

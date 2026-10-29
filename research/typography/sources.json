@@ -1,0 +1,564 @@
+{
+  "version": "research-2026-10-29",
+  "status": "Primary evidence and explicitly flagged leads; not calibrated labels",
+  "sources": [
+    {
+      "id": "M01",
+      "author": "Donald E. Knuth",
+      "title": "Typesetting Concrete Mathematics",
+      "url": "https://tug.org/tugboat/tb10-1/tb23knut.pdf",
+      "retrieved": "2026-10-29",
+      "locator": "pp. 31–40",
+      "evidence_type": "practitioner case study",
+      "license_access_copy": "Public PDF; copyrighted article, link only",
+      "artifacts": [],
+      "research_area": "math",
+      "registry_path": "math/sources.json"
+    },
+    {
+      "id": "M02",
+      "author": "William J. LeVeque",
+      "title": "Font development at the American Mathematical Society",
+      "url": "https://www.tug.org/TUGboat/tb02-2/tb03complete.pdf",
+      "retrieved": "2026-10-29",
+      "locator": "p. 39",
+      "evidence_type": "publisher practitioner history",
+      "license_access_copy": "Public issue PDF; copyright unverified, link only",
+      "artifacts": [],
+      "research_area": "math",
+      "registry_path": "math/sources.json"
+    },
+    {
+      "id": "M03",
+      "author": "Microsoft",
+      "title": "OpenType MATH table",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/math",
+      "retrieved": "2026-10-29",
+      "locator": "MathConstants, MathGlyphInfo, MathVariants, layout tags",
+      "evidence_type": "technical specification",
+      "license_access_copy": "Public HTML; copyright; link only",
+      "artifacts": [],
+      "research_area": "math",
+      "registry_path": "math/sources.json"
+    },
+    {
+      "id": "M04",
+      "author": "Barbara Beeton, Asmus Freytag, Murray Sargent III",
+      "title": "Unicode support for mathematics, revision 15",
+      "url": "https://www.unicode.org/reports/tr25/tr25-15.pdf",
+      "retrieved": "2026-10-29",
+      "locator": "§2.2, §3",
+      "evidence_type": "technical report",
+      "license_access_copy": "Public official PDF; Unicode terms apply; local reference copy",
+      "artifacts": [
+        {
+          "path": "math/resources/unicode-tr25-15.pdf",
+          "sha256": "cd2af5f1c24de0ac87daf57049ecce843cf87b5eb81dda0576f80f52f1168319",
+          "bytes": 1852223
+        }
+      ],
+      "research_area": "math",
+      "registry_path": "math/sources.json"
+    },
+    {
+      "id": "M05",
+      "author": "STIX Fonts project",
+      "title": "STIX Fonts README and FONTLOG",
+      "url": "https://github.com/stipub/stixfonts",
+      "retrieved": "2026-10-29",
+      "locator": "README; FONTLOG release history",
+      "evidence_type": "first-party project documentation",
+      "license_access_copy": "Public repository; font OFL included; documentation reuse terms unverified",
+      "artifacts": [
+        {
+          "path": "math/resources/stix-readme.md",
+          "sha256": "6634a946e9304bcc5a2b22cc2ddde4c159150476780c029b29a789ef87f3eb32",
+          "bytes": 13617
+        },
+        {
+          "path": "math/resources/stix-fontlog.txt",
+          "sha256": "72370ec269d5a7941ab4d45b3057599db771d119e3546ee516ddee8c3bff4204",
+          "bytes": 42578
+        },
+        {
+          "path": "math/resources/stix-ofl.txt",
+          "sha256": "0c8825913b60d858aacdb33c4ca6660a7d64b0d6464702efbb19313f5765861a",
+          "bytes": 4519
+        }
+      ],
+      "research_area": "math",
+      "registry_path": "math/sources.json"
+    },
+    {
+      "id": "M06",
+      "author": "Ulrik Vieth",
+      "title": "OpenType math font development: Progress and challenges",
+      "url": "https://www.tug.org/TUGboat/tb33-3/tb105vieth.pdf",
+      "retrieved": "2026-10-29",
+      "locator": "§4.3–4.9, printed pp. 304–306",
+      "evidence_type": "practitioner survey and specimens",
+      "license_access_copy": "Public PDF; copyrighted article, link only",
+      "artifacts": [],
+      "research_area": "math",
+      "registry_path": "math/sources.json"
+    },
+    {
+      "id": "M07",
+      "author": "Antonis Tsolomitis",
+      "title": "The NewComputerModern font family",
+      "url": "https://tug.org/TUGboat/tb42-1/tb130complete.pdf",
+      "retrieved": "2026-10-29",
+      "locator": "p. 52, introduction",
+      "evidence_type": "font designer account",
+      "license_access_copy": "Public issue PDF; copyright unverified, link only",
+      "artifacts": [],
+      "research_area": "math",
+      "registry_path": "math/sources.json"
+    },
+    {
+      "id": "M08",
+      "author": "Barbara Beeton",
+      "title": "The STIX Project — From Unicode to fonts",
+      "url": "https://tug.org/TUGboat/tb28-3/tb90beet.pdf",
+      "retrieved": "2026-10-29",
+      "locator": "§7, printed p. 302 (article pp. 299–304)",
+      "evidence_type": "practitioner account",
+      "license_access_copy": "Public PDF; copyrighted article; short notes only. Attribution and §7 verified against official complete issue PDF on 2026-10-29.",
+      "artifacts": [],
+      "research_area": "math",
+      "registry_path": "math/sources.json"
+    },
+    {
+      "id": "P01",
+      "author": "Adobe Systems",
+      "title": "Designing Multiple Master Typefaces",
+      "url": "https://partners.adobe.com/public/developer/en/font/5091.Design_MM_Fonts.pdf",
+      "locator": "pp. 17–19",
+      "evidence_type": "technical design manual",
+      "license_access_copy_status": "Public first-party PDF; copyright; redistribution permission unverified",
+      "local_path": "resources/adobe-design-mm.pdf",
+      "sha256": "69e5232c6ad5cd38885cbc7f2344810c1daec7db8bff85cd8a103e16c54cf637",
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": [
+        {
+          "path": "practice/resources/adobe-design-mm.pdf",
+          "sha256": "69e5232c6ad5cd38885cbc7f2344810c1daec7db8bff85cd8a103e16c54cf637",
+          "bytes": 3445630
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "author": "Glyphs",
+      "title": "Spacing — Glyphs Handbook (current web edition)",
+      "url": "https://handbook.glyphsapp.com/spacing/",
+      "locator": "Opening paragraphs under Spacing; related Kerning chapter P09",
+      "evidence_type": "practitioner handbook",
+      "license_access_copy_status": "Current first-party web chapter directly verified 2026-10-29; notes only. Earlier indexed PDF URL returned 404 and is superseded for this criterion.",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": []
+    },
+    {
+      "id": "P03",
+      "author": "Glyphs",
+      "title": "Drawing good paths",
+      "url": "https://glyphsapp.com/learn/drawing-good-paths",
+      "locator": "Extremum points; Harmony",
+      "evidence_type": "practitioner tutorial",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": []
+    },
+    {
+      "id": "P04",
+      "author": "Glyphs",
+      "title": "Harmonization",
+      "url": "https://glyphsapp.com/learn/harmonization",
+      "locator": "Step 2: Curve fitting",
+      "evidence_type": "practitioner tutorial",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": []
+    },
+    {
+      "id": "P05",
+      "author": "Frank Grießhammer / Adobe",
+      "title": "Source Serif gets optical sizes",
+      "url": "https://blog.adobe.com/en/publish/2021/03/04/source-serif-gets-optical-sizes",
+      "locator": "article body",
+      "evidence_type": "designer account",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": []
+    },
+    {
+      "id": "P06",
+      "author": "Paul Barnes / Commercial Type",
+      "title": "Marian Collection",
+      "url": "https://commercialtype.com/uploads/0816/a78211661e73a5f0f931ee4b093d79d5772a8e776b3fef864e3f8f76f17b4073/Marian-collection.pdf",
+      "locator": "Marian 1757 section; internal page label 38 of 69 (PDF has 73 physical pages)",
+      "evidence_type": "designer specimen",
+      "license_access_copy_status": "First-party PDF directly verified with web tool 2026-10-29; copyright; notes only",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": []
+    },
+    {
+      "id": "P07",
+      "author": "Peter Biľak / Typotheque",
+      "title": "Typeface design beyond a single script",
+      "url": "https://www.typotheque.com/articles/typeface-design-beyond-a-single-script",
+      "locator": "Romulus Greek discussion",
+      "evidence_type": "foundry practitioner essay",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": []
+    },
+    {
+      "id": "P08",
+      "author": "Robert Slimbach / Adobe",
+      "title": "Adobe Aldine: A contemporary interpretation of the humanist book types",
+      "url": "https://assets.fonts.adobe.com/v4k131cywewadll0ib768wamdlq3",
+      "locator": "Filling in the Gaps; Optical Sizes",
+      "evidence_type": "designer specimen and account",
+      "license_access_copy_status": "Indexed first-party PDF lead only; parent direct retrieval returned 404 on 2026-10-29. Not eligible to support an adopted rubric rule until resolved.",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": []
+    },
+    {
+      "id": "P09",
+      "author": "Glyphs",
+      "title": "Kerning",
+      "url": "https://handbook.glyphsapp.com/kerning/",
+      "locator": "Kerning introduction",
+      "evidence_type": "practitioner handbook",
+      "license_access_copy_status": "Public web; copyright; no local copy",
+      "local_path": null,
+      "sha256": null,
+      "retrieved_date": "2026-10-29",
+      "research_area": "practice",
+      "registry_path": "practice/sources.json",
+      "retrieved": "2026-10-29",
+      "artifacts": []
+    },
+    {
+      "id": "F01",
+      "author": "Microsoft",
+      "title": "Registered design-variation axis tag: opsz",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/otspec182/dvaraxistag_opsz",
+      "retrieved": "2026-10-29",
+      "locator": "Axis definition; Additional information",
+      "evidence_type": "standard",
+      "license_access_copy_status": "Public; copyright; notes only",
+      "artifacts": [],
+      "research_area": "frontier",
+      "registry_path": "frontier/sources.json"
+    },
+    {
+      "id": "F02",
+      "author": "Microsoft",
+      "title": "Recommendations for OpenType Fonts",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/recom",
+      "retrieved": "2026-10-29",
+      "locator": "Families with Optical Size Variants",
+      "evidence_type": "standard",
+      "license_access_copy_status": "Public; copyright; notes only",
+      "artifacts": [],
+      "research_area": "frontier",
+      "registry_path": "frontier/sources.json"
+    },
+    {
+      "id": "F03",
+      "author": "Microsoft",
+      "title": "MATH — mathematical typesetting table",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/otspec190/math",
+      "retrieved": "2026-10-29",
+      "locator": "MathConstants; MathGlyphInfo; MathVariants",
+      "evidence_type": "standard",
+      "license_access_copy_status": "Public; copyright; notes only",
+      "artifacts": [],
+      "research_area": "frontier",
+      "registry_path": "frontier/sources.json"
+    },
+    {
+      "id": "F04",
+      "author": "Wallace et al.",
+      "title": "Towards Individuated Reading Experiences",
+      "url": "https://jeffhuang.com/papers/Readability_TOCHI22.pdf",
+      "retrieved": "2026-10-29",
+      "locator": "sections 4–6; Figure 13",
+      "evidence_type": "primary empirical study",
+      "license_access_copy_status": "Author-hosted public PDF; reuse license unverified; not copied",
+      "artifacts": [],
+      "research_area": "frontier",
+      "registry_path": "frontier/sources.json"
+    },
+    {
+      "id": "F05",
+      "author": "Font Bakery contributors",
+      "title": "Font Bakery README",
+      "url": "https://github.com/fonttools/fontbakery/blob/main/README.md",
+      "retrieved": "2026-10-29",
+      "locator": "README; License",
+      "evidence_type": "tool documentation",
+      "license_access_copy_status": "Apache-2.0; copied README and license",
+      "artifacts": [
+        {
+          "path": "frontier/resources/fontbakery-readme.md",
+          "sha256": "ace138dd6701514482989be78109841f30a47b8ca3f714f84830b12325f40057",
+          "bytes": 4560
+        },
+        {
+          "path": "frontier/resources/fontbakery-license.txt",
+          "sha256": "b04c8850fdf64d17233f0acbe4eb632f03bd663094233c949bdbe788858bb841",
+          "bytes": 10851
+        }
+      ],
+      "research_area": "frontier",
+      "registry_path": "frontier/sources.json"
+    },
+    {
+      "id": "F06",
+      "author": "fontTools contributors",
+      "title": "fontTools README",
+      "url": "https://github.com/fonttools/fonttools/blob/main/README.rst",
+      "retrieved": "2026-10-29",
+      "locator": "README",
+      "evidence_type": "tool documentation",
+      "license_access_copy_status": "MIT license; copied README and license",
+      "artifacts": [
+        {
+          "path": "frontier/resources/fonttools-readme.rst",
+          "sha256": "369e1d74e6568fd01e624569edd3754c18336585a7f9aa73546b3833aa4f6899",
+          "bytes": 12487
+        },
+        {
+          "path": "frontier/resources/fonttools-license.txt",
+          "sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383",
+          "bytes": 1072
+        }
+      ],
+      "research_area": "frontier",
+      "registry_path": "frontier/sources.json"
+    },
+    {
+      "id": "F07",
+      "author": "Google Fonts contributors",
+      "title": "Diffenator 2 README",
+      "url": "https://github.com/googlefonts/diffenator2/blob/main/README.md",
+      "retrieved": "2026-10-29",
+      "locator": "Features; Caveats; Usage",
+      "evidence_type": "tool documentation",
+      "license_access_copy_status": "Public; license not verified; notes only",
+      "artifacts": [],
+      "research_area": "frontier",
+      "registry_path": "frontier/sources.json"
+    },
+    {
+      "id": "F08",
+      "author": "Microsoft",
+      "title": "Font selection",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/directwrite/font-selection",
+      "retrieved": "2026-10-29",
+      "locator": "Typographic font selection and optical size",
+      "evidence_type": "platform documentation",
+      "license_access_copy_status": "Public; copyright; notes only",
+      "artifacts": [],
+      "research_area": "frontier",
+      "registry_path": "frontier/sources.json"
+    },
+    {
+      "id": "S01",
+      "author": "James Edmondson / OH no Type Company",
+      "title": "Proof It!",
+      "url": "https://ohnotype.co/blog/proof-it",
+      "published": "2019-11-22",
+      "locator": "What the hell is a proof?; Every drawn character; Paragraphs or headlines; Spacing strings; Going Goldilocks",
+      "evidence_type": "practicing designer and type-design teacher account",
+      "license_access_copy_status": "First-party page directly verified; short paraphrase only",
+      "artifacts": [],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    },
+    {
+      "id": "S02",
+      "author": "RoboFont documentation team",
+      "title": "Introduction to spacing",
+      "url": "https://doc.robofont.com/documentation/tutorials/spacing-intro/",
+      "published": "last edited 2021-09-01",
+      "locator": "The basics; Spacing vs. Kerning; Spacing the lowercase/uppercase",
+      "evidence_type": "practitioner tool teaching",
+      "license_access_copy_status": "First-party indexed page read; direct web fetch timed out; cross-checked against directly verified P02. Short paraphrase only.",
+      "artifacts": [],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    },
+    {
+      "id": "S03",
+      "author": "STI Pub companies / Tiro Typeworks",
+      "title": "STIX Two Math and Text code charts",
+      "url": "https://github.com/stipub/stixfonts/tree/bea1dc9a3cc2d8b57e412dfd0f448a84382dfe46/docs",
+      "locator": "Math and Text glyph charts; source commit bea1dc9a3cc2d8b57e412dfd0f448a84382dfe46",
+      "evidence_type": "first-party reference specimens",
+      "license_access_copy_status": "Public official charts; retained with project OFL. No font has been adopted as a candidate; charts are examples, not a quality score.",
+      "artifacts": [
+        {
+          "path": "supplement/resources/stix-two-math-chart.pdf",
+          "sha256": "9a7d3cc67f409fb560531a3ce61e67e52be6fc083fe898c43041883c51590717",
+          "bytes": 985447
+        },
+        {
+          "path": "supplement/resources/stix-two-text-chart.pdf",
+          "sha256": "1bbfe64f9c73e55070a514b088fc38e3a044522a894507aeab3de7972f06f717",
+          "bytes": 372939
+        },
+        {
+          "path": "supplement/resources/stix-ofl.txt",
+          "sha256": "0c8825913b60d858aacdb33c4ca6660a7d64b0d6464702efbb19313f5765861a",
+          "bytes": 4519
+        }
+      ],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    },
+    {
+      "id": "S04",
+      "author": "Josiah Henry Benton (1914), reproducing historical letters by John Baskerville",
+      "title": "John Baskerville, Type-Founder and Printer, 1706–1775",
+      "url": "https://www.gutenberg.org/cache/epub/71072/pg71072-images.html",
+      "published": "1914; Gutenberg electronic edition 71072",
+      "locator": "printed pp. 10–12, 25–29; illustrations images/004.jpg and images/005.jpg; Gutenberg terms at end",
+      "evidence_type": "historical secondary account with primary letter facsimiles",
+      "license_access_copy_status": "Public-domain historical work from Project Gutenberg; electronic edition terms retained in HTML. Not an original printed-type specimen or a controlled scientific account.",
+      "artifacts": [
+        {
+          "path": "supplement/resources/benton-1914-john-baskerville.html",
+          "sha256": "42d3e37c6e2657014f2db03196ac49a8887762384e14a4729dd18e2455b3c623",
+          "bytes": 206280
+        },
+        {
+          "path": "supplement/resources/benton-1914-004.jpg",
+          "sha256": "20950613a4f062c82990cd5643de8c71e75693a344155bd4b764b6f9a437b3b4",
+          "bytes": 313814
+        },
+        {
+          "path": "supplement/resources/benton-1914-005.jpg",
+          "sha256": "7d5ef6aa4fb46b12d37de3b13e6f33f8549de4079ca0e095722698f3a99d96c4",
+          "bytes": 114573
+        }
+      ],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    },
+    {
+      "id": "S05",
+      "author": "Lianmin Zheng et al.",
+      "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "url": "https://arxiv.org/abs/2306.05685v4",
+      "published": "2023",
+      "locator": "abstract; limitations and bias experiments",
+      "evidence_type": "primary model evaluation study, non-typography domain",
+      "license_access_copy_status": "arXiv abstract directly verified; short notes only; no typography-validity claim",
+      "artifacts": [],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    },
+    {
+      "id": "S06",
+      "author": "Hans Hagen and Mikael P. Sundqvist",
+      "title": "New directions in math fonts",
+      "url": "https://tug.org/TUGboat/tb43-3/tb135hagen-mathchange.pdf",
+      "published": "2022",
+      "locator": "printed pp. 300–310; §1, runtime font fixes and engine changes",
+      "evidence_type": "first-party math engine developer account",
+      "license_access_copy_status": "Official indexed article read; short notes only",
+      "artifacts": [],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    },
+    {
+      "id": "S07",
+      "author": "Ulrik Vieth",
+      "title": "An updated survey of OpenType math fonts",
+      "url": "https://tug.org/TUGboat/tb44-2/tb137vieth-otmath.pdf",
+      "published": "2023",
+      "locator": "pp. 213–225; completeness and design choices, especially math alphabet families",
+      "evidence_type": "practitioner survey and comparison specimens",
+      "license_access_copy_status": "Official indexed article read; short notes only; published paper replaces 2023 draft as citation target",
+      "artifacts": [],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    },
+    {
+      "id": "S08",
+      "author": "Robert Slimbach / Adobe Originals",
+      "title": "Adobe Aldine family description",
+      "url": "https://fonts.adobe.com/fonts/adobe-aldine",
+      "locator": "About / Description",
+      "evidence_type": "contemporary first-party designer/foundry product description",
+      "license_access_copy_status": "Official indexed page read; short notes only. P08 detailed specimen remains inaccessible directly.",
+      "artifacts": [],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    },
+    {
+      "id": "S09",
+      "author": "Columbia University Libraries, Rare Book and Manuscript Library",
+      "title": "Baskerville Virgil-title page",
+      "url": "https://exhibitions.library.columbia.edu/exhibits/show/lit_hum/item/6284",
+      "published": "original 1757",
+      "locator": "object 1080728; shelfmark O17.En1 B29 1757v; original filename 110119093.tif",
+      "evidence_type": "institutional catalog for original historical specimen",
+      "license_access_copy_status": "Catalog directly verified; original image not acquired. Link and metadata only, not a local visual reference.",
+      "artifacts": [],
+      "retrieved": "2026-10-29",
+      "research_area": "supplement",
+      "registry_path": "supplement/sources.json"
+    }
+  ]
+}

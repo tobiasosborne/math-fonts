@@ -1,0 +1,17 @@
+{
+  "recipe": "radicals-v3-optical-presence",
+  "family": "radicals",
+  "hypothesis": "Increase apparent presence of tall radicals by a bounded optical-weight progression, preserving accepted curved entries, smooth G2 tall transitions and the reading/script silhouettes. The large finite upper stroke grows gradually toward the wider assembly stem, while the roof remains a48-unit hairline.",
+  "source_ids": ["M03", "P04", "P05", "M08"],
+  "parameters": {
+    "finite_rising_stroke_horizontal_span": [40, 60],
+    "finite_span_height_range": [1188, 2892],
+    "assembly_connector_x": [590, 650],
+    "assembly_stem_width": 60,
+    "prior_assembly_stem_width": 48,
+    "roof_rule_thickness": 48,
+    "advance": 800,
+    "unchanged": ["reading-size radical outline", "script radical outline", "script-script radical outline", "outer stem trajectory", "entry contour", "radicand-side boundary", "roof extent", "advance widths", "degree-position parameters"]
+  },
+  "scope": "Final authorized campaign proposal against accepted round2. Only the three larger finite radical outlines and three assembly pieces change. Ink expands toward the inner/left boundary; all advances, small/script radical silhouettes and unrelated glyphs remain unchanged. The60-unit optical design choice is a candidate parameter, not a universal typography requirement."
+}

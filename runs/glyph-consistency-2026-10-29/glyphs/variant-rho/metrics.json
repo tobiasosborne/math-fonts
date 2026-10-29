@@ -1,0 +1,27 @@
+{
+  "name": "variant-rho",
+  "char": "\u03f1",
+  "status": "complete",
+  "silhouette_iou": 0.9216996896634042,
+  "boundary_mean_master_px": 0.5931447023495346,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 3.0,
+  "boundary_mean_fraction_height": 0.0049020223334672285,
+  "darkness_rmse_union": 0.18367484211921692,
+  "ink_area_change_fraction": -0.03993182371560755,
+  "aspect_change_fraction": 0.02088253997093026,
+  "master_counters": 1,
+  "enlarged_counters": 1,
+  "master_thickness_proxy_px": 16.0,
+  "enlarged_thickness_proxy_px": 15.231546211727817,
+  "master_glyph_height_px": 121,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.11711077476557001,
+    "translate_x": 30.464711906847935,
+    "translate_y": 80.14198608395806,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

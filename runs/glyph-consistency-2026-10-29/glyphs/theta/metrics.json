@@ -1,0 +1,27 @@
+{
+  "name": "theta",
+  "char": "\u03b8",
+  "status": "complete",
+  "silhouette_iou": 0.8841171251109139,
+  "boundary_mean_master_px": 0.9021025458139496,
+  "boundary_p95_master_px": 2.23606797749979,
+  "boundary_max_master_px": 3.0,
+  "boundary_mean_fraction_height": 0.00678272590837556,
+  "darkness_rmse_union": 0.2642606198787689,
+  "ink_area_change_fraction": 0.04369586140519721,
+  "aspect_change_fraction": 0.05523429710867411,
+  "master_counters": 2,
+  "enlarged_counters": 2,
+  "master_thickness_proxy_px": 14.142135623730951,
+  "enlarged_thickness_proxy_px": 8.48528137423857,
+  "master_glyph_height_px": 133,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.1308926656722384,
+    "translate_x": 21.87432604324567,
+    "translate_y": 47.99947829713869,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

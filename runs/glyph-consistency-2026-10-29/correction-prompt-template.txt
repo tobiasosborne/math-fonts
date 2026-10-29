@@ -1,0 +1,24 @@
+Reference-guided correction of a glyph enlargement.
+
+Image 1: fixed authoritative master specimen sheet.
+Image 2: unaltered master cell crop for {glyph_name}, {unicode}.
+Image 3: current enlarged glyph; this is the EDIT TARGET.
+Optional image 4: registered comparison diagnostic. Red means source-only ink,
+blue means enlargement-only ink; these colours are annotations, not glyph design.
+
+Correct only the following observed departures from the master:
+{specific_measured_and_visually_confirmed_deviations}
+
+Preserve the exact canvas dimensions, typographic scale, surrounding white,
+baseline relationship and all already matching portions of image 3. Use the
+master crop as the authority whenever the enlarged glyph conflicts with it.
+Reconcile contour, counter, joins and terminals with the source. Do not invent
+a new glyph, change the family style or weight, beautify it independently,
+stretch width and height separately, or add text/handles/guides/annotations.
+Return one clean black filled glyph on white at the same image dimensions.
+
+Evaluation protocol outside the image model: compare this candidate AGAIN to
+the original master with the same registration and metrics as generation 2.
+Keep the earlier candidate if the correction worsens fidelity or loses a
+counter/semantic feature. Do not chain unbounded corrections. A correction
+call needs its own explicit budget; this template does not execute one.

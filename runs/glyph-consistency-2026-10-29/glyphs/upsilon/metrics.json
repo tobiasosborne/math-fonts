@@ -1,0 +1,27 @@
+{
+  "name": "upsilon",
+  "char": "\u03c5",
+  "status": "complete",
+  "silhouette_iou": 0.9186813186813186,
+  "boundary_mean_master_px": 0.5723350401424286,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 1.4142135623730951,
+  "boundary_mean_fraction_height": 0.00650380727434578,
+  "darkness_rmse_union": 0.18368378281593323,
+  "ink_area_change_fraction": 0.04655056932350976,
+  "aspect_change_fraction": 0.020280811232449292,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 10.770329614269007,
+  "enlarged_thickness_proxy_px": 12.082762530298218,
+  "master_glyph_height_px": 88,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.13760133191573787,
+    "translate_x": 21.649913115927145,
+    "translate_y": 80.55389080979543,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "xi",
+  "mode": "master",
+  "input_dimensions": [
+    144,
+    216
+  ],
+  "glyph_height": 174,
+  "render_supersample": 8,
+  "optimization_tolerance_px": 0.261,
+  "cubic_segments": 31,
+  "explicit_corner_segments": 2,
+  "closed_contours": 1,
+  "max_smooth_join_angle_degrees": 1.2074182697257333e-06,
+  "median_normalized_curvature_jump": 5.13932061967367,
+  "curvature_continuity_guaranteed": false,
+  "own_source_iou": 0.9696828358208955,
+  "own_source_boundary_mean_px": 0.21133603238866397,
+  "own_source_boundary_p95_px": 1.0,
+  "own_source_boundary_mean_per_1000_height": 1.2145748987854252,
+  "own_source_darkness_rmse_union": 0.0675472617149353,
+  "source_counters": 0,
+  "vector_counters": 0,
+  "original_master_iou_after_uniform_registration": 0.9710888318955467,
+  "original_master_boundary_mean_px": 0.2
+}

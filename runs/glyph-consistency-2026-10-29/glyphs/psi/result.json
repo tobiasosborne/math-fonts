@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/psi/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-e36fa43a-504f-4575-b35c-1374037108ab.png",
+  "sha256": "960b6782337bd5f5a62bddd3e7565734dc3a7be4997a69dc26e131eef33997ea",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "psi",
+  "index": 23,
+  "finished_at": "2026-10-29T18:30:26.178Z"
+}

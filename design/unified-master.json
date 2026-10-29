@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "north_star": "A consistent, thematically unified Baskerville math package with core LaTeX, amsmath and AMS symbol coverage, using the accepted image-derived design.",
+  "invariant": "Every design starts from one unified design image; every production view and enlargement derives from its approved version.",
+  "accepted_seed": {
+    "path": "runs/glyph-consistency-2026-10-29/master.png",
+    "sha256": "7538ac467dc73705b289ea99937d6d659c01cff5052d20b212fffc77ed4af98e",
+    "width": 1254,
+    "height": 1254,
+    "scope": "32 Greek and variant targets; accepted visual direction, not complete mathematical coverage.",
+    "prompt": "runs/glyph-consistency-2026-10-29/master-prompt.txt",
+    "keep_immutable": true,
+    "weight_status": "Italic design accepted; prompted regular weight, visual weight heavy/unresolved pending matched-size proof."
+  },
+  "family_master": {
+    "status": "planned_not_generated",
+    "path": null,
+    "sha256": null,
+    "derived_from": "accepted_seed",
+    "approval_rule": "Review the unified composition and freeze one version before production of its glyphs; later extensions revise this same root with explicit impact review."
+  },
+  "production_lineage_required": [
+    "root_version",
+    "root_sha256",
+    "glyph_id_and_semantic_mapping",
+    "source_crop_coordinates",
+    "source_crop_sha256",
+    "exact_prompt_and_reference_hashes",
+    "generated_original_sha256_and_dimensions",
+    "trace_parameters_and_environment",
+    "raw_outline_sha256",
+    "optical_edit_history",
+    "proof_and_acceptance_record"
+  ],
+  "prohibited": [
+    "Independent category design roots",
+    "Prior enlargement as sole design reference",
+    "Silent master or accepted evidence replacement",
+    "Silent width warping to hide inconsistency",
+    "Claiming current SVGs are a completed font"
+  ],
+  "new_image_campaign_authorized_by_this_manifest": false,
+  "substantial_text_reference": "design/storm-reference.json",
+  "guidelines_policy": "Deterministic thin removable overlay + mask + measured coordinates; always preserve clean original for tracing."
+}

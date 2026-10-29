@@ -1,0 +1,9 @@
+Use case: typography reference enlargement.
+
+Input image 1 is a type specimen reference. Isolate the LARGE ITALIC GREEK LOWERCASE ALPHA α at the far left of its enlarged detail row (the row begins α β θ ν υ φ ξ ω).
+
+Produce ONE very large solid black rendering of that specific alpha on pure white. Preserve its asymmetric bowl, inner counter, slanted right stroke, crossing, terminals, proportions and thick/thin contrast. Enlarge the reference faithfully; do not redesign it, substitute Latin a, or add ornamental details.
+
+The glyph is the entire subject. Give it most of the canvas at the highest practical original resolution, with generous clear margins. Keep the full outline and counter sharply resolved and unclipped. Use no gradients, texture, shadows or perspective.
+
+No Bézier handles, nodes, control polygons, arrows, construction diagrams, duplicate outline panel, labels, measurements or signatures. These will be calculated from the actual fitted vector, not drawn into this bitmap. At most, put very light baseline and top guides outside the glyph's bounding box, without touching or crossing the black silhouette. A completely clean glyph on white is preferable to inaccurate annotations.

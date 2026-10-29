@@ -1,0 +1,108 @@
+[
+  {
+    "id": "M01",
+    "author": "Donald E. Knuth",
+    "title": "Typesetting Concrete Mathematics",
+    "url": "https://tug.org/tugboat/tb10-1/tb23knut.pdf",
+    "retrieved": "2026-10-29",
+    "locator": "pp. 31–40",
+    "evidence_type": "practitioner case study",
+    "license_access_copy": "Public PDF; copyrighted article, link only",
+    "artifacts": []
+  },
+  {
+    "id": "M02",
+    "author": "William J. LeVeque",
+    "title": "Font development at the American Mathematical Society",
+    "url": "https://www.tug.org/TUGboat/tb02-2/tb03complete.pdf",
+    "retrieved": "2026-10-29",
+    "locator": "p. 39",
+    "evidence_type": "publisher practitioner history",
+    "license_access_copy": "Public issue PDF; copyright unverified, link only",
+    "artifacts": []
+  },
+  {
+    "id": "M03",
+    "author": "Microsoft",
+    "title": "OpenType MATH table",
+    "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/math",
+    "retrieved": "2026-10-29",
+    "locator": "MathConstants, MathGlyphInfo, MathVariants, layout tags",
+    "evidence_type": "technical specification",
+    "license_access_copy": "Public HTML; copyright; link only",
+    "artifacts": []
+  },
+  {
+    "id": "M04",
+    "author": "Barbara Beeton, Asmus Freytag, Murray Sargent III",
+    "title": "Unicode support for mathematics, revision 15",
+    "url": "https://www.unicode.org/reports/tr25/tr25-15.pdf",
+    "retrieved": "2026-10-29",
+    "locator": "§2.2, §3",
+    "evidence_type": "technical report",
+    "license_access_copy": "Public official PDF; Unicode terms apply; local reference copy",
+    "artifacts": [
+      {
+        "path": "resources/unicode-tr25-15.pdf",
+        "sha256": "cd2af5f1c24de0ac87daf57049ecce843cf87b5eb81dda0576f80f52f1168319"
+      }
+    ]
+  },
+  {
+    "id": "M05",
+    "author": "STIX Fonts project",
+    "title": "STIX Fonts README and FONTLOG",
+    "url": "https://github.com/stipub/stixfonts",
+    "retrieved": "2026-10-29",
+    "locator": "README; FONTLOG release history",
+    "evidence_type": "first-party project documentation",
+    "license_access_copy": "Public repository; font OFL included; documentation reuse terms unverified",
+    "artifacts": [
+      {
+        "path": "resources/stix-readme.md",
+        "sha256": "6634a946e9304bcc5a2b22cc2ddde4c159150476780c029b29a789ef87f3eb32"
+      },
+      {
+        "path": "resources/stix-fontlog.txt",
+        "sha256": "72370ec269d5a7941ab4d45b3057599db771d119e3546ee516ddee8c3bff4204"
+      },
+      {
+        "path": "resources/stix-ofl.txt",
+        "sha256": "0c8825913b60d858aacdb33c4ca6660a7d64b0d6464702efbb19313f5765861a"
+      }
+    ]
+  },
+  {
+    "id": "M06",
+    "author": "Ulrik Vieth",
+    "title": "OpenType math font development: Progress and challenges",
+    "url": "https://www.tug.org/TUGboat/tb33-3/tb105vieth.pdf",
+    "retrieved": "2026-10-29",
+    "locator": "§4.3–4.9, printed pp. 304–306",
+    "evidence_type": "practitioner survey and specimens",
+    "license_access_copy": "Public PDF; copyrighted article, link only",
+    "artifacts": []
+  },
+  {
+    "id": "M07",
+    "author": "Antonis Tsolomitis",
+    "title": "The NewComputerModern font family",
+    "url": "https://tug.org/TUGboat/tb42-1/tb130complete.pdf",
+    "retrieved": "2026-10-29",
+    "locator": "p. 52, introduction",
+    "evidence_type": "font designer account",
+    "license_access_copy": "Public issue PDF; copyright unverified, link only",
+    "artifacts": []
+  },
+  {
+    "id": "M08",
+    "author": "Barbara Beeton",
+    "title": "The STIX Project — From Unicode to fonts",
+    "url": "https://tug.org/TUGboat/tb28-3/tb90beet.pdf",
+    "retrieved": "2026-10-29",
+    "locator": "§7, printed p. 302 (article pp. 299–304)",
+    "evidence_type": "practitioner account",
+    "license_access_copy": "Public PDF; copyrighted article; short notes only. Attribution and §7 verified against official complete issue PDF on 2026-10-29.",
+    "artifacts": []
+  }
+]

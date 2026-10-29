@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/iota/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-a9c4ecd3-fbad-473f-822d-cd0b9ebe9442.png",
+  "sha256": "93c6f13e1564283d249e67b2b9e3124bc232889ce2010754f066b1561aa9be91",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "iota",
+  "index": 8,
+  "finished_at": "2026-10-29T18:25:43.861Z"
+}

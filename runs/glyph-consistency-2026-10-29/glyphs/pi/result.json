@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/pi/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-06df640b-7917-478c-a72a-8f7e328219db.png",
+  "sha256": "953ea9e1a24ee0d47f70744da770521ae7cc6f90756adf3cb6b900b479e8c2aa",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "pi",
+  "index": 15,
+  "finished_at": "2026-10-29T18:27:47.789Z"
+}

@@ -1,0 +1,27 @@
+{
+  "reference": "runs/entropy-2026-10-29/commercial/redesigned.png",
+  "reference_sha256": "39ee2616588b8e2de35d37abc86c74ef2c435a33364b0599001ceb2da7f1c0e2",
+  "prompt": "commercial-alpha-prompt.txt",
+  "prompt_sha256": "1d3b84caeeffb0b83fec58e91df9e967d771eece9ec564ea9e40770a6e149022",
+  "output": "commercial-alpha-study.png",
+  "output_sha256": "3416a9c555da7388dd68e205775b58c8b303a91de6a8ebdb8930350a7a6df3e6",
+  "dimensions": [
+    1774,
+    887
+  ],
+  "image_generation_calls": 1,
+  "mode": "built-in image_gen",
+  "model_exposed": false,
+  "usage_tokens_exposed": false,
+  "quota_fraction_measured": null,
+  "quota_estimate": {
+    "equivalent_comparable_text_turns": [
+      3,
+      5
+    ],
+    "basis": "Official published average, not measured account usage",
+    "source": "https://learn.chatgpt.com/docs/pricing#how-does-image-generation-count-toward-usage-limits"
+  },
+  "visual_audit": "Useful enlarged alpha construction reference. Filled and outline counter shapes visibly differ; illustrated control points are not verified Bezier geometry. Do not treat the drawing as an exact vector definition.",
+  "subagents_used": 0
+}

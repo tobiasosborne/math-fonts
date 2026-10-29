@@ -1,0 +1,14 @@
+{
+ "direction":"Storm-inspired calligraphic Greek; independent AI-assisted vector interpretation, not foundry authorship",
+ "input":"fonts/private/delivery/BaskervilleCompanionMath-Experimental-0.152.otf",
+ "input_sha256":"c00cb777cadca12c268e291d727b722568715fda3f58635f40066d918c04327c",
+ "inspiration_png":"runs/entropy-2026-10-29/redesigned-storm-inspired.png",
+ "inspiration_sha256":"78841d03c22cb5a71a5d5a2c535671a767d08672b8d6bbe4ff3abe93f7fc58a9",
+ "passes":2,
+ "new_constructions":"beta,theta,omicron,closed-phi,omega,nu across four serif styles and three optical roles",
+ "native_adaptation":"Remaining Greek preserves source anatomy with specific curved gesture, white-space, bold counter and fitting changes; optical native forms explicitly adopted.",
+ "raster_ideas":"expansive white, calligraphic turns, disciplined stress, a family gesture rather than isolated nu patch",
+ "rejected_raster_errors":"missing mathematical limits, duplicate/mislabelled variant rows, altered Latin-v controls, no trustworthy font geometry",
+ "protected":"Latin, retained radicals, unrelated glyphs and MATH behavior",
+ "proofs":"Fixed arena article plus enlarged/grid/negative/optical/variant/control modes; exact all384engine traces"
+}

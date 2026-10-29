@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/eta/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-f39cadcf-4be7-444f-b460-f99cdfc098c5.png",
+  "sha256": "095eb1991205bc6f8e038ea7571a607e78e12e2fc2650cdeef314740929a4380",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "eta",
+  "index": 6,
+  "finished_at": "2026-10-29T18:25:12.855Z"
+}

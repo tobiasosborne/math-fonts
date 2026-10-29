@@ -1,0 +1,18 @@
+{
+  "recipe": "radicals-v2-smooth-growth",
+  "family": "radicals",
+  "hypothesis": "Retain the v1 curved entry, while letting the rising radical stroke approach the vertical extender with matching tangent and zero endpoint curvature. Increase finite upper-stem span gradually from40 to48 units across height so its growth joins the 48-unit assembly connector deliberately.",
+  "source_ids": ["M03", "P03", "P04", "P05"],
+  "parameters": {
+    "rule_thickness": 48,
+    "finite_rising_stroke_horizontal_span": [40, 48],
+    "finite_span_height_range": [1188, 2892],
+    "assembly_connector_x": [602, 650],
+    "outer_transition_control_x": [650, 650, 650],
+    "outer_transition_control_y": [1200, 1350, 1500],
+    "inner_transition_control_x": [602, 602],
+    "inner_transition_control_y": [1350, 1200],
+    "advance": 800
+  },
+  "scope": "Same coherent finite/script/assembled radical family as the first proposal. The retained baseline remains the original seed. Version metadata identifies this as a distinct private experimental font. The curved entry is reused as an unpromoted design branch; all unrelated outlines and advances remain unchanged."
+}

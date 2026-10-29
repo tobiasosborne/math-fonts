@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/delta/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-12b4ed16-492a-4256-99a7-cd6f4c6fe2eb.png",
+  "sha256": "1fe590327624cedd3a295dcd36ddcbc5c59d90ac76a6e82f9124762578b2df37",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "delta",
+  "index": 3,
+  "finished_at": "2026-10-29T18:24:25.090Z"
+}

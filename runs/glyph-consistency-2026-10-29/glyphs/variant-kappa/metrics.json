@@ -1,0 +1,27 @@
+{
+  "name": "variant-kappa",
+  "char": "\u03f0",
+  "status": "complete",
+  "silhouette_iou": 0.9419734904270987,
+  "boundary_mean_master_px": 0.4191245639290155,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 2.23606797749979,
+  "boundary_mean_fraction_height": 0.005111275169866042,
+  "darkness_rmse_union": 0.13772284984588623,
+  "ink_area_change_fraction": 0.02053325160894892,
+  "aspect_change_fraction": 0.0328802855573862,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 12.0,
+  "enlarged_thickness_proxy_px": 17.08800749063506,
+  "master_glyph_height_px": 82,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.13468829981220576,
+    "translate_x": 23.904802504895983,
+    "translate_y": 83.75034337826138,
+    "function_evaluations": 212,
+    "independent_width_stretch": false
+  }
+}

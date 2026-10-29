@@ -1,0 +1,27 @@
+{
+  "name": "lambda",
+  "char": "\u03bb",
+  "status": "complete",
+  "silhouette_iou": 0.9206102922161883,
+  "boundary_mean_master_px": 0.5519418933304364,
+  "boundary_p95_master_px": 1.4142135623730951,
+  "boundary_max_master_px": 3.0,
+  "boundary_mean_fraction_height": 0.004088458469114343,
+  "darkness_rmse_union": 0.19910907745361328,
+  "ink_area_change_fraction": 0.014374830485489598,
+  "aspect_change_fraction": 0.07563372384690292,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 16.0,
+  "enlarged_thickness_proxy_px": 16.0,
+  "master_glyph_height_px": 135,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.13488994573766708,
+    "translate_x": 14.592595724313792,
+    "translate_y": 42.57651375404618,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

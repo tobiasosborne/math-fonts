@@ -1,0 +1,27 @@
+{
+  "name": "delta",
+  "char": "\u03b4",
+  "status": "complete",
+  "silhouette_iou": 0.9695033999587884,
+  "boundary_mean_master_px": 0.2558139534883721,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 1.0,
+  "boundary_mean_fraction_height": 0.0018537243006403776,
+  "darkness_rmse_union": 0.07396168261766434,
+  "ink_area_change_fraction": 0.0008373456144024072,
+  "aspect_change_fraction": 0.011939188630917918,
+  "master_counters": 1,
+  "enlarged_counters": 1,
+  "master_thickness_proxy_px": 18.439088914585774,
+  "enlarged_thickness_proxy_px": 16.97056274847714,
+  "master_glyph_height_px": 138,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.13903856822121616,
+    "translate_x": 20.136525794895196,
+    "translate_y": 41.56412836154495,
+    "function_evaluations": 174,
+    "independent_width_stretch": false
+  }
+}

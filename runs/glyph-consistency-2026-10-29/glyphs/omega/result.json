@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/omega/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-f1113d50-5719-4960-9f1a-6f88b6f000e8.png",
+  "sha256": "e8ac9e158a0d8fe3eff2172b703f2f3a375a332680d969de0c2ea25c820da9c9",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "omega",
+  "index": 24,
+  "finished_at": "2026-10-29T18:31:00.938Z"
+}

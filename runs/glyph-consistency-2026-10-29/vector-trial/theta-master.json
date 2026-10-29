@@ -1,0 +1,26 @@
+{
+  "name": "theta",
+  "mode": "master",
+  "input_dimensions": [
+    144,
+    216
+  ],
+  "glyph_height": 133,
+  "render_supersample": 8,
+  "optimization_tolerance_px": 0.1995,
+  "cubic_segments": 16,
+  "explicit_corner_segments": 4,
+  "closed_contours": 3,
+  "max_smooth_join_angle_degrees": 8.537736462515939e-07,
+  "median_normalized_curvature_jump": 2.2821406281147913,
+  "curvature_continuity_guaranteed": false,
+  "own_source_iou": 0.9816828849456211,
+  "own_source_boundary_mean_px": 0.1437170805116629,
+  "own_source_boundary_p95_px": 1.0,
+  "own_source_boundary_mean_per_1000_height": 1.08057955271927,
+  "own_source_darkness_rmse_union": 0.05296873673796654,
+  "source_counters": 2,
+  "vector_counters": 2,
+  "original_master_iou_after_uniform_registration": 0.9907993099482462,
+  "original_master_boundary_mean_px": 0.07218045112781955
+}

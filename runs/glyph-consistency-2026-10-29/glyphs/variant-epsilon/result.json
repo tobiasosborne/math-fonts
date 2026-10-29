@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/variant-epsilon/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-58dee01b-b9ca-4e70-94fa-4dea739811f5.png",
+  "sha256": "34236260bfeb6ce7bdc7a7570a48b153aa8cfe056357f58dac3bd1280cdb226d",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "variant-epsilon",
+  "index": 25,
+  "finished_at": "2026-10-29T18:31:15.910Z"
+}

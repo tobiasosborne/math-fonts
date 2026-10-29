@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/phi/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-c6193b45-54d1-4fc5-a234-eeccb2892f48.png",
+  "sha256": "01b93f328d392bd0c8bbc48e407697f872be25673cffd1fa9a81a539a446bd1e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "phi",
+  "index": 21,
+  "finished_at": "2026-10-29T18:29:53.444Z"
+}

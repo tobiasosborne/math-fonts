@@ -1,0 +1,27 @@
+{
+  "name": "eta",
+  "char": "\u03b7",
+  "status": "complete",
+  "silhouette_iou": 0.9170141784820683,
+  "boundary_mean_master_px": 0.6517253173181782,
+  "boundary_p95_master_px": 1.4142135623730951,
+  "boundary_max_master_px": 2.23606797749979,
+  "boundary_mean_fraction_height": 0.004975002422276169,
+  "darkness_rmse_union": 0.19971688091754913,
+  "ink_area_change_fraction": -0.0034744842562431932,
+  "aspect_change_fraction": 0.04493230881814836,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 18.055385138137417,
+  "enlarged_thickness_proxy_px": 18.439088914585774,
+  "master_glyph_height_px": 131,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.1412887732035553,
+    "translate_x": 21.45252148597827,
+    "translate_y": 81.27106193625421,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

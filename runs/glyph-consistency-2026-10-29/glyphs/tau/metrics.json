@@ -1,0 +1,27 @@
+{
+  "name": "tau",
+  "char": "\u03c4",
+  "status": "complete",
+  "silhouette_iou": 0.8669877732493516,
+  "boundary_mean_master_px": 0.86485970894756,
+  "boundary_p95_master_px": 2.23606797749979,
+  "boundary_max_master_px": 4.123105625617661,
+  "boundary_mean_fraction_height": 0.009609552321639556,
+  "darkness_rmse_union": 0.27880769968032837,
+  "ink_area_change_fraction": -0.04992260061919507,
+  "aspect_change_fraction": -0.019556025369978913,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 16.0,
+  "enlarged_thickness_proxy_px": 14.0,
+  "master_glyph_height_px": 90,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.11475902093532159,
+    "translate_x": 27.49532846029886,
+    "translate_y": 78.30242880226545,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "direction": "Hoefler & Co.-inspired editorial Greek, independent AI concept",
+  "input_png": "/home/tobias/.t3/projects/math-fonts/runs/entropy-2026-10-29/current-design-600dpi.png",
+  "input_png_sha256": "3c8f512cba3cb07189cb04206f89224bacafd30ba1c0b15803a8ac7b5f375fc1",
+  "current_font_version": "retained0.152",
+  "prompt_sha256": "4c41fb0242a418684cb1aea69afe969b93617f5484760f4979ec0e82539e3aac",
+  "actual_generation_calls": 1,
+  "tool": "built-in image_gen",
+  "status": "complete",
+  "primary_sources": [
+    "https://www.typography.com/fonts/mercury-text",
+    "https://jonathanhoefler.com/typefaces"
+  ],
+  "source_notes_from": "../foundry-sources.json",
+  "authorship": "Independent AI synthesis; not a Hoefler & Co. design or a copy of Mercury Text.",
+  "output_png": "/home/tobias/.t3/projects/math-fonts/runs/entropy-2026-10-29/hoefler/redesigned.png",
+  "output_sha256": "6b1703f59f3613e729381d8e007ccd1b4007012969b53b5ccd7911adf8d50622",
+  "output_dimensions": [
+    1054,
+    1492
+  ],
+  "original_output": "/home/tobias/.codex/generated_images/01a18860-c2f7-7763-826c-f6f3ed89ce32/exec-ca5309fa-2a5c-4e0b-9997-b31fb4abd7a4.png",
+  "postprocessing": "None: original copied without editing or upscaling.",
+  "reference_visually_inspected": true,
+  "output_visually_inspected": true,
+  "useful_specific_ideas": [
+    "Forward, open italic nu gesture with a pointed base but a less upright-wedge silhouette; upsilon remains a rounded bowl.",
+    "Beta uses unequal bowls and a poised waist; theta keeps a broad oval with a firm, slightly rising crossbar.",
+    "Xi separates three rhythmic turns and a flowing terminal; omega balances broad lobes around a restrained centre.",
+    "The bold family suggests counter articulation and firm terminals rather than simply uniform stroke growth."
+  ],
+  "limitations": [
+    "Output1054x1492 is below the requested high-resolution target; no upscaling was performed.",
+    "The full alphabet remains close to the input in several places, so the visible redesign is selective, not proof of independently authored384glyphroles.",
+    "Kappa/variant-kappa and epsilon variant distinctions are weak or potentially collapsed at this raster resolution.",
+    "The labelled Latin-v control is rendered as a serif capital-like V silhouette rather than faithfully retaining the input Latin italic v; do not adopt it in the protected Latin design.",
+    "The two short formulas look broadly coherent, but raster math/text correctness has not been certified.",
+    "Optical role labels and displayedpoint sizes are illustrative image content, not verified distinct font masters or actual-size rendered output.",
+    "No vector topology, coverage, fitting, MATH anchors, kerning or reading performance is established."
+  ]
+}

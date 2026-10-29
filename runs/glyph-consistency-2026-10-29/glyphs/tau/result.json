@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/tau/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-c4f73788-9ea5-4d33-a77c-e8ba2f5398a8.png",
+  "sha256": "e8a1421119b0613fd36bf3c40a3bce21e18b3f9bda62cedfaf0e40b99eb76914",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "tau",
+  "index": 19,
+  "finished_at": "2026-10-29T18:28:53.508Z"
+}

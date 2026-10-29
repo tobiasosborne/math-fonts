@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/gamma/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-b09e89d6-ff8f-4bcf-8f9e-c9dd97048463.png",
+  "sha256": "b5d7ee14e870405c079cfc9984cace67bb1fb34a60d62a05b4e346ce0c4b2824",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "gamma",
+  "index": 2,
+  "finished_at": "2026-10-29T18:24:07.907Z"
+}

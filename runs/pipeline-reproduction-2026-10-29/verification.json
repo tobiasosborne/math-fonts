@@ -1,0 +1,172 @@
+{
+  "command": ".venv/bin/python tools/export_glyph_vectors.py --run runs/glyph-consistency-2026-10-29 --output runs/pipeline-reproduction-2026-10-29",
+  "glyphs": 32,
+  "identical_filled_svg_files": 32,
+  "identical_handle_svg_files": 32,
+  "source_master_sha256": "7538ac467dc73705b289ea99937d6d659c01cff5052d20b212fffc77ed4af98e",
+  "original_run_modified": false,
+  "combined_specimen_note": "Regenerated with explicit deterministic placement and labels; byte identity is asserted for individual filled and handle SVGs only.",
+  "environment": "design/pipeline-environment-2026-10-29.json",
+  "results": [
+    {
+      "name": "alpha",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "beta",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "gamma",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "delta",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "epsilon",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "zeta",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "eta",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "theta",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "iota",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "kappa",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "lambda",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "mu",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "nu",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "xi",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "omicron",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "pi",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "rho",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "final-sigma",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "sigma",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "tau",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "upsilon",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "phi",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "chi",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "psi",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "omega",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "variant-epsilon",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "variant-theta",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "variant-kappa",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "variant-phi",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "variant-rho",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "variant-pi",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    },
+    {
+      "name": "partial",
+      "filled_svg_byte_identical": true,
+      "handles_svg_byte_identical": true
+    }
+  ]
+}

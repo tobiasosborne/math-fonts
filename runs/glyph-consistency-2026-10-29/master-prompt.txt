@@ -1,0 +1,21 @@
+Use case: typography reference design, clean filled glyph master sheet.
+Input image 1 is the enlarged italic Greek alpha we want as our style anchor. Input image 2 is the broader Greek type specimen providing the rest of the family's native Greek anatomy. Create ONE coherent regular italic lowercase Greek mathematical typeface master sheet, harmonized with Baskerville. This is a raster reference for later per-glyph enlargement and vectorization.
+
+The first input's asymmetric alpha bowl, lively counterspace, slant, contrasting stroke weights and controlled terminal energy establish the whole family. Apply that SAME visual language to every Greek letter. Keep all glyphs one regular italic weight, one coherent x-height, one italic posture, consistent thick/thin stress and terminal treatment. Preserve legitimate width and ascender/descender differences; do not make every glyph fill its cell or force identical anatomy. Native Greek must remain Greek, not substituted Latin letters.
+
+Black filled glyph silhouettes on pure white. Highest available original resolution; aim for a square 2048x2048 or larger if supported. Arrange exactly 32 glyphs in a clear four-row by eight-column grid, in this exact order:
+Row 1: α β γ δ ε ζ η θ
+Row 2: ι κ λ μ ν ξ ο π
+Row 3: ρ ς σ τ υ φ χ ψ
+Row 4: ω ϵ ϑ ϰ ϕ ϱ ϖ ∂
+
+All cells have identical geometry and the same typographic scale, with a shared baseline and common x-height for each row. Give ascenders/descenders room at that fixed scale. Keep every glyph completely inside its cell with substantial white separation. Use very faint cell borders and baseline/x-height guide ticks in the gutters only, never crossing or touching a black glyph. Put each cell's small plain Latin identification label beneath its glyph, well separated from the silhouette:
+alpha beta gamma delta epsilon zeta eta theta;
+iota kappa lambda mu nu xi omicron pi;
+rho final-sigma sigma tau upsilon phi chi psi;
+omega variant-epsilon variant-theta variant-kappa variant-phi variant-rho variant-pi partial.
+Do not add tiny Greek reference characters beside the large glyphs; each cell contains exactly one large target silhouette and one small Latin name.
+
+Keep ordinary/variant epsilon, theta, kappa, phi, rho and pi meaningfully distinct. Nu is distinct from rounded upsilon; final sigma is not ordinary sigma. Beta's bowls and waist, theta's oval/crossbar, xi's three turns, omega's paired bowls, and the native variant silhouettes should feel like related work by one designer. Counterspaces and joins must be clear.
+
+No second style, bold rows, formulas, prose, duplicate forms, decorative headings, outlines, nodes, Bezier handles, arrows, measurements, paper texture, shadows or mockups. Do not reproduce erroneous annotation or handle geometry from any other study. This sheet's only task is to establish a clean, coherent single-style master whose glyphs can subsequently be enlarged without stylistic drift.

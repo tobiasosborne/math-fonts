@@ -1,0 +1,140 @@
+[
+  {
+    "id": "S01",
+    "author": "James Edmondson / OH no Type Company",
+    "title": "Proof It!",
+    "url": "https://ohnotype.co/blog/proof-it",
+    "published": "2019-11-22",
+    "locator": "What the hell is a proof?; Every drawn character; Paragraphs or headlines; Spacing strings; Going Goldilocks",
+    "evidence_type": "practicing designer and type-design teacher account",
+    "license_access_copy_status": "First-party page directly verified; short paraphrase only",
+    "artifacts": [],
+    "retrieved": "2026-10-29"
+  },
+  {
+    "id": "S02",
+    "author": "RoboFont documentation team",
+    "title": "Introduction to spacing",
+    "url": "https://doc.robofont.com/documentation/tutorials/spacing-intro/",
+    "published": "last edited 2021-09-01",
+    "locator": "The basics; Spacing vs. Kerning; Spacing the lowercase/uppercase",
+    "evidence_type": "practitioner tool teaching",
+    "license_access_copy_status": "First-party indexed page read; direct web fetch timed out; cross-checked against directly verified P02. Short paraphrase only.",
+    "artifacts": [],
+    "retrieved": "2026-10-29"
+  },
+  {
+    "id": "S03",
+    "author": "STI Pub companies / Tiro Typeworks",
+    "title": "STIX Two Math and Text code charts",
+    "url": "https://github.com/stipub/stixfonts/tree/bea1dc9a3cc2d8b57e412dfd0f448a84382dfe46/docs",
+    "locator": "Math and Text glyph charts; source commit bea1dc9a3cc2d8b57e412dfd0f448a84382dfe46",
+    "evidence_type": "first-party reference specimens",
+    "license_access_copy_status": "Public official charts; retained with project OFL. No font has been adopted as a candidate; charts are examples, not a quality score.",
+    "artifacts": [
+      {
+        "path": "resources/stix-two-math-chart.pdf",
+        "sha256": "9a7d3cc67f409fb560531a3ce61e67e52be6fc083fe898c43041883c51590717",
+        "bytes": 985447
+      },
+      {
+        "path": "resources/stix-two-text-chart.pdf",
+        "sha256": "1bbfe64f9c73e55070a514b088fc38e3a044522a894507aeab3de7972f06f717",
+        "bytes": 372939
+      },
+      {
+        "path": "resources/stix-ofl.txt",
+        "sha256": "0c8825913b60d858aacdb33c4ca6660a7d64b0d6464702efbb19313f5765861a",
+        "bytes": 4519
+      }
+    ],
+    "retrieved": "2026-10-29"
+  },
+  {
+    "id": "S04",
+    "author": "Josiah Henry Benton (1914), reproducing historical letters by John Baskerville",
+    "title": "John Baskerville, Type-Founder and Printer, 1706–1775",
+    "url": "https://www.gutenberg.org/cache/epub/71072/pg71072-images.html",
+    "published": "1914; Gutenberg electronic edition 71072",
+    "locator": "printed pp. 10–12, 25–29; illustrations images/004.jpg and images/005.jpg; Gutenberg terms at end",
+    "evidence_type": "historical secondary account with primary letter facsimiles",
+    "license_access_copy_status": "Public-domain historical work from Project Gutenberg; electronic edition terms retained in HTML. Not an original printed-type specimen or a controlled scientific account.",
+    "artifacts": [
+      {
+        "path": "resources/benton-1914-john-baskerville.html",
+        "sha256": "42d3e37c6e2657014f2db03196ac49a8887762384e14a4729dd18e2455b3c623",
+        "bytes": 206280
+      },
+      {
+        "path": "resources/benton-1914-004.jpg",
+        "sha256": "20950613a4f062c82990cd5643de8c71e75693a344155bd4b764b6f9a437b3b4",
+        "bytes": 313814
+      },
+      {
+        "path": "resources/benton-1914-005.jpg",
+        "sha256": "7d5ef6aa4fb46b12d37de3b13e6f33f8549de4079ca0e095722698f3a99d96c4",
+        "bytes": 114573
+      }
+    ],
+    "retrieved": "2026-10-29"
+  },
+  {
+    "id": "S05",
+    "author": "Lianmin Zheng et al.",
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "url": "https://arxiv.org/abs/2306.05685v4",
+    "published": "2023",
+    "locator": "abstract; limitations and bias experiments",
+    "evidence_type": "primary model evaluation study, non-typography domain",
+    "license_access_copy_status": "arXiv abstract directly verified; short notes only; no typography-validity claim",
+    "artifacts": [],
+    "retrieved": "2026-10-29"
+  },
+  {
+    "id": "S06",
+    "author": "Hans Hagen and Mikael P. Sundqvist",
+    "title": "New directions in math fonts",
+    "url": "https://tug.org/TUGboat/tb43-3/tb135hagen-mathchange.pdf",
+    "published": "2022",
+    "locator": "printed pp. 300–310; §1, runtime font fixes and engine changes",
+    "evidence_type": "first-party math engine developer account",
+    "license_access_copy_status": "Official indexed article read; short notes only",
+    "artifacts": [],
+    "retrieved": "2026-10-29"
+  },
+  {
+    "id": "S07",
+    "author": "Ulrik Vieth",
+    "title": "An updated survey of OpenType math fonts",
+    "url": "https://tug.org/TUGboat/tb44-2/tb137vieth-otmath.pdf",
+    "published": "2023",
+    "locator": "pp. 213–225; completeness and design choices, especially math alphabet families",
+    "evidence_type": "practitioner survey and comparison specimens",
+    "license_access_copy_status": "Official indexed article read; short notes only; published paper replaces 2023 draft as citation target",
+    "artifacts": [],
+    "retrieved": "2026-10-29"
+  },
+  {
+    "id": "S08",
+    "author": "Robert Slimbach / Adobe Originals",
+    "title": "Adobe Aldine family description",
+    "url": "https://fonts.adobe.com/fonts/adobe-aldine",
+    "locator": "About / Description",
+    "evidence_type": "contemporary first-party designer/foundry product description",
+    "license_access_copy_status": "Official indexed page read; short notes only. P08 detailed specimen remains inaccessible directly.",
+    "artifacts": [],
+    "retrieved": "2026-10-29"
+  },
+  {
+    "id": "S09",
+    "author": "Columbia University Libraries, Rare Book and Manuscript Library",
+    "title": "Baskerville Virgil-title page",
+    "url": "https://exhibitions.library.columbia.edu/exhibits/show/lit_hum/item/6284",
+    "published": "original 1757",
+    "locator": "object 1080728; shelfmark O17.En1 B29 1757v; original filename 110119093.tif",
+    "evidence_type": "institutional catalog for original historical specimen",
+    "license_access_copy_status": "Catalog directly verified; original image not acquired. Link and metadata only, not a local visual reference.",
+    "artifacts": [],
+    "retrieved": "2026-10-29"
+  }
+]

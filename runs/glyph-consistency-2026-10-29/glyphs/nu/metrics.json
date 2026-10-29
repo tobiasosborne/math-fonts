@@ -1,0 +1,27 @@
+{
+  "name": "nu",
+  "char": "\u03bd",
+  "status": "complete",
+  "silhouette_iou": 0.9696633370329264,
+  "boundary_mean_master_px": 0.23422159887798036,
+  "boundary_p95_master_px": 1.0,
+  "boundary_max_master_px": 1.0,
+  "boundary_mean_fraction_height": 0.0026317033581795546,
+  "darkness_rmse_union": 0.06515374779701233,
+  "ink_area_change_fraction": 0.019726858877086473,
+  "aspect_change_fraction": 0.01223725885401672,
+  "master_counters": 0,
+  "enlarged_counters": 0,
+  "master_thickness_proxy_px": 10.0,
+  "enlarged_thickness_proxy_px": 8.246211251235321,
+  "master_glyph_height_px": 89,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.14535462611719566,
+    "translate_x": 26.299099949364656,
+    "translate_y": 86.1421530478987,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

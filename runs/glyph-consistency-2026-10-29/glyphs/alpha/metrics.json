@@ -1,0 +1,27 @@
+{
+  "name": "alpha",
+  "char": "\u03b1",
+  "status": "complete",
+  "silhouette_iou": 0.9180397127165189,
+  "boundary_mean_master_px": 0.6366457362576983,
+  "boundary_p95_master_px": 1.4142135623730951,
+  "boundary_max_master_px": 2.23606797749979,
+  "boundary_mean_fraction_height": 0.0070738415139744255,
+  "darkness_rmse_union": 0.1980488896369934,
+  "ink_area_change_fraction": 0.0022050716648291946,
+  "aspect_change_fraction": 0.026413470331916544,
+  "master_counters": 1,
+  "enlarged_counters": 1,
+  "master_thickness_proxy_px": 11.661903789690601,
+  "enlarged_thickness_proxy_px": 12.32455532033676,
+  "master_glyph_height_px": 90,
+  "extra_dark_pixels_outside_main_component": 0,
+  "master_extra_dark_pixels": 0,
+  "registration": {
+    "uniform_scale": 0.13889277428960956,
+    "translate_x": 11.71211227276948,
+    "translate_y": 88.70269376384297,
+    "function_evaluations": 250,
+    "independent_width_stretch": false
+  }
+}

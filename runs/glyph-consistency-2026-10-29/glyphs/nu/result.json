@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/nu/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-3dd50ba0-9ab0-42a1-854c-54745c776147.png",
+  "sha256": "fafac5f7468da7d3af5e383cdf9d614629ed08d60150a7fe8195b7f4756d1b29",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "nu",
+  "index": 12,
+  "finished_at": "2026-10-29T18:26:43.485Z"
+}

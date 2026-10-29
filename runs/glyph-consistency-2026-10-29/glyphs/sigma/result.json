@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "output": "/home/tobias/.t3/projects/math-fonts/runs/glyph-consistency-2026-10-29/glyphs/sigma/enlarged.png",
+  "original": "/home/tobias/.codex/generated_images/01a1879e-c942-7a12-87c6-33275c934826/exec-4fa15871-7b62-4a0d-8fe9-77938215a798.png",
+  "sha256": "e442d6d0d0e2e4e666a6639d5cf42219fc01d9e52b0fbdb6410b816c477ef954",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "image_calls": 1,
+  "token_usage_exposed": false,
+  "name": "sigma",
+  "index": 18,
+  "finished_at": "2026-10-29T18:28:33.757Z"
+}

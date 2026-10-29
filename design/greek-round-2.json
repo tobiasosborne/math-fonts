@@ -1,0 +1,13 @@
+{
+ "version":161,
+ "proposal":"nu-gesture-g2",
+ "input":"fonts/private/delivery/BaskervilleCompanionMath-Experimental-0.152.otf",
+ "input_sha256":"c00cb777cadca12c268e291d727b722568715fda3f58635f40066d918c04327c",
+ "hypothesis":"Give accepted native italic and bolditalic nu a forward, curved rising gesture and stronger small-form ink, preserving its pointed identity against rounded upsilon and looped Latin italic v. Preserve the ink envelope, advances and italic corrections; transfer accent anchoring by the measured upper-ink displacement.",
+ "shear":0.21,
+ "middle_bulge":20,
+ "scope":"Six nu outlines: italic/bolditalic text, script and scriptscript. All other Greek, Latin, radical and symbol outlines and metrics stay exact.",
+ "source_adoption":"Use retained0.152 native Greek nu contours including its existing optical alternates. No rejected G1 fitting, counter or nu recipe is promoted.",
+ "practice_sources":["P07 native Greek integrity","M08 confusable recognition in groups","P01/P05 optical compensation","S01 matched working-size proof experiments"],
+ "parameters_are":"One designer proposal, not a universal slope or weight standard. The unchanged whole-alphabet suite judges integration and small-size identity."
+}
