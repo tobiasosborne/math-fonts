@@ -1,0 +1,28 @@
+{
+  "target": "A",
+  "method": "Connected A only: translation+uniform scale; no independent width fit. Source coordinates retained in root cell manifest.",
+  "metrics": {
+    "silhouette_iou": 0.8816756005558865,
+    "boundary_mean_master_px": 0.8222878949287581,
+    "boundary_p95_master_px": 2.0,
+    "boundary_max_master_px": 2.23606797749979,
+    "boundary_mean_fraction_height": 0.005915740251286029,
+    "darkness_rmse_union": 0.24372421205043793,
+    "ink_area_change_fraction": 0.05329289428076267,
+    "aspect_change_fraction": 0.026693822131704126,
+    "master_counters": 1,
+    "enlarged_counters": 1,
+    "master_thickness_proxy_px": 6.324555320336759,
+    "enlarged_thickness_proxy_px": 6.324555320336759,
+    "master_glyph_height_px": 139,
+    "extra_dark_pixels_outside_main_component": 0,
+    "master_extra_dark_pixels": 0,
+    "registration": {
+      "uniform_scale": 0.1390412914669671,
+      "translate_x": 37.101099640348004,
+      "translate_y": 36.74571602167141,
+      "function_evaluations": 160,
+      "independent_width_stretch": false
+    }
+  }
+}

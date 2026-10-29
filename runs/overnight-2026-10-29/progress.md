@@ -39,3 +39,10 @@ Next scheduled step: check quota/deadline, then enlarge the first pilot target
 wake, update the call ledger before dispatch, inspect/measure locally, and
 commit/push. Stop at the deadline, quota boundary, fixed image cap or a major
 blocker. One image call has been used; no enlargement/correction calls yet.
+
+## First scheduled continuation
+
+Upright A enlarged once, locally traced and reviewed. Counter/component topology
+is preserved. Master/enlargement deviations are explicit in its review; no
+correction call used. Campaign totals: one master + one enlargement = two
+image calls. Next target is H. No font or completed-family claim.

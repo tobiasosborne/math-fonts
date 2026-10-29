@@ -1,22 +1,29 @@
 {
   "schema_version": 1,
   "stage": "pilot_enlargements",
-  "status": "root_01_provisionally_accepted_for_pilot",
+  "status": "pilot_A_enlarged_traced_reviewed",
   "image_calls": {
     "master_design": 1,
-    "pilot_enlargements": 0,
+    "pilot_enlargements": 1,
     "correction_pool": 0,
-    "total": 1
+    "total": 2
   },
   "active_image_request": null,
   "accepted_root": "runs/unified-master-2026-10-29/candidate-01/master.png",
   "major_blockers": [],
-  "next_action": "One faithful enlargement of A, first cell in manifest, referencing approved unified root + unaltered exact crop + substantial Storm reference. No new stylistic design. Then trace/measure and advance ledger; preserve disconnected forms.",
+  "next_action": "Next bounded step: faithful enlargement of H (cell index1) from the SAME root and exact crop, with substantial Storm reference; trace, measure, review, then advance. A remains a pilot candidate with recorded crossbar/width drift; no correction spent.",
   "latest_master_candidate": "runs/unified-master-2026-10-29/candidate-01/master.png",
   "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
   "cell_manifest": "runs/unified-master-2026-10-29/candidate-01/cells.json",
-  "next_pilot_cell_index": 0,
+  "next_pilot_cell_index": 1,
   "open_issues": "runs/unified-master-2026-10-29/candidate-01/issues.json",
   "component_tracing": "tools/math_trace.py",
-  "small_source_control": "runs/unified-master-2026-10-29/candidate-01/small-source-traces/summary.json"
+  "small_source_control": "runs/unified-master-2026-10-29/candidate-01/small-source-traces/summary.json",
+  "completed_pilot_targets": [
+    "A"
+  ],
+  "pilot_reviews": {
+    "A": "runs/overnight-2026-10-29/pilot/A/review.md"
+  },
+  "registration_caution": "Legacy registered() selects largest component; use only for confirmed connected targets. Equals needs full-component registration, not silent band loss."
 }
