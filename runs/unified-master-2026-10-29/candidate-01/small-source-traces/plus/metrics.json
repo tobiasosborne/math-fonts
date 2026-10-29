@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "potrace_version": "potracelib 1.16",
+  "source_dimensions": [
+    225,
+    179
+  ],
+  "extraction": {
+    "input_mode": "RGB",
+    "alpha_present": false,
+    "alpha_background": null,
+    "luminance_conversion": "Pillow RGB to L",
+    "chromatic_pixels_after_compositing": 85,
+    "chromatic_rule": "max(R,G,B) - min(R,G,B) > 2 after compositing",
+    "chromatic_input_allowed": true,
+    "threshold_rule": "gray < 128",
+    "removed_ink_pixels": 0,
+    "roi_contract": "Caller supplies clean ink only; no labels/guides are detected or removed."
+  },
+  "coordinates": "Source image coordinates, x right/y down; no crop, registration, translation, or scaling.",
+  "settings": {
+    "threshold": 128,
+    "despeckling": 0,
+    "alphamax": 1.0,
+    "curve_optimization": true,
+    "optimization_tolerance_px": 0.1515,
+    "turnpolicy": "Potrace default (minority)",
+    "render_supersample": 8
+  },
+  "geometry": {
+    "cubic_segments": 2,
+    "explicit_corner_segments": 11,
+    "closed_contours": 1,
+    "max_smooth_join_angle_degrees": 0.0,
+    "median_normalized_curvature_jump": 1434.257994269726,
+    "curvature_continuity_guaranteed": false
+  },
+  "positive_contours": 1,
+  "negative_contours": 0,
+  "contour_topology_checks": {
+    "positive_contours_equal_source_components": true,
+    "negative_contours_equal_source_counters": true
+  },
+  "fidelity": {
+    "full_canvas_iou": 1.0,
+    "lost_ink_pixels": 0,
+    "added_ink_pixels": 0,
+    "boundary_mean_px": 0.0,
+    "boundary_p95_px": 0.0,
+    "boundary_max_px": 0.0,
+    "grayscale_rmse_union": 0.06393106025462034,
+    "grayscale_rmse_full_canvas": 0.01846681887975394,
+    "source_topology": {
+      "ink_pixels": 1917,
+      "component_count": 1,
+      "components": [
+        {
+          "pixels": 1917,
+          "bbox": [
+            57,
+            44,
+            168,
+            145
+          ],
+          "centroid": [
+            111.76525821596243,
+            94.0
+          ]
+        }
+      ],
+      "counter_count": 0,
+      "counter_areas": [],
+      "euler_characteristic": 1,
+      "ink_bbox": [
+        57,
+        44,
+        168,
+        145
+      ],
+      "foreground_connectivity": 8,
+      "background_connectivity": 4,
+      "ink_touches_canvas_edge": false
+    },
+    "render_topology": {
+      "ink_pixels": 1917,
+      "component_count": 1,
+      "components": [
+        {
+          "pixels": 1917,
+          "bbox": [
+            57,
+            44,
+            168,
+            145
+          ],
+          "centroid": [
+            111.76525821596243,
+            94.0
+          ]
+        }
+      ],
+      "counter_count": 0,
+      "counter_areas": [],
+      "euler_characteristic": 1,
+      "ink_bbox": [
+        57,
+        44,
+        168,
+        145
+      ],
+      "foreground_connectivity": 8,
+      "background_connectivity": 4,
+      "ink_touches_canvas_edge": false
+    },
+    "component_correspondence": {
+      "source_to_render_components": [
+        [
+          1
+        ]
+      ],
+      "render_to_source_components": [
+        [
+          1
+        ]
+      ],
+      "each_source_overlaps_exactly_one_render_component": true,
+      "each_render_overlaps_exactly_one_source_component": true
+    },
+    "topology_checks": {
+      "each_source_component_has_one_spatial_match": true,
+      "each_render_component_has_one_spatial_match": true,
+      "component_count_equal": true,
+      "counter_count_equal": true
+    },
+    "raster_topology_preserved": true
+  },
+  "topology_preserved": true,
+  "limits": [
+    "Ink semantics, family consistency, and font quality are not established by raster fidelity.",
+    "Thresholding cannot recover missing marks or distinguish labels/guides from intended ink.",
+    "Topology checks count every pixel component/counter; diagonal ambiguities and very small features require inspection.",
+    "Potrace does not guarantee curvature continuity; no font metrics or MATH table are built."
+  ],
+  "input": {
+    "path": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/crops/plus.png",
+    "sha256": "738d243dd9bbe1098f521e9a3ea43b9723d9a56323df8c5a4f21ee240381abdf"
+  }
+}

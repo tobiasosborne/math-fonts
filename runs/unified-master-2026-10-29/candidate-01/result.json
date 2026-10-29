@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "output": "master.png",
+  "sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "tool": "built-in imagegen",
+  "image_calls": 1,
+  "usage_tokens_exposed": false,
+  "design_status": "candidate; visual review before any enlargement"
+}

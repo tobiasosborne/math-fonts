@@ -177,4 +177,3 @@ The following groups contain the 204 directly declared names, once each. Groupin
 **symbol (1):**
 
 `\circledS`
-

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "potrace_version": "potracelib 1.16",
+  "source_dimensions": [
+    224,
+    203
+  ],
+  "extraction": {
+    "input_mode": "RGB",
+    "alpha_present": false,
+    "alpha_background": null,
+    "luminance_conversion": "Pillow RGB to L",
+    "chromatic_pixels_after_compositing": 722,
+    "chromatic_rule": "max(R,G,B) - min(R,G,B) > 2 after compositing",
+    "chromatic_input_allowed": true,
+    "threshold_rule": "gray < 128",
+    "removed_ink_pixels": 0,
+    "roi_contract": "Caller supplies clean ink only; no labels/guides are detected or removed."
+  },
+  "coordinates": "Source image coordinates, x right/y down; no crop, registration, translation, or scaling.",
+  "settings": {
+    "threshold": 128,
+    "despeckling": 0,
+    "alphamax": 1.0,
+    "curve_optimization": true,
+    "optimization_tolerance_px": 0.2685,
+    "turnpolicy": "Potrace default (minority)",
+    "render_supersample": 8
+  },
+  "geometry": {
+    "cubic_segments": 17,
+    "explicit_corner_segments": 4,
+    "closed_contours": 2,
+    "max_smooth_join_angle_degrees": 8.537736462515939e-07,
+    "median_normalized_curvature_jump": 0.7891145798287061,
+    "curvature_continuity_guaranteed": false
+  },
+  "positive_contours": 1,
+  "negative_contours": 1,
+  "contour_topology_checks": {
+    "positive_contours_equal_source_components": true,
+    "negative_contours_equal_source_counters": true
+  },
+  "fidelity": {
+    "full_canvas_iou": 0.9781763826606876,
+    "lost_ink_pixels": 71,
+    "added_ink_pixels": 75,
+    "boundary_mean_px": 0.1785496648385131,
+    "boundary_p95_px": 1.0,
+    "boundary_max_px": 1.0,
+    "grayscale_rmse_union": 0.05839473638782684,
+    "grayscale_rmse_full_canvas": 0.027243258250500876,
+    "source_topology": {
+      "ink_pixels": 6615,
+      "component_count": 1,
+      "components": [
+        {
+          "pixels": 6615,
+          "bbox": [
+            48,
+            19,
+            177,
+            198
+          ],
+          "centroid": [
+            117.08888888888889,
+            104.85971277399848
+          ]
+        }
+      ],
+      "counter_count": 1,
+      "counter_areas": [
+        4659
+      ],
+      "euler_characteristic": 0,
+      "ink_bbox": [
+        48,
+        19,
+        177,
+        198
+      ],
+      "foreground_connectivity": 8,
+      "background_connectivity": 4,
+      "ink_touches_canvas_edge": false
+    },
+    "render_topology": {
+      "ink_pixels": 6619,
+      "component_count": 1,
+      "components": [
+        {
+          "pixels": 6619,
+          "bbox": [
+            48,
+            20,
+            177,
+            198
+          ],
+          "centroid": [
+            116.93397794228736,
+            104.9993956791056
+          ]
+        }
+      ],
+      "counter_count": 1,
+      "counter_areas": [
+        4593
+      ],
+      "euler_characteristic": 0,
+      "ink_bbox": [
+        48,
+        20,
+        177,
+        198
+      ],
+      "foreground_connectivity": 8,
+      "background_connectivity": 4,
+      "ink_touches_canvas_edge": false
+    },
+    "component_correspondence": {
+      "source_to_render_components": [
+        [
+          1
+        ]
+      ],
+      "render_to_source_components": [
+        [
+          1
+        ]
+      ],
+      "each_source_overlaps_exactly_one_render_component": true,
+      "each_render_overlaps_exactly_one_source_component": true
+    },
+    "topology_checks": {
+      "each_source_component_has_one_spatial_match": true,
+      "each_render_component_has_one_spatial_match": true,
+      "component_count_equal": true,
+      "counter_count_equal": true
+    },
+    "raster_topology_preserved": true
+  },
+  "topology_preserved": true,
+  "limits": [
+    "Ink semantics, family consistency, and font quality are not established by raster fidelity.",
+    "Thresholding cannot recover missing marks or distinguish labels/guides from intended ink.",
+    "Topology checks count every pixel component/counter; diagonal ambiguities and very small features require inspection.",
+    "Potrace does not guarantee curvature continuity; no font metrics or MATH table are built."
+  ],
+  "input": {
+    "path": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/crops/beta.png",
+    "sha256": "e5f3520746e4390a5d82f432e2144e1dcfff8df4dcbbb87a5fb523875c47ecea"
+  }
+}

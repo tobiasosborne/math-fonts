@@ -92,3 +92,19 @@ The durable exporter reproduced 32 filled + 32 handle SVGs byte for byte; frozen
 coverage source inputs are in `research/coverage/2026-10-29/`. The inventory is
 planning scope, not completed coverage or an image-call authorization. Continue
 the current design, not the rejected arena.
+
+SUBSEQUENT AUTONOMOUS AUTHORIZATION: the user authorized slow progress for
+eight hours, quota pacing within roughly three percentage points, scheduled
+wakeups, regular commits/pushes, and a public AGPL repository. The bounded run
+contract/state is in `runs/overnight-2026-10-29/`; stop at 2026-10-30 04:12 UTC.
+This authorizes only that finite new pipeline campaign, not old rounds/arena.
+The first 24-target unified foundation is provisionally accepted for the pilot
+in `design/unified-master.json`; one image call used. Read its review/issues.
+Full-component tracing is in `tools/math_trace.py`; all intended components
+must survive, and source pinholes require explicit review, not silent cleanup.
+Use `tools/quota_pace.py`, keep account state in ignored `.local/`, and update
+the existing scheduled task rather than creating duplicate timers. The public
+remote is https://github.com/tobiasosborne/math-fonts; do not publish licensed
+font binaries/private proofs or the old backup. The user-supplied Comic Sans
+style guide is saved in `design/future/comic-sans-math/` for later consideration,
+not as the active design direction.

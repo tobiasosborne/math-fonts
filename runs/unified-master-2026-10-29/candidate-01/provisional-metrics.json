@@ -1,0 +1,138 @@
+{
+  "status": "Provisional proof coordinate proposal; not accepted font metrics",
+  "source_em_pixels": 200,
+  "source_x_height_pixels": 100,
+  "source_cap_height_pixels": 137,
+  "source_math_axis_pixels_above_baseline": 50,
+  "row_baselines": [
+    197,
+    445,
+    710,
+    950,
+    1223,
+    1450
+  ],
+  "guides": [
+    {
+      "row": 1,
+      "kind": "baseline",
+      "y": 197
+    },
+    {
+      "row": 1,
+      "kind": "x-height",
+      "y": 97
+    },
+    {
+      "row": 1,
+      "kind": "cap-height",
+      "y": 60
+    },
+    {
+      "row": 1,
+      "kind": "math-axis",
+      "y": 147
+    },
+    {
+      "row": 2,
+      "kind": "baseline",
+      "y": 445
+    },
+    {
+      "row": 2,
+      "kind": "x-height",
+      "y": 345
+    },
+    {
+      "row": 2,
+      "kind": "cap-height",
+      "y": 308
+    },
+    {
+      "row": 2,
+      "kind": "math-axis",
+      "y": 395
+    },
+    {
+      "row": 3,
+      "kind": "baseline",
+      "y": 710
+    },
+    {
+      "row": 3,
+      "kind": "x-height",
+      "y": 610
+    },
+    {
+      "row": 3,
+      "kind": "cap-height",
+      "y": 573
+    },
+    {
+      "row": 3,
+      "kind": "math-axis",
+      "y": 660
+    },
+    {
+      "row": 4,
+      "kind": "baseline",
+      "y": 950
+    },
+    {
+      "row": 4,
+      "kind": "x-height",
+      "y": 850
+    },
+    {
+      "row": 4,
+      "kind": "cap-height",
+      "y": 813
+    },
+    {
+      "row": 4,
+      "kind": "math-axis",
+      "y": 900
+    },
+    {
+      "row": 5,
+      "kind": "baseline",
+      "y": 1223
+    },
+    {
+      "row": 5,
+      "kind": "x-height",
+      "y": 1123
+    },
+    {
+      "row": 5,
+      "kind": "cap-height",
+      "y": 1086
+    },
+    {
+      "row": 5,
+      "kind": "math-axis",
+      "y": 1173
+    },
+    {
+      "row": 6,
+      "kind": "baseline",
+      "y": 1450
+    },
+    {
+      "row": 6,
+      "kind": "x-height",
+      "y": 1350
+    },
+    {
+      "row": 6,
+      "kind": "cap-height",
+      "y": 1313
+    },
+    {
+      "row": 6,
+      "kind": "math-axis",
+      "y": 1400
+    }
+  ],
+  "policy": "One common source-to-UPM scale, per-row baseline registration and designed sidebearings. Never use crop or cell width as advance width. Calibrate in actual text/math proofs before font acceptance."
+}

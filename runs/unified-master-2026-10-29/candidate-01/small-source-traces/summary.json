@@ -1,0 +1,175 @@
+{
+  "stage": "Pre-enlargement tracing control; not a replacement for the enlargement pipeline",
+  "settings": "threshold128, alphamax1, opttolerance .0015*inkheight, no despeckling, render8x",
+  "color_decision": "Explicit Pillow luminance conversion. Model PNG is slightly chromatic (A maximum channel spread10/255); clean ROIs contain no colored guides. Source RGB originals retained. No chromatic guide removal is attempted.",
+  "results": [
+    {
+      "name": "A",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9816042780748663,
+      "cubics": 22
+    },
+    {
+      "name": "H",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9828130923796284,
+      "cubics": 31
+    },
+    {
+      "name": "O",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9764445060274353,
+      "cubics": 17
+    },
+    {
+      "name": "alpha",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9824351978171897,
+      "cubics": 25
+    },
+    {
+      "name": "f",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.972936030617824,
+      "cubics": 19
+    },
+    {
+      "name": "x",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9759127789046653,
+      "cubics": 30
+    },
+    {
+      "name": "d",
+      "topology_preserved": false,
+      "components": 1,
+      "own_source_iou": 0.9790352504638219,
+      "cubics": 23
+    },
+    {
+      "name": "beta",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9781763826606876,
+      "cubics": 17
+    },
+    {
+      "name": "zero",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9778236204228984,
+      "cubics": 16
+    },
+    {
+      "name": "one",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9873015873015873,
+      "cubics": 14
+    },
+    {
+      "name": "two",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9802578565672845,
+      "cubics": 20
+    },
+    {
+      "name": "theta",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9811375507835172,
+      "cubics": 18
+    },
+    {
+      "name": "plus",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 1.0,
+      "cubics": 2
+    },
+    {
+      "name": "minus",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 1.0,
+      "cubics": 0
+    },
+    {
+      "name": "equals",
+      "topology_preserved": true,
+      "components": 2,
+      "own_source_iou": 1.0,
+      "cubics": 0
+    },
+    {
+      "name": "nu",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9787168414558914,
+      "cubics": 14
+    },
+    {
+      "name": "sum",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9818954659949622,
+      "cubics": 23
+    },
+    {
+      "name": "integral",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9746429612357913,
+      "cubics": 14
+    },
+    {
+      "name": "radical",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9909706546275395,
+      "cubics": 14
+    },
+    {
+      "name": "xi",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.972777892348938,
+      "cubics": 33
+    },
+    {
+      "name": "left-paren",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9630495790458372,
+      "cubics": 10
+    },
+    {
+      "name": "right-paren",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9737582005623243,
+      "cubics": 7
+    },
+    {
+      "name": "hat-accent",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9698375870069605,
+      "cubics": 10
+    },
+    {
+      "name": "omega",
+      "topology_preserved": true,
+      "components": 1,
+      "own_source_iou": 0.9736363636363636,
+      "cubics": 31
+    }
+  ]
+}

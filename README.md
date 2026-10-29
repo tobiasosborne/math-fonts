@@ -25,7 +25,11 @@ backup remain local. Historical links below may require the original workspace.
   [machine-readable coverage](design/ams-glyph-inventory.json).
 - [Font and LaTeX engineering](docs/math-package-engineering.md).
 - [Unified master state and lineage](design/unified-master.json): accepted seed
-  is frozen; the family-wide composition remains to be generated and approved.
+  is frozen; the first 24-target foundation is provisionally accepted for the
+  pilot, with the broader family atlas still ahead.
+- [Autonomous campaign progress](runs/overnight-2026-10-29/progress.md) and
+  [quota pacing](docs/quota-paced-operation.md).
+- [Future Comic Sans Math guide](design/future/comic-sans-math/README.md).
 - [Accepted Greek trial](runs/glyph-consistency-2026-10-29/README.md):
   one master, 32 enlargements, 32 actual vector outlines and comparison reports.
 - [Reproduction check](runs/pipeline-reproduction-2026-10-29/verification.json):

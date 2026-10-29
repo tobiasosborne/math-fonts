@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "authorization": "User requested autonomous slow progress for eight hours, quota pacing within roughly three percentage points, timers, regular commits/pushes, and a public AGPL repository.",
+  "started_at": "2026-10-29T20:12:00Z",
+  "stop_at": "2026-10-30T04:12:00Z",
+  "repository": "https://github.com/tobiasosborne/math-fonts",
+  "image_caps": {"master_design": 3, "pilot_enlargements": 24, "correction_pool": 6, "total": 33},
+  "pace_policy": "Use installed quota --json via tools/quota_pace.py. Aim at or below time-based weekly pace; keep the three-percentage-point tolerance as an unplanned buffer. Poll no more often than once per five minutes. One expensive action at a time, no parallel image calls. Never buy credits or redeem resets.",
+  "design_invariant": "One unified approved image root; substantial actual Storm Baskerville reference is included in the design prompt; clean ink and removable measured guidelines stay separate.",
+  "review_authority": "User authorized autonomous progress. Coordinator may provisionally accept measured design milestones with recorded visual evidence; do not assert user approval of unseen results or claim perfection.",
+  "weight_decision": "Current Greek remains immutable accepted heavier italic evidence. Matched-ink-height area diagnostics are generally closer to Storm bold italic than regular, but anatomy confounds classification. Generate a provisional regular companion retaining anatomy; record both roles and do not relabel or overwrite the original.",
+  "stop_conditions": ["Deadline", "Image cap", "Major technical/design blocker requiring user input", "Unobservable/stale quota", "No paced quota before deadline"],
+  "quota_pause_is_resumable": true,
+  "old_arena_remains_stopped": true
+}

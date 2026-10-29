@@ -1,0 +1,19 @@
+{
+  "issues": [
+    {
+      "id": "d-two-pixel-pinhole",
+      "target": "d",
+      "severity": "requires-review-before-target-acceptance",
+      "finding": "Raw source mask contains one 2597-pixel counter and a two-pixel pinhole. Small-source trace keeps the principal counter but removes the pinhole.",
+      "evidence": "small-source-traces/d/metrics.json",
+      "action": "Inspect enlarged d against source and record intended topology. Do not silently erase the source or call the strict topology check passing.",
+      "blocks_other_targets": false
+    },
+    {
+      "id": "regular-weight-provisional",
+      "severity": "working-size-font-proof-required",
+      "finding": "One H-stem diagnostic favors the regular role, but Greek anatomy and apparent-size differences require an actual Baskerville text/math proof.",
+      "action": "Keep the root provisional until pilot font and working-size proofs are evaluated. Do not report weight classification or family quality as solved."
+    }
+  ]
+}

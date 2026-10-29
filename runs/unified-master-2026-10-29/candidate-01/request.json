@@ -1,0 +1,27 @@
+{
+  "status": "dispatched",
+  "purpose": "Unified 24-target regular companion foundation master",
+  "image_calls": 1,
+  "prompt": "prompt.txt",
+  "prompt_sha256": "b7f44189d91dc768e999a0ac130998c184ac6d68ca96570e92a95fcd85411aac",
+  "references": [
+    {
+      "path": "runs/glyph-consistency-2026-10-29/master.png",
+      "sha256": "7538ac467dc73705b289ea99937d6d659c01cff5052d20b212fffc77ed4af98e"
+    },
+    {
+      "path": "fonts/private/reference-specimens/storm-baskerville-2026-10-29/storm-baskerville-reference.png",
+      "sha256": "a0ff84fe38a27b8839f7b7dddb5fafbaa80b64873a0acb2aaf648e30b8647dce"
+    },
+    {
+      "path": "fonts/private/reference-specimens/storm-baskerville-2026-10-29/storm-italic.png",
+      "sha256": "4152d393f48c15feaa716a66c7c4e8eaf22ad580bb4783e4d55dc64e25557a5c"
+    },
+    {
+      "path": "fonts/private/reference-specimens/storm-baskerville-2026-10-29/storm-regular.png",
+      "sha256": "bf6a4489d48f6dc30acea16f457eb75ef1e39f9131787e0a4118cb0243b2fbab"
+    }
+  ],
+  "started_at": "2026-10-29T20:22:12.177454+00:00",
+  "approval": "Pending visual/semantic/weight review; not yet production authority"
+}

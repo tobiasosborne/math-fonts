@@ -1,0 +1,703 @@
+{
+  "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+  "cells": [
+    {
+      "name": "A",
+      "character": "A",
+      "target_codepoint": "U+0041",
+      "inventory_target_id": "u0041",
+      "row": 1,
+      "column": 1,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        23,
+        22,
+        248,
+        217
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/A.png",
+      "crop_sha256": "653f3e636e361f5d9092533ed53a697a5040d79b6d20e3d3e9ea1e16423f1980",
+      "ink_bbox_in_crop": [
+        40,
+        36,
+        190,
+        175
+      ],
+      "components": 1,
+      "component_areas": [
+        4616
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "H",
+      "character": "H",
+      "target_codepoint": "U+0048",
+      "inventory_target_id": "u0048",
+      "row": 1,
+      "column": 2,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        272,
+        22,
+        500,
+        217
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/H.png",
+      "crop_sha256": "93d132a9c3b8ca7f6b7fa1381a2a3eb2c68e779e6928a2885bb7e8ff3a0838ce",
+      "ink_bbox_in_crop": [
+        35,
+        38,
+        192,
+        175
+      ],
+      "components": 1,
+      "component_areas": [
+        7807
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "O",
+      "character": "O",
+      "target_codepoint": "U+004F",
+      "inventory_target_id": "u004F",
+      "row": 1,
+      "column": 3,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        524,
+        22,
+        752,
+        217
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/O.png",
+      "crop_sha256": "9b9adda65802997b0d503b9f6349e46c7adcc701676dd5d2aaa9811e8c882d95",
+      "ink_bbox_in_crop": [
+        34,
+        35,
+        189,
+        181
+      ],
+      "components": 1,
+      "component_areas": [
+        7140
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "alpha",
+      "character": "α",
+      "target_codepoint": "U+1D6FC",
+      "inventory_target_id": "u1D6FC",
+      "row": 1,
+      "column": 4,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        776,
+        22,
+        1000,
+        217
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/alpha.png",
+      "crop_sha256": "e24f02a21327b98e33c352f8394376791275fa2acfc8f00841b21fe2df133270",
+      "ink_bbox_in_crop": [
+        41,
+        69,
+        183,
+        173
+      ],
+      "components": 1,
+      "component_areas": [
+        5814
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "f",
+      "character": "f",
+      "target_codepoint": "U+1D453",
+      "inventory_target_id": "u1D453",
+      "row": 2,
+      "column": 1,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        23,
+        277,
+        248,
+        480
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/f.png",
+      "crop_sha256": "4c024e63bb5c58271f8bff035e7e45753defde3ba2cc0ede99230f4cda5dab55",
+      "ink_bbox_in_crop": [
+        42,
+        25,
+        180,
+        201
+      ],
+      "components": 1,
+      "component_areas": [
+        3627
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "x",
+      "character": "x",
+      "target_codepoint": "U+1D465",
+      "inventory_target_id": "u1D465",
+      "row": 2,
+      "column": 2,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        272,
+        277,
+        500,
+        480
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/x.png",
+      "crop_sha256": "367ebc68daa57cfa079887b391ec17461366d109c4002a01ac28b55f59d94d45",
+      "ink_bbox_in_crop": [
+        49,
+        65,
+        174,
+        173
+      ],
+      "components": 1,
+      "component_areas": [
+        3910
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "d",
+      "character": "d",
+      "target_codepoint": "U+1D451",
+      "inventory_target_id": "u1D451",
+      "row": 2,
+      "column": 3,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        524,
+        277,
+        752,
+        480
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/d.png",
+      "crop_sha256": "6c7ded1dba35485249d362e55d66742a799101f6af0233ca9d177ecc06a8573f",
+      "ink_bbox_in_crop": [
+        46,
+        24,
+        173,
+        176
+      ],
+      "components": 1,
+      "component_areas": [
+        5334
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "beta",
+      "character": "β",
+      "target_codepoint": "U+1D6FD",
+      "inventory_target_id": "u1D6FD",
+      "row": 2,
+      "column": 4,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        776,
+        277,
+        1000,
+        480
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/beta.png",
+      "crop_sha256": "e5f3520746e4390a5d82f432e2144e1dcfff8df4dcbbb87a5fb523875c47ecea",
+      "ink_bbox_in_crop": [
+        48,
+        19,
+        177,
+        198
+      ],
+      "components": 1,
+      "component_areas": [
+        6615
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "zero",
+      "character": "0",
+      "target_codepoint": "U+0030",
+      "inventory_target_id": "u0030",
+      "row": 3,
+      "column": 1,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        23,
+        539,
+        248,
+        733
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/zero.png",
+      "crop_sha256": "49b4e5964ccfad0352ff3ee9a61f74a6838b3912d72f2860b5fca81baf492dc8",
+      "ink_bbox_in_crop": [
+        55,
+        32,
+        162,
+        173
+      ],
+      "components": 1,
+      "component_areas": [
+        5758
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "one",
+      "character": "1",
+      "target_codepoint": "U+0031",
+      "inventory_target_id": "u0031",
+      "row": 3,
+      "column": 2,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        272,
+        539,
+        500,
+        733
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/one.png",
+      "crop_sha256": "5f3421f29656001024c9b361bd1afd3eb3d12a20c55d2c61aecf5087665c4cd9",
+      "ink_bbox_in_crop": [
+        78,
+        32,
+        144,
+        170
+      ],
+      "components": 1,
+      "component_areas": [
+        3435
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "two",
+      "character": "2",
+      "target_codepoint": "U+0032",
+      "inventory_target_id": "u0032",
+      "row": 3,
+      "column": 3,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        524,
+        539,
+        752,
+        733
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/two.png",
+      "crop_sha256": "32430dd9e202b47d63000ee5141ddd4117329c15c9a3a4805c37299c73748247",
+      "ink_bbox_in_crop": [
+        62,
+        33,
+        163,
+        170
+      ],
+      "components": 1,
+      "component_areas": [
+        4919
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "theta",
+      "character": "θ",
+      "target_codepoint": "U+1D703",
+      "inventory_target_id": "u1D703",
+      "row": 3,
+      "column": 4,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        776,
+        539,
+        1000,
+        733
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/theta.png",
+      "crop_sha256": "86d159aa4c7d095a78b47578548f78c08dcd8e1797ec0688706d6718d16066ab",
+      "ink_bbox_in_crop": [
+        58,
+        25,
+        175,
+        178
+      ],
+      "components": 1,
+      "component_areas": [
+        6833
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "plus",
+      "character": "+",
+      "target_codepoint": "U+002B",
+      "inventory_target_id": "u002B",
+      "row": 4,
+      "column": 1,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        23,
+        792,
+        248,
+        971
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/plus.png",
+      "crop_sha256": "738d243dd9bbe1098f521e9a3ea43b9723d9a56323df8c5a4f21ee240381abdf",
+      "ink_bbox_in_crop": [
+        57,
+        44,
+        168,
+        145
+      ],
+      "components": 1,
+      "component_areas": [
+        1917
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "minus",
+      "character": "−",
+      "target_codepoint": "U+2212",
+      "inventory_target_id": "u2212",
+      "row": 4,
+      "column": 2,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        272,
+        792,
+        500,
+        971
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/minus.png",
+      "crop_sha256": "aa26914a759cf4b295b75f2dbb55536eb0d122ae86c351b341446e42a05e51ea",
+      "ink_bbox_in_crop": [
+        53,
+        87,
+        172,
+        97
+      ],
+      "components": 1,
+      "component_areas": [
+        1190
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "equals",
+      "character": "=",
+      "target_codepoint": "U+003D",
+      "inventory_target_id": "u003D",
+      "row": 4,
+      "column": 3,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        524,
+        792,
+        752,
+        971
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/equals.png",
+      "crop_sha256": "dacea9ad7d1b96779551681e1e95279f9ee20d95502cbaf9bc6418e3171577d7",
+      "ink_bbox_in_crop": [
+        52,
+        69,
+        171,
+        118
+      ],
+      "components": 2,
+      "component_areas": [
+        1190,
+        1190
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "nu",
+      "character": "ν",
+      "target_codepoint": "U+1D708",
+      "inventory_target_id": "u1D708",
+      "row": 4,
+      "column": 4,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        776,
+        792,
+        1000,
+        971
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/nu.png",
+      "crop_sha256": "43d878100aa1fe3f19de11ce6c1b784bb08bc24f0127ff2cc9fb175ed478ecc0",
+      "ink_bbox_in_crop": [
+        65,
+        57,
+        172,
+        160
+      ],
+      "components": 1,
+      "component_areas": [
+        3221
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "sum",
+      "character": "∑",
+      "target_codepoint": "U+2211",
+      "inventory_target_id": "u2211",
+      "row": 5,
+      "column": 1,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        23,
+        1037,
+        248,
+        1252
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/sum.png",
+      "crop_sha256": "1485014390cab0142d71035557210f023658c12c8e825d54ff54324a4f54a6bf",
+      "ink_bbox_in_crop": [
+        40,
+        32,
+        186,
+        188
+      ],
+      "components": 1,
+      "component_areas": [
+        6284
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "integral",
+      "character": "∫",
+      "target_codepoint": "U+222B",
+      "inventory_target_id": "u222B",
+      "row": 5,
+      "column": 2,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        272,
+        1037,
+        500,
+        1252
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/integral.png",
+      "crop_sha256": "6dca8dcd5b7becacffa4656625bbca141b5041abf780e17cec6b28ed595f19f1",
+      "ink_bbox_in_crop": [
+        61,
+        9,
+        170,
+        202
+      ],
+      "components": 1,
+      "component_areas": [
+        3405
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "radical",
+      "character": "√",
+      "target_codepoint": "U+221A",
+      "inventory_target_id": "u221A",
+      "row": 5,
+      "column": 3,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        524,
+        1037,
+        752,
+        1252
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/radical.png",
+      "crop_sha256": "ac785b4a0abe1e98a539d003b4a6154f383188939a11d52a68925d5d3690a219",
+      "ink_bbox_in_crop": [
+        27,
+        27,
+        216,
+        195
+      ],
+      "components": 1,
+      "component_areas": [
+        3523
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "xi",
+      "character": "ξ",
+      "target_codepoint": "U+1D709",
+      "inventory_target_id": "u1D709",
+      "row": 5,
+      "column": 4,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        776,
+        1037,
+        1000,
+        1252
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/xi.png",
+      "crop_sha256": "cfa82824624e7cc99454fdc4ef69f86924256b0fa699c8c9407b1910d9a36512",
+      "ink_bbox_in_crop": [
+        67,
+        25,
+        168,
+        209
+      ],
+      "components": 1,
+      "component_areas": [
+        4805
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "left-paren",
+      "character": "(",
+      "target_codepoint": "U+0028",
+      "inventory_target_id": "u0028",
+      "row": 6,
+      "column": 1,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        23,
+        1308,
+        248,
+        1476
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/left-paren.png",
+      "crop_sha256": "5f25112460adfa37dc208ccf044d6987127d80469c4d5b45ba33202c04103d75",
+      "ink_bbox_in_crop": [
+        85,
+        11,
+        134,
+        156
+      ],
+      "components": 1,
+      "component_areas": [
+        2095
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "right-paren",
+      "character": ")",
+      "target_codepoint": "U+0029",
+      "inventory_target_id": "u0029",
+      "row": 6,
+      "column": 2,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        272,
+        1308,
+        500,
+        1476
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/right-paren.png",
+      "crop_sha256": "3bb0f6aaf06347329b06ed6309e23fa81a6cb886c3fad922f3027b135ffdde65",
+      "ink_bbox_in_crop": [
+        96,
+        11,
+        143,
+        156
+      ],
+      "components": 1,
+      "component_areas": [
+        2107
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "hat-accent",
+      "character": "ˆ",
+      "target_codepoint": "U+0302",
+      "inventory_target_id": "u0302",
+      "row": 6,
+      "column": 3,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        524,
+        1308,
+        752,
+        1476
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/hat-accent.png",
+      "crop_sha256": "ee831bc883865e4cb6fd381338eac32d872d518adecd9586860cb6831329c61b",
+      "ink_bbox_in_crop": [
+        70,
+        32,
+        151,
+        67
+      ],
+      "components": 1,
+      "component_areas": [
+        858
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    },
+    {
+      "name": "omega",
+      "character": "ω",
+      "target_codepoint": "U+1D714",
+      "inventory_target_id": "u1D714",
+      "row": 6,
+      "column": 4,
+      "root_id": "baskerville-unified-master-v1",
+      "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "source_crop_box": [
+        776,
+        1308,
+        1000,
+        1476
+      ],
+      "crop": "runs/unified-master-2026-10-29/candidate-01/crops/omega.png",
+      "crop_sha256": "f7172f719ffd8b802b8613eee9ffebfab90d46b50adb2dabcfc4e97b2347a9ae",
+      "ink_bbox_in_crop": [
+        41,
+        43,
+        183,
+        139
+      ],
+      "components": 1,
+      "component_areas": [
+        5432
+      ],
+      "status": "source_ready_for_review_not_font_coverage"
+    }
+  ],
+  "note": "Unaltered anatomy crops have different vertical extents to exclude generated labels. They are not independent em boxes; font geometry must register back to original root coordinates with one source-to-UPM scale."
+}

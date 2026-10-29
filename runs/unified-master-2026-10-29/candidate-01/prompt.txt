@@ -1,0 +1,34 @@
+Use case: typography reference design; one unified math-family foundation master.
+
+Input image 1 is the ACCEPTED GREEK DESIGN SEED. Keep its individual character, lively asymmetric Greek anatomy, contrasting strokes, slant and terminals. It is relatively heavy: preserve it as heavier italic family evidence; this new image deliberately explores its REGULAR companion, not a relabelling of that unchanged seed.
+Input image 2 is a substantial page rendered from actual STORM BASKERVILLE 10 PRO in regular, italic, bold and bold italic, with paragraphs, alphabets, figures, punctuation and Greek. Study the full page's texture and each face, not a generic idea of Baskerville.
+Input image 3 is an unaltered readable crop of the actual Storm italic reference, for regular weight and contrast.
+Input image 4 is an unaltered readable crop of the actual Storm regular reference, for upright figures, capitals, symbols and page colour.
+
+Create ONE unified regular-weight Baskerville companion math design image. This is the first foundation of the entire family, not 24 unrelated experiments. All targets must share one coherent stroke system, stress, serif and terminal grammar, mathematical scale, baseline, x-height, cap height and axis. Letter variables and Greek are italic; capitals A H O here are upright math capitals; figures, punctuation and operators are upright. Use the same master scale for all cells, retain natural narrow/wide shapes and ascender/descender extents, and do not stretch a shape to fill its box.
+
+Retain the accepted Greek's forms while making this explicit regular companion balance the NORMAL regular/italic Storm prose, rather than its bold prose. Preserve open counters, clear thin strokes and natural writing rhythm. This is a coherent optical redraw, not uniform digital thinning. The unchanged heavier seed will remain available for a bold companion. Native Greek must not become lookalike Latin. Keep nu distinct from upsilon, xi's structure legible, theta's bar clear and alpha's energetic asymmetric bowl/tail.
+
+Black FILLED glyphs on pure white, a clean flat typographer's source sheet, highest practical ORIGINAL resolution. Portrait page, exactly 4 columns and 6 rows with generous identical cells. At common em scale, an x is genuinely shorter than H and an integral is taller; do not normalize their ink boxes. Small plain Latin labels go in a separate lower gutter below each cell and must not touch any glyph. No decorative headings or surrounding prose in this production foundation image.
+
+EXACT grid, each cell contains exactly ONE target (there are 24 targets total):
+Row 1: upright capital A | upright capital H | upright capital O | italic Greek alpha α
+Row 2: italic Latin f | italic Latin x | italic Latin d | italic Greek beta β
+Row 3: upright digit 0 | upright digit 1 | upright digit 2 | italic Greek theta θ
+Row 4: plus + | true mathematical minus − | equals = | italic Greek nu ν
+Row 5: summation ∑ | integral ∫ | radical sign √ | italic Greek xi ξ
+Row 6: left parenthesis ( | right parenthesis ) | one hat accent ˆ | italic Greek omega ω
+
+EXACT labels, same row order:
+A; H; O; alpha
+f; x; d; beta
+zero; one; two; theta
+plus; minus; equals; nu
+sum; integral; radical; xi
+left-paren; right-paren; hat-accent; omega
+
+The plus/minus/equals share an optical math axis and compatible rule weight. Sum, integral and radical share the same family's contrast, with room for future display forms and extensible construction. Parentheses should feel like companion curves, not arbitrary stretched ovals. The hat is a standalone compact mathematical accent with clear two-stroke structure, not a caret-labelled formula or a letter with an accent.
+
+Keep the glyph extraction interiors completely free of guides, labels and texture. We will add deterministic thin baseline/x-height/cap-height/axis overlays and removable masks AFTERWARD; do not invent measured positions or draw guides through ink. No outlines, nodes, Bezier handles, arrows pointing to anatomy, shadows, gradients, paper texture, watermarks, formulas, duplicate styles or extra characters. The only substantial black ink in each cell is its designated filled glyph; the small label stays in its gutter.
+
+This is one unified foundational image. Later alphabet and symbol expansions will derive from this SAME approved master, not independent category roots. Appearance and mathematical identity both matter; make all 24 actual targets legible enough to serve as faithful single-glyph enlargement sources.

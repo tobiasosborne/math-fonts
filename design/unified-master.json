@@ -13,11 +13,16 @@
     "weight_status": "Italic design accepted; prompted regular weight, visual weight heavy/unresolved pending matched-size proof."
   },
   "family_master": {
-    "status": "planned_not_generated",
-    "path": null,
-    "sha256": null,
+    "id": "baskerville-unified-master-v1",
+    "version": "1.0-pilot",
+    "status": "provisionally_accepted_for_24_target_pilot",
+    "path": "runs/unified-master-2026-10-29/candidate-01/master.png",
+    "sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
     "derived_from": "accepted_seed",
-    "approval_rule": "Review the unified composition and freeze one version before production of its glyphs; later extensions revise this same root with explicit impact review."
+    "review": "runs/unified-master-2026-10-29/candidate-01/review.md",
+    "cells": "runs/unified-master-2026-10-29/candidate-01/cells.json",
+    "metrics": "runs/unified-master-2026-10-29/candidate-01/provisional-metrics.json",
+    "note": "Coordinator accepted source geometry for bounded pilot under user autonomous authorization; weight/font metrics remain provisional, not user approval of unseen results or complete repertoire."
   },
   "production_lineage_required": [
     "root_version",
@@ -41,5 +46,6 @@
   ],
   "new_image_campaign_authorized_by_this_manifest": false,
   "substantial_text_reference": "design/storm-reference.json",
-  "guidelines_policy": "Deterministic thin removable overlay + mask + measured coordinates; always preserve clean original for tracing."
+  "guidelines_policy": "Deterministic thin removable overlay + mask + measured coordinates; always preserve clean original for tracing.",
+  "active_campaign_contract": "runs/overnight-2026-10-29/contract.json"
 }
