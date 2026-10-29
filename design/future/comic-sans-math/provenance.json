@@ -1,0 +1,14 @@
+{
+  "status": "future_reference_only",
+  "source_filename": "Comic Sans Math Specimen Poster.png",
+  "provided_by": "user",
+  "imported_at": "2026-10-29",
+  "sha256": "2d6c61ca72418ba50451f9b1c73e446262202d014ee447fddf6e62248e6e58d7",
+  "dimensions": [
+    1055,
+    1491
+  ],
+  "description": "User-created Comic Sans Math style guide, imagined with the typography and engineering care of Hoefler and Frere-Jones. Unofficial inspiration, not a foundry-authored design.",
+  "active_campaign": false,
+  "notes": "Retain original PNG unchanged. Generated-looking annotations and equations are visual concepts, not verified geometry, font coverage or working math layout."
+}
