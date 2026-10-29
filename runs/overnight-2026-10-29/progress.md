@@ -46,3 +46,10 @@ Upright A enlarged once, locally traced and reviewed. Counter/component topology
 is preserved. Master/enlargement deviations are explicit in its review; no
 correction call used. Campaign totals: one master + one enlargement = two
 image calls. Next target is H. No font or completed-family claim.
+
+## Second scheduled continuation
+
+Upright H enlarged once and traced with topology preserved. Master overlay is
+close; detailed fidelity diagnostics and remaining font-proof obligations are
+in pilot/H/review.md. No correction call used. Campaign total: three image
+calls (one master, two enlargements). Next target is upright O.
