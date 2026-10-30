@@ -38,6 +38,12 @@ the whole-family image; a dense thumbnail cannot specify fine contours.
 
 ## Coverage and deliverables
 
+**Updated sourcing:** reuse actual Storm letters/numerals and suitable existing
+signs. The [glyph reuse policy](glyph-reuse-policy.md) supersedes earlier
+assumptions that every inventoried glyph or every master cell needs a new
+drawing. The deliverable is a custom math companion plus explicit configuration
+for user-supplied Baskerville alphabets, not a standalone recreation of them.
+
 Target core LaTeX mathematics + `amsmath` layout + AMS font/symbol command
 coverage, with a finite modern alphabet set. `amsmath` alone is not a glyph
 catalogue. [AMS math facilities](https://ctan.org/pkg/amsmath),
@@ -91,6 +97,10 @@ metrics project. Reference text fonts remain user-supplied dependencies.
 
 The 24-target pilot is deliberately explicit: Greek **α β θ ν ξ ω**; Latin
 **A H O f x d**; digits **0 1 2**; and **+ − = ∑ ∫ √ ( )** plus a **hat accent**.
+The six ordinary Latin roles and three digits now reuse the supplied Storm
+faces; they are not enlargement tasks. Audit the nine symbol/construction
+roles for existing suitable bases before commissioning new drawings. Prior
+A/H/O image studies remain experiments and are excluded from release sourcing.
 Fraction bars are calibrated rules, not another independent drawing. Reuse
 existing Greek only through explicit adoption when its approved master form,
 weight and scale survive the root revision; otherwise new sources are needed.
@@ -136,7 +146,8 @@ from an overlap metric or high council score.
 - Every inventoried command and style resolves to its intended semantic glyph
   or approved construction, with correct operator/relation spacing.
 - No `.notdef`, missing-character messages, undefined commands or synthetic
-  style substitution; actual math glyphs come from the authored font.
+  style substitution; glyphs come from their declared authored-math or supplied
+  Baskerville role, with no unrelated hidden fallback.
 - Fractions, roots, scripts, accents, limits, matrices and aligned equations
   work in display/text/script/scriptscript and cramped contexts.
 - Delimiters and horizontal constructions survive every size transition and

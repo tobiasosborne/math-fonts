@@ -18,6 +18,9 @@ backup remain local. Historical links below may require the original workspace.
 
 ## Active entry points
 
+- [Glyph reuse policy](docs/glyph-reuse-policy.md): reuse actual Baskerville
+  letters/numerals; design only the companion work that is needed.
+
 - [Durable pipeline](docs/image-to-font-pipeline.md): the visual invariant,
   saved prompts, measurements, reproduction command, limits and bounded batches.
 - [Package implementation plan](docs/baskerville-math-plan.md).

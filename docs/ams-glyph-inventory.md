@@ -2,6 +2,10 @@
 
 Status: planning snapshot, 2026-10-29. This is a work inventory, **not a claim of font coverage**. The machine-readable [inventory](../design/ams-glyph-inventory.json) has explicit targets, Unicode scalars/sequences, categories, command bindings, alphabet members, construction requests and source hashes. No existing run outputs were changed.
 
+Production sourcing update: [reuse existing Baskerville glyphs](glyph-reuse-policy.md).
+Counts below remain semantic package coverage, not an instruction to draw all
+outlines anew. See [sourcing overlay](../design/glyph-sourcing.json).
+
 ## One design root
 
 Every target refers to `baskerville-unified-master-v1`. Its image path and every `master_cell` are currently null. The complete package must begin with **one unified design image**, continuing the accepted image-derived Greek theme in the context of Baskerville. Category sheets, production sheets and individual enlargements are derived views of that image; they are not separate category designs. The 32 Greek studies are immutable seed evidence to integrate and review, not an alternate root or completed coverage. The inventory records zero filled unified-master cells.

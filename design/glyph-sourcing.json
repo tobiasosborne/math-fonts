@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "status": "adopted_sourcing_policy_integration_not_yet_proved",
+  "authority": "User correction: reuse existing Baskerville glyphs rather than regenerate ordinary letters.",
+  "reference_manifest": "design/storm-reference.json",
+  "external_pilot_roles": [
+    {
+      "name": "A",
+      "source_font_codepoint": "U+0041",
+      "face": "regular",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    },
+    {
+      "name": "H",
+      "source_font_codepoint": "U+0048",
+      "face": "regular",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    },
+    {
+      "name": "O",
+      "source_font_codepoint": "U+004F",
+      "face": "regular",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    },
+    {
+      "name": "f",
+      "source_font_codepoint": "U+0066",
+      "face": "italic",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    },
+    {
+      "name": "x",
+      "source_font_codepoint": "U+0078",
+      "face": "italic",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    },
+    {
+      "name": "d",
+      "source_font_codepoint": "U+0064",
+      "face": "italic",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    },
+    {
+      "name": "zero",
+      "source_font_codepoint": "U+0030",
+      "face": "regular",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    },
+    {
+      "name": "one",
+      "source_font_codepoint": "U+0031",
+      "face": "regular",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    },
+    {
+      "name": "two",
+      "source_font_codepoint": "U+0032",
+      "face": "regular",
+      "new_drawing": false,
+      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+    }
+  ],
+  "custom_greek_roles": [
+    "alpha",
+    "beta",
+    "theta",
+    "nu",
+    "xi",
+    "omega"
+  ],
+  "math_roles_to_audit": [
+    {
+      "name": "plus",
+      "target_codepoint": "U+002B",
+      "present_in_all_four_storm_cmaps": true,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    },
+    {
+      "name": "minus",
+      "target_codepoint": "U+2212",
+      "present_in_all_four_storm_cmaps": true,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    },
+    {
+      "name": "equals",
+      "target_codepoint": "U+003D",
+      "present_in_all_four_storm_cmaps": true,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    },
+    {
+      "name": "sum",
+      "target_codepoint": "U+2211",
+      "present_in_all_four_storm_cmaps": true,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    },
+    {
+      "name": "integral",
+      "target_codepoint": "U+222B",
+      "present_in_all_four_storm_cmaps": true,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    },
+    {
+      "name": "radical",
+      "target_codepoint": "U+221A",
+      "present_in_all_four_storm_cmaps": true,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    },
+    {
+      "name": "left-paren",
+      "target_codepoint": "U+0028",
+      "present_in_all_four_storm_cmaps": true,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    },
+    {
+      "name": "right-paren",
+      "target_codepoint": "U+0029",
+      "present_in_all_four_storm_cmaps": true,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    },
+    {
+      "name": "hat-accent",
+      "target_codepoint": "U+0302",
+      "present_in_all_four_storm_cmaps": false,
+      "production_status": "audit existing base, math metrics and growth before any new drawing"
+    }
+  ],
+  "historical_redraws_excluded_from_release": [
+    "A",
+    "H",
+    "O"
+  ],
+  "coverage_policy": "Existing frozen inventory is package-level coverage. It is not a requirement to author every outline or place all glyphs in one binary.",
+  "root_policy": "One unified image governs new drawing and shows actual Baskerville comparison anchors. Original supplied font geometry governs reused roles.",
+  "distribution_policy": "External user-supplied Storm fonts; no commercial outlines or binaries copied into the public AGPL payload.",
+  "image_calls_already_spent": 4,
+  "new_image_calls_authorized_by_this_change": 0,
+  "timer_enabled": false
+}

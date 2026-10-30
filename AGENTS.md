@@ -108,3 +108,14 @@ remote is https://github.com/tobiasosborne/math-fonts; do not publish licensed
 font binaries/private proofs or the old backup. The user-supplied Comic Sans
 style guide is saved in `design/future/comic-sans-math/` for later consideration,
 not as the active design direction.
+
+LATEST SOURCING CORRECTION: the user wants existing Baskerville glyphs reused,
+including ordinary Latin letters and numerals, rather than generated anew.
+See `docs/glyph-reuse-policy.md` and `design/glyph-sourcing.json`. A/H/O generated
+studies remain evidence only, not release outlines. Existing glyph cells in the
+unified image are reference anchors; all NEW drawings still derive from that
+one root. Retain custom Greek design. Audit existing math signs before drawing
+replacements, and engineer growth/layout separately. Use externally supplied
+Storm files through explicit tested font configuration; do not copy commercial
+outlines into the public AGPL payload. The timer remains disabled; the earlier
+eight-hour authorization is not extended by this plan correction.

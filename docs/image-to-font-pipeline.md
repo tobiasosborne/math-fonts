@@ -7,6 +7,10 @@ arena fonts nor warped inherited outlines are its geometry source.
 
 ## Governing invariant: one unified design image
 
+Subsequent sourcing correction: [reuse ordinary Baskerville glyphs](glyph-reuse-policy.md).
+The unified image governs new drawing; existing alphabet cells are comparison
+anchors, not instructions to regenerate available original glyphs.
+
 **Everything starts from one approved unified design image.** The current
 [Greek master](../runs/glyph-consistency-2026-10-29/master.png) is the accepted
 seed. The next design deliverable is a family-wide composition expanding that

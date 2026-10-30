@@ -70,3 +70,11 @@ made. The existing scheduled task is confirmed disabled. Final completed
 image work is one unified master plus A/H/O enlargements: four image calls.
 The 24-target font pilot, font binary and math-rendering proofs remain unfinished.
 Resume at alpha only after reliable quota observation and renewed work timing.
+
+## User correction: reuse ordinary Baskerville glyphs
+
+A/H/O/f/x/d and 0/1/2 now use supplied Storm faces, not generated production
+outlines. A/H/O studies remain preserved but excluded from release sourcing.
+Existing math signs are audited before drawing replacements; custom Greek is
+retained. The four already-spent calls remain counted. No timer restart or
+new image call accompanies this sourcing correction.

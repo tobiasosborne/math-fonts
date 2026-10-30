@@ -34,6 +34,12 @@ the accepted forms or relabel their weight to resolve the discrepancy.
 
 ## Concrete v1 target
 
+**Sourcing update:** [reuse policy](glyph-reuse-policy.md) supersedes the
+standalone-all-outlines assumption below. Existing ordinary Baskerville
+alphabets/numerals are external-font roles supplied through explicit tested
+configuration. The custom OTF supplies new mathematical work. Validate intended
+multi-font sourcing, rather than requiring all package coverage in one binary.
+
 Ship a cubic-outline OpenType math font, tentatively
 `BaskervilleCompanionMath-Regular.otf`, plus a small LaTeX loader. The font
 contains the complete frozen v1 repertoire, its mathematical alphabet styles,
