@@ -255,11 +255,22 @@ def _variants(pens, advances, legacy):
     return vertical, horizontal, recipes
 
 
-def build(output, sources=None, base_sources=None):
+def build(output, sources=None, base_sources=None, calibration=None):
     output = Path(output)
     if any((output / f).exists() for f in [FONT_NAME, 'build-manifest.json', 'sources.json']):
         raise FileExistsError('Use a fresh output directory; existing builds are immutable')
     entries, legacy = load_sources(sources, base_sources)
+    profile = json.loads(Path(calibration).read_text()) if calibration else None
+    constants = dict(CONSTANTS)
+    if profile:
+        if profile.get('units_per_em') != UPM:
+            raise ValueError('Calibration requires the exact font em')
+        constants.update(profile.get('math_constants', {}))
+        if set(constants) != set(CONSTANTS):
+            raise ValueError('Unknown calibrated MATH constant')
+        required_greek = {name for name, entry in entries.items() if entry['kind'] == 'greek'}
+        if required_greek != set(profile['roles']):
+            raise ValueError('Every Greek role needs an explicit reviewed grid calibration')
     pens, advances, records = {}, {}, {}
     missing = RecordingPen()
     for points in [[(60, 0), (60, 700), (540, 700), (540, 0)],
@@ -273,11 +284,28 @@ def build(output, sources=None, base_sources=None):
     for name, entry in entries.items():
         raw, count = outline(entry)
         pen, advance = _metrics(name, entry, raw, legacy)
+        optical = None
+        if profile and name in profile['roles']:
+            optical = profile['roles'][name]
+            if sha(entry['curves']) != optical['source_curves_sha256']:
+                raise ValueError(f'{name}: grid calibration source hash differs')
+            actual = pilot.bounds(pen)
+            if any(abs(a-b) > .01 for a,b in zip(actual, optical['before_bounds_upm'])):
+                raise ValueError(f'{name}: grid calibration registration/bounds differ')
+            scale = finite(optical['uniform_scale'], 'optical uniform scale')
+            dy = finite(optical['translate_y'], 'optical translation')
+            if not .9 <= scale <= 1.1 or abs(dy) > 200:
+                raise ValueError('Grid correction exceeds bounded similarity transform; redesign/review required')
+            pen = pilot.transform(pen, (scale, 0, 0, scale, 0, dy))
+            box = pilot.bounds(pen)
+            pen = pilot.transform(pen, (1, 0, 0, 1, 40-box[0], 0))
+            advance = round(box[2]-box[0]+80)
         pens[name], advances[name] = pen, advance
         signature = hashlib.sha256(json.dumps(pen.value, separators=(',', ':'), allow_nan=False).encode()).hexdigest()
         records[name] = {**entry, 'contour_count': count, 'bounds_upm': pilot.bounds(pen),
             'advance_upm': advance, 'outline_signature_sha256': signature,
             'retained_pilot_engineering': name in legacy,
+            **({'optical_grid_calibration': optical} if optical else {}),
             'status': entry.get('status', 'explicit source; design and optical acceptance pending')}
     vertical, horizontal, recipes = _variants(pens, advances, legacy)
     order = list(pens)
@@ -289,15 +317,16 @@ def build(output, sources=None, base_sources=None):
     ascender = max(950, math.ceil(max(b[3] for b in boxes)))
     descender = min(-350, math.floor(min(b[1] for b in boxes)))
     fb.setupHorizontalMetrics({name: (advances[name], round(pilot.bounds(pens[name])[0]) if pilot.bounds(pens[name]) else 0) for name in order})
-    fb.setupHorizontalHeader(ascent=ascender, descent=descender, lineGap=100)
+    line_metrics = profile['font_metrics'] if profile else dict(ascender=ascender, descender=descender, line_gap=100, x_height=500, cap_height=685)
+    fb.setupHorizontalHeader(ascent=line_metrics['ascender'], descent=line_metrics['descender'], lineGap=line_metrics['line_gap'])
     family = 'Baskerville Companion Math AMS'
     fb.setupNameTable({'familyName': family, 'styleName': 'Regular',
         'uniqueFontIdentifier': PS_NAME+'-0.1', 'fullName': family, 'psName': PS_NAME,
         'version': 'Version 0.100',
         'licenseDescription': 'Original image-derived outlines and engineering: AGPL-3.0-or-later. No Storm outlines.',
         'licenseInfoURL': 'https://www.gnu.org/licenses/agpl-3.0.html'})
-    fb.setupOS2(version=4, sTypoAscender=ascender, sTypoDescender=descender, sTypoLineGap=100,
-        usWinAscent=ascender, usWinDescent=-descender, sxHeight=500, sCapHeight=685, fsType=0, fsSelection=0xC0)
+    fb.setupOS2(version=4, sTypoAscender=line_metrics['ascender'], sTypoDescender=line_metrics['descender'], sTypoLineGap=line_metrics['line_gap'],
+        usWinAscent=ascender, usWinDescent=-descender, sxHeight=line_metrics['x_height'], sCapHeight=line_metrics['cap_height'], fsType=0, fsSelection=0xC0)
     fb.setupPost()
     charstrings = {}
     for name, pen in pens.items():
@@ -310,7 +339,7 @@ def build(output, sources=None, base_sources=None):
     italic = {n: max(20, round((pilot.bounds(pens[n])[2]-pilot.bounds(pens[n])[0])*.08))
               for n, entry in entries.items() if entry['kind'] == 'greek'}
     accents = {n: round((pilot.bounds(p)[0]+pilot.bounds(p)[2])/2) for n, p in pens.items() if pilot.bounds(p)}
-    buildMathTable(fb.font, constants=CONSTANTS, italicsCorrections=italic,
+    buildMathTable(fb.font, constants=constants, italicsCorrections=italic,
         topAccentAttachments=accents, extendedShapes=set(vertical), minConnectorOverlap=40,
         vertGlyphVariants=vertical, horizGlyphVariants=horizontal)
     # A zero pair is real GPOS math/dflt discovery data, not optical substitution.
@@ -325,12 +354,14 @@ def build(output, sources=None, base_sources=None):
     manifest = {'schema_version': 1, 'font': FONT_NAME, 'font_sha256': sha(output / FONT_NAME),
         'license': 'AGPL-3.0-or-later', 'units_per_em': UPM, 'glyphs': records,
         'build_inputs': {key: {'path': str(Path(path).resolve()), 'sha256': sha(path)}
-            for key, path in [('sources', sources), ('base_sources', base_sources)] if path is not None},
+            for key, path in [('sources', sources), ('base_sources', base_sources), ('calibration', calibration)] if path is not None},
         'sources_snapshot_note': 'Audit snapshot; reproduce using build_inputs and the same base_sources adoption to retain pilot-only recipes.',
         'roots_sha256': sorted({e['root_sha256'] for e in entries.values()}),
         'source_em_policy': 'Per-role source_em_pixels; uniform registration before UPM conversion.',
         'glyph_order': order, 'cmap': {f'U+{cp:04X}': n for cp, n in sorted(cmap.items())},
-        'math_constants': CONSTANTS, 'italic_corrections': italic, 'top_accent_attachments': accents,
+        'math_constants': constants, 'italic_corrections': italic, 'top_accent_attachments': accents,
+        **({'optical_grid': {'profile_sha256':sha(calibration), 'font_metrics':line_metrics,
+            'method':'Explicit anatomy landmarks and isotropic optical correction after immutable source registration.'}} if profile else {}),
         'derived_recipes': recipes,
         'math_script_declaration': f'GPOS math/dflt zero {first}-{first} pair; empty GSUB math/dflt; no substitutions',
         'limitations': ['Explicit authored source availability is not design acceptance or complete AMS coverage.',
@@ -351,8 +382,9 @@ def main():
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--sources', type=Path)
     p.add_argument('--base-sources', type=Path)
+    p.add_argument('--calibration', type=Path)
     args = p.parse_args()
-    manifest = build(args.output, args.sources, args.base_sources)
+    manifest = build(args.output, args.sources, args.base_sources, args.calibration)
     print(json.dumps({'font': str(args.output / FONT_NAME), 'glyph_count': len(manifest['glyph_order']),
         'mapped_scalar_count': len(manifest['cmap']), 'manifest': str(args.output / 'build-manifest.json')}))
 

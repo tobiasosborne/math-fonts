@@ -1,0 +1,132 @@
+{
+  "status": "passed_grid_landmarks_not_final_optical_acceptance",
+  "font_sha256": "d8243c32fb19fdf3895ef46a9249f96d11bf2eb43db0b6a56c6bd793b55e7566",
+  "profile_sha256": "7bba83e2f6d8b5aee16562b56f49b8876ebf8ae023560f98c916c503de5c9d8c",
+  "glyphs": {
+    "alpha": {
+      "before_bounds_upm": [
+        40.00000472299098,
+        18.94766282721838,
+        774.46337890625,
+        528.2978278798397
+      ],
+      "after_bounds_upm": [
+        40.00001040192228,
+        -17.999984573236304,
+        752.3290557861328,
+        476.0000059486031
+      ],
+      "landmark_residuals_upm": {
+        "body_bottom": 1.542676369581386e-05,
+        "top": 5.948603075012215e-06
+      },
+      "uniform_scale": 0.9698632373054489,
+      "translate_y": -36.37664160897813
+    },
+    "beta": {
+      "before_bounds_upm": [
+        40.00004577636719,
+        -147.1544189453125,
+        699.1791898098378,
+        741.1178500435855
+      ],
+      "after_bounds_upm": [
+        40.0,
+        -194.06930541992188,
+        736.1330958185389,
+        743.9999957716701
+      ],
+      "landmark_residuals_upm": {
+        "body_bottom": -1.2542853369268414e-06,
+        "top": -4.228329885336279e-06
+      },
+      "uniform_scale": 1.056060556630768,
+      "translate_y": -38.66532924602677
+    },
+    "theta": {
+      "before_bounds_upm": [
+        39.999994474283795,
+        -26.05053040017333,
+        631.3668495262518,
+        727.7918386743764
+      ],
+      "after_bounds_upm": [
+        39.99999636734523,
+        -18.00002690533597,
+        637.7662748213863,
+        743.9999734595012
+      ],
+      "landmark_residuals_upm": {
+        "body_bottom": -2.6905335971605382e-05,
+        "top": -2.654049876582576e-05
+      },
+      "uniform_scale": 1.0108214014761003,
+      "translate_y": 8.332433648298963
+    },
+    "nu": {
+      "before_bounds_upm": [
+        39.99999337527869,
+        1.7915279654124434,
+        580.7817489098684,
+        502.79573587540915
+      ],
+      "after_bounds_upm": [
+        39.99997426474052,
+        -18.000003151483583,
+        573.221411594414,
+        476.00001140704455
+      ],
+      "landmark_residuals_upm": {
+        "body_bottom": -3.151483582541914e-06,
+        "top": 1.140704455337982e-05
+      },
+      "uniform_scale": 0.9860196625109884,
+      "translate_y": -19.766481799834974
+    },
+    "xi": {
+      "before_bounds_upm": [
+        39.99996984713508,
+        -106.3829329230852,
+        561.9912606685857,
+        816.7106861853196
+      ],
+      "after_bounds_upm": [
+        40.00002452574252,
+        -209.91731181125192,
+        579.4214557521295,
+        744.0000279375072
+      ],
+      "landmark_residuals_upm": {
+        "body_bottom": 1.52587890625e-05,
+        "top": 2.7937507184105925e-05
+      },
+      "uniform_scale": 1.0333917157801802,
+      "translate_y": -99.9820572930556
+    },
+    "omega": {
+      "before_bounds_upm": [
+        39.99999461476326,
+        26.09943869673455,
+        758.3232694483245,
+        484.20066716542186
+      ],
+      "after_bounds_upm": [
+        40.000001658799555,
+        -18.000098982733654,
+        814.61412563607,
+        475.9999726024625
+      ],
+      "landmark_residuals_upm": {
+        "body_bottom": -9.898273365394061e-05,
+        "top": -2.739753750802265e-05
+      },
+      "uniform_scale": 1.0783642769335346,
+      "translate_y": -46.144702338575264
+    }
+  },
+  "tolerance_upm": 0.02,
+  "caveats": [
+    "Six reviewed Greek only; new anatomy requires explicit landmark review.",
+    "Slant, stroke weight, italic corrections and spacing still require optical work."
+  ]
+}

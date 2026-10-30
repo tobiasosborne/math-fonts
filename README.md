@@ -18,6 +18,8 @@ backup remain local. Historical links below may require the original workspace.
 
 ## Active entry points
 
+- **[Greek/text grid correction](runs/greek-grid-2026-10-30/README.md):** measured
+  italic baselines/heights, explicit optical calibration and before/after proofs.
 - **[AMS expansion and shared arrow family](runs/ams-coverage-2026-10-30/README.md):**
   34 consistent authored arrows, explicit native Greek alternates, exact source
   routing and real both-engine mathematical proofs. Full AMS coverage is ongoing.

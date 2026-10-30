@@ -6,6 +6,12 @@ design acceptance. It supports arbitrary explicitly sourced roles, including all
 32 lowercase Greek/variant targets and both native/italic Unicode mappings.
 The exporter does not draw new designs or infer semantic aliases.
 
+For new Greek work, use an explicit `--calibration` profile measured against
+the text grid. The [Greek grid method](greek-text-grid.md) separates that optical
+correction from source registration. The lower-level exporter still permits an
+uncalibrated build for historical reproduction; the end-to-end AMS runner now
+requires calibration or its explicit historical-reproduction flag.
+
 ```sh
 .venv/bin/python tools/build_math_ams.py \
   --base-sources runs/pipeline-2026-10-30/font-sources.json \

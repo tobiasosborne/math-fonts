@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "font": "font/BaskervilleCompanionMath-AMS.otf",
+  "font_sha256": "d8243c32fb19fdf3895ef46a9249f96d11bf2eb43db0b6a56c6bd793b55e7566",
+  "glyph_count": 67,
+  "source_inputs": [
+    "runs/ams-coverage-2026-10-30/arrows-v1/sources.json"
+  ],
+  "base_sources": "runs/pipeline-2026-10-30/font-sources.json",
+  "runtime_summary": "runtime/runtime-summary.json",
+  "coverage_claim": "Only explicitly audited rendered commands; full AMS unfinished."
+}

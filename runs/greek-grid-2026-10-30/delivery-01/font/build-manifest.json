@@ -1,0 +1,3307 @@
+{
+  "schema_version": 1,
+  "font": "BaskervilleCompanionMath-AMS.otf",
+  "font_sha256": "d8243c32fb19fdf3895ef46a9249f96d11bf2eb43db0b6a56c6bd793b55e7566",
+  "license": "AGPL-3.0-or-later",
+  "units_per_em": 1000,
+  "glyphs": {
+    "alpha": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/alpha/trace/curves.json",
+      "source_crop_box": [
+        776,
+        22,
+        1000,
+        217
+      ],
+      "baseline_root": 197,
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.13826355448212269,
+        "translate_x": 790.8924927183318,
+        "translate_y": 58.134091079448794
+      },
+      "name": "alpha",
+      "codepoints": [
+        945,
+        120572
+      ],
+      "kind": "greek",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "d0ce5f358d862277735b51d68350828725149f1050214c2bd97c3a68cd842f6e",
+      "root_image_verified": true,
+      "contour_count": 2,
+      "bounds_upm": [
+        40.0,
+        -17.99999485151713,
+        752.3290330389095,
+        476.0000100327146
+      ],
+      "advance_upm": 792,
+      "outline_signature_sha256": "ffd78ddf456dac75fc92a81b7563d31ec53e9176409e8253bf19c97ee3b96083",
+      "retained_pilot_engineering": true,
+      "optical_grid_calibration": {
+        "class": "x_height_body",
+        "source_curves_sha256": "d0ce5f358d862277735b51d68350828725149f1050214c2bd97c3a68cd842f6e",
+        "before_bounds_upm": [
+          40.00000472299098,
+          18.94766282721838,
+          774.46337890625,
+          528.2978278798397
+        ],
+        "landmarks_before": {
+          "body_bottom": 18.94766282721838,
+          "top": 528.2978278798397,
+          "selector": "Actual lower/upper curve extrema; non-descending anatomy."
+        },
+        "targets": {
+          "body_bottom": -18.0,
+          "top": 476.0
+        },
+        "uniform_scale": 0.9698632373054489,
+        "translate_y": -36.37664160897813,
+        "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+        "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+      }
+    },
+    "arrow_double_down": {
+      "codepoints": [
+        8659
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_double_down/curves.json",
+      "curves_sha256": "55b6b673b350838e674d9fce4ac1f2b1d1d84823e0e0006bb564ea2c23bf70d8",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_down",
+          "codepoint": 8659,
+          "angle": 270,
+          "ends": "right",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -228.58752400000003,
+        410.7641900000001,
+        650.0
+      ],
+      "advance_upm": 471,
+      "outline_signature_sha256": "63b052c2152bf3d1913497a04418a414b066cb44d2acd2dee78f2b5bbdeb5db2",
+      "retained_pilot_engineering": false
+    },
+    "arrow_double_left": {
+      "codepoints": [
+        8656
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_double_left/curves.json",
+      "curves_sha256": "d429b27eb9d66e4306f0c13ba10e90dac320697056c6fd3dc44a540919ef5f59",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_left",
+          "codepoint": 8656,
+          "angle": 180,
+          "ends": "right",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        938.587524,
+        425.382095
+      ],
+      "advance_upm": 999,
+      "outline_signature_sha256": "23f86d357dcbf658e9f6259012322c4be145017597fbd28d1656a7daea0b9a02",
+      "retained_pilot_engineering": false
+    },
+    "arrow_double_leftright": {
+      "codepoints": [
+        8660
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_double_leftright/curves.json",
+      "curves_sha256": "e59b09283a2e6fbf7911a3aac60f11f6b4cabaf2e43b28bb950d3e9f1043158d",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_leftright",
+          "codepoint": 8660,
+          "angle": 0,
+          "ends": "both",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 2,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        1017.1750480000001,
+        425.382095
+      ],
+      "advance_upm": 1077,
+      "outline_signature_sha256": "af2e828c87ca7aa9ccfea133cd2796def92475fb2310150e5d95e0adf1d3a818",
+      "retained_pilot_engineering": false
+    },
+    "arrow_double_right": {
+      "codepoints": [
+        8658
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_double_right/curves.json",
+      "curves_sha256": "e14f06709400da5245c5f69b23e004b5846bc19023d9ce7df16876f17d15dc89",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_right",
+          "codepoint": 8658,
+          "angle": 0,
+          "ends": "right",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        938.587524,
+        425.382095
+      ],
+      "advance_upm": 999,
+      "outline_signature_sha256": "b5717df9bede9b49c334632f9eac9fbb638f80631861f439703cf52075c7273f",
+      "retained_pilot_engineering": false
+    },
+    "arrow_double_up": {
+      "codepoints": [
+        8657
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_double_up/curves.json",
+      "curves_sha256": "dbded9e5fa978643410e2924adea9b2ddf8c1593fd02f88ed141c06d2ee5e254",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_up",
+          "codepoint": 8657,
+          "angle": 90,
+          "ends": "right",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -150.0,
+        410.7641900000001,
+        728.587524
+      ],
+      "advance_upm": 471,
+      "outline_signature_sha256": "25e3a60c524e98173401719dad02e08cbbe3fc723cbdb2db84d69fc6048bc693",
+      "retained_pilot_engineering": false
+    },
+    "arrow_double_updown": {
+      "codepoints": [
+        8661
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_double_updown/curves.json",
+      "curves_sha256": "a432004898167424d4fb2f988238ee0e7e04745af189414c1d354d67ad611a84",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_updown",
+          "codepoint": 8661,
+          "angle": 90,
+          "ends": "both",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 2,
+      "bounds_upm": [
+        60.0,
+        -228.58752400000003,
+        410.7641900000001,
+        728.587524
+      ],
+      "advance_upm": 471,
+      "outline_signature_sha256": "d0a67e36f795fcfb16da961477789a4ef3b64071b5e22fd683751570861c703c",
+      "retained_pilot_engineering": false
+    },
+    "arrow_down": {
+      "codepoints": [
+        8595
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_down/curves.json",
+      "curves_sha256": "d0cb5330953a165bf4c95e59c8db116c05e15241e11f505a0909b229944c69db",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_down",
+          "codepoint": 8595,
+          "angle": 270,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -228.58752400000003,
+        410.7641900000001,
+        650.0
+      ],
+      "advance_upm": 471,
+      "outline_signature_sha256": "8c279463697941936f32a32d744909e77ec488d4c6f9a346c4505ac016b6c928",
+      "retained_pilot_engineering": false
+    },
+    "arrow_frombar_down": {
+      "codepoints": [
+        8615
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_frombar_down/curves.json",
+      "curves_sha256": "403f65c54107fedc9e5f3d1f64d2766bb2689c3dd79cff3ddbdb57a16f0d1ebf",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_frombar_down",
+          "codepoint": 8615,
+          "angle": 270,
+          "ends": "right",
+          "bar": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -228.58752400000003,
+        410.7641900000001,
+        670.0
+      ],
+      "advance_upm": 471,
+      "outline_signature_sha256": "b70f24a9ad3585658a65bb7806c5361aa485fbb78bb07cfe3643092744b4f365",
+      "retained_pilot_engineering": false
+    },
+    "arrow_frombar_left": {
+      "codepoints": [
+        8612
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_frombar_left/curves.json",
+      "curves_sha256": "dbcf3792557aacc2936faeabf10a36679df8d7915024f4bdbba12e3e6c6c2072",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_frombar_left",
+          "codepoint": 8612,
+          "angle": 180,
+          "ends": "right",
+          "bar": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        958.587524,
+        425.382095
+      ],
+      "advance_upm": 1019,
+      "outline_signature_sha256": "a2c15836e99234fe5d604b998448524bfb3e5c5ee5f56b14786f82dea3c3f979",
+      "retained_pilot_engineering": false
+    },
+    "arrow_frombar_right": {
+      "codepoints": [
+        8614
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_frombar_right/curves.json",
+      "curves_sha256": "d6490156508b4b5b434d10a1f924319b1595f2526c5c6c9161788001ee3ddf06",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_frombar_right",
+          "codepoint": 8614,
+          "angle": 0,
+          "ends": "right",
+          "bar": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        958.587524,
+        425.382095
+      ],
+      "advance_upm": 1019,
+      "outline_signature_sha256": "4cd9ccd1b46f07bd38a037bb43741367018fc9c131cc3ea1dbbf16930bdd6a92",
+      "retained_pilot_engineering": false
+    },
+    "arrow_frombar_up": {
+      "codepoints": [
+        8613
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_frombar_up/curves.json",
+      "curves_sha256": "75a6de85d7a37ff4069c61d6e11fa81dfc330f8880e2c7bc897b71767dba7e1c",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_frombar_up",
+          "codepoint": 8613,
+          "angle": 90,
+          "ends": "right",
+          "bar": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -170.0,
+        410.7641900000001,
+        728.587524
+      ],
+      "advance_upm": 471,
+      "outline_signature_sha256": "9ed774080f5c7e3eaeb21b2b3dd5abb3fdcfa3438cea62510ef20905cf094539",
+      "retained_pilot_engineering": false
+    },
+    "arrow_left": {
+      "codepoints": [
+        8592
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_left/curves.json",
+      "curves_sha256": "f941a8fb157042765d482f2497b146c91c969db5d35c8db27fe70d50a3f5883c",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_left",
+          "codepoint": 8592,
+          "angle": 180,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        938.587524,
+        425.382095
+      ],
+      "advance_upm": 999,
+      "outline_signature_sha256": "70a8d8e3833bc36829b17c8dcc1c765c86d966a99c6d9d556da12b2d0977f413",
+      "retained_pilot_engineering": false
+    },
+    "arrow_leftright": {
+      "codepoints": [
+        8596
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_leftright/curves.json",
+      "curves_sha256": "20e489ba282118ec56df6d50acd2d9d2ef14af7914a0177d7185df32df229868",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_leftright",
+          "codepoint": 8596,
+          "angle": 0,
+          "ends": "both"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        1017.1750480000001,
+        425.382095
+      ],
+      "advance_upm": 1077,
+      "outline_signature_sha256": "a2079677d92539ccdd71aefcf3a0ea172a3d47d26faae51af9b801c07bdefd55",
+      "retained_pilot_engineering": false
+    },
+    "arrow_long_double_left": {
+      "codepoints": [
+        10232
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_long_double_left/curves.json",
+      "curves_sha256": "e0a1bfa1bd6cdc9462eed55e998ade64fd3452cec5b0b197aac922bb6fa13674",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_double_left",
+          "codepoint": 10232,
+          "angle": 180,
+          "ends": "right",
+          "long": true,
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        1538.587524,
+        425.382095
+      ],
+      "advance_upm": 1599,
+      "outline_signature_sha256": "2e49cf4657dfe9810bf1dc9bd30997761aa2ec38ab330848c38c49b32bfb0b9d",
+      "retained_pilot_engineering": false
+    },
+    "arrow_long_double_leftright": {
+      "codepoints": [
+        10234
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_long_double_leftright/curves.json",
+      "curves_sha256": "f3ed22b6bb89b73b0de5266c55da27d0d72091fefe4650b6f16d3bd55df18ad2",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_double_leftright",
+          "codepoint": 10234,
+          "angle": 0,
+          "ends": "both",
+          "long": true,
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 2,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        1617.175048,
+        425.382095
+      ],
+      "advance_upm": 1677,
+      "outline_signature_sha256": "8b0be7962aac6532c1375a4b339663d1a0912a67200cd0ea00a2e0ac850347e6",
+      "retained_pilot_engineering": false
+    },
+    "arrow_long_double_right": {
+      "codepoints": [
+        10233
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_long_double_right/curves.json",
+      "curves_sha256": "0862ea5be787b2682262aaf2094fbffce536e4a4e28b05cdd72d8c79153be705",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_double_right",
+          "codepoint": 10233,
+          "angle": 0,
+          "ends": "right",
+          "long": true,
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        1538.587524,
+        425.382095
+      ],
+      "advance_upm": 1599,
+      "outline_signature_sha256": "04bff9e57c90607c6fe7c2dca4cc61c74d8ec60699e2dd312ef2a0b3c2bb7f0b",
+      "retained_pilot_engineering": false
+    },
+    "arrow_long_left": {
+      "codepoints": [
+        10229
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_long_left/curves.json",
+      "curves_sha256": "3f3907a27c6f3b8145cad83b2acf15fa23c0b19d09935acfd61cb2fea7e02b24",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_left",
+          "codepoint": 10229,
+          "angle": 180,
+          "ends": "right",
+          "long": true,
+          "double": false
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        1538.587524,
+        425.382095
+      ],
+      "advance_upm": 1599,
+      "outline_signature_sha256": "f0c5452bf680faa96a86df5d3806758b70beccbfb10b89291cc760a7a4b64e94",
+      "retained_pilot_engineering": false
+    },
+    "arrow_long_leftright": {
+      "codepoints": [
+        10231
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_long_leftright/curves.json",
+      "curves_sha256": "08cb3fa3d483847cf6115788484bede426c2377556b2694c80018705d5a3b58e",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_leftright",
+          "codepoint": 10231,
+          "angle": 0,
+          "ends": "both",
+          "long": true,
+          "double": false
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        1617.175048,
+        425.382095
+      ],
+      "advance_upm": 1677,
+      "outline_signature_sha256": "4c65e04d49a45360fe13d98625f8da4239656a725735a5aa33fe79c4829e2ccb",
+      "retained_pilot_engineering": false
+    },
+    "arrow_long_right": {
+      "codepoints": [
+        10230
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_long_right/curves.json",
+      "curves_sha256": "40da4489c8ebee0a70a6c548254b0c3f16480092582a63f30cea67ca9522e1e7",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_right",
+          "codepoint": 10230,
+          "angle": 0,
+          "ends": "right",
+          "long": true,
+          "double": false
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        1538.587524,
+        425.382095
+      ],
+      "advance_upm": 1599,
+      "outline_signature_sha256": "4456ca80da1a4b77a69448e70028c447d909f87e5bf2dc458c7e8e41d223cca1",
+      "retained_pilot_engineering": false
+    },
+    "arrow_northeast": {
+      "codepoints": [
+        8599
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_northeast/curves.json",
+      "curves_sha256": "1b259bc5c8c544b41d2192de6f1aeb66cd7ddb6b68debc7d5dd2c20a82b797ec",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_northeast",
+          "codepoint": 8599,
+          "angle": 45,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -46.98486300000002,
+        695.397339,
+        588.412476
+      ],
+      "advance_upm": 755,
+      "outline_signature_sha256": "a213493c86065913f2cafbc5a6b2aafd7ddb12bb5d552fa1c5047a81e1d3f5e9",
+      "retained_pilot_engineering": false
+    },
+    "arrow_northwest": {
+      "codepoints": [
+        8598
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_northwest/curves.json",
+      "curves_sha256": "2e9de4b6b3bbdabec5c350755e88ff4e31a19bf055776e92dc3ee1016d775177",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_northwest",
+          "codepoint": 8598,
+          "angle": 135,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -46.98486300000002,
+        695.3973389999999,
+        588.412476
+      ],
+      "advance_upm": 755,
+      "outline_signature_sha256": "6f1812f08bbc1d3ef3303db7b5825a3b20b35d3dd9f631e74b72e2c111f7dc8e",
+      "retained_pilot_engineering": false
+    },
+    "arrow_right": {
+      "codepoints": [
+        8594
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_right/curves.json",
+      "curves_sha256": "fdd1b96863eb3c7ca2c28f8695a53dc2d17f911b15d64a01853cc8aeecf615f2",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_right",
+          "codepoint": 8594,
+          "angle": 0,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        938.587524,
+        425.382095
+      ],
+      "advance_upm": 999,
+      "outline_signature_sha256": "bede019189ec7788d191cecc7d24276b6007d76df5cf0c2beb33a4aa3a7317fc",
+      "retained_pilot_engineering": false
+    },
+    "arrow_southeast": {
+      "codepoints": [
+        8600
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_southeast/curves.json",
+      "curves_sha256": "8d43e91db0afb6547e053827154043959e057f38c8e31de04831d5355a8102c7",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_southeast",
+          "codepoint": 8600,
+          "angle": 315,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -88.41247599999997,
+        695.397339,
+        546.984863
+      ],
+      "advance_upm": 755,
+      "outline_signature_sha256": "d7b49baffad5efd2838f1430a2b0c7a3987b9d8aa12fa8a90da0aaaec813e5e8",
+      "retained_pilot_engineering": false
+    },
+    "arrow_southwest": {
+      "codepoints": [
+        8601
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_southwest/curves.json",
+      "curves_sha256": "7e9d5b83b2e1f26911e5d6fb326c5f9e05d0330b625c5cb58413f07daf0421a3",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_southwest",
+          "codepoint": 8601,
+          "angle": 225,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -88.41247599999997,
+        695.3973389999999,
+        546.984863
+      ],
+      "advance_upm": 755,
+      "outline_signature_sha256": "57107538927b2b9b9054018a4f4990b6e9895398ea5d317cdc753d9a6d4dc5f2",
+      "retained_pilot_engineering": false
+    },
+    "arrow_up": {
+      "codepoints": [
+        8593
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_up/curves.json",
+      "curves_sha256": "caf5f648676c0f5876bbe7fe71199b291dfe788d712308f9a1044b0bdbf28335",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_up",
+          "codepoint": 8593,
+          "angle": 90,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -150.0,
+        410.7641900000001,
+        728.587524
+      ],
+      "advance_upm": 471,
+      "outline_signature_sha256": "4ff8bb8d8e82af2e31b62ede4f151161aaff87f1afab1f06b021c3dd8df04139",
+      "retained_pilot_engineering": false
+    },
+    "arrow_updown": {
+      "codepoints": [
+        8597
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/arrow_updown/curves.json",
+      "curves_sha256": "09f5f862eb0504adb6379823fc51b6a0fed327bca7abf77847f71742d19a6564",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_updown",
+          "codepoint": 8597,
+          "angle": 90,
+          "ends": "both"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -228.58752400000003,
+        410.7641900000001,
+        728.587524
+      ],
+      "advance_upm": 471,
+      "outline_signature_sha256": "908e90fc6ca65389af4289fcc370c946a30ffefbcbfcefc7e8f471d4a6b5f9db",
+      "retained_pilot_engineering": false
+    },
+    "beta": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/beta/trace/curves.json",
+      "source_crop_box": [
+        776,
+        277,
+        1000,
+        480
+      ],
+      "baseline_root": 445,
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.17131752033753359,
+        "translate_x": 783.836991490595,
+        "translate_y": 276.55914636264214
+      },
+      "name": "beta",
+      "codepoints": [
+        946,
+        120573
+      ],
+      "kind": "greek",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "f90a20d44ff159d7939f54ddf45b255ecdae59680de1b9dd608893177f03a4e6",
+      "root_image_verified": true,
+      "contour_count": 2,
+      "bounds_upm": [
+        40.0,
+        -194.06929924257105,
+        736.1331227993132,
+        743.9999928685722
+      ],
+      "advance_upm": 776,
+      "outline_signature_sha256": "a7696ed2c76444ed9c9ddeda82a531c3c43d6b89ce95d7bcc62bc4e778c8ee9e",
+      "retained_pilot_engineering": true,
+      "optical_grid_calibration": {
+        "class": "tall_descending",
+        "source_curves_sha256": "f90a20d44ff159d7939f54ddf45b255ecdae59680de1b9dd608893177f03a4e6",
+        "before_bounds_upm": [
+          40.00004577636719,
+          -147.1544189453125,
+          699.1791898098378,
+          741.1178500435855
+        ],
+        "landmarks_before": {
+          "body_bottom": 19.568318422910306,
+          "top": 741.1178500435855,
+          "selector": {
+            "operation": 10,
+            "kind": "outer_lower_bowl_y_min",
+            "start": [
+              454.5453186035156,
+              40.60923767089844
+            ],
+            "controls": [
+              [
+                356.9535827636719,
+                1.839813232421875
+              ],
+              [
+                268.4634246826172,
+                17.577346801757812
+              ],
+              [
+                232.25990295410156,
+                80.1416015625
+              ]
+            ]
+          }
+        },
+        "targets": {
+          "body_bottom": -18.0,
+          "top": 744
+        },
+        "uniform_scale": 1.056060556630768,
+        "translate_y": -38.66532924602677,
+        "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+        "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+      }
+    },
+    "equals": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/equals/curves.json",
+      "source_crop_box": [
+        524,
+        792,
+        752,
+        971
+      ],
+      "baseline_root": 950,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "equals",
+      "codepoints": [
+        61
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 524,
+        "translate_y": 792
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "fef39e426ce91e3b436af9991eedd31ea9298037f2c256be3eb9093bcd95807e",
+      "root_image_verified": true,
+      "contour_count": 2,
+      "bounds_upm": [
+        60.0,
+        200.0,
+        655.0,
+        445.0
+      ],
+      "advance_upm": 715,
+      "outline_signature_sha256": "3ffa3101b062f9267ebeac69a9fbddb4c7df408ebcc54321c0bd2c5a26efa26d",
+      "retained_pilot_engineering": true
+    },
+    "harpoon_down_left": {
+      "codepoints": [
+        8643
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/harpoon_down_left/curves.json",
+      "curves_sha256": "9d3230ae27878528575b3f042bd2a47202a3f2ee80be9a5617851076ebf58f6b",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_down_left",
+          "codepoint": 8643,
+          "angle": 270,
+          "ends": "right",
+          "half_head": "lower"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -155.089874,
+        255.38209500000005,
+        650.0
+      ],
+      "advance_upm": 315,
+      "outline_signature_sha256": "2517d546630b18ceca4fdbbe049b58cf11af03c5397555dc1112ed5c3b7a498b",
+      "retained_pilot_engineering": false
+    },
+    "harpoon_down_right": {
+      "codepoints": [
+        8642
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/harpoon_down_right/curves.json",
+      "curves_sha256": "1b2849884781d8f03c1456f40bc973bb52a83586f4d714d9e0dd00ecd0322603",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_down_right",
+          "codepoint": 8642,
+          "angle": 270,
+          "ends": "right",
+          "half_head": "upper"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -155.089874,
+        255.38209500000005,
+        650.0
+      ],
+      "advance_upm": 315,
+      "outline_signature_sha256": "6b882a9980ed08aa51b3fc0e89b80e44c5cf3ec2b489b574706a72452fec872e",
+      "retained_pilot_engineering": false
+    },
+    "harpoon_left_down": {
+      "codepoints": [
+        8637
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/harpoon_left_down/curves.json",
+      "curves_sha256": "7e3d72f3335269b0138c146445854a0ede5c336b744ce18b95c4f9cddb2bec32",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_left_down",
+          "codepoint": 8637,
+          "angle": 180,
+          "ends": "right",
+          "half_head": "upper"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        865.089874,
+        270.0
+      ],
+      "advance_upm": 925,
+      "outline_signature_sha256": "7634fa59e34bea4e08fdcff5ef779583a556e30caa0a2c82a48d7c23416d66f9",
+      "retained_pilot_engineering": false
+    },
+    "harpoon_left_up": {
+      "codepoints": [
+        8636
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/harpoon_left_up/curves.json",
+      "curves_sha256": "ceb310e5dc948d8083fbc888916a60ff141cc416c20b2de2f14c0d8bf31bf237",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_left_up",
+          "codepoint": 8636,
+          "angle": 180,
+          "ends": "right",
+          "half_head": "lower"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        230.0,
+        865.089874,
+        425.382095
+      ],
+      "advance_upm": 925,
+      "outline_signature_sha256": "7cc08486f9749d5236803a31d6723b2c634b6701aa785bf97cea11be3dc2200f",
+      "retained_pilot_engineering": false
+    },
+    "harpoon_right_down": {
+      "codepoints": [
+        8641
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/harpoon_right_down/curves.json",
+      "curves_sha256": "f7f4118bb0921fb07e4e62710208a7a9c977c08246a1210d8b80f655e168ff59",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_right_down",
+          "codepoint": 8641,
+          "angle": 0,
+          "ends": "right",
+          "half_head": "lower"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        74.61790499999995,
+        865.089874,
+        270.0
+      ],
+      "advance_upm": 925,
+      "outline_signature_sha256": "7416211ec8a3aa11348d805518462b0f22b1c3d9410ce7c775e8a2727e941a63",
+      "retained_pilot_engineering": false
+    },
+    "harpoon_right_up": {
+      "codepoints": [
+        8640
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/harpoon_right_up/curves.json",
+      "curves_sha256": "e8fbdd13e55ebf009fbbbaaa3e1ebb07eaefc52c8d109156b27b7bef7daa233f",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_right_up",
+          "codepoint": 8640,
+          "angle": 0,
+          "ends": "right",
+          "half_head": "upper"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        230.0,
+        865.089874,
+        425.382095
+      ],
+      "advance_upm": 925,
+      "outline_signature_sha256": "c3e05a289ac14f567fef67a2f90b2ff6a6bc3c9ba734918bdc2aeff497eb772a",
+      "retained_pilot_engineering": false
+    },
+    "harpoon_up_left": {
+      "codepoints": [
+        8639
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/harpoon_up_left/curves.json",
+      "curves_sha256": "6861844498336fe64d2a396d2a3184daba0ef7a7cca62becae4d5be426155080",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_up_left",
+          "codepoint": 8639,
+          "angle": 90,
+          "ends": "right",
+          "half_head": "upper"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -150.0,
+        255.38209500000005,
+        655.089874
+      ],
+      "advance_upm": 315,
+      "outline_signature_sha256": "07eecc2a6d7f03fa58215df28ddde28a3e03c80512196679686c59f129e31b83",
+      "retained_pilot_engineering": false
+    },
+    "harpoon_up_right": {
+      "codepoints": [
+        8638
+      ],
+      "kind": "symbol",
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/arrows-v1/harpoon_up_right/curves.json",
+      "curves_sha256": "41c656a04ea19e27afd24df11db00bf6f1726fe1e611cd901a266fe241a9930e",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_up_right",
+          "codepoint": 8638,
+          "angle": 90,
+          "ends": "right",
+          "half_head": "lower"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -150.0,
+        255.38209500000005,
+        655.089874
+      ],
+      "advance_upm": 315,
+      "outline_signature_sha256": "145d73699088bf41b546f272637808412aac6a28a06ba1574e0f6b26486533fc",
+      "retained_pilot_engineering": false
+    },
+    "hat-accent": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/hat-accent/curves.json",
+      "source_crop_box": [
+        524,
+        1308,
+        752,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "hat-accent",
+      "codepoints": [
+        770
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 524,
+        "translate_y": 1308
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "0b74c052c73ab2ddffa7070b1c04fcfa6225c319936c8a951444bca5a1c3ae7b",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        525.0,
+        462.7261837052616,
+        698.8467228867837
+      ],
+      "advance_upm": 523,
+      "outline_signature_sha256": "df2f0fc3b18f66ea668ee9c05c6c4e70b90f243fe530698983f69f9a8487561a",
+      "retained_pilot_engineering": true
+    },
+    "integral": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/integral/curves.json",
+      "source_crop_box": [
+        272,
+        1037,
+        500,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "integral",
+      "codepoints": [
+        8747
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 272,
+        "translate_y": 1037
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "28f153a809eea8012274ace9df15656950a4224128eda29807e83e11b2648de5",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.00000000000002,
+        -79.72222633682702,
+        602.9536173704462,
+        884.9514248366818
+      ],
+      "advance_upm": 663,
+      "outline_signature_sha256": "820d5d9b833f155c0b7d481a2e06794b2b4e02003275cd421b1dd107e5355d76",
+      "retained_pilot_engineering": true
+    },
+    "left-paren": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/left-paren/curves.json",
+      "source_crop_box": [
+        23,
+        1308,
+        248,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "left-paren",
+      "codepoints": [
+        40
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 23,
+        "translate_y": 1308
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "1c65621c95f1d6bdff768233f84bbca09b7fc5be112167d54383288d989eaec1",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -70.0,
+        295.7658000145756,
+        652.8623399183701
+      ],
+      "advance_upm": 356,
+      "outline_signature_sha256": "bbf9e07695cf0716f0926b8674db588666d7f558b081dcb32ec7ffb30f63948f",
+      "retained_pilot_engineering": true
+    },
+    "minus": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/minus/curves.json",
+      "source_crop_box": [
+        272,
+        792,
+        500,
+        971
+      ],
+      "baseline_root": 950,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "minus",
+      "codepoints": [
+        8722
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 272,
+        "translate_y": 792
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "9a2c500701d5865054de5265bb2d9afd335a81d16f9ef3bf7c690cd727c92f82",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        305.0,
+        655.0,
+        355.0
+      ],
+      "advance_upm": 715,
+      "outline_signature_sha256": "59c18c9a5a8f9ae1c292946889c415ab920997b4754c7e79c38b496fe6fecc41",
+      "retained_pilot_engineering": true
+    },
+    "nu": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/nu/trace/curves.json",
+      "source_crop_box": [
+        776,
+        792,
+        1000,
+        971
+      ],
+      "baseline_root": 950,
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.12991691702994468,
+        "translate_x": 810.6279900793553,
+        "translate_y": 815.3243831191794
+      },
+      "name": "nu",
+      "codepoints": [
+        957,
+        120584
+      ],
+      "kind": "greek",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "3e415e04ebba54a7063c58303ef35e529cb6efa856f22f1020949b99a5824e2c",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        40.0,
+        -18.00001479246037,
+        573.2214328758768,
+        475.99998927239034
+      ],
+      "advance_upm": 613,
+      "outline_signature_sha256": "e9078e4990b48c4745ec668a536c84e8014ca163f98f0a9233ac32e971000065",
+      "retained_pilot_engineering": true,
+      "optical_grid_calibration": {
+        "class": "x_height_body",
+        "source_curves_sha256": "3e415e04ebba54a7063c58303ef35e529cb6efa856f22f1020949b99a5824e2c",
+        "before_bounds_upm": [
+          39.99999337527869,
+          1.7915279654124434,
+          580.7817489098684,
+          502.79573587540915
+        ],
+        "landmarks_before": {
+          "body_bottom": 1.7915279654124434,
+          "top": 502.79573587540915,
+          "selector": "Actual lower/upper curve extrema; non-descending anatomy."
+        },
+        "targets": {
+          "body_bottom": -18.0,
+          "top": 476.0
+        },
+        "uniform_scale": 0.9860196625109884,
+        "translate_y": -19.766481799834974,
+        "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+        "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+      }
+    },
+    "omega": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/omega/trace/curves.json",
+      "source_crop_box": [
+        776,
+        1308,
+        1000,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.12479974697565477,
+        "translate_x": 798.355242697854,
+        "translate_y": 1328.8584384392395
+      },
+      "name": "omega",
+      "codepoints": [
+        969,
+        120596
+      ],
+      "kind": "greek",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "2b67a47a8f07cad20efeeb06d492183da29dc05fb1a8399bb4bbdd0c0d9b7277",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        40.0,
+        -18.000042754663923,
+        814.6141675944369,
+        475.9999953452767
+      ],
+      "advance_upm": 855,
+      "outline_signature_sha256": "62f9833b505158f3d9031f58f547757e198ed2bbe0b8ea64add1711401c4c8b8",
+      "retained_pilot_engineering": true,
+      "optical_grid_calibration": {
+        "class": "x_height_body",
+        "source_curves_sha256": "2b67a47a8f07cad20efeeb06d492183da29dc05fb1a8399bb4bbdd0c0d9b7277",
+        "before_bounds_upm": [
+          39.99999461476326,
+          26.09943869673455,
+          758.3232694483245,
+          484.20066716542186
+        ],
+        "landmarks_before": {
+          "body_bottom": 26.09943869673455,
+          "top": 484.20066716542186,
+          "selector": "Actual lower/upper curve extrema; non-descending anatomy."
+        },
+        "targets": {
+          "body_bottom": -18.0,
+          "top": 476.0
+        },
+        "uniform_scale": 1.0783642769335346,
+        "translate_y": -46.144702338575264,
+        "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+        "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+      }
+    },
+    "plus": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/plus/curves.json",
+      "source_crop_box": [
+        23,
+        792,
+        248,
+        971
+      ],
+      "baseline_root": 950,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "plus",
+      "codepoints": [
+        43
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 23,
+        "translate_y": 792
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "27bf022d429c2437a788148ec520ed3d3397da653fc6aab80edf6fb0e607c72b",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        65.0,
+        615.0,
+        570.5479119089171
+      ],
+      "advance_upm": 675,
+      "outline_signature_sha256": "ce427b2595609b8d973125a3337a0fb2b5c6db248accb77b22bca0c2fd9a6586",
+      "retained_pilot_engineering": true
+    },
+    "radical": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/radical/curves.json",
+      "source_crop_box": [
+        524,
+        1037,
+        752,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "radical",
+      "codepoints": [
+        8730
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 524,
+        "translate_y": 1037
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "c5141a1b586dfc408ef69f029475491eeb5cc8eb09670cb3476767c525e49c06",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -44.66412282025783,
+        1003.9617554774271,
+        795.0
+      ],
+      "advance_upm": 983,
+      "outline_signature_sha256": "66175da366f39000a1eac0399602e3a59c4349a9fb0beac780bfec25c268db70",
+      "retained_pilot_engineering": true
+    },
+    "right-paren": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/right-paren/curves.json",
+      "source_crop_box": [
+        272,
+        1308,
+        500,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "right-paren",
+      "codepoints": [
+        41
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 272,
+        "translate_y": 1308
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "c3164a9b2211f277663f5dbb1ae97ced372f5b6411ed3c4aee4149e59f8b0451",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        59.99999999999997,
+        -69.09181016446817,
+        288.34488659030325,
+        654.5062571096748
+      ],
+      "advance_upm": 348,
+      "outline_signature_sha256": "e485c9729e1a3369f9a84a390fd76d977a1dcd345678c77fe3523409cdc45953",
+      "retained_pilot_engineering": true
+    },
+    "sum": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/sum/curves.json",
+      "source_crop_box": [
+        23,
+        1037,
+        248,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "name": "sum",
+      "codepoints": [
+        8721
+      ],
+      "kind": "symbol",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 23,
+        "translate_y": 1037
+      },
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "6fe5540059910fb405dde05a55a7c848e2b4fd706b2566e980abb21e7bb8dd79",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -8.895247638721436,
+        789.134389603223,
+        770.0
+      ],
+      "advance_upm": 849,
+      "outline_signature_sha256": "100c61e3fc74f2c673edb7cc6db0143ed3ee71d4eaaedfeadbc6e556049d8ab8",
+      "retained_pilot_engineering": true
+    },
+    "theta": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/theta/trace/curves.json",
+      "source_crop_box": [
+        776,
+        539,
+        1000,
+        733
+      ],
+      "baseline_root": 710,
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.1537145826675638,
+        "translate_x": 794.8355661014365,
+        "translate_y": 539.6370239620072
+      },
+      "name": "theta",
+      "codepoints": [
+        952,
+        120579
+      ],
+      "kind": "greek",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "0f772b3a12ba0af9664394505c496c5f75349789557884083b31ef3d2ef278e1",
+      "root_image_verified": true,
+      "contour_count": 3,
+      "bounds_upm": [
+        40.0,
+        -18.00001010512517,
+        637.7662841673533,
+        743.9999931330425
+      ],
+      "advance_upm": 678,
+      "outline_signature_sha256": "03fb0a79a4a6dae9bc8960d4751c1613a0d07b0f07da042065dbb846897917fc",
+      "retained_pilot_engineering": true,
+      "optical_grid_calibration": {
+        "class": "tall_round",
+        "source_curves_sha256": "0f772b3a12ba0af9664394505c496c5f75349789557884083b31ef3d2ef278e1",
+        "before_bounds_upm": [
+          39.999994474283795,
+          -26.05053040017333,
+          631.3668495262518,
+          727.7918386743764
+        ],
+        "landmarks_before": {
+          "body_bottom": -26.05053040017333,
+          "top": 727.7918386743764,
+          "selector": "Actual lower/upper curve extrema; non-descending anatomy."
+        },
+        "targets": {
+          "body_bottom": -18.0,
+          "top": 744
+        },
+        "uniform_scale": 1.0108214014761003,
+        "translate_y": 8.332433648298963,
+        "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+        "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+      }
+    },
+    "xi": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/xi/trace/curves.json",
+      "source_crop_box": [
+        776,
+        1037,
+        1000,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.16632595385968035,
+        "translate_x": 787.9755425294856,
+        "translate_y": 1045.4617252102423
+      },
+      "name": "xi",
+      "codepoints": [
+        958,
+        120585
+      ],
+      "kind": "greek",
+      "source_em_pixels": 200,
+      "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+      "root_image": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/master.png",
+      "provenance": {
+        "source": "explicit adoption of frozen pilot sources",
+        "base_manifest": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+        "base_manifest_sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344",
+        "frozen_root": "baskerville-unified-master-v1",
+        "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+      },
+      "status": "retained experimental pilot design; optical acceptance pending",
+      "curves_sha256": "8c8c573d49c4d3cb5fcc264d72dc48385c5a6adcff45f67d76224124fe0af1a0",
+      "root_image_verified": true,
+      "contour_count": 1,
+      "bounds_upm": [
+        40.0,
+        -209.91731222916877,
+        579.4214678814019,
+        744.0000169641535
+      ],
+      "advance_upm": 619,
+      "outline_signature_sha256": "76326f1225fdcfd19b2abbbada5099c17b17566a21bed1a05e4561afbec0c62f",
+      "retained_pilot_engineering": true,
+      "optical_grid_calibration": {
+        "class": "tall_descending",
+        "source_curves_sha256": "8c8c573d49c4d3cb5fcc264d72dc48385c5a6adcff45f67d76224124fe0af1a0",
+        "before_bounds_upm": [
+          39.99996984713508,
+          -106.3829329230852,
+          561.9912606685857,
+          816.7106861853196
+        ],
+        "landmarks_before": {
+          "body_bottom": 79.33299255371094,
+          "top": 816.7106861853196,
+          "selector": {
+            "operation": 5,
+            "kind": "lower_body_to_descending_tail_join",
+            "point": [
+              250.77197265625,
+              79.33299255371094
+            ],
+            "review": "Chosen visible lower-body join; tail remains a descender, not a bounding-box baseline."
+          }
+        },
+        "targets": {
+          "body_bottom": -18.0,
+          "top": 744
+        },
+        "uniform_scale": 1.0333917157801802,
+        "translate_y": -99.9820572930556,
+        "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+        "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+      }
+    }
+  },
+  "build_inputs": {
+    "sources": {
+      "path": "/home/tobias/.t3/projects/math-fonts/runs/greek-grid-2026-10-30/delivery-01/font-sources.json",
+      "sha256": "ba934a7a132ee825f4afc3d0ed84b9fd69cd8a36274253241d46844e80177054"
+    },
+    "base_sources": {
+      "path": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/font-sources.json",
+      "sha256": "ef5d85f0838e0bfa119879de2c0ad4e40074b18de10823be0207c2cc2b1f7344"
+    },
+    "calibration": {
+      "path": "/home/tobias/.t3/projects/math-fonts/runs/greek-grid-2026-10-30/calibration-v1/calibration.json",
+      "sha256": "7bba83e2f6d8b5aee16562b56f49b8876ebf8ae023560f98c916c503de5c9d8c"
+    }
+  },
+  "sources_snapshot_note": "Audit snapshot; reproduce using build_inputs and the same base_sources adoption to retain pilot-only recipes.",
+  "roots_sha256": [
+    "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+    "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7"
+  ],
+  "source_em_policy": "Per-role source_em_pixels; uniform registration before UPM conversion.",
+  "glyph_order": [
+    ".notdef",
+    "space",
+    "alpha",
+    "arrow_double_down",
+    "arrow_double_left",
+    "arrow_double_leftright",
+    "arrow_double_right",
+    "arrow_double_up",
+    "arrow_double_updown",
+    "arrow_down",
+    "arrow_frombar_down",
+    "arrow_frombar_left",
+    "arrow_frombar_right",
+    "arrow_frombar_up",
+    "arrow_left",
+    "arrow_leftright",
+    "arrow_long_double_left",
+    "arrow_long_double_leftright",
+    "arrow_long_double_right",
+    "arrow_long_left",
+    "arrow_long_leftright",
+    "arrow_long_right",
+    "arrow_northeast",
+    "arrow_northwest",
+    "arrow_right",
+    "arrow_southeast",
+    "arrow_southwest",
+    "arrow_up",
+    "arrow_updown",
+    "beta",
+    "equals",
+    "harpoon_down_left",
+    "harpoon_down_right",
+    "harpoon_left_down",
+    "harpoon_left_up",
+    "harpoon_right_down",
+    "harpoon_right_up",
+    "harpoon_up_left",
+    "harpoon_up_right",
+    "hat-accent",
+    "integral",
+    "left-paren",
+    "minus",
+    "nu",
+    "omega",
+    "plus",
+    "radical",
+    "right-paren",
+    "sum",
+    "theta",
+    "xi",
+    "left-paren.size1",
+    "left-paren.size2",
+    "left-paren.size3",
+    "left-paren.size4",
+    "right-paren.size1",
+    "right-paren.size2",
+    "right-paren.size3",
+    "right-paren.size4",
+    "radical.size1",
+    "radical.size2",
+    "sum.size1",
+    "sum.size2",
+    "integral.size1",
+    "integral.size2",
+    "hat-accent.wide1",
+    "hat-accent.wide2"
+  ],
+  "cmap": {
+    "U+0020": "space",
+    "U+0028": "left-paren",
+    "U+0029": "right-paren",
+    "U+002B": "plus",
+    "U+003D": "equals",
+    "U+0302": "hat-accent",
+    "U+03B1": "alpha",
+    "U+03B2": "beta",
+    "U+03B8": "theta",
+    "U+03BD": "nu",
+    "U+03BE": "xi",
+    "U+03C9": "omega",
+    "U+2190": "arrow_left",
+    "U+2191": "arrow_up",
+    "U+2192": "arrow_right",
+    "U+2193": "arrow_down",
+    "U+2194": "arrow_leftright",
+    "U+2195": "arrow_updown",
+    "U+2196": "arrow_northwest",
+    "U+2197": "arrow_northeast",
+    "U+2198": "arrow_southeast",
+    "U+2199": "arrow_southwest",
+    "U+21A4": "arrow_frombar_left",
+    "U+21A5": "arrow_frombar_up",
+    "U+21A6": "arrow_frombar_right",
+    "U+21A7": "arrow_frombar_down",
+    "U+21BC": "harpoon_left_up",
+    "U+21BD": "harpoon_left_down",
+    "U+21BE": "harpoon_up_right",
+    "U+21BF": "harpoon_up_left",
+    "U+21C0": "harpoon_right_up",
+    "U+21C1": "harpoon_right_down",
+    "U+21C2": "harpoon_down_right",
+    "U+21C3": "harpoon_down_left",
+    "U+21D0": "arrow_double_left",
+    "U+21D1": "arrow_double_up",
+    "U+21D2": "arrow_double_right",
+    "U+21D3": "arrow_double_down",
+    "U+21D4": "arrow_double_leftright",
+    "U+21D5": "arrow_double_updown",
+    "U+2211": "sum",
+    "U+2212": "minus",
+    "U+221A": "radical",
+    "U+222B": "integral",
+    "U+27F5": "arrow_long_left",
+    "U+27F6": "arrow_long_right",
+    "U+27F7": "arrow_long_leftright",
+    "U+27F8": "arrow_long_double_left",
+    "U+27F9": "arrow_long_double_right",
+    "U+27FA": "arrow_long_double_leftright",
+    "U+1D6FC": "alpha",
+    "U+1D6FD": "beta",
+    "U+1D703": "theta",
+    "U+1D708": "nu",
+    "U+1D709": "xi",
+    "U+1D714": "omega"
+  },
+  "math_constants": {
+    "ScriptPercentScaleDown": 70,
+    "ScriptScriptPercentScaleDown": 50,
+    "DelimitedSubFormulaMinHeight": 1300,
+    "DisplayOperatorMinHeight": 1300,
+    "MathLeading": 150,
+    "AxisHeight": 250,
+    "AccentBaseHeight": 476,
+    "FlattenedAccentBaseHeight": 723,
+    "SubscriptShiftDown": 220,
+    "SubscriptTopMax": 400,
+    "SubscriptBaselineDropMin": 100,
+    "SuperscriptShiftUp": 400,
+    "SuperscriptShiftUpCramped": 350,
+    "SuperscriptBottomMin": 120,
+    "SuperscriptBaselineDropMax": 250,
+    "SubSuperscriptGapMin": 160,
+    "SuperscriptBottomMaxWithSubscript": 300,
+    "SpaceAfterScript": 50,
+    "UpperLimitGapMin": 120,
+    "UpperLimitBaselineRiseMin": 600,
+    "LowerLimitGapMin": 120,
+    "LowerLimitBaselineDropMin": 600,
+    "StackTopShiftUp": 450,
+    "StackTopDisplayStyleShiftUp": 650,
+    "StackBottomShiftDown": 350,
+    "StackBottomDisplayStyleShiftDown": 600,
+    "StackGapMin": 160,
+    "StackDisplayStyleGapMin": 280,
+    "StretchStackTopShiftUp": 600,
+    "StretchStackBottomShiftDown": 500,
+    "StretchStackGapAboveMin": 120,
+    "StretchStackGapBelowMin": 120,
+    "FractionNumeratorShiftUp": 400,
+    "FractionNumeratorDisplayStyleShiftUp": 650,
+    "FractionDenominatorShiftDown": 350,
+    "FractionDenominatorDisplayStyleShiftDown": 600,
+    "FractionNumeratorGapMin": 100,
+    "FractionNumDisplayStyleGapMin": 180,
+    "FractionRuleThickness": 40,
+    "FractionDenominatorGapMin": 100,
+    "FractionDenomDisplayStyleGapMin": 180,
+    "SkewedFractionHorizontalGap": 300,
+    "SkewedFractionVerticalGap": 150,
+    "OverbarVerticalGap": 120,
+    "OverbarRuleThickness": 40,
+    "OverbarExtraAscender": 40,
+    "UnderbarVerticalGap": 120,
+    "UnderbarRuleThickness": 40,
+    "UnderbarExtraDescender": 40,
+    "RadicalVerticalGap": 80,
+    "RadicalDisplayStyleVerticalGap": 160,
+    "RadicalRuleThickness": 50,
+    "RadicalExtraAscender": 40,
+    "RadicalKernBeforeDegree": 250,
+    "RadicalKernAfterDegree": -100,
+    "RadicalDegreeBottomRaisePercent": 60
+  },
+  "italic_corrections": {
+    "alpha": 57,
+    "beta": 56,
+    "nu": 43,
+    "omega": 62,
+    "theta": 48,
+    "xi": 43
+  },
+  "top_accent_attachments": {
+    ".notdef": 300,
+    "alpha": 396,
+    "arrow_double_down": 235,
+    "arrow_double_left": 499,
+    "arrow_double_leftright": 539,
+    "arrow_double_right": 499,
+    "arrow_double_up": 235,
+    "arrow_double_updown": 235,
+    "arrow_down": 235,
+    "arrow_frombar_down": 235,
+    "arrow_frombar_left": 509,
+    "arrow_frombar_right": 509,
+    "arrow_frombar_up": 235,
+    "arrow_left": 499,
+    "arrow_leftright": 539,
+    "arrow_long_double_left": 799,
+    "arrow_long_double_leftright": 839,
+    "arrow_long_double_right": 799,
+    "arrow_long_left": 799,
+    "arrow_long_leftright": 839,
+    "arrow_long_right": 799,
+    "arrow_northeast": 378,
+    "arrow_northwest": 378,
+    "arrow_right": 499,
+    "arrow_southeast": 378,
+    "arrow_southwest": 378,
+    "arrow_up": 235,
+    "arrow_updown": 235,
+    "beta": 388,
+    "equals": 358,
+    "harpoon_down_left": 158,
+    "harpoon_down_right": 158,
+    "harpoon_left_down": 463,
+    "harpoon_left_up": 463,
+    "harpoon_right_down": 463,
+    "harpoon_right_up": 463,
+    "harpoon_up_left": 158,
+    "harpoon_up_right": 158,
+    "hat-accent": 261,
+    "integral": 331,
+    "left-paren": 178,
+    "minus": 358,
+    "nu": 307,
+    "omega": 427,
+    "plus": 338,
+    "radical": 532,
+    "right-paren": 174,
+    "sum": 425,
+    "theta": 339,
+    "xi": 310,
+    "left-paren.size1": 178,
+    "left-paren.size2": 178,
+    "left-paren.size3": 178,
+    "left-paren.size4": 178,
+    "right-paren.size1": 174,
+    "right-paren.size2": 174,
+    "right-paren.size3": 174,
+    "right-paren.size4": 174,
+    "radical.size1": 532,
+    "radical.size2": 532,
+    "sum.size1": 425,
+    "sum.size2": 425,
+    "integral.size1": 331,
+    "integral.size2": 331,
+    "hat-accent.wide1": 392,
+    "hat-accent.wide2": 523
+  },
+  "optical_grid": {
+    "profile_sha256": "7bba83e2f6d8b5aee16562b56f49b8876ebf8ae023560f98c916c503de5c9d8c",
+    "font_metrics": {
+      "ascender": 744,
+      "descender": -271,
+      "line_gap": 48,
+      "x_height": 476,
+      "cap_height": 723
+    },
+    "method": "Explicit anatomy landmarks and isotropic optical correction after immutable source registration."
+  },
+  "derived_recipes": [
+    {
+      "glyph": "left-paren.size1",
+      "source": "left-paren",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "left-paren.size2",
+      "source": "left-paren",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "left-paren.size3",
+      "source": "left-paren",
+      "vertical_scale": 3.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "left-paren.size4",
+      "source": "left-paren",
+      "vertical_scale": 4.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "right-paren.size1",
+      "source": "right-paren",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "right-paren.size2",
+      "source": "right-paren",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "right-paren.size3",
+      "source": "right-paren",
+      "vertical_scale": 3.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "right-paren.size4",
+      "source": "right-paren",
+      "vertical_scale": 4.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "radical.size1",
+      "source": "radical",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": true,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "radical.size2",
+      "source": "radical",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": true,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "sum.size1",
+      "source": "sum",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "sum.size2",
+      "source": "sum",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "integral.size1",
+      "source": "integral",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "integral.size2",
+      "source": "integral",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "hat-accent.wide1",
+      "source": "hat-accent",
+      "horizontal_scale": 1.5,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "hat-accent.wide2",
+      "source": "hat-accent",
+      "horizontal_scale": 2.0,
+      "status": "adopted finite pilot proof placeholder; optical redesign needed"
+    }
+  ],
+  "math_script_declaration": "GPOS math/dflt zero alpha-alpha pair; empty GSUB math/dflt; no substitutions",
+  "limitations": [
+    "Explicit authored source availability is not design acceptance or complete AMS coverage.",
+    "All source contours, components and pinholes retained; no cleanup or donor outline substitution.",
+    "Regular is a technical style name; Greek weight and matched-size optical acceptance remain unresolved.",
+    "Source em, baselines, sidebearings, MATH constants and attachments require visual calibration.",
+    "Only unchanged adopted pilot roles receive finite scaled variants; no assemblies, math kerns, ssty, or optical large sizes.",
+    "An overridden growth/accent role needs its own engineering; pilot recipes are not applied automatically.",
+    "Ordinary Latin and numerals deliberately absent; external licensed Storm configuration remains required.",
+    "Codepoint identity is an explicit author assertion; source fidelity cannot prove semantic or visual correctness."
+  ]
+}

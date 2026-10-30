@@ -20,7 +20,12 @@ def main():
                         help='Complete source manifests; may repeat, but roles must be unique')
     parser.add_argument('--text-font-dir', type=Path, required=True)
     parser.add_argument('--dpi', type=int, default=200)
+    parser.add_argument('--calibration', type=Path, help='Explicit reviewed optical grid profile')
+    parser.add_argument('--allow-uncalibrated', action='store_true',
+                        help='Explicit historical reproduction only; new work needs a reviewed grid')
     args = parser.parse_args()
+    if not args.calibration and not args.allow_uncalibrated:
+        parser.error('Greek grid calibration is required. Use --allow-uncalibrated only for an explicit historical reproduction.')
     if args.output.exists():
         parser.error('Use a fresh output directory; earlier deliveries are immutable')
     records = {}
@@ -38,7 +43,7 @@ def main():
     args.output.mkdir(parents=True)
     merged = args.output / 'font-sources.json'
     merged.write_text(json.dumps({'sources': records}, indent=2) + '\n')
-    font = build_font(args.output / 'font', merged, args.base_sources)
+    font = build_font(args.output / 'font', merged, args.base_sources, args.calibration)
     summary = {'status': 'building', 'font': 'font/' + FONT_NAME,
                'font_sha256': font['font_sha256'],
                'glyph_count': len(font['glyph_order']),

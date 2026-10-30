@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "reference": {
+    "filename": "Baskerville10Pro-Italic.otf",
+    "sha256": "b7c1c8e26c169eaa8a05d1354793a3cb9351c7a763c1e0864189f41860c652af",
+    "font_identity": "Baskerville10Pro-Italic"
+  },
+  "guides": {
+    "baseline": 0,
+    "x_height": 476.0,
+    "cap_height": 723,
+    "ascender": 744,
+    "descender": -271.0,
+    "lower_overshoot": -18.0,
+    "descender_overshoot": -286
+  },
+  "slant_degrees": -12.0,
+  "controls": {
+    "x": {
+      "bounds_upm": [
+        -5,
+        -17,
+        512,
+        476
+      ],
+      "advance_upm": 507
+    },
+    "n": {
+      "bounds_upm": [
+        29.58468885348471,
+        -15,
+        543.4153111465153,
+        476
+      ],
+      "advance_upm": 573
+    },
+    "o": {
+      "bounds_upm": [
+        29,
+        -18,
+        445,
+        476
+      ],
+      "advance_upm": 474
+    },
+    "a": {
+      "bounds_upm": [
+        28,
+        -18,
+        503,
+        476
+      ],
+      "advance_upm": 533
+    },
+    "c": {
+      "bounds_upm": [
+        29,
+        -18,
+        420,
+        476
+      ],
+      "advance_upm": 420
+    },
+    "e": {
+      "bounds_upm": [
+        29,
+        -18,
+        424,
+        476
+      ],
+      "advance_upm": 409
+    },
+    "b": {
+      "bounds_upm": [
+        32,
+        -18,
+        455,
+        744
+      ],
+      "advance_upm": 485
+    },
+    "d": {
+      "bounds_upm": [
+        28,
+        -18,
+        582,
+        744
+      ],
+      "advance_upm": 533
+    },
+    "h": {
+      "bounds_upm": [
+        15,
+        -15,
+        501.4153111465153,
+        744
+      ],
+      "advance_upm": 531
+    },
+    "k": {
+      "bounds_upm": [
+        15,
+        -18,
+        456,
+        744
+      ],
+      "advance_upm": 461
+    },
+    "l": {
+      "bounds_upm": [
+        35,
+        -15,
+        326,
+        744
+      ],
+      "advance_upm": 271
+    },
+    "f": {
+      "bounds_upm": [
+        -260,
+        -274,
+        498,
+        731
+      ],
+      "advance_upm": 288
+    },
+    "g": {
+      "bounds_upm": [
+        -45,
+        -283,
+        512,
+        476
+      ],
+      "advance_upm": 454
+    },
+    "p": {
+      "bounds_upm": [
+        -82,
+        -271,
+        510,
+        582
+      ],
+      "advance_upm": 538
+    },
+    "q": {
+      "bounds_upm": [
+        28,
+        -271,
+        490,
+        476
+      ],
+      "advance_upm": 500
+    },
+    "y": {
+      "bounds_upm": [
+        -133,
+        -286,
+        429,
+        476
+      ],
+      "advance_upm": 446
+    },
+    "H": {
+      "bounds_upm": [
+        -14,
+        -1,
+        913,
+        712
+      ],
+      "advance_upm": 849
+    }
+  },
+  "font_metrics": {
+    "ascender": 744,
+    "descender": -271,
+    "line_gap": 48,
+    "x_height": 476,
+    "cap_height": 723
+  },
+  "zones": {
+    "body_bottom": [
+      -18.0,
+      0
+    ],
+    "body_top_observed": [
+      476.0,
+      476.0
+    ],
+    "descender_bottom": [
+      -286,
+      -271.0
+    ]
+  },
+  "sources": [
+    "https://learn.microsoft.com/en-us/typography/opentype/spec/os2",
+    "https://glyphsapp.com/learn/vertical-metrics/",
+    "https://glyphsapp.com/learn/sketching"
+  ],
+  "policy": "Measured outline landmarks, not generic overshoot assumptions. Line metrics and visible outline heights are distinct. Guides are removable; source ink stays unchanged."
+}

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "grid_audit": "grid-audit.json",
+  "runtime": "delivery-01/runtime/runtime-summary.json",
+  "font": "delivery-01/font/BaskervilleCompanionMath-AMS.otf",
+  "font_sha256": "d8243c32fb19fdf3895ef46a9249f96d11bf2eb43db0b6a56c6bd793b55e7566",
+  "point_size_and_source_checks": {
+    "before": {
+      "lualatex": {
+        "character_checks": 42,
+        "max_baseline_origin_spread_pdf_pt": 0.0
+      },
+      "xelatex": {
+        "character_checks": 42,
+        "max_baseline_origin_spread_pdf_pt": 0.0
+      }
+    },
+    "after": {
+      "lualatex": {
+        "character_checks": 42,
+        "max_baseline_origin_spread_pdf_pt": 0.0
+      },
+      "xelatex": {
+        "character_checks": 42,
+        "max_baseline_origin_spread_pdf_pt": 0.0
+      }
+    }
+  },
+  "unit_tests": {
+    "grid": 5,
+    "exporter_regression": 9
+  },
+  "reproducible_binary": true,
+  "non_greek_outline_geometry_unchanged": true,
+  "image_model_calls": 0,
+  "scope": "Six current compiled Greek; future Greek requires reviewed anatomy/profile. Numeric grid success is not final optical acceptance."
+}

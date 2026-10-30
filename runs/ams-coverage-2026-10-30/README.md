@@ -31,6 +31,7 @@ arrow SVGs and authored OTF are public.
   --output /tmp/baskerville-ams-rebuild \
   --base-sources runs/pipeline-2026-10-30/font-sources.json \
   --sources runs/ams-coverage-2026-10-30/arrows-v1/sources.json \
+  --allow-uncalibrated \
   --text-font-dir '/external/Baskerville 10 Pro' --dpi 200
 ```
 

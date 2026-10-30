@@ -37,5 +37,8 @@
     "Engineer braces and growing constructions; complete exact AMS command/style proofs."
   ],
   "runtime_status": "passed",
-  "unit_checks": 29
+  "unit_checks": 29,
+  "current_grid_corrected_delivery": "runs/greek-grid-2026-10-30/delivery-01",
+  "required_calibration": "runs/greek-grid-2026-10-30/calibration-v1/calibration.json",
+  "text_metric_authority": "design/greek-text-grid.json"
 }

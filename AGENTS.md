@@ -164,3 +164,13 @@ registration. Missing hooks/twohead/pairs and full assemblies remain gaps.
 The expanded atlas has 64 original-pixel crops; six semantic errors are
 quarantined. Retain the six v1 Greek sources and provisional scale uncertainty.
 Do not claim source availability, 34 arrows or a passing proof is full AMS.
+
+GREEK GRID CORRECTION: the user identified mismatched Greek baselines/heights.
+`design/greek-text-grid.json` is now the metric authority measured from actual
+Storm italic, separate from immutable image registration. See
+`docs/greek-text-grid.md` and `runs/greek-grid-2026-10-30/README.md`.
+New AMS pipeline builds require an explicit reviewed optical calibration;
+uncalibrated builds need the explicit historical-reproduction flag. Do not fit
+all Greek bounding boxes into one height: body/tall/descending anatomy needs
+distinct reviewed landmarks. Preserve uniform aspect, source hashes, clean ink
+and removable guides. Verify actual compiled curves and real text/script sizes.

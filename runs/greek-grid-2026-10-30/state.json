@@ -1,0 +1,9 @@
+{
+  "stage": "six_greek_grid_calibrated_and_proved",
+  "metric_authority": "design/greek-text-grid.json",
+  "calibration": "runs/greek-grid-2026-10-30/calibration-v1/calibration.json",
+  "delivery": "runs/greek-grid-2026-10-30/delivery-01",
+  "proof": "runs/greek-grid-2026-10-30/proof-02",
+  "image_calls": 0,
+  "remaining": "Extend reviewed anatomy landmarks with each new glyph; spacing, weight and script optical work remain separate."
+}

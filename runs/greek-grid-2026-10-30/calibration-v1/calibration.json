@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "units_per_em": 1000,
+  "before_font_sha256": "9cae9c369f2e20c50138a4e34f4089dde1fd1960b3bf9ae70e9d659554393878",
+  "grid": "design/greek-text-grid.json",
+  "font_metrics": {
+    "ascender": 744,
+    "descender": -271,
+    "line_gap": 48,
+    "x_height": 476,
+    "cap_height": 723
+  },
+  "math_constants": {
+    "AccentBaseHeight": 476,
+    "FlattenedAccentBaseHeight": 723
+  },
+  "roles": {
+    "alpha": {
+      "class": "x_height_body",
+      "source_curves_sha256": "d0ce5f358d862277735b51d68350828725149f1050214c2bd97c3a68cd842f6e",
+      "before_bounds_upm": [
+        40.00000472299098,
+        18.94766282721838,
+        774.46337890625,
+        528.2978278798397
+      ],
+      "landmarks_before": {
+        "body_bottom": 18.94766282721838,
+        "top": 528.2978278798397,
+        "selector": "Actual lower/upper curve extrema; non-descending anatomy."
+      },
+      "targets": {
+        "body_bottom": -18.0,
+        "top": 476.0
+      },
+      "uniform_scale": 0.9698632373054489,
+      "translate_y": -36.37664160897813,
+      "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+      "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+    },
+    "beta": {
+      "class": "tall_descending",
+      "source_curves_sha256": "f90a20d44ff159d7939f54ddf45b255ecdae59680de1b9dd608893177f03a4e6",
+      "before_bounds_upm": [
+        40.00004577636719,
+        -147.1544189453125,
+        699.1791898098378,
+        741.1178500435855
+      ],
+      "landmarks_before": {
+        "body_bottom": 19.568318422910306,
+        "top": 741.1178500435855,
+        "selector": {
+          "operation": 10,
+          "kind": "outer_lower_bowl_y_min",
+          "start": [
+            454.5453186035156,
+            40.60923767089844
+          ],
+          "controls": [
+            [
+              356.9535827636719,
+              1.839813232421875
+            ],
+            [
+              268.4634246826172,
+              17.577346801757812
+            ],
+            [
+              232.25990295410156,
+              80.1416015625
+            ]
+          ]
+        }
+      },
+      "targets": {
+        "body_bottom": -18.0,
+        "top": 744
+      },
+      "uniform_scale": 1.056060556630768,
+      "translate_y": -38.66532924602677,
+      "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+      "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+    },
+    "theta": {
+      "class": "tall_round",
+      "source_curves_sha256": "0f772b3a12ba0af9664394505c496c5f75349789557884083b31ef3d2ef278e1",
+      "before_bounds_upm": [
+        39.999994474283795,
+        -26.05053040017333,
+        631.3668495262518,
+        727.7918386743764
+      ],
+      "landmarks_before": {
+        "body_bottom": -26.05053040017333,
+        "top": 727.7918386743764,
+        "selector": "Actual lower/upper curve extrema; non-descending anatomy."
+      },
+      "targets": {
+        "body_bottom": -18.0,
+        "top": 744
+      },
+      "uniform_scale": 1.0108214014761003,
+      "translate_y": 8.332433648298963,
+      "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+      "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+    },
+    "nu": {
+      "class": "x_height_body",
+      "source_curves_sha256": "3e415e04ebba54a7063c58303ef35e529cb6efa856f22f1020949b99a5824e2c",
+      "before_bounds_upm": [
+        39.99999337527869,
+        1.7915279654124434,
+        580.7817489098684,
+        502.79573587540915
+      ],
+      "landmarks_before": {
+        "body_bottom": 1.7915279654124434,
+        "top": 502.79573587540915,
+        "selector": "Actual lower/upper curve extrema; non-descending anatomy."
+      },
+      "targets": {
+        "body_bottom": -18.0,
+        "top": 476.0
+      },
+      "uniform_scale": 0.9860196625109884,
+      "translate_y": -19.766481799834974,
+      "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+      "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+    },
+    "xi": {
+      "class": "tall_descending",
+      "source_curves_sha256": "8c8c573d49c4d3cb5fcc264d72dc48385c5a6adcff45f67d76224124fe0af1a0",
+      "before_bounds_upm": [
+        39.99996984713508,
+        -106.3829329230852,
+        561.9912606685857,
+        816.7106861853196
+      ],
+      "landmarks_before": {
+        "body_bottom": 79.33299255371094,
+        "top": 816.7106861853196,
+        "selector": {
+          "operation": 5,
+          "kind": "lower_body_to_descending_tail_join",
+          "point": [
+            250.77197265625,
+            79.33299255371094
+          ],
+          "review": "Chosen visible lower-body join; tail remains a descender, not a bounding-box baseline."
+        }
+      },
+      "targets": {
+        "body_bottom": -18.0,
+        "top": 744
+      },
+      "uniform_scale": 1.0333917157801802,
+      "translate_y": -99.9820572930556,
+      "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+      "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+    },
+    "omega": {
+      "class": "x_height_body",
+      "source_curves_sha256": "2b67a47a8f07cad20efeeb06d492183da29dc05fb1a8399bb4bbdd0c0d9b7277",
+      "before_bounds_upm": [
+        39.99999461476326,
+        26.09943869673455,
+        758.3232694483245,
+        484.20066716542186
+      ],
+      "landmarks_before": {
+        "body_bottom": 26.09943869673455,
+        "top": 484.20066716542186,
+        "selector": "Actual lower/upper curve extrema; non-descending anatomy."
+      },
+      "targets": {
+        "body_bottom": -18.0,
+        "top": 476.0
+      },
+      "uniform_scale": 1.0783642769335346,
+      "translate_y": -46.144702338575264,
+      "method": "Explicit optical similarity against text landmarks; preserves aspect, slant, curves and topology. Source registration is not changed.",
+      "descender_policy": "Descending anatomy may stop above the text descender line; do not force every tail to the same depth."
+    }
+  },
+  "limits": "No anisotropic deformation, node edits, automatic baseline inference, slant shear or weight compensation. Widths keep the authored aspect; spacing remains a separate optical task."
+}

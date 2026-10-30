@@ -1,5 +1,7 @@
 {
   "schema_version": 1,
+  "text_metric_authority": "design/greek-text-grid.json",
+  "metric_policy": "Preserve image lineage/registration; apply explicit reviewed optical similarities against the text grid separately. New Greek needs anatomy landmarks, compiled grid audit and real point-size proofs. Guides are removable, never traced.",
   "north_star": "A consistent, thematically unified Baskerville math package with core LaTeX, amsmath and AMS symbol coverage, using the accepted image-derived design.",
   "invariant": "Every design starts from one unified design image; every production view and enlargement derives from its approved version.",
   "accepted_seed": {

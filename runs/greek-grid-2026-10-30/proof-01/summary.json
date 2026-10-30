@@ -1,0 +1,1927 @@
+{
+  "status": "passed",
+  "grid_sha256": "ba00fd6e4eae8643425194996e7ac0f73bec568cf4a37c44d4d63974a3c9212f",
+  "guides_upm1000": {
+    "baseline": 0,
+    "x_height": 476.0,
+    "cap_height": 723,
+    "ascender": 744,
+    "descender": -271.0,
+    "lower_overshoot": -18.0,
+    "descender_overshoot": -286
+  },
+  "states": {
+    "before": {
+      "font_sha256": "9cae9c369f2e20c50138a4e34f4089dde1fd1960b3bf9ae70e9d659554393878",
+      "postscript_name": "BaskervilleCompanionMath-AMS",
+      "common_em_measurements": [
+        {
+          "row": 0,
+          "source": "native",
+          "character": "x",
+          "glyph": "x",
+          "bounds_upm1000": [
+            -5.0,
+            -17.0,
+            512.0,
+            476.0
+          ],
+          "advance_upm1000": 507.0
+        },
+        {
+          "row": 0,
+          "source": "native",
+          "character": "n",
+          "glyph": "n",
+          "bounds_upm1000": [
+            29.58468885348471,
+            -15.0,
+            543.4153111465153,
+            476.0
+          ],
+          "advance_upm1000": 573.0
+        },
+        {
+          "row": 0,
+          "source": "native",
+          "character": "o",
+          "glyph": "o",
+          "bounds_upm1000": [
+            29.0,
+            -18.0,
+            445.0,
+            476.0
+          ],
+          "advance_upm1000": 474.0
+        },
+        {
+          "row": 0,
+          "source": "custom",
+          "character": "α",
+          "glyph": "alpha",
+          "bounds_upm1000": [
+            40.00000472299099,
+            18.94766282721838,
+            774.46337890625,
+            528.2978278798397
+          ],
+          "advance_upm1000": 814.0
+        },
+        {
+          "row": 0,
+          "source": "custom",
+          "character": "ν",
+          "glyph": "nu",
+          "bounds_upm1000": [
+            39.99999337527869,
+            1.7915279654124434,
+            580.7817489098684,
+            502.79573587540915
+          ],
+          "advance_upm1000": 621.0
+        },
+        {
+          "row": 0,
+          "source": "custom",
+          "character": "ω",
+          "glyph": "omega",
+          "bounds_upm1000": [
+            39.99999461476326,
+            26.09943869673455,
+            758.3232694483245,
+            484.20066716542186
+          ],
+          "advance_upm1000": 798.0
+        },
+        {
+          "row": 1,
+          "source": "native",
+          "character": "b",
+          "glyph": "b",
+          "bounds_upm1000": [
+            32.0,
+            -18.0,
+            455.0,
+            744.0
+          ],
+          "advance_upm1000": 485.0
+        },
+        {
+          "row": 1,
+          "source": "native",
+          "character": "d",
+          "glyph": "d",
+          "bounds_upm1000": [
+            28.0,
+            -18.0,
+            582.0,
+            744.0
+          ],
+          "advance_upm1000": 533.0
+        },
+        {
+          "row": 1,
+          "source": "native",
+          "character": "h",
+          "glyph": "h",
+          "bounds_upm1000": [
+            15.0,
+            -15.0,
+            501.4153111465153,
+            744.0
+          ],
+          "advance_upm1000": 531.0
+        },
+        {
+          "row": 1,
+          "source": "native",
+          "character": "l",
+          "glyph": "l",
+          "bounds_upm1000": [
+            35.0,
+            -15.0,
+            326.0,
+            744.0
+          ],
+          "advance_upm1000": 271.0
+        },
+        {
+          "row": 1,
+          "source": "custom",
+          "character": "β",
+          "glyph": "beta",
+          "bounds_upm1000": [
+            40.00004577636719,
+            -147.1544189453125,
+            699.1791898098378,
+            741.1178500435855
+          ],
+          "advance_upm1000": 739.0
+        },
+        {
+          "row": 1,
+          "source": "custom",
+          "character": "θ",
+          "glyph": "theta",
+          "bounds_upm1000": [
+            39.999994474283795,
+            -26.050530400173333,
+            631.3668495262518,
+            727.7918386743764
+          ],
+          "advance_upm1000": 671.0
+        },
+        {
+          "row": 1,
+          "source": "custom",
+          "character": "ξ",
+          "glyph": "xi",
+          "bounds_upm1000": [
+            39.99996984713508,
+            -106.3829329230852,
+            561.9912606685857,
+            816.7106861853196
+          ],
+          "advance_upm1000": 602.0
+        },
+        {
+          "row": 2,
+          "source": "native",
+          "character": "p",
+          "glyph": "p",
+          "bounds_upm1000": [
+            -82.0,
+            -271.0,
+            510.0,
+            582.0
+          ],
+          "advance_upm1000": 538.0
+        },
+        {
+          "row": 2,
+          "source": "native",
+          "character": "q",
+          "glyph": "q",
+          "bounds_upm1000": [
+            28.0,
+            -271.0,
+            490.0,
+            476.0
+          ],
+          "advance_upm1000": 500.0
+        },
+        {
+          "row": 2,
+          "source": "native",
+          "character": "y",
+          "glyph": "y",
+          "bounds_upm1000": [
+            -133.0,
+            -286.0,
+            429.0,
+            476.0
+          ],
+          "advance_upm1000": 446.0
+        },
+        {
+          "row": 2,
+          "source": "native",
+          "character": "g",
+          "glyph": "g",
+          "bounds_upm1000": [
+            -45.0,
+            -283.0,
+            512.0,
+            476.0
+          ],
+          "advance_upm1000": 454.0
+        },
+        {
+          "row": 2,
+          "source": "custom",
+          "character": "β",
+          "glyph": "beta",
+          "bounds_upm1000": [
+            40.00004577636719,
+            -147.1544189453125,
+            699.1791898098378,
+            741.1178500435855
+          ],
+          "advance_upm1000": 739.0
+        },
+        {
+          "row": 2,
+          "source": "custom",
+          "character": "ξ",
+          "glyph": "xi",
+          "bounds_upm1000": [
+            39.99996984713508,
+            -106.3829329230852,
+            561.9912606685857,
+            816.7106861853196
+          ],
+          "advance_upm1000": 602.0
+        }
+      ],
+      "engines": {
+        "lualatex": {
+          "proofs": {
+            "clean": {
+              "actual_fonts": [
+                "Baskerville10Pro",
+                "Baskerville10Pro-Italic",
+                "BaskervilleCompanionMath-AMS"
+              ],
+              "pdf": "private/before/lualatex/clean.pdf",
+              "raster": "private/before/lualatex/clean.png"
+            },
+            "guided": {
+              "actual_fonts": [
+                "Baskerville10Pro",
+                "Baskerville10Pro-Italic",
+                "BaskervilleCompanionMath-AMS"
+              ],
+              "pdf": "private/before/lualatex/guided.pdf",
+              "raster": "private/before/lualatex/guided.png"
+            }
+          },
+          "actual_font_checks": {
+            "size_rows": [
+              {
+                "nominal_tex_pt": 10,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  }
+                ]
+              },
+              {
+                "nominal_tex_pt": 7,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  }
+                ]
+              },
+              {
+                "nominal_tex_pt": 5,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  }
+                ]
+              }
+            ],
+            "nested_script_sizes_pdf_pt": {
+              "Baskerville10Pro-Italic": [
+                4.98132,
+                6.97385,
+                9.96264
+              ],
+              "BaskervilleCompanionMath-AMS": [
+                4.98132,
+                6.97385,
+                9.96264
+              ]
+            }
+          }
+        },
+        "xelatex": {
+          "proofs": {
+            "clean": {
+              "actual_fonts": [
+                "Baskerville10Pro",
+                "Baskerville10Pro-Italic",
+                "BaskervilleCompanionMath-AMS"
+              ],
+              "pdf": "private/before/xelatex/clean.pdf",
+              "raster": "private/before/xelatex/clean.png"
+            },
+            "guided": {
+              "actual_fonts": [
+                "Baskerville10Pro",
+                "Baskerville10Pro-Italic",
+                "BaskervilleCompanionMath-AMS"
+              ],
+              "pdf": "private/before/xelatex/guided.pdf",
+              "raster": "private/before/xelatex/guided.png"
+            }
+          },
+          "actual_font_checks": {
+            "size_rows": [
+              {
+                "nominal_tex_pt": 10,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  }
+                ]
+              },
+              {
+                "nominal_tex_pt": 7,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  }
+                ]
+              },
+              {
+                "nominal_tex_pt": 5,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  }
+                ]
+              }
+            ],
+            "nested_script_sizes_pdf_pt": {
+              "Baskerville10Pro-Italic": [
+                4.9813,
+                6.9738,
+                9.9626
+              ],
+              "BaskervilleCompanionMath-AMS": [
+                4.9813,
+                6.9738,
+                9.9626
+              ]
+            }
+          }
+        }
+      }
+    },
+    "after": {
+      "font_sha256": "d8243c32fb19fdf3895ef46a9249f96d11bf2eb43db0b6a56c6bd793b55e7566",
+      "postscript_name": "BaskervilleCompanionMath-AMS",
+      "common_em_measurements": [
+        {
+          "row": 0,
+          "source": "native",
+          "character": "x",
+          "glyph": "x",
+          "bounds_upm1000": [
+            -5.0,
+            -17.0,
+            512.0,
+            476.0
+          ],
+          "advance_upm1000": 507.0
+        },
+        {
+          "row": 0,
+          "source": "native",
+          "character": "n",
+          "glyph": "n",
+          "bounds_upm1000": [
+            29.58468885348471,
+            -15.0,
+            543.4153111465153,
+            476.0
+          ],
+          "advance_upm1000": 573.0
+        },
+        {
+          "row": 0,
+          "source": "native",
+          "character": "o",
+          "glyph": "o",
+          "bounds_upm1000": [
+            29.0,
+            -18.0,
+            445.0,
+            476.0
+          ],
+          "advance_upm1000": 474.0
+        },
+        {
+          "row": 0,
+          "source": "custom",
+          "character": "α",
+          "glyph": "alpha",
+          "bounds_upm1000": [
+            40.000010401922275,
+            -17.999984573236304,
+            752.3290557861328,
+            476.0000059486031
+          ],
+          "advance_upm1000": 792.0
+        },
+        {
+          "row": 0,
+          "source": "custom",
+          "character": "ν",
+          "glyph": "nu",
+          "bounds_upm1000": [
+            39.99997426474052,
+            -18.000003151483583,
+            573.221411594414,
+            476.00001140704455
+          ],
+          "advance_upm1000": 613.0
+        },
+        {
+          "row": 0,
+          "source": "custom",
+          "character": "ω",
+          "glyph": "omega",
+          "bounds_upm1000": [
+            40.000001658799555,
+            -18.000098982733654,
+            814.61412563607,
+            475.9999726024625
+          ],
+          "advance_upm1000": 855.0
+        },
+        {
+          "row": 1,
+          "source": "native",
+          "character": "b",
+          "glyph": "b",
+          "bounds_upm1000": [
+            32.0,
+            -18.0,
+            455.0,
+            744.0
+          ],
+          "advance_upm1000": 485.0
+        },
+        {
+          "row": 1,
+          "source": "native",
+          "character": "d",
+          "glyph": "d",
+          "bounds_upm1000": [
+            28.0,
+            -18.0,
+            582.0,
+            744.0
+          ],
+          "advance_upm1000": 533.0
+        },
+        {
+          "row": 1,
+          "source": "native",
+          "character": "h",
+          "glyph": "h",
+          "bounds_upm1000": [
+            15.0,
+            -15.0,
+            501.4153111465153,
+            744.0
+          ],
+          "advance_upm1000": 531.0
+        },
+        {
+          "row": 1,
+          "source": "native",
+          "character": "l",
+          "glyph": "l",
+          "bounds_upm1000": [
+            35.0,
+            -15.0,
+            326.0,
+            744.0
+          ],
+          "advance_upm1000": 271.0
+        },
+        {
+          "row": 1,
+          "source": "custom",
+          "character": "β",
+          "glyph": "beta",
+          "bounds_upm1000": [
+            40.0,
+            -194.06930541992188,
+            736.1330958185389,
+            743.9999957716701
+          ],
+          "advance_upm1000": 776.0
+        },
+        {
+          "row": 1,
+          "source": "custom",
+          "character": "θ",
+          "glyph": "theta",
+          "bounds_upm1000": [
+            39.99999636734523,
+            -18.000026905335975,
+            637.7662748213863,
+            743.9999734595012
+          ],
+          "advance_upm1000": 678.0
+        },
+        {
+          "row": 1,
+          "source": "custom",
+          "character": "ξ",
+          "glyph": "xi",
+          "bounds_upm1000": [
+            40.00002452574252,
+            -209.91731181125192,
+            579.4214557521295,
+            744.0000279375072
+          ],
+          "advance_upm1000": 619.0
+        },
+        {
+          "row": 2,
+          "source": "native",
+          "character": "p",
+          "glyph": "p",
+          "bounds_upm1000": [
+            -82.0,
+            -271.0,
+            510.0,
+            582.0
+          ],
+          "advance_upm1000": 538.0
+        },
+        {
+          "row": 2,
+          "source": "native",
+          "character": "q",
+          "glyph": "q",
+          "bounds_upm1000": [
+            28.0,
+            -271.0,
+            490.0,
+            476.0
+          ],
+          "advance_upm1000": 500.0
+        },
+        {
+          "row": 2,
+          "source": "native",
+          "character": "y",
+          "glyph": "y",
+          "bounds_upm1000": [
+            -133.0,
+            -286.0,
+            429.0,
+            476.0
+          ],
+          "advance_upm1000": 446.0
+        },
+        {
+          "row": 2,
+          "source": "native",
+          "character": "g",
+          "glyph": "g",
+          "bounds_upm1000": [
+            -45.0,
+            -283.0,
+            512.0,
+            476.0
+          ],
+          "advance_upm1000": 454.0
+        },
+        {
+          "row": 2,
+          "source": "custom",
+          "character": "β",
+          "glyph": "beta",
+          "bounds_upm1000": [
+            40.0,
+            -194.06930541992188,
+            736.1330958185389,
+            743.9999957716701
+          ],
+          "advance_upm1000": 776.0
+        },
+        {
+          "row": 2,
+          "source": "custom",
+          "character": "ξ",
+          "glyph": "xi",
+          "bounds_upm1000": [
+            40.00002452574252,
+            -209.91731181125192,
+            579.4214557521295,
+            744.0000279375072
+          ],
+          "advance_upm1000": 619.0
+        }
+      ],
+      "engines": {
+        "lualatex": {
+          "proofs": {
+            "clean": {
+              "actual_fonts": [
+                "Baskerville10Pro",
+                "Baskerville10Pro-Italic",
+                "BaskervilleCompanionMath-AMS"
+              ],
+              "pdf": "private/after/lualatex/clean.pdf",
+              "raster": "private/after/lualatex/clean.png"
+            },
+            "guided": {
+              "actual_fonts": [
+                "Baskerville10Pro",
+                "Baskerville10Pro-Italic",
+                "BaskervilleCompanionMath-AMS"
+              ],
+              "pdf": "private/after/lualatex/guided.pdf",
+              "raster": "private/after/lualatex/guided.png"
+            }
+          },
+          "actual_font_checks": {
+            "size_rows": [
+              {
+                "nominal_tex_pt": 10,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.96264,
+                    "baseline_pdf_pt": 77.99402
+                  }
+                ]
+              },
+              {
+                "nominal_tex_pt": 7,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.97385,
+                    "baseline_pdf_pt": 77.99402
+                  }
+                ]
+              },
+              {
+                "nominal_tex_pt": 5,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.98132,
+                    "baseline_pdf_pt": 77.99402
+                  }
+                ]
+              }
+            ],
+            "nested_script_sizes_pdf_pt": {
+              "Baskerville10Pro-Italic": [
+                4.98132,
+                6.97385,
+                9.96264
+              ],
+              "BaskervilleCompanionMath-AMS": [
+                4.98132,
+                6.97385,
+                9.96264
+              ]
+            }
+          }
+        },
+        "xelatex": {
+          "proofs": {
+            "clean": {
+              "actual_fonts": [
+                "Baskerville10Pro",
+                "Baskerville10Pro-Italic",
+                "BaskervilleCompanionMath-AMS"
+              ],
+              "pdf": "private/after/xelatex/clean.pdf",
+              "raster": "private/after/xelatex/clean.png"
+            },
+            "guided": {
+              "actual_fonts": [
+                "Baskerville10Pro",
+                "Baskerville10Pro-Italic",
+                "BaskervilleCompanionMath-AMS"
+              ],
+              "pdf": "private/after/xelatex/guided.pdf",
+              "raster": "private/after/xelatex/guided.png"
+            }
+          },
+          "actual_font_checks": {
+            "size_rows": [
+              {
+                "nominal_tex_pt": 10,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 9.9626,
+                    "baseline_pdf_pt": 77.994
+                  }
+                ]
+              },
+              {
+                "nominal_tex_pt": 7,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 6.9738,
+                    "baseline_pdf_pt": 77.994
+                  }
+                ]
+              },
+              {
+                "nominal_tex_pt": 5,
+                "baseline_spread_pdf_pt": 0.0,
+                "per_character_source_checks": [
+                  {
+                    "character": "x",
+                    "actual_character": "x",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "n",
+                    "actual_character": "n",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "o",
+                    "actual_character": "o",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "b",
+                    "actual_character": "b",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "d",
+                    "actual_character": "d",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "p",
+                    "actual_character": "p",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "q",
+                    "actual_character": "q",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "y",
+                    "actual_character": "y",
+                    "font": "Baskerville10Pro-Italic",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "α",
+                    "actual_character": "𝛼",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "β",
+                    "actual_character": "𝛽",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "θ",
+                    "actual_character": "𝜃",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ν",
+                    "actual_character": "𝜈",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ξ",
+                    "actual_character": "𝜉",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  },
+                  {
+                    "character": "ω",
+                    "actual_character": "𝜔",
+                    "font": "BaskervilleCompanionMath-AMS",
+                    "size_pdf_pt": 4.9813,
+                    "baseline_pdf_pt": 77.994
+                  }
+                ]
+              }
+            ],
+            "nested_script_sizes_pdf_pt": {
+              "Baskerville10Pro-Italic": [
+                4.9813,
+                6.9738,
+                9.9626
+              ],
+              "BaskervilleCompanionMath-AMS": [
+                4.9813,
+                6.9738,
+                9.9626
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "scope": "Six retained custom Greek and exact native italic controls; no automatic outline edits.",
+  "distribution": "Native outlines, embedded fonts, proof pages and viewer stay private."
+}

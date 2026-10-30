@@ -33,6 +33,7 @@
 !/runs/unified-master-2026-10-29/
 !/runs/pipeline-2026-10-30/
 !/runs/ams-coverage-2026-10-30/
+!/runs/greek-grid-2026-10-30/
 
 # Intermediate font probes are local controls; publish the final pinned build.
 /runs/pipeline-2026-10-30/font-bootstrap/
