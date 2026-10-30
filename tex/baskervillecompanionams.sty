@@ -1,0 +1,339 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{baskervillecompanionams}[2026/10/30 exact external Storm AMS expansion]
+% Load the unchanged pilot first with explicit mathfont and textfontdir options.
+% No amssymb/amsfonts and no unrelated-font fallback are loaded here.
+\RequirePackage{baskervillecompanionmath}
+\makeatletter
+\newif\ifBCAMS@authoredoverlay
+\newif\ifBCAMS@verticalarrow
+\DeclareOption{authored-overlay}{\BCAMS@authoredoverlaytrue}
+\ProcessOptions\relax
+% The pilot intentionally reuses Stock signs. A later authored AMS overlay is
+% explicit: select its exact scalar when present, otherwise preserve stock use.
+\newcommand\BCAMS@choose[1]{%
+  \edef\BCAMS@family{\number\symbcmup}%
+  \ifBCAMS@authoredoverlay
+    \iffontchar\textfont\symoperators "#1\relax
+      \edef\BCAMS@family{\number\symoperators}%
+    \fi
+  \fi}
+\newcommand\BCAMS@declare[3]{%
+  \BCAMS@choose{#3}%
+  \protected\edef#1{\noexpand\Umathchar #2 \BCAMS@family "#3\relax}%
+}
+\newcommand\BCAMS@literal[2]{%
+  \BCAMS@choose{#2}\Umathcode "#2 = #1 \BCAMS@family "#2\relax}
+\newcommand\BCAMS@delimiter[3]{%
+  \BCAMS@choose{#3}%
+  \protected\edef#1{\noexpand\Udelimiter #2 \BCAMS@family "#3\relax}%
+  \Udelcode "#3 = \BCAMS@family "#3\relax}
+\newcommand\BCAMS@arrow[3]{%
+  \BCAMS@choose{#3}%
+  % An unavailable authored variant must be a missing glyph, never a legacy
+  % construction or another arrow whose head/bar semantics merely resemble it.
+  \iffontchar\textfont\BCAMS@family "#3\relax\else
+    \edef\BCAMS@family{\number\symoperators}%
+  \fi
+  \BCAMS@verticalarrowfalse
+  \ifnum"#3="2191\relax\BCAMS@verticalarrowtrue\fi
+  \ifnum"#3="2193\relax\BCAMS@verticalarrowtrue\fi
+  \ifnum"#3="2195\relax\BCAMS@verticalarrowtrue\fi
+  \ifnum"#3="21D1\relax\BCAMS@verticalarrowtrue\fi
+  \ifnum"#3="21D3\relax\BCAMS@verticalarrowtrue\fi
+  \ifnum"#3="21D5\relax\BCAMS@verticalarrowtrue\fi
+  \ifBCAMS@verticalarrow
+    \protected\edef#1{\noexpand\Udelimiter #2 \BCAMS@family "#3\relax}%
+    \Udelcode "#3 = \BCAMS@family "#3\relax
+  \else
+    \protected\edef#1{\noexpand\Umathchar #2 \BCAMS@family "#3\relax}%
+  \fi
+  \Umathcode "#3 = #2 \BCAMS@family "#3\relax}
+\AtBeginDocument{%
+  \check@mathfonts
+  % Exact source scalar reuse. Classes preserve each command's TeX semantics.
+  \BCAMS@declare{\Diamond}{0}{25CA}
+  \BCAMS@declare{\circledR}{0}{00AE}
+  \BCAMS@declare{\lozenge}{0}{25CA}
+  \BCAMS@declare{\yen}{0}{00A5}
+  \BCAMS@delimiter{\lvert}{4}{007C}
+  \BCAMS@delimiter{\rvert}{5}{007C}
+  \BCAMS@declare{\centerdot}{2}{00B7}
+  \BCAMS@declare{\eth}{0}{00F0}
+  \BCAMS@literal{5}{0021}
+  \BCAMS@literal{2}{002B}
+  \BCAMS@literal{6}{002C}
+  \BCAMS@literal{2}{2212}
+  \BCAMS@literal{0}{002E}
+  \BCAMS@literal{0}{002F}
+  \BCAMS@literal{3}{003A}
+  \BCAMS@literal{6}{003B}
+  \BCAMS@literal{3}{003C}
+  \BCAMS@literal{3}{003D}
+  \BCAMS@literal{3}{003E}
+  \BCAMS@literal{5}{003F}
+  \BCAMS@literal{4}{005B}
+  \BCAMS@declare{\Relbar}{3}{003D}
+  \BCAMS@declare{\approx}{3}{2248}
+  \BCAMS@delimiter{\backslash}{0}{005C}
+  \BCAMS@declare{\bullet}{2}{2022}
+  \BCAMS@declare{\cdotp}{6}{00B7}
+  \BCAMS@declare{\colon}{6}{003A}
+  \BCAMS@declare{\dagger}{2}{2020}
+  \BCAMS@declare{\ddagger}{2}{2021}
+  \BCAMS@declare{\div}{2}{00F7}
+  \BCAMS@delimiter{\downarrow}{3}{2193}
+  \BCAMS@declare{\ell}{0}{2113}
+  \BCAMS@declare{\ge}{3}{2265}
+  \BCAMS@declare{\geq}{3}{2265}
+  \BCAMS@declare{\gets}{3}{2190}
+  \BCAMS@declare{\infty}{0}{221E}
+  \BCAMS@delimiter{\lbrace}{4}{007B}
+  \BCAMS@declare{\ldotp}{6}{002E}
+  \BCAMS@declare{\ldots}{0}{2026}
+  \BCAMS@declare{\le}{3}{2264}
+  \BCAMS@declare{\leftarrow}{3}{2190}
+  \BCAMS@declare{\leftrightarrow}{3}{2194}
+  \BCAMS@declare{\leq}{3}{2264}
+  \BCAMS@declare{\lnot}{0}{00AC}
+  \BCAMS@declare{\mathdollar}{0}{0024}
+  \BCAMS@declare{\mathellipsis}{0}{2026}
+  \BCAMS@declare{\mathparagraph}{0}{00B6}
+  \BCAMS@declare{\mathsection}{0}{00A7}
+  \BCAMS@declare{\mathsterling}{0}{00A3}
+  \BCAMS@declare{\nearrow}{3}{2197}
+  \BCAMS@declare{\neg}{0}{00AC}
+  \BCAMS@declare{\neq}{3}{2260}
+  \BCAMS@declare{\nwarrow}{3}{2196}
+  \BCAMS@declare{\partial}{0}{2202}
+  \BCAMS@declare{\pm}{2}{00B1}
+  \BCAMS@declare{\prime}{0}{2032}
+  \BCAMS@declare{\prod}{1}{220F}
+  \BCAMS@delimiter{\rbrace}{5}{007D}
+  \BCAMS@declare{\relbar}{3}{2212}
+  \BCAMS@declare{\rightarrow}{3}{2192}
+  \BCAMS@declare{\searrow}{3}{2198}
+  \BCAMS@declare{\smallint}{1}{222B}
+  \BCAMS@declare{\swarrow}{3}{2199}
+  \BCAMS@declare{\times}{2}{00D7}
+  \BCAMS@declare{\to}{3}{2192}
+  \BCAMS@delimiter{\uparrow}{3}{2191}
+  \BCAMS@delimiter{\updownarrow}{3}{2195}
+  \BCAMS@delimiter{\vert}{0}{007C}
+  \BCAMS@literal{5}{005D}
+  \BCAMS@literal{0}{007C}
+  \BCAMS@declare{\ne}{3}{2260}
+  \BCAMS@delimiter{\{}{4}{007B}
+  \BCAMS@delimiter{\}}{5}{007D}
+  \BCAMS@delimiter{\lbrack}{4}{005B}
+  \BCAMS@delimiter{\rbrack}{5}{005D}
+
+  \BCAMS@literal{0}{0024}
+  \BCAMS@literal{0}{002E}
+  \BCAMS@literal{6}{003A}
+  \BCAMS@literal{3}{003D}
+  \BCAMS@literal{4}{005B}
+  \BCAMS@literal{0}{005C}
+  \BCAMS@literal{5}{005D}
+  \BCAMS@literal{4}{007B}
+  \BCAMS@literal{0}{007C}
+  \BCAMS@literal{5}{007D}
+  \BCAMS@literal{0}{00A3}
+  \BCAMS@literal{0}{00A5}
+  \BCAMS@literal{0}{00A7}
+  \BCAMS@literal{0}{00AC}
+  \BCAMS@literal{0}{00AE}
+  \BCAMS@literal{2}{00B1}
+  \BCAMS@literal{0}{00B6}
+  \BCAMS@literal{2}{00B7}
+  \BCAMS@literal{2}{00D7}
+  \BCAMS@literal{7}{00F0}
+  \BCAMS@literal{2}{00F7}
+  \BCAMS@literal{2}{2020}
+  \BCAMS@literal{2}{2021}
+  \BCAMS@literal{2}{2022}
+  \BCAMS@literal{0}{2026}
+  \BCAMS@literal{0}{2032}
+  \BCAMS@literal{7}{2113}
+  \BCAMS@literal{3}{2190}
+  \BCAMS@literal{3}{2191}
+  \BCAMS@literal{3}{2192}
+  \BCAMS@literal{3}{2193}
+  \BCAMS@literal{3}{2194}
+  \BCAMS@literal{3}{2195}
+  \BCAMS@literal{3}{2196}
+  \BCAMS@literal{3}{2197}
+  \BCAMS@literal{3}{2198}
+  \BCAMS@literal{3}{2199}
+  \BCAMS@literal{7}{2202}
+  \BCAMS@literal{1}{220F}
+  \BCAMS@literal{2}{2212}
+  \BCAMS@literal{0}{221E}
+  \BCAMS@literal{1}{222B}
+  \BCAMS@literal{3}{2248}
+  \BCAMS@literal{3}{2260}
+  \BCAMS@literal{3}{2264}
+  \BCAMS@literal{3}{2265}
+  \BCAMS@literal{0}{25CA}
+  % Literal text-size parentheses reuse Storm; \left/\right retain the authored
+  % companion's existing finite MATH growth through unchanged delimiter codes.
+  \BCAMS@literal{4}{0028}
+  \BCAMS@literal{5}{0029}
+  % ASCII hyphen is math minus, never a text hyphen.
+  \BCAMS@choose{2212}\Umathcode "002D = 2 \BCAMS@family "2212\relax
+  % Explicit arrow allowlist; identities/classes follow the frozen source
+  % command bindings (plus the frozen unicode-math from-bar names).
+  \BCAMS@arrow{\gets}{3}{2190}
+  \BCAMS@arrow{\leftarrow}{3}{2190}
+  \BCAMS@arrow{\uparrow}{3}{2191}
+  \BCAMS@arrow{\rightarrow}{3}{2192}
+  \BCAMS@arrow{\to}{3}{2192}
+  \BCAMS@arrow{\downarrow}{3}{2193}
+  \BCAMS@arrow{\leftrightarrow}{3}{2194}
+  \BCAMS@arrow{\updownarrow}{3}{2195}
+  \BCAMS@arrow{\nwarrow}{3}{2196}
+  \BCAMS@arrow{\nearrow}{3}{2197}
+  \BCAMS@arrow{\searrow}{3}{2198}
+  \BCAMS@arrow{\swarrow}{3}{2199}
+  \BCAMS@arrow{\nleftarrow}{3}{219A}
+  \BCAMS@arrow{\nrightarrow}{3}{219B}
+  \BCAMS@arrow{\twoheadleftarrow}{3}{219E}
+  \BCAMS@arrow{\twoheadrightarrow}{3}{21A0}
+  \BCAMS@arrow{\leftarrowtail}{3}{21A2}
+  \BCAMS@arrow{\rightarrowtail}{3}{21A3}
+  \BCAMS@arrow{\mapsfrom}{3}{21A4}
+  \BCAMS@arrow{\mapsup}{3}{21A5}
+  \BCAMS@arrow{\mapsto}{3}{21A6}
+  \BCAMS@arrow{\mapsdown}{3}{21A7}
+  \BCAMS@arrow{\hookleftarrow}{3}{21A9}
+  \BCAMS@arrow{\hookrightarrow}{3}{21AA}
+  \BCAMS@arrow{\looparrowleft}{3}{21AB}
+  \BCAMS@arrow{\looparrowright}{3}{21AC}
+  \BCAMS@arrow{\leftrightsquigarrow}{3}{21AD}
+  \BCAMS@arrow{\nleftrightarrow}{3}{21AE}
+  \BCAMS@arrow{\Lsh}{3}{21B0}
+  \BCAMS@arrow{\Rsh}{3}{21B1}
+  \BCAMS@arrow{\curvearrowleft}{3}{21B6}
+  \BCAMS@arrow{\curvearrowright}{3}{21B7}
+  \BCAMS@arrow{\circlearrowleft}{3}{21BA}
+  \BCAMS@arrow{\circlearrowright}{3}{21BB}
+  \BCAMS@arrow{\leftharpoonup}{3}{21BC}
+  \BCAMS@arrow{\leftharpoondown}{3}{21BD}
+  \BCAMS@arrow{\restriction}{3}{21BE}
+  \BCAMS@arrow{\upharpoonright}{3}{21BE}
+  \BCAMS@arrow{\upharpoonleft}{3}{21BF}
+  \BCAMS@arrow{\rightharpoonup}{3}{21C0}
+  \BCAMS@arrow{\rightharpoondown}{3}{21C1}
+  \BCAMS@arrow{\downharpoonright}{3}{21C2}
+  \BCAMS@arrow{\downharpoonleft}{3}{21C3}
+  \BCAMS@arrow{\rightleftarrows}{3}{21C4}
+  \BCAMS@arrow{\leftrightarrows}{3}{21C6}
+  \BCAMS@arrow{\leftleftarrows}{3}{21C7}
+  \BCAMS@arrow{\upuparrows}{3}{21C8}
+  \BCAMS@arrow{\rightrightarrows}{3}{21C9}
+  \BCAMS@arrow{\downdownarrows}{3}{21CA}
+  \BCAMS@arrow{\leftrightharpoons}{3}{21CB}
+  \BCAMS@arrow{\rightleftharpoons}{3}{21CC}
+  \BCAMS@arrow{\nLeftarrow}{3}{21CD}
+  \BCAMS@arrow{\nLeftrightarrow}{3}{21CE}
+  \BCAMS@arrow{\nRightarrow}{3}{21CF}
+  \BCAMS@arrow{\Leftarrow}{3}{21D0}
+  \BCAMS@arrow{\Uparrow}{3}{21D1}
+  \BCAMS@arrow{\Rightarrow}{3}{21D2}
+  \BCAMS@arrow{\Downarrow}{3}{21D3}
+  \BCAMS@arrow{\Leftrightarrow}{3}{21D4}
+  \BCAMS@arrow{\Updownarrow}{3}{21D5}
+  \BCAMS@arrow{\Lleftarrow}{3}{21DA}
+  \BCAMS@arrow{\Rrightarrow}{3}{21DB}
+  \BCAMS@arrow{\leadsto}{3}{21DD}
+  \BCAMS@arrow{\rightsquigarrow}{3}{21DD}
+  \BCAMS@arrow{\dashleftarrow}{0}{21E0}
+  \BCAMS@arrow{\dasharrow}{0}{21E2}
+  \BCAMS@arrow{\dashrightarrow}{0}{21E2}
+  \BCAMS@arrow{\longleftarrow}{3}{27F5}
+  \BCAMS@arrow{\longrightarrow}{3}{27F6}
+  \BCAMS@arrow{\longleftrightarrow}{3}{27F7}
+  \BCAMS@arrow{\Longleftarrow}{3}{27F8}
+  \BCAMS@arrow{\Longrightarrow}{3}{27F9}
+  \BCAMS@arrow{\Longleftrightarrow}{3}{27FA}
+  \BCAMS@arrow{\iff}{3}{27FA}
+  \BCAMS@arrow{\longmapsfrom}{3}{27FB}
+  \BCAMS@arrow{\longmapsto}{3}{27FC}
+  \BCAMS@arrow{\Longmapsto}{3}{27FE}
+}
+
+% Explicit opt-in native Greek alternates. Every binding uses the exact Unicode
+% character; epsilon/phi shape variants absent from Storm remain errors.
+\newcommand\BCAMS@greek[2]{%
+  \protected\def#1{\Umathchar 7 \BCAMS@greekfamily "#2\relax}%
+  \Umathcode "#2 = 7 \BCAMS@greekfamily "#2\relax}
+\newcommand\BCAMS@nogreek[1]{%
+  \protected\def#1{\PackageError{baskervillecompanionams}%
+    {Native Storm Greek variant unavailable}%
+    {Use a supported exact native character, or leave this opt-in alternate.}}}
+\newcommand\BCAMS@setupgreek{%
+  \BCAMS@greek{\Delta}{0394}
+  \BCAMS@greek{\Gamma}{0393}
+  \BCAMS@greek{\Lambda}{039B}
+  \BCAMS@greek{\Omega}{03A9}
+  \BCAMS@greek{\Phi}{03A6}
+  \BCAMS@greek{\Pi}{03A0}
+  \BCAMS@greek{\Psi}{03A8}
+  \BCAMS@greek{\Sigma}{03A3}
+  \BCAMS@greek{\Theta}{0398}
+  \BCAMS@greek{\Upsilon}{03A5}
+  \BCAMS@greek{\Xi}{039E}
+  \BCAMS@greek{\Alpha}{0391}
+  \BCAMS@greek{\Beta}{0392}
+  \BCAMS@greek{\Epsilon}{0395}
+  \BCAMS@greek{\Zeta}{0396}
+  \BCAMS@greek{\Eta}{0397}
+  \BCAMS@greek{\Iota}{0399}
+  \BCAMS@greek{\Kappa}{039A}
+  \BCAMS@greek{\Mu}{039C}
+  \BCAMS@greek{\Nu}{039D}
+  \BCAMS@greek{\Omicron}{039F}
+  \BCAMS@greek{\Rho}{03A1}
+  \BCAMS@greek{\Tau}{03A4}
+  \BCAMS@greek{\Chi}{03A7}
+  \BCAMS@greek{\alpha}{03B1}
+  \BCAMS@greek{\beta}{03B2}
+  \BCAMS@greek{\gamma}{03B3}
+  \BCAMS@greek{\delta}{03B4}
+  \BCAMS@greek{\zeta}{03B6}
+  \BCAMS@greek{\eta}{03B7}
+  \BCAMS@greek{\theta}{03B8}
+  \BCAMS@greek{\iota}{03B9}
+  \BCAMS@greek{\kappa}{03BA}
+  \BCAMS@greek{\lambda}{03BB}
+  \BCAMS@greek{\mu}{03BC}
+  \BCAMS@greek{\nu}{03BD}
+  \BCAMS@greek{\xi}{03BE}
+  \BCAMS@greek{\omicron}{03BF}
+  \BCAMS@greek{\pi}{03C0}
+  \BCAMS@greek{\rho}{03C1}
+  \BCAMS@greek{\sigma}{03C3}
+  \BCAMS@greek{\tau}{03C4}
+  \BCAMS@greek{\upsilon}{03C5}
+  \BCAMS@greek{\chi}{03C7}
+  \BCAMS@greek{\psi}{03C8}
+  \BCAMS@greek{\omega}{03C9}
+  \BCAMS@greek{\varsigma}{03C2}
+  \BCAMS@greek{\varepsilon}{03B5}
+  \BCAMS@greek{\varphi}{03C6}
+  \BCAMS@nogreek{\backepsilon}
+  \BCAMS@nogreek{\digamma}
+  \BCAMS@nogreek{\epsilon}
+  \BCAMS@nogreek{\phi}
+  \BCAMS@nogreek{\varTheta}
+  \BCAMS@nogreek{\vartheta}
+  \BCAMS@nogreek{\varkappa}
+  \BCAMS@nogreek{\varrho}
+  \BCAMS@nogreek{\varpi}
+}
+\newcommand\mathstormgreek[1]{\begingroup
+  \let\BCAMS@greekfamily\symbcmit\BCAMS@setupgreek #1\endgroup}
+\newcommand\mathstormgreekup[1]{\begingroup
+  \let\BCAMS@greekfamily\symbcmup\BCAMS@setupgreek #1\endgroup}
+
+\makeatother
+\endinput

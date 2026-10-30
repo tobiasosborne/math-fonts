@@ -1,0 +1,1668 @@
+{
+  "schema_version": 1,
+  "frame_kind": "derived_design_units",
+  "sources": {
+    "arrow_left": {
+      "codepoints": [
+        "U+2190"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_left/curves.json",
+      "curves_sha256": "f941a8fb157042765d482f2497b146c91c969db5d35c8db27fe70d50a3f5883c",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_left",
+          "codepoint": 8592,
+          "angle": 180,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_up": {
+      "codepoints": [
+        "U+2191"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_up/curves.json",
+      "curves_sha256": "caf5f648676c0f5876bbe7fe71199b291dfe788d712308f9a1044b0bdbf28335",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_up",
+          "codepoint": 8593,
+          "angle": 90,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_right": {
+      "codepoints": [
+        "U+2192"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_right/curves.json",
+      "curves_sha256": "fdd1b96863eb3c7ca2c28f8695a53dc2d17f911b15d64a01853cc8aeecf615f2",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_right",
+          "codepoint": 8594,
+          "angle": 0,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_down": {
+      "codepoints": [
+        "U+2193"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_down/curves.json",
+      "curves_sha256": "d0cb5330953a165bf4c95e59c8db116c05e15241e11f505a0909b229944c69db",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_down",
+          "codepoint": 8595,
+          "angle": 270,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_leftright": {
+      "codepoints": [
+        "U+2194"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_leftright/curves.json",
+      "curves_sha256": "20e489ba282118ec56df6d50acd2d9d2ef14af7914a0177d7185df32df229868",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_leftright",
+          "codepoint": 8596,
+          "angle": 0,
+          "ends": "both"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_updown": {
+      "codepoints": [
+        "U+2195"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_updown/curves.json",
+      "curves_sha256": "09f5f862eb0504adb6379823fc51b6a0fed327bca7abf77847f71742d19a6564",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_updown",
+          "codepoint": 8597,
+          "angle": 90,
+          "ends": "both"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_northwest": {
+      "codepoints": [
+        "U+2196"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_northwest/curves.json",
+      "curves_sha256": "2e9de4b6b3bbdabec5c350755e88ff4e31a19bf055776e92dc3ee1016d775177",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_northwest",
+          "codepoint": 8598,
+          "angle": 135,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_northeast": {
+      "codepoints": [
+        "U+2197"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_northeast/curves.json",
+      "curves_sha256": "1b259bc5c8c544b41d2192de6f1aeb66cd7ddb6b68debc7d5dd2c20a82b797ec",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_northeast",
+          "codepoint": 8599,
+          "angle": 45,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_southeast": {
+      "codepoints": [
+        "U+2198"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_southeast/curves.json",
+      "curves_sha256": "8d43e91db0afb6547e053827154043959e057f38c8e31de04831d5355a8102c7",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_southeast",
+          "codepoint": 8600,
+          "angle": 315,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_southwest": {
+      "codepoints": [
+        "U+2199"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_southwest/curves.json",
+      "curves_sha256": "7e9d5b83b2e1f26911e5d6fb326c5f9e05d0330b625c5cb58413f07daf0421a3",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_southwest",
+          "codepoint": 8601,
+          "angle": 225,
+          "ends": "right"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_frombar_left": {
+      "codepoints": [
+        "U+21A4"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_frombar_left/curves.json",
+      "curves_sha256": "dbcf3792557aacc2936faeabf10a36679df8d7915024f4bdbba12e3e6c6c2072",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_frombar_left",
+          "codepoint": 8612,
+          "angle": 180,
+          "ends": "right",
+          "bar": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_frombar_up": {
+      "codepoints": [
+        "U+21A5"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_frombar_up/curves.json",
+      "curves_sha256": "75a6de85d7a37ff4069c61d6e11fa81dfc330f8880e2c7bc897b71767dba7e1c",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_frombar_up",
+          "codepoint": 8613,
+          "angle": 90,
+          "ends": "right",
+          "bar": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_frombar_right": {
+      "codepoints": [
+        "U+21A6"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_frombar_right/curves.json",
+      "curves_sha256": "d6490156508b4b5b434d10a1f924319b1595f2526c5c6c9161788001ee3ddf06",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_frombar_right",
+          "codepoint": 8614,
+          "angle": 0,
+          "ends": "right",
+          "bar": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_frombar_down": {
+      "codepoints": [
+        "U+21A7"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_frombar_down/curves.json",
+      "curves_sha256": "403f65c54107fedc9e5f3d1f64d2766bb2689c3dd79cff3ddbdb57a16f0d1ebf",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_frombar_down",
+          "codepoint": 8615,
+          "angle": 270,
+          "ends": "right",
+          "bar": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_double_left": {
+      "codepoints": [
+        "U+21D0"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_double_left/curves.json",
+      "curves_sha256": "d429b27eb9d66e4306f0c13ba10e90dac320697056c6fd3dc44a540919ef5f59",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_left",
+          "codepoint": 8656,
+          "angle": 180,
+          "ends": "right",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_double_up": {
+      "codepoints": [
+        "U+21D1"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_double_up/curves.json",
+      "curves_sha256": "dbded9e5fa978643410e2924adea9b2ddf8c1593fd02f88ed141c06d2ee5e254",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_up",
+          "codepoint": 8657,
+          "angle": 90,
+          "ends": "right",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_double_right": {
+      "codepoints": [
+        "U+21D2"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_double_right/curves.json",
+      "curves_sha256": "e14f06709400da5245c5f69b23e004b5846bc19023d9ce7df16876f17d15dc89",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_right",
+          "codepoint": 8658,
+          "angle": 0,
+          "ends": "right",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_double_down": {
+      "codepoints": [
+        "U+21D3"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_double_down/curves.json",
+      "curves_sha256": "55b6b673b350838e674d9fce4ac1f2b1d1d84823e0e0006bb564ea2c23bf70d8",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_down",
+          "codepoint": 8659,
+          "angle": 270,
+          "ends": "right",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_double_leftright": {
+      "codepoints": [
+        "U+21D4"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_double_leftright/curves.json",
+      "curves_sha256": "e59b09283a2e6fbf7911a3aac60f11f6b4cabaf2e43b28bb950d3e9f1043158d",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_leftright",
+          "codepoint": 8660,
+          "angle": 0,
+          "ends": "both",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_double_updown": {
+      "codepoints": [
+        "U+21D5"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_double_updown/curves.json",
+      "curves_sha256": "a432004898167424d4fb2f988238ee0e7e04745af189414c1d354d67ad611a84",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_double_updown",
+          "codepoint": 8661,
+          "angle": 90,
+          "ends": "both",
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "harpoon_left_up": {
+      "codepoints": [
+        "U+21BC"
+      ],
+      "kind": "symbol",
+      "curves": "harpoon_left_up/curves.json",
+      "curves_sha256": "ceb310e5dc948d8083fbc888916a60ff141cc416c20b2de2f14c0d8bf31bf237",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_left_up",
+          "codepoint": 8636,
+          "angle": 180,
+          "ends": "right",
+          "half_head": "lower"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "harpoon_left_down": {
+      "codepoints": [
+        "U+21BD"
+      ],
+      "kind": "symbol",
+      "curves": "harpoon_left_down/curves.json",
+      "curves_sha256": "7e3d72f3335269b0138c146445854a0ede5c336b744ce18b95c4f9cddb2bec32",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_left_down",
+          "codepoint": 8637,
+          "angle": 180,
+          "ends": "right",
+          "half_head": "upper"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "harpoon_up_right": {
+      "codepoints": [
+        "U+21BE"
+      ],
+      "kind": "symbol",
+      "curves": "harpoon_up_right/curves.json",
+      "curves_sha256": "41c656a04ea19e27afd24df11db00bf6f1726fe1e611cd901a266fe241a9930e",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_up_right",
+          "codepoint": 8638,
+          "angle": 90,
+          "ends": "right",
+          "half_head": "lower"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "harpoon_up_left": {
+      "codepoints": [
+        "U+21BF"
+      ],
+      "kind": "symbol",
+      "curves": "harpoon_up_left/curves.json",
+      "curves_sha256": "6861844498336fe64d2a396d2a3184daba0ef7a7cca62becae4d5be426155080",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_up_left",
+          "codepoint": 8639,
+          "angle": 90,
+          "ends": "right",
+          "half_head": "upper"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "harpoon_right_up": {
+      "codepoints": [
+        "U+21C0"
+      ],
+      "kind": "symbol",
+      "curves": "harpoon_right_up/curves.json",
+      "curves_sha256": "e8fbdd13e55ebf009fbbbaaa3e1ebb07eaefc52c8d109156b27b7bef7daa233f",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_right_up",
+          "codepoint": 8640,
+          "angle": 0,
+          "ends": "right",
+          "half_head": "upper"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "harpoon_right_down": {
+      "codepoints": [
+        "U+21C1"
+      ],
+      "kind": "symbol",
+      "curves": "harpoon_right_down/curves.json",
+      "curves_sha256": "f7f4118bb0921fb07e4e62710208a7a9c977c08246a1210d8b80f655e168ff59",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_right_down",
+          "codepoint": 8641,
+          "angle": 0,
+          "ends": "right",
+          "half_head": "lower"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "harpoon_down_right": {
+      "codepoints": [
+        "U+21C2"
+      ],
+      "kind": "symbol",
+      "curves": "harpoon_down_right/curves.json",
+      "curves_sha256": "1b2849884781d8f03c1456f40bc973bb52a83586f4d714d9e0dd00ecd0322603",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_down_right",
+          "codepoint": 8642,
+          "angle": 270,
+          "ends": "right",
+          "half_head": "upper"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "harpoon_down_left": {
+      "codepoints": [
+        "U+21C3"
+      ],
+      "kind": "symbol",
+      "curves": "harpoon_down_left/curves.json",
+      "curves_sha256": "9d3230ae27878528575b3f042bd2a47202a3f2ee80be9a5617851076ebf58f6b",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "harpoon_down_left",
+          "codepoint": 8643,
+          "angle": 270,
+          "ends": "right",
+          "half_head": "lower"
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_long_left": {
+      "codepoints": [
+        "U+27F5"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_long_left/curves.json",
+      "curves_sha256": "3f3907a27c6f3b8145cad83b2acf15fa23c0b19d09935acfd61cb2fea7e02b24",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_left",
+          "codepoint": 10229,
+          "angle": 180,
+          "ends": "right",
+          "long": true,
+          "double": false
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_long_right": {
+      "codepoints": [
+        "U+27F6"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_long_right/curves.json",
+      "curves_sha256": "40da4489c8ebee0a70a6c548254b0c3f16480092582a63f30cea67ca9522e1e7",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_right",
+          "codepoint": 10230,
+          "angle": 0,
+          "ends": "right",
+          "long": true,
+          "double": false
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_long_leftright": {
+      "codepoints": [
+        "U+27F7"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_long_leftright/curves.json",
+      "curves_sha256": "08cb3fa3d483847cf6115788484bede426c2377556b2694c80018705d5a3b58e",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_leftright",
+          "codepoint": 10231,
+          "angle": 0,
+          "ends": "both",
+          "long": true,
+          "double": false
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_long_double_left": {
+      "codepoints": [
+        "U+27F8"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_long_double_left/curves.json",
+      "curves_sha256": "e0a1bfa1bd6cdc9462eed55e998ade64fd3452cec5b0b197aac922bb6fa13674",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_double_left",
+          "codepoint": 10232,
+          "angle": 180,
+          "ends": "right",
+          "long": true,
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_long_double_right": {
+      "codepoints": [
+        "U+27F9"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_long_double_right/curves.json",
+      "curves_sha256": "0862ea5be787b2682262aaf2094fbffce536e4a4e28b05cdd72d8c79153be705",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_double_right",
+          "codepoint": 10233,
+          "angle": 0,
+          "ends": "right",
+          "long": true,
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    },
+    "arrow_long_double_leftright": {
+      "codepoints": [
+        "U+27FA"
+      ],
+      "kind": "symbol",
+      "curves": "arrow_long_double_leftright/curves.json",
+      "curves_sha256": "f3ed22b6bb89b73b0de5266c55da27d0d72091fefe4650b6f16d3bd55df18ad2",
+      "source_crop_box": [
+        0,
+        0,
+        1600,
+        1000
+      ],
+      "baseline_root": 750,
+      "source_em_pixels": 1000,
+      "registration_to_root": {
+        "scale": 1,
+        "translate_x": 0,
+        "translate_y": 0
+      },
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "root_image": "../master-v2/candidate-01/master.png",
+      "frame_kind": "derived_design_units",
+      "frame_note": "These numerical root/crop/em fields describe a derived design frame, NOT pixel coordinates in root_image. x=canonical_x+800; y=750-(canonical_y+250).",
+      "provenance": {
+        "method": "authored shared vector arrow grammar; boolean union of stroked cubic components",
+        "grammar": "design/arrow-grammar.json",
+        "grammar_sha256": "f235057d388284ecaa109c5c16ca645ccdf96bdc680a10822bd05171d4a7d618",
+        "root_reference_crop_pixels": [
+          25,
+          1402,
+          120,
+          1459
+        ],
+        "root_reference_role": "valid ordinary right-arrow; visual calibration only; not traced",
+        "recipe": {
+          "name": "arrow_long_double_leftright",
+          "codepoint": 10234,
+          "angle": 0,
+          "ends": "both",
+          "long": true,
+          "double": true
+        },
+        "donor_outlines": false,
+        "raster_fit_claimed": false,
+        "frame_kind": "derived_design_units",
+        "root_frame_registration_claimed": false
+      },
+      "status": "provisional authored grammar derivative; optical and engine proof pending"
+    }
+  }
+}

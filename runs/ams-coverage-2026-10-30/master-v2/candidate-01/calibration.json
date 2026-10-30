@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "status": "provisional_uncertain; not an accepted optical/font calibration",
+  "method": "Median of six anchor width and height ratios (12 observations); common baseline offset is median of six top/bottom-derived midpoint offsets. No per-glyph scaling.",
+  "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+  "v1_root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+  "v1_cells_sha256": "51b3fa005e2ad338207ab83a3f69710a1d2eced5971bea96b2eabc0ed9b40cea",
+  "v1_metrics_sha256": "5c0c315c2b02485c7a4e379fec19943fb9cdf7c2e3f7e1df7c34c8f5552fe98b",
+  "v1_source_em_pixels": 200,
+  "scale_v2_over_v1": 0.6404308202154101,
+  "source_em_pixels": 128.08616404308202,
+  "comparison_scale_least_squares": 0.6415867706296672,
+  "comparison_width_ratio_median": 0.6071571211758127,
+  "comparison_height_ratio_median": 0.6652926181048977,
+  "scale_ratio_range": [
+    0.5704225352112676,
+    0.7291666666666666
+  ],
+  "scale_ratio_median_absolute_deviation": 0.03145721296924764,
+  "row_baseline_offset_pixels": 138.05778790389394,
+  "baseline_offset_proposal_range_pixels": [
+    130.7013256006628,
+    143.08326429163213
+  ],
+  "baseline_offset_median_absolute_deviation_pixels": 3.0787075393537577,
+  "rms_dimension_residual_pixels": 5.499978752358517,
+  "row_baselines": {
+    "1": 148.05778790389394,
+    "2": 355.05778790389394,
+    "3": 558.057787903894,
+    "4": 763.057787903894
+  },
+  "observed_anchor_rows": [
+    1,
+    2,
+    4
+  ],
+  "unanchored_greek_rows": [
+    3
+  ],
+  "anchors": [
+    {
+      "name": "alpha",
+      "row_v2": 1,
+      "v1_bbox_root": [
+        817,
+        91,
+        959,
+        195
+      ],
+      "v2_bbox_root": [
+        34,
+        86,
+        115,
+        151
+      ],
+      "v1_baseline_root": 197,
+      "v2_row_grid_top": 10,
+      "width_ratio_v2_over_v1": 0.5704225352112676,
+      "height_ratio_v2_over_v1": 0.625,
+      "baseline_offset_from_top_edge_pixels": 143.88566694283347,
+      "baseline_offset_from_bottom_edge_pixels": 142.28086164043083,
+      "baseline_offset_midpoint_pixels": 143.08326429163213,
+      "width_residual_pixels": -9.941176470588232,
+      "height_residual_pixels": -1.604805302402653,
+      "baseline_offset_residual_pixels": 5.025476387738195
+    },
+    {
+      "name": "beta",
+      "row_v2": 1,
+      "v1_bbox_root": [
+        824,
+        296,
+        953,
+        475
+      ],
+      "v2_bbox_root": [
+        154,
+        50,
+        229,
+        170
+      ],
+      "v1_baseline_root": 445,
+      "v2_row_grid_top": 10,
+      "width_ratio_v2_over_v1": 0.5813953488372093,
+      "height_ratio_v2_over_v1": 0.6703910614525139,
+      "baseline_offset_from_top_edge_pixels": 135.4241922120961,
+      "baseline_offset_from_bottom_edge_pixels": 140.7870753935377,
+      "baseline_offset_midpoint_pixels": 138.1056338028169,
+      "width_residual_pixels": -7.615575807787906,
+      "height_residual_pixels": 5.362883181441589,
+      "baseline_offset_residual_pixels": 0.047845898922957986
+    },
+    {
+      "name": "theta",
+      "row_v2": 1,
+      "v1_bbox_root": [
+        834,
+        564,
+        951,
+        717
+      ],
+      "v2_bbox_root": [
+        913,
+        54,
+        984,
+        153
+      ],
+      "v1_baseline_root": 710,
+      "v2_row_grid_top": 10,
+      "width_ratio_v2_over_v1": 0.6068376068376068,
+      "height_ratio_v2_over_v1": 0.6470588235294118,
+      "baseline_offset_from_top_edge_pixels": 137.5028997514499,
+      "baseline_offset_from_bottom_edge_pixels": 138.51698425849213,
+      "baseline_offset_midpoint_pixels": 138.009942004971,
+      "width_residual_pixels": -3.9304059652029792,
+      "height_residual_pixels": 1.0140845070422557,
+      "baseline_offset_residual_pixels": -0.047845898922929564
+    },
+    {
+      "name": "nu",
+      "row_v2": 2,
+      "v1_bbox_root": [
+        841,
+        849,
+        948,
+        952
+      ],
+      "v2_bbox_root": [
+        539,
+        282,
+        604,
+        350
+      ],
+      "v1_baseline_root": 950,
+      "v2_row_grid_top": 217,
+      "width_ratio_v2_over_v1": 0.6074766355140186,
+      "height_ratio_v2_over_v1": 0.6601941747572816,
+      "baseline_offset_from_top_edge_pixels": 129.6835128417564,
+      "baseline_offset_from_bottom_edge_pixels": 131.71913835956917,
+      "baseline_offset_midpoint_pixels": 130.7013256006628,
+      "width_residual_pixels": -3.526097763048881,
+      "height_residual_pixels": 2.035625517812761,
+      "baseline_offset_residual_pixels": -7.356462303231126
+    },
+    {
+      "name": "xi",
+      "row_v2": 2,
+      "v1_bbox_root": [
+        843,
+        1062,
+        944,
+        1246
+      ],
+      "v2_bbox_root": [
+        664,
+        249,
+        730,
+        375
+      ],
+      "v1_baseline_root": 1223,
+      "v2_row_grid_top": 217,
+      "width_ratio_v2_over_v1": 0.6534653465346535,
+      "height_ratio_v2_over_v1": 0.6847826086956522,
+      "baseline_offset_from_top_edge_pixels": 135.10936205468101,
+      "baseline_offset_from_bottom_edge_pixels": 143.27009113504556,
+      "baseline_offset_midpoint_pixels": 139.18972659486326,
+      "width_residual_pixels": 1.316487158243575,
+      "height_residual_pixels": 8.160729080364547,
+      "baseline_offset_residual_pixels": 1.1319386909693208
+    },
+    {
+      "name": "omega",
+      "row_v2": 4,
+      "v1_bbox_root": [
+        817,
+        1351,
+        959,
+        1447
+      ],
+      "v2_bbox_root": [
+        28,
+        690,
+        118,
+        760
+      ],
+      "v1_baseline_root": 1450,
+      "v2_row_grid_top": 625,
+      "width_ratio_v2_over_v1": 0.6338028169014085,
+      "height_ratio_v2_over_v1": 0.7291666666666666,
+      "baseline_offset_from_top_edge_pixels": 128.40265120132563,
+      "baseline_offset_from_bottom_edge_pixels": 136.9212924606462,
+      "baseline_offset_midpoint_pixels": 132.66197183098598,
+      "width_residual_pixels": -0.941176470588232,
+      "height_residual_pixels": 8.518641259320631,
+      "baseline_offset_residual_pixels": -5.395816072907962
+    }
+  ],
+  "uncertainties": [
+    "V1 em and row baselines were themselves provisional; this is not Storm metric calibration.",
+    "Anchor width/height ratios disagree: v2 is a redraw, not a registered pixel-identical expansion.",
+    "Bounding-box calibration does not measure silhouette fidelity, stroke weight, slant or local anatomy.",
+    "Row 3 has no retained v1 anchor; its baseline is extrapolated from the shared grid-offset model.",
+    "Rows 5-8 have no calibrated font baseline and are reference prototypes only.",
+    "Only one shared scale and one baseline offset are proposed; no per-glyph fitting is authorized.",
+    "Retain the actual six pilot glyphs from v1; do not replace them with atlas redraws."
+  ]
+}

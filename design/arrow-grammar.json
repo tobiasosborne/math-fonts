@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "status": "provisional_authored_vector_grammar_not_optical_acceptance",
+  "frame_kind": "derived_design_units",
+  "units_per_em": 1000,
+  "math_axis": 250,
+  "shaft_thickness": 40,
+  "head_length": 190,
+  "head_half_height": 170,
+  "head_curve_controls": [
+    [
+      0.9,
+      0.6
+    ],
+    [
+      0.34,
+      0.1
+    ]
+  ],
+  "double_shaft_center_distance": 120,
+  "mapsto_bar_half_height": 145,
+  "normal_centerline_length": 800,
+  "long_centerline_length": 1400,
+  "miter_limit": 4,
+  "root_image": "runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+  "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+  "reference_crop_pixels": [
+    25,
+    1402,
+    120,
+    1459
+  ],
+  "reference_measurement": {
+    "image_size": [
+      1024,
+      1536
+    ],
+    "threshold": 128,
+    "ink_bbox_inclusive": [
+      31,
+      1411,
+      114,
+      1448
+    ],
+    "long_shaft_rows": [
+      1427,
+      1428,
+      1429,
+      1430,
+      1431
+    ],
+    "meaning": "Coarse image calibration of the valid ordinary right-arrow cell only; not a fitted outline or em measurement."
+  },
+  "calibration": "40-unit shaft matches the authored pilot FractionRuleThickness=40. Root arrow has approximately 5-pixel shaft across 84-pixel ink width and 38-pixel overall height. Shared curved open heads retain that visual direction; chosen em dimensions are provisional optical engineering, not a pixel registration.",
+  "excluded_root_cells": [
+    "left-harpoon",
+    "right-harpoon",
+    "twohead-right",
+    "double-iff",
+    "mapsto",
+    "left-right-arrow",
+    "hook-left"
+  ],
+  "excluded_reason": "Only the valid ordinary right-arrow cell is used as visual calibration. Other cells are not traced or adopted as geometry.",
+  "implementation": "Reusable stroked cubic open head, rectangular shaft/bar, exact rotations and reflections, then boolean union. No stock font imports.",
+  "limitations": [
+    "Normal and long finite lengths only; no MATH assemblies.",
+    "Head proportions, weight, spacing, and script behavior need actual working-size optical approval.",
+    "Harpoons and double arrows are authored grammar derivatives, not accepted raster fits."
+  ],
+  "double_shaft_join": "Solve the shared head cubic at each shaft centerline and trim the complete stripe with the exact cubic interior; head half-stroke supplies controlled overlap, no free projecting butt ends."
+}

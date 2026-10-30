@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "font_sha256": "9cae9c369f2e20c50138a4e34f4089dde1fd1960b3bf9ae70e9d659554393878",
+  "font_bytes_identical_across_fresh_builds": {
+    "delivery-arrows-01": "9cae9c369f2e20c50138a4e34f4089dde1fd1960b3bf9ae70e9d659554393878",
+    "delivery-arrows-02": "9cae9c369f2e20c50138a4e34f4089dde1fd1960b3bf9ae70e9d659554393878",
+    "delivery-arrows-03": "9cae9c369f2e20c50138a4e34f4089dde1fd1960b3bf9ae70e9d659554393878"
+  },
+  "isolated_actual_font_checks": {
+    "lualatex": 296,
+    "xelatex": 296
+  },
+  "independent_immutable_pilot_checks": {
+    "lualatex": 20,
+    "xelatex": 20
+  },
+  "hard_missing_checks": {
+    "lualatex": 12,
+    "xelatex": 12
+  },
+  "unit_tests": {
+    "test_math_ams": 9,
+    "test_ams_sources": 6,
+    "test_math_arrows": 7,
+    "test_ams_atlas": 5,
+    "test_ams_runtime_source_contract": 2
+  },
+  "public_outline_policy": "Authored companion only; commercial Storm binaries and embedded-font proofs excluded.",
+  "optical_status": "Inspected real pages and compiled/source grids; provisional, not final acceptance.",
+  "remaining_gaps": [
+    "custom Greek beyond six retained glyphs",
+    "three quarantined Greek variant cells",
+    "hooks, successive twoheads, paired/negated arrows and arbitrary assemblies",
+    "growing cases braces",
+    "script optical drawings, bold math and expressive alphabets",
+    "full AMS inventory and semantic bindings"
+  ]
+}

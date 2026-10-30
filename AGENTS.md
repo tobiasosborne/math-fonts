@@ -155,3 +155,12 @@ use a shared vector grammar: common shaft weight, head profile, spacing, hooks
 and bars, deployed consistently across directions and semantic variants. Most
 do not need separate image regeneration. Wrong harpoon/twohead cells in the new
 atlas are quarantined, not authority for wrong Unicode mappings.
+
+AMS ARROW CHECKPOINT: see `runs/ams-coverage-2026-10-30/README.md`. The first
+34 arrows share one cubic open head and 40-unit shaft; `tools/run_math_ams.py`
+builds their real CFF/MATH OTF and proves exact source use on both engines.
+`arrows-v1/sources.json` uses explicit derived design-unit frames, not raster
+registration. Missing hooks/twohead/pairs and full assemblies remain gaps.
+The expanded atlas has 64 original-pixel crops; six semantic errors are
+quarantined. Retain the six v1 Greek sources and provisional scale uncertainty.
+Do not claim source availability, 34 arrows or a passing proof is full AMS.

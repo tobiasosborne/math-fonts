@@ -1,0 +1,4835 @@
+{
+  "schema_version": 1,
+  "status": "failed",
+  "font_sha256": "9cae9c369f2e20c50138a4e34f4089dde1fd1960b3bf9ae70e9d659554393878",
+  "math_postscript_name": "BaskervilleCompanionMath-AMS",
+  "loader_sha256": "dff1729b28ab8e8dd99d7b2eed4758213b563f7ea06f1ea2ba2cc83445243867",
+  "storm_sha256": {
+    "Baskerville10Pro.otf": "402c85ca431a105b56e34cdbd5a01dae9f44f129e6b4f3c2e062cf5cb21dad3e",
+    "Baskerville10Pro-Italic.otf": "b7c1c8e26c169eaa8a05d1354793a3cb9351c7a763c1e0864189f41860c652af",
+    "Baskerville10Pro-Bold.otf": "ddc7383e768b3291368a454efef9f2bbddfd36aa55b6b4fc92e61d2bcbcaaa4a",
+    "Baskerville10Pro-BoldItalic.otf": "4430977b025b08c62f975fbfc06d120fde12be4cab08119fd89ae3752d5bf81f"
+  },
+  "source_annotations": [
+    {
+      "command": "\\Diamond",
+      "codepoint": 9674,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+25CA",
+      "source_glyph_name": "lozenge",
+      "same_source_glyph_characters": [
+        "◊"
+      ]
+    },
+    {
+      "command": "\\circledR",
+      "codepoint": 174,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00AE",
+      "source_glyph_name": "registered",
+      "same_source_glyph_characters": [
+        "®"
+      ]
+    },
+    {
+      "command": "\\lozenge",
+      "codepoint": 9674,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+25CA",
+      "source_glyph_name": "lozenge",
+      "same_source_glyph_characters": [
+        "◊"
+      ]
+    },
+    {
+      "command": "\\yen",
+      "codepoint": 165,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00A5",
+      "source_glyph_name": "yen",
+      "same_source_glyph_characters": [
+        "¥"
+      ]
+    },
+    {
+      "command": "\\lvert",
+      "codepoint": 124,
+      "math_class": "mathopen",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+007C",
+      "source_glyph_name": "bar",
+      "same_source_glyph_characters": [
+        "|"
+      ]
+    },
+    {
+      "command": "\\rvert",
+      "codepoint": 124,
+      "math_class": "mathclose",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+007C",
+      "source_glyph_name": "bar",
+      "same_source_glyph_characters": [
+        "|"
+      ]
+    },
+    {
+      "command": "\\centerdot",
+      "codepoint": 183,
+      "math_class": "mathbin",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00B7",
+      "source_glyph_name": "periodcentered",
+      "same_source_glyph_characters": [
+        "·",
+        "∙"
+      ]
+    },
+    {
+      "command": "\\eth",
+      "codepoint": 240,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00F0",
+      "source_glyph_name": "eth",
+      "same_source_glyph_characters": [
+        "ð"
+      ]
+    },
+    {
+      "command": "\\Relbar",
+      "codepoint": 61,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "authored_AMS_overlay",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+003D",
+      "source_glyph_name": "equals",
+      "same_source_glyph_characters": [
+        "="
+      ]
+    },
+    {
+      "command": "\\approx",
+      "codepoint": 8776,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2248",
+      "source_glyph_name": "approxequal",
+      "same_source_glyph_characters": [
+        "≈"
+      ]
+    },
+    {
+      "command": "\\backslash",
+      "codepoint": 92,
+      "math_class": "mathord",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+005C",
+      "source_glyph_name": "backslash",
+      "same_source_glyph_characters": [
+        "\\"
+      ]
+    },
+    {
+      "command": "\\bullet",
+      "codepoint": 8226,
+      "math_class": "mathbin",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2022",
+      "source_glyph_name": "bullet",
+      "same_source_glyph_characters": [
+        "•"
+      ]
+    },
+    {
+      "command": "\\cdotp",
+      "codepoint": 183,
+      "math_class": "mathpunct",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00B7",
+      "source_glyph_name": "periodcentered",
+      "same_source_glyph_characters": [
+        "·",
+        "∙"
+      ]
+    },
+    {
+      "command": "\\colon",
+      "codepoint": 58,
+      "math_class": "mathpunct",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+003A",
+      "source_glyph_name": "colon",
+      "same_source_glyph_characters": [
+        ":"
+      ]
+    },
+    {
+      "command": "\\dagger",
+      "codepoint": 8224,
+      "math_class": "mathbin",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2020",
+      "source_glyph_name": "dagger",
+      "same_source_glyph_characters": [
+        "†"
+      ]
+    },
+    {
+      "command": "\\ddagger",
+      "codepoint": 8225,
+      "math_class": "mathbin",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2021",
+      "source_glyph_name": "daggerdbl",
+      "same_source_glyph_characters": [
+        "‡"
+      ]
+    },
+    {
+      "command": "\\div",
+      "codepoint": 247,
+      "math_class": "mathbin",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00F7",
+      "source_glyph_name": "divide",
+      "same_source_glyph_characters": [
+        "÷"
+      ]
+    },
+    {
+      "command": "\\downarrow",
+      "codepoint": 8595,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2193",
+      "source_glyph_name": "arrow_down",
+      "same_source_glyph_characters": [
+        "↓"
+      ]
+    },
+    {
+      "command": "\\ell",
+      "codepoint": 8467,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2113",
+      "source_glyph_name": "litre",
+      "same_source_glyph_characters": [
+        "ℓ"
+      ]
+    },
+    {
+      "command": "\\ge",
+      "codepoint": 8805,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2265",
+      "source_glyph_name": "greaterequal",
+      "same_source_glyph_characters": [
+        "≥"
+      ]
+    },
+    {
+      "command": "\\geq",
+      "codepoint": 8805,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2265",
+      "source_glyph_name": "greaterequal",
+      "same_source_glyph_characters": [
+        "≥"
+      ]
+    },
+    {
+      "command": "\\gets",
+      "codepoint": 8592,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2190",
+      "source_glyph_name": "arrow_left",
+      "same_source_glyph_characters": [
+        "←"
+      ]
+    },
+    {
+      "command": "\\infty",
+      "codepoint": 8734,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+221E",
+      "source_glyph_name": "infinity",
+      "same_source_glyph_characters": [
+        "∞"
+      ]
+    },
+    {
+      "command": "\\lbrace",
+      "codepoint": 123,
+      "math_class": "mathopen",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+007B",
+      "source_glyph_name": "braceleft",
+      "same_source_glyph_characters": [
+        "{"
+      ]
+    },
+    {
+      "command": "\\ldotp",
+      "codepoint": 46,
+      "math_class": "mathpunct",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+002E",
+      "source_glyph_name": "period",
+      "same_source_glyph_characters": [
+        "."
+      ]
+    },
+    {
+      "command": "\\ldots",
+      "codepoint": 8230,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2026",
+      "source_glyph_name": "ellipsis",
+      "same_source_glyph_characters": [
+        "…"
+      ]
+    },
+    {
+      "command": "\\le",
+      "codepoint": 8804,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2264",
+      "source_glyph_name": "lessequal",
+      "same_source_glyph_characters": [
+        "≤"
+      ]
+    },
+    {
+      "command": "\\leftarrow",
+      "codepoint": 8592,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2190",
+      "source_glyph_name": "arrow_left",
+      "same_source_glyph_characters": [
+        "←"
+      ]
+    },
+    {
+      "command": "\\leftrightarrow",
+      "codepoint": 8596,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2194",
+      "source_glyph_name": "arrow_leftright",
+      "same_source_glyph_characters": [
+        "↔"
+      ]
+    },
+    {
+      "command": "\\leq",
+      "codepoint": 8804,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2264",
+      "source_glyph_name": "lessequal",
+      "same_source_glyph_characters": [
+        "≤"
+      ]
+    },
+    {
+      "command": "\\lnot",
+      "codepoint": 172,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00AC",
+      "source_glyph_name": "logicalnot",
+      "same_source_glyph_characters": [
+        "¬"
+      ]
+    },
+    {
+      "command": "\\mathdollar",
+      "codepoint": 36,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+0024",
+      "source_glyph_name": "dollar",
+      "same_source_glyph_characters": [
+        "$"
+      ]
+    },
+    {
+      "command": "\\mathellipsis",
+      "codepoint": 8230,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2026",
+      "source_glyph_name": "ellipsis",
+      "same_source_glyph_characters": [
+        "…"
+      ]
+    },
+    {
+      "command": "\\mathparagraph",
+      "codepoint": 182,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00B6",
+      "source_glyph_name": "paragraph",
+      "same_source_glyph_characters": [
+        "¶"
+      ]
+    },
+    {
+      "command": "\\mathsection",
+      "codepoint": 167,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00A7",
+      "source_glyph_name": "section",
+      "same_source_glyph_characters": [
+        "§"
+      ]
+    },
+    {
+      "command": "\\mathsterling",
+      "codepoint": 163,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00A3",
+      "source_glyph_name": "sterling",
+      "same_source_glyph_characters": [
+        "£"
+      ]
+    },
+    {
+      "command": "\\nearrow",
+      "codepoint": 8599,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2197",
+      "source_glyph_name": "arrow_northeast",
+      "same_source_glyph_characters": [
+        "↗"
+      ]
+    },
+    {
+      "command": "\\neg",
+      "codepoint": 172,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00AC",
+      "source_glyph_name": "logicalnot",
+      "same_source_glyph_characters": [
+        "¬"
+      ]
+    },
+    {
+      "command": "\\neq",
+      "codepoint": 8800,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2260",
+      "source_glyph_name": "notequal",
+      "same_source_glyph_characters": [
+        "≠"
+      ]
+    },
+    {
+      "command": "\\nwarrow",
+      "codepoint": 8598,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2196",
+      "source_glyph_name": "arrow_northwest",
+      "same_source_glyph_characters": [
+        "↖"
+      ]
+    },
+    {
+      "command": "\\partial",
+      "codepoint": 8706,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2202",
+      "source_glyph_name": "partialdiff",
+      "same_source_glyph_characters": [
+        "∂"
+      ]
+    },
+    {
+      "command": "\\pm",
+      "codepoint": 177,
+      "math_class": "mathbin",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00B1",
+      "source_glyph_name": "plusminus",
+      "same_source_glyph_characters": [
+        "±"
+      ]
+    },
+    {
+      "command": "\\prime",
+      "codepoint": 8242,
+      "math_class": "mathord",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2032",
+      "source_glyph_name": "minute",
+      "same_source_glyph_characters": [
+        "′"
+      ]
+    },
+    {
+      "command": "\\prod",
+      "codepoint": 8719,
+      "math_class": "mathop",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+220F",
+      "source_glyph_name": "product",
+      "same_source_glyph_characters": [
+        "∏"
+      ]
+    },
+    {
+      "command": "\\rbrace",
+      "codepoint": 125,
+      "math_class": "mathclose",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+007D",
+      "source_glyph_name": "braceright",
+      "same_source_glyph_characters": [
+        "}"
+      ]
+    },
+    {
+      "command": "\\relbar",
+      "codepoint": 8722,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "authored_AMS_overlay",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2212",
+      "source_glyph_name": "minus",
+      "same_source_glyph_characters": [
+        "−"
+      ]
+    },
+    {
+      "command": "\\rightarrow",
+      "codepoint": 8594,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2192",
+      "source_glyph_name": "arrow_right",
+      "same_source_glyph_characters": [
+        "→"
+      ]
+    },
+    {
+      "command": "\\searrow",
+      "codepoint": 8600,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2198",
+      "source_glyph_name": "arrow_southeast",
+      "same_source_glyph_characters": [
+        "↘"
+      ]
+    },
+    {
+      "command": "\\smallint",
+      "codepoint": 8747,
+      "math_class": "mathop",
+      "declaration": "declare",
+      "source": "authored_AMS_overlay",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+222B",
+      "source_glyph_name": "integral",
+      "same_source_glyph_characters": [
+        "∫"
+      ]
+    },
+    {
+      "command": "\\swarrow",
+      "codepoint": 8601,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2199",
+      "source_glyph_name": "arrow_southwest",
+      "same_source_glyph_characters": [
+        "↙"
+      ]
+    },
+    {
+      "command": "\\times",
+      "codepoint": 215,
+      "math_class": "mathbin",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+00D7",
+      "source_glyph_name": "multiply",
+      "same_source_glyph_characters": [
+        "×"
+      ]
+    },
+    {
+      "command": "\\to",
+      "codepoint": 8594,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2192",
+      "source_glyph_name": "arrow_right",
+      "same_source_glyph_characters": [
+        "→"
+      ]
+    },
+    {
+      "command": "\\uparrow",
+      "codepoint": 8593,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2191",
+      "source_glyph_name": "arrow_up",
+      "same_source_glyph_characters": [
+        "↑"
+      ]
+    },
+    {
+      "command": "\\updownarrow",
+      "codepoint": 8597,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+2195",
+      "source_glyph_name": "arrow_updown",
+      "same_source_glyph_characters": [
+        "↕"
+      ]
+    },
+    {
+      "command": "\\vert",
+      "codepoint": 124,
+      "math_class": "mathord",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+007C",
+      "source_glyph_name": "bar",
+      "same_source_glyph_characters": [
+        "|"
+      ]
+    },
+    {
+      "command": "\\ne",
+      "codepoint": 8800,
+      "math_class": "mathrel",
+      "declaration": "declare",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+2260",
+      "source_glyph_name": "notequal",
+      "same_source_glyph_characters": [
+        "≠"
+      ]
+    },
+    {
+      "command": "\\{",
+      "codepoint": 123,
+      "math_class": "mathopen",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+007B",
+      "source_glyph_name": "braceleft",
+      "same_source_glyph_characters": [
+        "{"
+      ]
+    },
+    {
+      "command": "\\}",
+      "codepoint": 125,
+      "math_class": "mathclose",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+007D",
+      "source_glyph_name": "braceright",
+      "same_source_glyph_characters": [
+        "}"
+      ]
+    },
+    {
+      "command": "\\lbrack",
+      "codepoint": 91,
+      "math_class": "mathopen",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+005B",
+      "source_glyph_name": "bracketleft",
+      "same_source_glyph_characters": [
+        "["
+      ]
+    },
+    {
+      "command": "\\rbrack",
+      "codepoint": 93,
+      "math_class": "mathclose",
+      "declaration": "delimiter",
+      "source": "original_external_Storm_regular",
+      "expected_font": "Baskerville10Pro",
+      "source_codepoint": "U+005D",
+      "source_glyph_name": "bracketright",
+      "same_source_glyph_characters": [
+        "]"
+      ]
+    },
+    {
+      "command": "\\Delta",
+      "codepoint": 916,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0394",
+      "source_glyph_name": "Delta",
+      "same_source_glyph_characters": [
+        "Δ",
+        "∆"
+      ]
+    },
+    {
+      "command": "\\Gamma",
+      "codepoint": 915,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0393",
+      "source_glyph_name": "Gamma",
+      "same_source_glyph_characters": [
+        "Γ"
+      ]
+    },
+    {
+      "command": "\\Lambda",
+      "codepoint": 923,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+039B",
+      "source_glyph_name": "Lambda",
+      "same_source_glyph_characters": [
+        "Λ"
+      ]
+    },
+    {
+      "command": "\\Omega",
+      "codepoint": 937,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A9",
+      "source_glyph_name": "Omega",
+      "same_source_glyph_characters": [
+        "Ω",
+        "Ω"
+      ]
+    },
+    {
+      "command": "\\Phi",
+      "codepoint": 934,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A6",
+      "source_glyph_name": "Phi",
+      "same_source_glyph_characters": [
+        "Φ"
+      ]
+    },
+    {
+      "command": "\\Pi",
+      "codepoint": 928,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A0",
+      "source_glyph_name": "Pi",
+      "same_source_glyph_characters": [
+        "Π"
+      ]
+    },
+    {
+      "command": "\\Psi",
+      "codepoint": 936,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A8",
+      "source_glyph_name": "Psi",
+      "same_source_glyph_characters": [
+        "Ψ"
+      ]
+    },
+    {
+      "command": "\\Sigma",
+      "codepoint": 931,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A3",
+      "source_glyph_name": "Sigma",
+      "same_source_glyph_characters": [
+        "Σ"
+      ]
+    },
+    {
+      "command": "\\Theta",
+      "codepoint": 920,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0398",
+      "source_glyph_name": "Theta",
+      "same_source_glyph_characters": [
+        "Θ"
+      ]
+    },
+    {
+      "command": "\\Upsilon",
+      "codepoint": 933,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A5",
+      "source_glyph_name": "Upsilon",
+      "same_source_glyph_characters": [
+        "Υ"
+      ]
+    },
+    {
+      "command": "\\Xi",
+      "codepoint": 926,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+039E",
+      "source_glyph_name": "Xi",
+      "same_source_glyph_characters": [
+        "Ξ"
+      ]
+    },
+    {
+      "command": "\\Alpha",
+      "codepoint": 913,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0391",
+      "source_glyph_name": "Alpha",
+      "same_source_glyph_characters": [
+        "Α"
+      ]
+    },
+    {
+      "command": "\\Beta",
+      "codepoint": 914,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0392",
+      "source_glyph_name": "Beta",
+      "same_source_glyph_characters": [
+        "Β"
+      ]
+    },
+    {
+      "command": "\\Epsilon",
+      "codepoint": 917,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0395",
+      "source_glyph_name": "Epsilon",
+      "same_source_glyph_characters": [
+        "Ε"
+      ]
+    },
+    {
+      "command": "\\Zeta",
+      "codepoint": 918,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0396",
+      "source_glyph_name": "Zeta",
+      "same_source_glyph_characters": [
+        "Ζ"
+      ]
+    },
+    {
+      "command": "\\Eta",
+      "codepoint": 919,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0397",
+      "source_glyph_name": "Eta",
+      "same_source_glyph_characters": [
+        "Η"
+      ]
+    },
+    {
+      "command": "\\Iota",
+      "codepoint": 921,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+0399",
+      "source_glyph_name": "Iota",
+      "same_source_glyph_characters": [
+        "Ι"
+      ]
+    },
+    {
+      "command": "\\Kappa",
+      "codepoint": 922,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+039A",
+      "source_glyph_name": "Kappa",
+      "same_source_glyph_characters": [
+        "Κ"
+      ]
+    },
+    {
+      "command": "\\Mu",
+      "codepoint": 924,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+039C",
+      "source_glyph_name": "Mu",
+      "same_source_glyph_characters": [
+        "Μ"
+      ]
+    },
+    {
+      "command": "\\Nu",
+      "codepoint": 925,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+039D",
+      "source_glyph_name": "Nu",
+      "same_source_glyph_characters": [
+        "Ν"
+      ]
+    },
+    {
+      "command": "\\Omicron",
+      "codepoint": 927,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+039F",
+      "source_glyph_name": "Omicron",
+      "same_source_glyph_characters": [
+        "Ο"
+      ]
+    },
+    {
+      "command": "\\Rho",
+      "codepoint": 929,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A1",
+      "source_glyph_name": "Rho",
+      "same_source_glyph_characters": [
+        "Ρ"
+      ]
+    },
+    {
+      "command": "\\Tau",
+      "codepoint": 932,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A4",
+      "source_glyph_name": "Tau",
+      "same_source_glyph_characters": [
+        "Τ"
+      ]
+    },
+    {
+      "command": "\\Chi",
+      "codepoint": 935,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03A7",
+      "source_glyph_name": "Chi",
+      "same_source_glyph_characters": [
+        "Χ"
+      ]
+    },
+    {
+      "command": "\\alpha",
+      "codepoint": 945,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B1",
+      "source_glyph_name": "alpha",
+      "same_source_glyph_characters": [
+        "α"
+      ]
+    },
+    {
+      "command": "\\beta",
+      "codepoint": 946,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B2",
+      "source_glyph_name": "beta",
+      "same_source_glyph_characters": [
+        "β"
+      ]
+    },
+    {
+      "command": "\\gamma",
+      "codepoint": 947,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B3",
+      "source_glyph_name": "gamma",
+      "same_source_glyph_characters": [
+        "γ"
+      ]
+    },
+    {
+      "command": "\\delta",
+      "codepoint": 948,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B4",
+      "source_glyph_name": "delta",
+      "same_source_glyph_characters": [
+        "δ"
+      ]
+    },
+    {
+      "command": "\\zeta",
+      "codepoint": 950,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B6",
+      "source_glyph_name": "zeta",
+      "same_source_glyph_characters": [
+        "ζ"
+      ]
+    },
+    {
+      "command": "\\eta",
+      "codepoint": 951,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B7",
+      "source_glyph_name": "eta",
+      "same_source_glyph_characters": [
+        "η"
+      ]
+    },
+    {
+      "command": "\\theta",
+      "codepoint": 952,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B8",
+      "source_glyph_name": "theta",
+      "same_source_glyph_characters": [
+        "θ"
+      ]
+    },
+    {
+      "command": "\\iota",
+      "codepoint": 953,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B9",
+      "source_glyph_name": "iota",
+      "same_source_glyph_characters": [
+        "ι"
+      ]
+    },
+    {
+      "command": "\\kappa",
+      "codepoint": 954,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03BA",
+      "source_glyph_name": "kappa",
+      "same_source_glyph_characters": [
+        "κ"
+      ]
+    },
+    {
+      "command": "\\lambda",
+      "codepoint": 955,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03BB",
+      "source_glyph_name": "lambda",
+      "same_source_glyph_characters": [
+        "λ"
+      ]
+    },
+    {
+      "command": "\\mu",
+      "codepoint": 956,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03BC",
+      "source_glyph_name": "mu",
+      "same_source_glyph_characters": [
+        "µ",
+        "μ"
+      ]
+    },
+    {
+      "command": "\\nu",
+      "codepoint": 957,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03BD",
+      "source_glyph_name": "nu",
+      "same_source_glyph_characters": [
+        "ν"
+      ]
+    },
+    {
+      "command": "\\xi",
+      "codepoint": 958,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03BE",
+      "source_glyph_name": "xi",
+      "same_source_glyph_characters": [
+        "ξ"
+      ]
+    },
+    {
+      "command": "\\omicron",
+      "codepoint": 959,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03BF",
+      "source_glyph_name": "omicron",
+      "same_source_glyph_characters": [
+        "ο"
+      ]
+    },
+    {
+      "command": "\\pi",
+      "codepoint": 960,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C0",
+      "source_glyph_name": "pi",
+      "same_source_glyph_characters": [
+        "π"
+      ]
+    },
+    {
+      "command": "\\rho",
+      "codepoint": 961,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C1",
+      "source_glyph_name": "rho",
+      "same_source_glyph_characters": [
+        "ρ"
+      ]
+    },
+    {
+      "command": "\\sigma",
+      "codepoint": 963,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C3",
+      "source_glyph_name": "sigma",
+      "same_source_glyph_characters": [
+        "σ"
+      ]
+    },
+    {
+      "command": "\\tau",
+      "codepoint": 964,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C4",
+      "source_glyph_name": "tau",
+      "same_source_glyph_characters": [
+        "τ"
+      ]
+    },
+    {
+      "command": "\\upsilon",
+      "codepoint": 965,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C5",
+      "source_glyph_name": "upsilon",
+      "same_source_glyph_characters": [
+        "υ"
+      ]
+    },
+    {
+      "command": "\\chi",
+      "codepoint": 967,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C7",
+      "source_glyph_name": "chi",
+      "same_source_glyph_characters": [
+        "χ"
+      ]
+    },
+    {
+      "command": "\\psi",
+      "codepoint": 968,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C8",
+      "source_glyph_name": "psi",
+      "same_source_glyph_characters": [
+        "ψ"
+      ]
+    },
+    {
+      "command": "\\omega",
+      "codepoint": 969,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C9",
+      "source_glyph_name": "omega",
+      "same_source_glyph_characters": [
+        "ω"
+      ]
+    },
+    {
+      "command": "\\varsigma",
+      "codepoint": 962,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C2",
+      "source_glyph_name": "sigma1",
+      "same_source_glyph_characters": [
+        "ς"
+      ]
+    },
+    {
+      "command": "\\varepsilon",
+      "codepoint": 949,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03B5",
+      "source_glyph_name": "epsilon",
+      "same_source_glyph_characters": [
+        "ε"
+      ]
+    },
+    {
+      "command": "\\varphi",
+      "codepoint": 966,
+      "math_class": "mathalpha",
+      "declaration": "native_Greek_opt_in",
+      "source": "original_external_Storm_italic_alternate",
+      "expected_font": "Baskerville10Pro-Italic",
+      "source_codepoint": "U+03C6",
+      "source_glyph_name": "phi",
+      "same_source_glyph_characters": [
+        "φ"
+      ]
+    },
+    {
+      "command": "\\mapsfrom",
+      "codepoint": 8612,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21A4",
+      "source_glyph_name": "arrow_frombar_left",
+      "same_source_glyph_characters": [
+        "↤"
+      ]
+    },
+    {
+      "command": "\\mapsup",
+      "codepoint": 8613,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21A5",
+      "source_glyph_name": "arrow_frombar_up",
+      "same_source_glyph_characters": [
+        "↥"
+      ]
+    },
+    {
+      "command": "\\mapsto",
+      "codepoint": 8614,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21A6",
+      "source_glyph_name": "arrow_frombar_right",
+      "same_source_glyph_characters": [
+        "↦"
+      ]
+    },
+    {
+      "command": "\\mapsdown",
+      "codepoint": 8615,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21A7",
+      "source_glyph_name": "arrow_frombar_down",
+      "same_source_glyph_characters": [
+        "↧"
+      ]
+    },
+    {
+      "command": "\\leftharpoonup",
+      "codepoint": 8636,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21BC",
+      "source_glyph_name": "harpoon_left_up",
+      "same_source_glyph_characters": [
+        "↼"
+      ]
+    },
+    {
+      "command": "\\leftharpoondown",
+      "codepoint": 8637,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21BD",
+      "source_glyph_name": "harpoon_left_down",
+      "same_source_glyph_characters": [
+        "↽"
+      ]
+    },
+    {
+      "command": "\\restriction",
+      "codepoint": 8638,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21BE",
+      "source_glyph_name": "harpoon_up_right",
+      "same_source_glyph_characters": [
+        "↾"
+      ]
+    },
+    {
+      "command": "\\upharpoonright",
+      "codepoint": 8638,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21BE",
+      "source_glyph_name": "harpoon_up_right",
+      "same_source_glyph_characters": [
+        "↾"
+      ]
+    },
+    {
+      "command": "\\upharpoonleft",
+      "codepoint": 8639,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21BF",
+      "source_glyph_name": "harpoon_up_left",
+      "same_source_glyph_characters": [
+        "↿"
+      ]
+    },
+    {
+      "command": "\\rightharpoonup",
+      "codepoint": 8640,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21C0",
+      "source_glyph_name": "harpoon_right_up",
+      "same_source_glyph_characters": [
+        "⇀"
+      ]
+    },
+    {
+      "command": "\\rightharpoondown",
+      "codepoint": 8641,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21C1",
+      "source_glyph_name": "harpoon_right_down",
+      "same_source_glyph_characters": [
+        "⇁"
+      ]
+    },
+    {
+      "command": "\\downharpoonright",
+      "codepoint": 8642,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21C2",
+      "source_glyph_name": "harpoon_down_right",
+      "same_source_glyph_characters": [
+        "⇂"
+      ]
+    },
+    {
+      "command": "\\downharpoonleft",
+      "codepoint": 8643,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21C3",
+      "source_glyph_name": "harpoon_down_left",
+      "same_source_glyph_characters": [
+        "⇃"
+      ]
+    },
+    {
+      "command": "\\Leftarrow",
+      "codepoint": 8656,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21D0",
+      "source_glyph_name": "arrow_double_left",
+      "same_source_glyph_characters": [
+        "⇐"
+      ]
+    },
+    {
+      "command": "\\Uparrow",
+      "codepoint": 8657,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21D1",
+      "source_glyph_name": "arrow_double_up",
+      "same_source_glyph_characters": [
+        "⇑"
+      ]
+    },
+    {
+      "command": "\\Rightarrow",
+      "codepoint": 8658,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21D2",
+      "source_glyph_name": "arrow_double_right",
+      "same_source_glyph_characters": [
+        "⇒"
+      ]
+    },
+    {
+      "command": "\\Downarrow",
+      "codepoint": 8659,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21D3",
+      "source_glyph_name": "arrow_double_down",
+      "same_source_glyph_characters": [
+        "⇓"
+      ]
+    },
+    {
+      "command": "\\Leftrightarrow",
+      "codepoint": 8660,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21D4",
+      "source_glyph_name": "arrow_double_leftright",
+      "same_source_glyph_characters": [
+        "⇔"
+      ]
+    },
+    {
+      "command": "\\Updownarrow",
+      "codepoint": 8661,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+21D5",
+      "source_glyph_name": "arrow_double_updown",
+      "same_source_glyph_characters": [
+        "⇕"
+      ]
+    },
+    {
+      "command": "\\longleftarrow",
+      "codepoint": 10229,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+27F5",
+      "source_glyph_name": "arrow_long_left",
+      "same_source_glyph_characters": [
+        "⟵"
+      ]
+    },
+    {
+      "command": "\\longrightarrow",
+      "codepoint": 10230,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+27F6",
+      "source_glyph_name": "arrow_long_right",
+      "same_source_glyph_characters": [
+        "⟶"
+      ]
+    },
+    {
+      "command": "\\longleftrightarrow",
+      "codepoint": 10231,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+27F7",
+      "source_glyph_name": "arrow_long_leftright",
+      "same_source_glyph_characters": [
+        "⟷"
+      ]
+    },
+    {
+      "command": "\\Longleftarrow",
+      "codepoint": 10232,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+27F8",
+      "source_glyph_name": "arrow_long_double_left",
+      "same_source_glyph_characters": [
+        "⟸"
+      ]
+    },
+    {
+      "command": "\\Longrightarrow",
+      "codepoint": 10233,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+27F9",
+      "source_glyph_name": "arrow_long_double_right",
+      "same_source_glyph_characters": [
+        "⟹"
+      ]
+    },
+    {
+      "command": "\\Longleftrightarrow",
+      "codepoint": 10234,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+27FA",
+      "source_glyph_name": "arrow_long_double_leftright",
+      "same_source_glyph_characters": [
+        "⟺"
+      ]
+    },
+    {
+      "command": "\\iff",
+      "codepoint": 10234,
+      "math_class": "mathrel",
+      "declaration": "authored_arrow",
+      "source": "authored_AMS_arrow",
+      "expected_font": "BaskervilleCompanionMath-AMS",
+      "source_codepoint": "U+27FA",
+      "source_glyph_name": "arrow_long_double_leftright",
+      "same_source_glyph_characters": [
+        "⟺"
+      ]
+    }
+  ],
+  "coverage": {
+    "inventory_bindings_supported_by_explicit_command": [
+      {
+        "command": "\\Diamond",
+        "package": "amsfonts",
+        "target_id": "u25CA",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\circledR",
+        "package": "amsfonts",
+        "target_id": "u00AE",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\lozenge",
+        "package": "amsfonts",
+        "target_id": "u25CA",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\yen",
+        "package": "amsfonts",
+        "target_id": "u00A5",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\int",
+        "package": "amsmath",
+        "target_id": "u222B",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\lvert",
+        "package": "amsmath",
+        "target_id": "u007C",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\rvert",
+        "package": "amsmath",
+        "target_id": "u007C",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\centerdot",
+        "package": "amssymb",
+        "target_id": "u00B7",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\downharpoonleft",
+        "package": "amssymb",
+        "target_id": "u21C3",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\downharpoonright",
+        "package": "amssymb",
+        "target_id": "u21C2",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\eth",
+        "package": "amssymb",
+        "target_id": "u00F0",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\lozenge",
+        "package": "amssymb",
+        "target_id": "u25CA",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\restriction",
+        "package": "amssymb",
+        "target_id": "u21BE",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\upharpoonleft",
+        "package": "amssymb",
+        "target_id": "u21BF",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\upharpoonright",
+        "package": "amssymb",
+        "target_id": "u21BE",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Downarrow",
+        "package": "latex-core",
+        "target_id": "u21D3",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Leftarrow",
+        "package": "latex-core",
+        "target_id": "u21D0",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Leftrightarrow",
+        "package": "latex-core",
+        "target_id": "u21D4",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Longleftarrow",
+        "package": "latex-core",
+        "target_id": "u27F8",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Longleftrightarrow",
+        "package": "latex-core",
+        "target_id": "u27FA",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Longrightarrow",
+        "package": "latex-core",
+        "target_id": "u27F9",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Relbar",
+        "package": "latex-core",
+        "target_id": "u003D",
+        "source": "authored_AMS_overlay"
+      },
+      {
+        "command": "\\Rightarrow",
+        "package": "latex-core",
+        "target_id": "u21D2",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Uparrow",
+        "package": "latex-core",
+        "target_id": "u21D1",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\Updownarrow",
+        "package": "latex-core",
+        "target_id": "u21D5",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\alpha",
+        "package": "latex-core",
+        "target_id": "u1D6FC",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\approx",
+        "package": "latex-core",
+        "target_id": "u2248",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\backslash",
+        "package": "latex-core",
+        "target_id": "u005C",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\beta",
+        "package": "latex-core",
+        "target_id": "u1D6FD",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\bullet",
+        "package": "latex-core",
+        "target_id": "u2022",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\cdotp",
+        "package": "latex-core",
+        "target_id": "u00B7",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\colon",
+        "package": "latex-core",
+        "target_id": "u003A",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\dagger",
+        "package": "latex-core",
+        "target_id": "u2020",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\ddagger",
+        "package": "latex-core",
+        "target_id": "u2021",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\div",
+        "package": "latex-core",
+        "target_id": "u00F7",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\downarrow",
+        "package": "latex-core",
+        "target_id": "u2193",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\ell",
+        "package": "latex-core",
+        "target_id": "u2113",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\ge",
+        "package": "latex-core",
+        "target_id": "u2265",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\geq",
+        "package": "latex-core",
+        "target_id": "u2265",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\gets",
+        "package": "latex-core",
+        "target_id": "u2190",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\iff",
+        "package": "latex-core",
+        "target_id": "u27FA",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\infty",
+        "package": "latex-core",
+        "target_id": "u221E",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\intop",
+        "package": "latex-core",
+        "target_id": "u222B",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\lbrace",
+        "package": "latex-core",
+        "target_id": "u007B",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\ldotp",
+        "package": "latex-core",
+        "target_id": "u002E",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\ldots",
+        "package": "latex-core",
+        "target_id": "u2026",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\le",
+        "package": "latex-core",
+        "target_id": "u2264",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\leftarrow",
+        "package": "latex-core",
+        "target_id": "u2190",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\leftharpoondown",
+        "package": "latex-core",
+        "target_id": "u21BD",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\leftharpoonup",
+        "package": "latex-core",
+        "target_id": "u21BC",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\leftrightarrow",
+        "package": "latex-core",
+        "target_id": "u2194",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\leq",
+        "package": "latex-core",
+        "target_id": "u2264",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\lnot",
+        "package": "latex-core",
+        "target_id": "u00AC",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\longleftarrow",
+        "package": "latex-core",
+        "target_id": "u27F5",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\longleftrightarrow",
+        "package": "latex-core",
+        "target_id": "u27F7",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\longrightarrow",
+        "package": "latex-core",
+        "target_id": "u27F6",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\mapsto",
+        "package": "latex-core",
+        "target_id": "u21A6",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\mathdollar",
+        "package": "latex-core",
+        "target_id": "u0024",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\mathellipsis",
+        "package": "latex-core",
+        "target_id": "u2026",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\mathparagraph",
+        "package": "latex-core",
+        "target_id": "u00B6",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\mathsection",
+        "package": "latex-core",
+        "target_id": "u00A7",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\mathsterling",
+        "package": "latex-core",
+        "target_id": "u00A3",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\nearrow",
+        "package": "latex-core",
+        "target_id": "u2197",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\neg",
+        "package": "latex-core",
+        "target_id": "u00AC",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\neq",
+        "package": "latex-core",
+        "target_id": "u2260",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\nu",
+        "package": "latex-core",
+        "target_id": "u1D708",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\nwarrow",
+        "package": "latex-core",
+        "target_id": "u2196",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\omega",
+        "package": "latex-core",
+        "target_id": "u1D714",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\partial",
+        "package": "latex-core",
+        "target_id": "u2202",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\pm",
+        "package": "latex-core",
+        "target_id": "u00B1",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\prime",
+        "package": "latex-core",
+        "target_id": "u2032",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\prod",
+        "package": "latex-core",
+        "target_id": "u220F",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\rbrace",
+        "package": "latex-core",
+        "target_id": "u007D",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\relbar",
+        "package": "latex-core",
+        "target_id": "u2212",
+        "source": "authored_AMS_overlay"
+      },
+      {
+        "command": "\\rightarrow",
+        "package": "latex-core",
+        "target_id": "u2192",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\rightharpoondown",
+        "package": "latex-core",
+        "target_id": "u21C1",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\rightharpoonup",
+        "package": "latex-core",
+        "target_id": "u21C0",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\searrow",
+        "package": "latex-core",
+        "target_id": "u2198",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\smallint",
+        "package": "latex-core",
+        "target_id": "u222B",
+        "source": "authored_AMS_overlay"
+      },
+      {
+        "command": "\\sqrtsign",
+        "package": "latex-core",
+        "target_id": "u221A",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\sum",
+        "package": "latex-core",
+        "target_id": "u2211",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\swarrow",
+        "package": "latex-core",
+        "target_id": "u2199",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\theta",
+        "package": "latex-core",
+        "target_id": "u1D703",
+        "source": "unchanged_authored_pilot"
+      },
+      {
+        "command": "\\times",
+        "package": "latex-core",
+        "target_id": "u00D7",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\to",
+        "package": "latex-core",
+        "target_id": "u2192",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\uparrow",
+        "package": "latex-core",
+        "target_id": "u2191",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\updownarrow",
+        "package": "latex-core",
+        "target_id": "u2195",
+        "source": "authored_AMS_arrow"
+      },
+      {
+        "command": "\\vert",
+        "package": "latex-core",
+        "target_id": "u007C",
+        "source": "original_external_Storm_regular"
+      },
+      {
+        "command": "\\xi",
+        "package": "latex-core",
+        "target_id": "u1D709",
+        "source": "unchanged_authored_pilot"
+      }
+    ],
+    "unsupported_bindings": [
+      {
+        "command": "\\Join",
+        "package": "amsfonts",
+        "target_id": "legacy.Join",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\angle",
+        "package": "amsfonts",
+        "target_id": "u2220",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\checkmark",
+        "package": "amsfonts",
+        "target_id": "u2713",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\dabar@",
+        "package": "amsfonts",
+        "target_id": "legacy.dabar@",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\dasharrow",
+        "package": "amsfonts",
+        "target_id": "u21E2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\dashleftarrow",
+        "package": "amsfonts",
+        "target_id": "u21E0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\dashrightarrow",
+        "package": "amsfonts",
+        "target_id": "u21E2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\hbar",
+        "package": "amsfonts",
+        "target_id": "legacy.hbar",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\leadsto",
+        "package": "amsfonts",
+        "target_id": "u21DD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lhd",
+        "package": "amsfonts",
+        "target_id": "u22B2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\llcorner",
+        "package": "amsfonts",
+        "target_id": "u231E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lrcorner",
+        "package": "amsfonts",
+        "target_id": "u231F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\maltese",
+        "package": "amsfonts",
+        "target_id": "u2720",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\mho",
+        "package": "amsfonts",
+        "target_id": "u2127",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rhd",
+        "package": "amsfonts",
+        "target_id": "u22B3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rightleftharpoons",
+        "package": "amsfonts",
+        "target_id": "u21CC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rightsquigarrow",
+        "package": "amsfonts",
+        "target_id": "u21DD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\sqsubset",
+        "package": "amsfonts",
+        "target_id": "u228F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\sqsupset",
+        "package": "amsfonts",
+        "target_id": "u2290",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\square",
+        "package": "amsfonts",
+        "target_id": "u25A1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\trianglelefteq",
+        "package": "amsfonts",
+        "target_id": "u22B4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\trianglerighteq",
+        "package": "amsfonts",
+        "target_id": "u22B5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ulcorner",
+        "package": "amsfonts",
+        "target_id": "u231C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\unlhd",
+        "package": "amsfonts",
+        "target_id": "u22B4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\unrhd",
+        "package": "amsfonts",
+        "target_id": "u22B5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\urcorner",
+        "package": "amsfonts",
+        "target_id": "u231D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vartriangleleft",
+        "package": "amsfonts",
+        "target_id": "u22B2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vartriangleright",
+        "package": "amsfonts",
+        "target_id": "u22B3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ddddot",
+        "package": "amsmath",
+        "target_id": "u20DC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\dddot",
+        "package": "amsmath",
+        "target_id": "u20DB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\idotsint",
+        "package": "amsmath",
+        "target_id": "recipe.idotsint",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\iiiint",
+        "package": "amsmath",
+        "target_id": "u2A0C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\iiint",
+        "package": "amsmath",
+        "target_id": "u222D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\iint",
+        "package": "amsmath",
+        "target_id": "u222C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lVert",
+        "package": "amsmath",
+        "target_id": "u2016",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\overleftrightarrow",
+        "package": "amsmath",
+        "target_id": "u20E1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rVert",
+        "package": "amsmath",
+        "target_id": "u2016",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\underleftarrow",
+        "package": "amsmath",
+        "target_id": "u20EE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\underleftrightarrow",
+        "package": "amsmath",
+        "target_id": "u034D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\underrightarrow",
+        "package": "amsmath",
+        "target_id": "u20EF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Bbbk",
+        "package": "amssymb",
+        "target_id": "u1D55C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Bumpeq",
+        "package": "amssymb",
+        "target_id": "u224E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Cap",
+        "package": "amssymb",
+        "target_id": "u22D2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Cup",
+        "package": "amssymb",
+        "target_id": "u22D3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Doteq",
+        "package": "amssymb",
+        "target_id": "u2251",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Finv",
+        "package": "amssymb",
+        "target_id": "u2132",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Game",
+        "package": "amssymb",
+        "target_id": "u2141",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Lleftarrow",
+        "package": "amssymb",
+        "target_id": "u21DA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Lsh",
+        "package": "amssymb",
+        "target_id": "u21B0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Rrightarrow",
+        "package": "amssymb",
+        "target_id": "u21DB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Rsh",
+        "package": "amssymb",
+        "target_id": "u21B1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Subset",
+        "package": "amssymb",
+        "target_id": "u22D0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Supset",
+        "package": "amssymb",
+        "target_id": "u22D1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Vdash",
+        "package": "amssymb",
+        "target_id": "u22A9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Vvdash",
+        "package": "amssymb",
+        "target_id": "u22AA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\approxeq",
+        "package": "amssymb",
+        "target_id": "u224A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\backepsilon",
+        "package": "amssymb",
+        "target_id": "u03F6",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\backprime",
+        "package": "amssymb",
+        "target_id": "u2035",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\backsim",
+        "package": "amssymb",
+        "target_id": "u223D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\backsimeq",
+        "package": "amssymb",
+        "target_id": "u22CD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\barwedge",
+        "package": "amssymb",
+        "target_id": "u22BC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\because",
+        "package": "amssymb",
+        "target_id": "u2235",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\beth",
+        "package": "amssymb",
+        "target_id": "u2136",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\between",
+        "package": "amssymb",
+        "target_id": "u226C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigstar",
+        "package": "amssymb",
+        "target_id": "u2605",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\blacklozenge",
+        "package": "amssymb",
+        "target_id": "u2B2A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\blacksquare",
+        "package": "amssymb",
+        "target_id": "u25AA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\blacktriangle",
+        "package": "amssymb",
+        "target_id": "u25B4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\blacktriangledown",
+        "package": "amssymb",
+        "target_id": "u25BE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\blacktriangleleft",
+        "package": "amssymb",
+        "target_id": "u25C0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\blacktriangleright",
+        "package": "amssymb",
+        "target_id": "u25B6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\boxdot",
+        "package": "amssymb",
+        "target_id": "u22A1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\boxminus",
+        "package": "amssymb",
+        "target_id": "u229F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\boxplus",
+        "package": "amssymb",
+        "target_id": "u229E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\boxtimes",
+        "package": "amssymb",
+        "target_id": "u22A0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bumpeq",
+        "package": "amssymb",
+        "target_id": "u224F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\circeq",
+        "package": "amssymb",
+        "target_id": "u2257",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\circlearrowleft",
+        "package": "amssymb",
+        "target_id": "u21BA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\circlearrowright",
+        "package": "amssymb",
+        "target_id": "u21BB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\circledS",
+        "package": "amssymb",
+        "target_id": "u24C8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\circledast",
+        "package": "amssymb",
+        "target_id": "u229B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\circledcirc",
+        "package": "amssymb",
+        "target_id": "u229A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\circleddash",
+        "package": "amssymb",
+        "target_id": "u229D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\complement",
+        "package": "amssymb",
+        "target_id": "u2201",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\curlyeqprec",
+        "package": "amssymb",
+        "target_id": "u22DE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\curlyeqsucc",
+        "package": "amssymb",
+        "target_id": "u22DF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\curlyvee",
+        "package": "amssymb",
+        "target_id": "u22CE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\curlywedge",
+        "package": "amssymb",
+        "target_id": "u22CF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\curvearrowleft",
+        "package": "amssymb",
+        "target_id": "u21B6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\curvearrowright",
+        "package": "amssymb",
+        "target_id": "u21B7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\daleth",
+        "package": "amssymb",
+        "target_id": "u2138",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\diagdown",
+        "package": "amssymb",
+        "target_id": "u27CD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\diagup",
+        "package": "amssymb",
+        "target_id": "u27CB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\digamma",
+        "package": "amssymb",
+        "target_id": "u03DD",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\divideontimes",
+        "package": "amssymb",
+        "target_id": "u22C7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\doteqdot",
+        "package": "amssymb",
+        "target_id": "u2251",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\dotplus",
+        "package": "amssymb",
+        "target_id": "u2214",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\doublebarwedge",
+        "package": "amssymb",
+        "target_id": "u2A5E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\doublecap",
+        "package": "amssymb",
+        "target_id": "u22D2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\doublecup",
+        "package": "amssymb",
+        "target_id": "u22D3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\downdownarrows",
+        "package": "amssymb",
+        "target_id": "u21CA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\eqcirc",
+        "package": "amssymb",
+        "target_id": "u2256",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\eqsim",
+        "package": "amssymb",
+        "target_id": "u2242",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\eqslantgtr",
+        "package": "amssymb",
+        "target_id": "u2A96",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\eqslantless",
+        "package": "amssymb",
+        "target_id": "u2A95",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\fallingdotseq",
+        "package": "amssymb",
+        "target_id": "u2252",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\geqq",
+        "package": "amssymb",
+        "target_id": "u2267",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\geqslant",
+        "package": "amssymb",
+        "target_id": "u2A7E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ggg",
+        "package": "amssymb",
+        "target_id": "u22D9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gggtr",
+        "package": "amssymb",
+        "target_id": "u22D9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gimel",
+        "package": "amssymb",
+        "target_id": "u2137",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gnapprox",
+        "package": "amssymb",
+        "target_id": "u2A8A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gneq",
+        "package": "amssymb",
+        "target_id": "u2A88",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gneqq",
+        "package": "amssymb",
+        "target_id": "u2269",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gnsim",
+        "package": "amssymb",
+        "target_id": "u22E7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gtrapprox",
+        "package": "amssymb",
+        "target_id": "u2A86",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gtrdot",
+        "package": "amssymb",
+        "target_id": "u22D7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gtreqless",
+        "package": "amssymb",
+        "target_id": "u22DB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gtreqqless",
+        "package": "amssymb",
+        "target_id": "u2A8C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gtrless",
+        "package": "amssymb",
+        "target_id": "u2277",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gtrsim",
+        "package": "amssymb",
+        "target_id": "u2273",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gvertneqq",
+        "package": "amssymb",
+        "target_id": "u2269_FE00",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\hslash",
+        "package": "amssymb",
+        "target_id": "u210F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\intercal",
+        "package": "amssymb",
+        "target_id": "u22BA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\leftarrowtail",
+        "package": "amssymb",
+        "target_id": "u21A2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\leftleftarrows",
+        "package": "amssymb",
+        "target_id": "u21C7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\leftrightarrows",
+        "package": "amssymb",
+        "target_id": "u21C6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\leftrightharpoons",
+        "package": "amssymb",
+        "target_id": "u21CB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\leftrightsquigarrow",
+        "package": "amssymb",
+        "target_id": "u21AD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\leftthreetimes",
+        "package": "amssymb",
+        "target_id": "u22CB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\leqq",
+        "package": "amssymb",
+        "target_id": "u2266",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\leqslant",
+        "package": "amssymb",
+        "target_id": "u2A7D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lessapprox",
+        "package": "amssymb",
+        "target_id": "u2A85",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lessdot",
+        "package": "amssymb",
+        "target_id": "u22D6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lesseqgtr",
+        "package": "amssymb",
+        "target_id": "u22DA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lesseqqgtr",
+        "package": "amssymb",
+        "target_id": "u2A8B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lessgtr",
+        "package": "amssymb",
+        "target_id": "u2276",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lesssim",
+        "package": "amssymb",
+        "target_id": "u2272",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lll",
+        "package": "amssymb",
+        "target_id": "u22D8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\llless",
+        "package": "amssymb",
+        "target_id": "u22D8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lnapprox",
+        "package": "amssymb",
+        "target_id": "u2A89",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lneq",
+        "package": "amssymb",
+        "target_id": "u2A87",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lneqq",
+        "package": "amssymb",
+        "target_id": "u2268",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lnsim",
+        "package": "amssymb",
+        "target_id": "u22E6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\looparrowleft",
+        "package": "amssymb",
+        "target_id": "u21AB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\looparrowright",
+        "package": "amssymb",
+        "target_id": "u21AC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ltimes",
+        "package": "amssymb",
+        "target_id": "u22C9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lvertneqq",
+        "package": "amssymb",
+        "target_id": "u2268_FE00",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\measuredangle",
+        "package": "amssymb",
+        "target_id": "u2221",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\multimap",
+        "package": "amssymb",
+        "target_id": "u22B8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nLeftarrow",
+        "package": "amssymb",
+        "target_id": "u21CD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nLeftrightarrow",
+        "package": "amssymb",
+        "target_id": "u21CE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nRightarrow",
+        "package": "amssymb",
+        "target_id": "u21CF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nVDash",
+        "package": "amssymb",
+        "target_id": "u22AF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nVdash",
+        "package": "amssymb",
+        "target_id": "u22AE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ncong",
+        "package": "amssymb",
+        "target_id": "u2247",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nexists",
+        "package": "amssymb",
+        "target_id": "u2204",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ngeq",
+        "package": "amssymb",
+        "target_id": "u2271",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ngeqq",
+        "package": "amssymb",
+        "target_id": "u2267_0338",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ngeqslant",
+        "package": "amssymb",
+        "target_id": "u2A7E_0338",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ngtr",
+        "package": "amssymb",
+        "target_id": "u226F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nleftarrow",
+        "package": "amssymb",
+        "target_id": "u219A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nleftrightarrow",
+        "package": "amssymb",
+        "target_id": "u21AE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nleq",
+        "package": "amssymb",
+        "target_id": "u2270",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nleqq",
+        "package": "amssymb",
+        "target_id": "u2266_0338",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nleqslant",
+        "package": "amssymb",
+        "target_id": "u2A7D_0338",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nless",
+        "package": "amssymb",
+        "target_id": "u226E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nmid",
+        "package": "amssymb",
+        "target_id": "u2224",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nparallel",
+        "package": "amssymb",
+        "target_id": "u2226",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nprec",
+        "package": "amssymb",
+        "target_id": "u2280",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\npreceq",
+        "package": "amssymb",
+        "target_id": "u22E0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nrightarrow",
+        "package": "amssymb",
+        "target_id": "u219B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nshortmid",
+        "package": "amssymb",
+        "target_id": "legacy.nshortmid",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\nshortparallel",
+        "package": "amssymb",
+        "target_id": "legacy.nshortparallel",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\nsim",
+        "package": "amssymb",
+        "target_id": "u2241",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nsubseteq",
+        "package": "amssymb",
+        "target_id": "u2288",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nsubseteqq",
+        "package": "amssymb",
+        "target_id": "u2AC5_0338",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nsucc",
+        "package": "amssymb",
+        "target_id": "u2281",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nsucceq",
+        "package": "amssymb",
+        "target_id": "u22E1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nsupseteq",
+        "package": "amssymb",
+        "target_id": "u2289",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nsupseteqq",
+        "package": "amssymb",
+        "target_id": "u2AC6_0338",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ntriangleleft",
+        "package": "amssymb",
+        "target_id": "u22EA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ntrianglelefteq",
+        "package": "amssymb",
+        "target_id": "u22EC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ntriangleright",
+        "package": "amssymb",
+        "target_id": "u22EB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ntrianglerighteq",
+        "package": "amssymb",
+        "target_id": "u22ED",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nvDash",
+        "package": "amssymb",
+        "target_id": "u22AD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\nvdash",
+        "package": "amssymb",
+        "target_id": "u22AC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\pitchfork",
+        "package": "amssymb",
+        "target_id": "u22D4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\precapprox",
+        "package": "amssymb",
+        "target_id": "u2AB7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\preccurlyeq",
+        "package": "amssymb",
+        "target_id": "u227C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\precnapprox",
+        "package": "amssymb",
+        "target_id": "u2AB9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\precneqq",
+        "package": "amssymb",
+        "target_id": "u2AB5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\precnsim",
+        "package": "amssymb",
+        "target_id": "u22E8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\precsim",
+        "package": "amssymb",
+        "target_id": "u227E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rightarrowtail",
+        "package": "amssymb",
+        "target_id": "u21A3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rightleftarrows",
+        "package": "amssymb",
+        "target_id": "u21C4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rightrightarrows",
+        "package": "amssymb",
+        "target_id": "u21C9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rightsquigarrow",
+        "package": "amssymb",
+        "target_id": "u21DD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rightthreetimes",
+        "package": "amssymb",
+        "target_id": "u22CC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\risingdotseq",
+        "package": "amssymb",
+        "target_id": "u2253",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rtimes",
+        "package": "amssymb",
+        "target_id": "u22CA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\shortmid",
+        "package": "amssymb",
+        "target_id": "legacy.shortmid",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\shortparallel",
+        "package": "amssymb",
+        "target_id": "legacy.shortparallel",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\smallfrown",
+        "package": "amssymb",
+        "target_id": "legacy.smallfrown",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\smallsetminus",
+        "package": "amssymb",
+        "target_id": "legacy.smallsetminus",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\smallsmile",
+        "package": "amssymb",
+        "target_id": "legacy.smallsmile",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\sphericalangle",
+        "package": "amssymb",
+        "target_id": "u2222",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\square",
+        "package": "amssymb",
+        "target_id": "u25A1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\subseteqq",
+        "package": "amssymb",
+        "target_id": "u2AC5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\subsetneq",
+        "package": "amssymb",
+        "target_id": "u228A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\subsetneqq",
+        "package": "amssymb",
+        "target_id": "u2ACB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\succapprox",
+        "package": "amssymb",
+        "target_id": "u2AB8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\succcurlyeq",
+        "package": "amssymb",
+        "target_id": "u227D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\succnapprox",
+        "package": "amssymb",
+        "target_id": "u2ABA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\succneqq",
+        "package": "amssymb",
+        "target_id": "u2AB6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\succnsim",
+        "package": "amssymb",
+        "target_id": "u22E9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\succsim",
+        "package": "amssymb",
+        "target_id": "u227F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\supseteqq",
+        "package": "amssymb",
+        "target_id": "u2AC6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\supsetneq",
+        "package": "amssymb",
+        "target_id": "u228B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\supsetneqq",
+        "package": "amssymb",
+        "target_id": "u2ACC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\therefore",
+        "package": "amssymb",
+        "target_id": "u2234",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\thickapprox",
+        "package": "amssymb",
+        "target_id": "legacy.thickapprox",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\thicksim",
+        "package": "amssymb",
+        "target_id": "legacy.thicksim",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\triangledown",
+        "package": "amssymb",
+        "target_id": "u25BF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\trianglelefteq",
+        "package": "amssymb",
+        "target_id": "u22B4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\triangleq",
+        "package": "amssymb",
+        "target_id": "u225C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\trianglerighteq",
+        "package": "amssymb",
+        "target_id": "u22B5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\twoheadleftarrow",
+        "package": "amssymb",
+        "target_id": "u219E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\twoheadrightarrow",
+        "package": "amssymb",
+        "target_id": "u21A0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\upuparrows",
+        "package": "amssymb",
+        "target_id": "u21C8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vDash",
+        "package": "amssymb",
+        "target_id": "u22A8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\varkappa",
+        "package": "amssymb",
+        "target_id": "u1D718",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\varnothing",
+        "package": "amssymb",
+        "target_id": "u2205",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\varpropto",
+        "package": "amssymb",
+        "target_id": "legacy.varpropto",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\varsubsetneq",
+        "package": "amssymb",
+        "target_id": "u228A_FE00",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\varsubsetneqq",
+        "package": "amssymb",
+        "target_id": "u2ACB_FE00",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\varsupsetneq",
+        "package": "amssymb",
+        "target_id": "u228B_FE00",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\varsupsetneqq",
+        "package": "amssymb",
+        "target_id": "u2ACC_FE00",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vartriangle",
+        "package": "amssymb",
+        "target_id": "u25B5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vartriangleleft",
+        "package": "amssymb",
+        "target_id": "u22B2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vartriangleright",
+        "package": "amssymb",
+        "target_id": "u22B3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\veebar",
+        "package": "amssymb",
+        "target_id": "u22BB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Arrowvert",
+        "package": "latex-core",
+        "target_id": "legacy.Arrowvert",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\Delta",
+        "package": "latex-core",
+        "target_id": "u0394",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Gamma",
+        "package": "latex-core",
+        "target_id": "u0393",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Im",
+        "package": "latex-core",
+        "target_id": "u2111",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Lambda",
+        "package": "latex-core",
+        "target_id": "u039B",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Omega",
+        "package": "latex-core",
+        "target_id": "u03A9",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Phi",
+        "package": "latex-core",
+        "target_id": "u03A6",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Pi",
+        "package": "latex-core",
+        "target_id": "u03A0",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Psi",
+        "package": "latex-core",
+        "target_id": "u03A8",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Re",
+        "package": "latex-core",
+        "target_id": "u211C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Sigma",
+        "package": "latex-core",
+        "target_id": "u03A3",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Theta",
+        "package": "latex-core",
+        "target_id": "u0398",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Upsilon",
+        "package": "latex-core",
+        "target_id": "u03A5",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\Vert",
+        "package": "latex-core",
+        "target_id": "u2016",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\Xi",
+        "package": "latex-core",
+        "target_id": "u039E",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\acute",
+        "package": "latex-core",
+        "target_id": "u0301",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\aleph",
+        "package": "latex-core",
+        "target_id": "u2135",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\amalg",
+        "package": "latex-core",
+        "target_id": "u2A3F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\arrowvert",
+        "package": "latex-core",
+        "target_id": "legacy.arrowvert",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\ast",
+        "package": "latex-core",
+        "target_id": "u2217",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\asymp",
+        "package": "latex-core",
+        "target_id": "u224D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bar",
+        "package": "latex-core",
+        "target_id": "u0304",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigcap",
+        "package": "latex-core",
+        "target_id": "u22C2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigcirc",
+        "package": "latex-core",
+        "target_id": "u25CB",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigcup",
+        "package": "latex-core",
+        "target_id": "u22C3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigodot",
+        "package": "latex-core",
+        "target_id": "u2A00",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigoplus",
+        "package": "latex-core",
+        "target_id": "u2A01",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigotimes",
+        "package": "latex-core",
+        "target_id": "u2A02",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigsqcup",
+        "package": "latex-core",
+        "target_id": "u2A06",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigtriangledown",
+        "package": "latex-core",
+        "target_id": "u25BD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigtriangleup",
+        "package": "latex-core",
+        "target_id": "u25B3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\biguplus",
+        "package": "latex-core",
+        "target_id": "u2A04",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigvee",
+        "package": "latex-core",
+        "target_id": "u22C1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bigwedge",
+        "package": "latex-core",
+        "target_id": "u22C0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bot",
+        "package": "latex-core",
+        "target_id": "u22A5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\bowtie",
+        "package": "latex-core",
+        "target_id": "u22C8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\braceld",
+        "package": "latex-core",
+        "target_id": "legacy.braceld",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\bracelu",
+        "package": "latex-core",
+        "target_id": "legacy.bracelu",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\bracerd",
+        "package": "latex-core",
+        "target_id": "legacy.bracerd",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\braceru",
+        "package": "latex-core",
+        "target_id": "legacy.braceru",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\bracevert",
+        "package": "latex-core",
+        "target_id": "legacy.bracevert",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\breve",
+        "package": "latex-core",
+        "target_id": "u0306",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\cap",
+        "package": "latex-core",
+        "target_id": "u2229",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\cdot",
+        "package": "latex-core",
+        "target_id": "u22C5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\cdots",
+        "package": "latex-core",
+        "target_id": "u22EF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\check",
+        "package": "latex-core",
+        "target_id": "u030C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\chi",
+        "package": "latex-core",
+        "target_id": "u1D712",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\circ",
+        "package": "latex-core",
+        "target_id": "u2218",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\clubsuit",
+        "package": "latex-core",
+        "target_id": "u2663",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\cong",
+        "package": "latex-core",
+        "target_id": "u2245",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\coprod",
+        "package": "latex-core",
+        "target_id": "u2210",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\cup",
+        "package": "latex-core",
+        "target_id": "u222A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\dashv",
+        "package": "latex-core",
+        "target_id": "u22A3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ddot",
+        "package": "latex-core",
+        "target_id": "u0308",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ddots",
+        "package": "latex-core",
+        "target_id": "u22F1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\delta",
+        "package": "latex-core",
+        "target_id": "u1D6FF",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\diamond",
+        "package": "latex-core",
+        "target_id": "u22C4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\diamondsuit",
+        "package": "latex-core",
+        "target_id": "u2662",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\dot",
+        "package": "latex-core",
+        "target_id": "u0307",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\doteq",
+        "package": "latex-core",
+        "target_id": "u2250",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\emptyset",
+        "package": "latex-core",
+        "target_id": "legacy.emptyset",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\epsilon",
+        "package": "latex-core",
+        "target_id": "u1D716",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\equiv",
+        "package": "latex-core",
+        "target_id": "u2261",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\eta",
+        "package": "latex-core",
+        "target_id": "u1D702",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\exists",
+        "package": "latex-core",
+        "target_id": "u2203",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\flat",
+        "package": "latex-core",
+        "target_id": "u266D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\forall",
+        "package": "latex-core",
+        "target_id": "u2200",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\frown",
+        "package": "latex-core",
+        "target_id": "u2322",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\gamma",
+        "package": "latex-core",
+        "target_id": "u1D6FE",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\gg",
+        "package": "latex-core",
+        "target_id": "u226B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\grave",
+        "package": "latex-core",
+        "target_id": "u0300",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\hat",
+        "package": "latex-core",
+        "target_id": "u0302",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\heartsuit",
+        "package": "latex-core",
+        "target_id": "u2661",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\hookleftarrow",
+        "package": "latex-core",
+        "target_id": "u21A9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\hookrightarrow",
+        "package": "latex-core",
+        "target_id": "u21AA",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\imath",
+        "package": "latex-core",
+        "target_id": "u1D6A4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\in",
+        "package": "latex-core",
+        "target_id": "u2208",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\iota",
+        "package": "latex-core",
+        "target_id": "u1D704",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\jmath",
+        "package": "latex-core",
+        "target_id": "u1D6A5",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\kappa",
+        "package": "latex-core",
+        "target_id": "u1D705",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\lambda",
+        "package": "latex-core",
+        "target_id": "u1D706",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\land",
+        "package": "latex-core",
+        "target_id": "u2227",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\langle",
+        "package": "latex-core",
+        "target_id": "u27E8",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lceil",
+        "package": "latex-core",
+        "target_id": "u2308",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lfloor",
+        "package": "latex-core",
+        "target_id": "u230A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lgroup",
+        "package": "latex-core",
+        "target_id": "u27EE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lhook",
+        "package": "latex-core",
+        "target_id": "legacy.lhook",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\ll",
+        "package": "latex-core",
+        "target_id": "u226A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lmoustache",
+        "package": "latex-core",
+        "target_id": "u23B0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\longmapsto",
+        "package": "latex-core",
+        "target_id": "u27FC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\lor",
+        "package": "latex-core",
+        "target_id": "u2228",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\mapstochar",
+        "package": "latex-core",
+        "target_id": "legacy.mapstochar",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\mathring",
+        "package": "latex-core",
+        "target_id": "u030A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\mid",
+        "package": "latex-core",
+        "target_id": "u2223",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\models",
+        "package": "latex-core",
+        "target_id": "u22A7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\mp",
+        "package": "latex-core",
+        "target_id": "u2213",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\mu",
+        "package": "latex-core",
+        "target_id": "u1D707",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\nabla",
+        "package": "latex-core",
+        "target_id": "u2207",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\natural",
+        "package": "latex-core",
+        "target_id": "u266E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ni",
+        "package": "latex-core",
+        "target_id": "u220B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\not",
+        "package": "latex-core",
+        "target_id": "u0338",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\notin",
+        "package": "latex-core",
+        "target_id": "u2209",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\odot",
+        "package": "latex-core",
+        "target_id": "u2299",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ointop",
+        "package": "latex-core",
+        "target_id": "u222E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\ominus",
+        "package": "latex-core",
+        "target_id": "u2296",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\oplus",
+        "package": "latex-core",
+        "target_id": "u2295",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\oslash",
+        "package": "latex-core",
+        "target_id": "u2298",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\otimes",
+        "package": "latex-core",
+        "target_id": "u2297",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\overbrace",
+        "package": "latex-core",
+        "target_id": "u23DE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\overleftarrow",
+        "package": "latex-core",
+        "target_id": "u20D6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\overrightarrow",
+        "package": "latex-core",
+        "target_id": "u20D7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\owns",
+        "package": "latex-core",
+        "target_id": "u220B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\parallel",
+        "package": "latex-core",
+        "target_id": "u2225",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\perp",
+        "package": "latex-core",
+        "target_id": "u27C2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\phi",
+        "package": "latex-core",
+        "target_id": "u1D719",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\pi",
+        "package": "latex-core",
+        "target_id": "u1D70B",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\prec",
+        "package": "latex-core",
+        "target_id": "u227A",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\preceq",
+        "package": "latex-core",
+        "target_id": "u2AAF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\propto",
+        "package": "latex-core",
+        "target_id": "u221D",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\psi",
+        "package": "latex-core",
+        "target_id": "u1D713",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\rangle",
+        "package": "latex-core",
+        "target_id": "u27E9",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rceil",
+        "package": "latex-core",
+        "target_id": "u2309",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rfloor",
+        "package": "latex-core",
+        "target_id": "u230B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rgroup",
+        "package": "latex-core",
+        "target_id": "u27EF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rho",
+        "package": "latex-core",
+        "target_id": "u1D70C",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\rhook",
+        "package": "latex-core",
+        "target_id": "legacy.rhook",
+        "reason": "Unencoded shape, variant or construction needs explicit engineering."
+      },
+      {
+        "command": "\\rightleftharpoons",
+        "package": "latex-core",
+        "target_id": "u21CC",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\rmoustache",
+        "package": "latex-core",
+        "target_id": "u23B1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\setminus",
+        "package": "latex-core",
+        "target_id": "u2216",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\sharp",
+        "package": "latex-core",
+        "target_id": "u266F",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\sigma",
+        "package": "latex-core",
+        "target_id": "u1D70E",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\sim",
+        "package": "latex-core",
+        "target_id": "u223C",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\simeq",
+        "package": "latex-core",
+        "target_id": "u2243",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\smile",
+        "package": "latex-core",
+        "target_id": "u2323",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\spadesuit",
+        "package": "latex-core",
+        "target_id": "u2660",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\sqcap",
+        "package": "latex-core",
+        "target_id": "u2293",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\sqcup",
+        "package": "latex-core",
+        "target_id": "u2294",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\sqsubseteq",
+        "package": "latex-core",
+        "target_id": "u2291",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\sqsupseteq",
+        "package": "latex-core",
+        "target_id": "u2292",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\star",
+        "package": "latex-core",
+        "target_id": "u22C6",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\subset",
+        "package": "latex-core",
+        "target_id": "u2282",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\subseteq",
+        "package": "latex-core",
+        "target_id": "u2286",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\succ",
+        "package": "latex-core",
+        "target_id": "u227B",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\succeq",
+        "package": "latex-core",
+        "target_id": "u2AB0",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\supset",
+        "package": "latex-core",
+        "target_id": "u2283",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\supseteq",
+        "package": "latex-core",
+        "target_id": "u2287",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\tau",
+        "package": "latex-core",
+        "target_id": "u1D70F",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\tilde",
+        "package": "latex-core",
+        "target_id": "u0303",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\top",
+        "package": "latex-core",
+        "target_id": "u22A4",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\triangle",
+        "package": "latex-core",
+        "target_id": "u25B3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\triangleleft",
+        "package": "latex-core",
+        "target_id": "u25C1",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\triangleright",
+        "package": "latex-core",
+        "target_id": "u25B7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\underbrace",
+        "package": "latex-core",
+        "target_id": "u23DF",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\uplus",
+        "package": "latex-core",
+        "target_id": "u228E",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\upsilon",
+        "package": "latex-core",
+        "target_id": "u1D710",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\varbigtriangledown",
+        "package": "latex-core",
+        "target_id": "u25BD",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\varbigtriangleup",
+        "package": "latex-core",
+        "target_id": "u25B3",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\varepsilon",
+        "package": "latex-core",
+        "target_id": "u1D700",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\varphi",
+        "package": "latex-core",
+        "target_id": "u1D711",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\varpi",
+        "package": "latex-core",
+        "target_id": "u1D71B",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\varrho",
+        "package": "latex-core",
+        "target_id": "u1D71A",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\varsigma",
+        "package": "latex-core",
+        "target_id": "u1D70D",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\vartheta",
+        "package": "latex-core",
+        "target_id": "u1D717",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\vdash",
+        "package": "latex-core",
+        "target_id": "u22A2",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vdots",
+        "package": "latex-core",
+        "target_id": "u22EE",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vec",
+        "package": "latex-core",
+        "target_id": "u20D7",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\vee",
+        "package": "latex-core",
+        "target_id": "u2228",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\wedge",
+        "package": "latex-core",
+        "target_id": "u2227",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\widehat",
+        "package": "latex-core",
+        "target_id": "u0302",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\widetilde",
+        "package": "latex-core",
+        "target_id": "u0303",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\wp",
+        "package": "latex-core",
+        "target_id": "u2118",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\wr",
+        "package": "latex-core",
+        "target_id": "u2240",
+        "reason": "Exact Unicode scalar is absent from the supplied Storm regular cmap."
+      },
+      {
+        "command": "\\zeta",
+        "package": "latex-core",
+        "target_id": "u1D701",
+        "reason": "Custom Greek is required; native Greek is opt-in only and cannot close this gap."
+      },
+      {
+        "command": "\\|",
+        "package": "latex-core",
+        "target_id": "u007C",
+        "reason": "Frozen alias points at single bar; double-bar identity is not supplied and is not substituted."
+      }
+    ],
+    "direct_amssymb_total": 204,
+    "direct_amssymb_implemented": [
+      "\\centerdot",
+      "\\downharpoonleft",
+      "\\downharpoonright",
+      "\\eth",
+      "\\lozenge",
+      "\\upharpoonleft",
+      "\\upharpoonright"
+    ],
+    "note": "Command accounting excludes literal Latin/numeral mappings and existing named operator recipes; availability is not optical acceptance."
+  },
+  "engines": {},
+  "limitations": [
+    "No full AMS coverage or final optical approval.",
+    "Stock rigid signs have text-font metrics; math spacing/axis still needs optical review.",
+    "Stock braces, brackets, bars and arrows have no size assembly; product has one stock size.",
+    "Only six custom Greek letters; native Greek is explicit opt-in and closes no custom gap.",
+    "Unchanged companion constructions and script drawings retain pilot limitations."
+  ],
+  "unchanged_pilot_regression": {
+    "lualatex": 20,
+    "xelatex": 20
+  },
+  "error": "lualatex/working-proof failed; inspect /home/tobias/.t3/projects/math-fonts/runs/ams-coverage-2026-10-30/delivery-arrows-01/runtime/private/lualatex/working-proof.log\nThis is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian) \n(./working-proof.tex\nLaTeX2e <2023-11-01> patch level 1\nL3 programming layer <2024-01-22>\n (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls\nDocument Class: article 2023/05/17 v1.4n Standard LaTeX document class\n(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))\n(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty\n(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)\n(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty\n(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))\n(/home/tobias/.t3/projects/math-fonts/tex/baskervillecompanionmath.sty\n(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty\n(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)\n(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty))\n(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty\nFor additional information on amsmath, use the `?' option.\n(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty\n(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))\n(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)\n(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))\n(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty\n(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty\n(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty\n(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def)))\n(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty\n(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)\n(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))\n(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty\n(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty\n(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)\n(/usr/share/texlive/texmf-dist/tex/latex/base/fix-cm.sty\n(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def))\n(/usr/share/texlive/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty\n(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty))\n(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))\n) (/home/tobias/.t3/projects/math-fonts/tex/baskervillecompanionams.sty)\nNo file working-proof.aux.\n*geometry* driver: auto-detecting\n*geometry* detected driver: luatex\n[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]\n! Undefined control sequence.\nl.77 $x\\leftarrowy\n                \\quad x\\uparrowy\\quad x\\toy\\quad x\\downarrowy\\quad x\\leftrig...\n\n 4768 words of node memory still in use:\n   27 hlist, 2 vlist, 2 rule, 33 disc, 5 local_par, 2 dir, 120 glue, 25 kern, 1\n8 penalty, 1 noad, 1 math_char, 374 glyph, 27 attribute, 52 glue_spec, 27 attri\nbute_list, 2 temp nodes\n   avail lists: 2:246,3:64,4:4,5:171,6:11,7:2709,8:25,9:370,10:2,11:165\n!  ==> Fatal error occurred, no output PDF file produced!\nTranscript written on working-proof.log.\n"
+}

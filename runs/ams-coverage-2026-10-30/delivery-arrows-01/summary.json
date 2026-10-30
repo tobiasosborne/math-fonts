@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "reason": "Working-proof generator joined command and variable into undefined control sequence (e.g. leftarrowy). Corrected in delivery-arrows-02.",
+  "font_binary_reused_unchanged": true,
+  "retained_runtime_report": "runtime/runtime-summary.json"
+}

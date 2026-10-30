@@ -18,6 +18,9 @@ backup remain local. Historical links below may require the original workspace.
 
 ## Active entry points
 
+- **[AMS expansion and shared arrow family](runs/ams-coverage-2026-10-30/README.md):**
+  34 consistent authored arrows, explicit native Greek alternates, exact source
+  routing and real both-engine mathematical proofs. Full AMS coverage is ongoing.
 - **[Running end-to-end pilot](runs/pipeline-2026-10-30/README.md):** original
   Baskerville reuse, six custom Greek enlargements, an authored MATH font,
   both-engine proofs and actual-font-use checks. Includes a one-command rebuild.
@@ -35,7 +38,7 @@ backup remain local. Historical links below may require the original workspace.
 - [Font and LaTeX engineering](docs/math-package-engineering.md).
 - [Unified master state and lineage](design/unified-master.json): accepted seed
   is frozen; the first 24-target foundation is provisionally accepted for the
-  pilot, with the broader family atlas still ahead.
+  pilot, with a reviewed and partly quarantined expanded atlas now measured.
 - [Autonomous campaign progress](runs/overnight-2026-10-29/progress.md) and
   [quota pacing](docs/quota-paced-operation.md).
 - [Future Comic Sans Math guide](design/future/comic-sans-math/README.md).

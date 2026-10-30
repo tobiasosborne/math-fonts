@@ -1,0 +1,730 @@
+{
+  "status": "authored_provisional_not_optically_accepted",
+  "glyph_count": 34,
+  "grammar_sha256": "9231a07555a5230e877c745d82e2f47b42c5b7931ec53aad1da85756aaa02df2",
+  "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+  "raster_fidelity_measured": false,
+  "shared_shaft_thickness": 40,
+  "font_rule_reference": {
+    "source": "tools/build_math_pilot.py",
+    "FractionRuleThickness": 40,
+    "AxisHeight": 250
+  },
+  "metrics": [
+    {
+      "name": "arrow_left",
+      "codepoint": 8592,
+      "angle": 180,
+      "ends": "right",
+      "unicode_name": "LEFTWARDS ARROW",
+      "contours": 1,
+      "area_design_units2": 50656.73274739584,
+      "canonical_bounds": [
+        -478.5875244140625,
+        -175.38209533691406,
+        400.0,
+        175.38209533691406
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "f941a8fb157042765d482f2497b146c91c969db5d35c8db27fe70d50a3f5883c"
+    },
+    {
+      "name": "arrow_up",
+      "codepoint": 8593,
+      "angle": 90,
+      "ends": "right",
+      "unicode_name": "UPWARDS ARROW",
+      "contours": 1,
+      "area_design_units2": 50656.73366292318,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -400.0,
+        175.38209533691406,
+        478.5875244140625
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "caf5f648676c0f5876bbe7fe71199b291dfe788d712308f9a1044b0bdbf28335"
+    },
+    {
+      "name": "arrow_right",
+      "codepoint": 8594,
+      "angle": 0,
+      "ends": "right",
+      "unicode_name": "RIGHTWARDS ARROW",
+      "contours": 1,
+      "area_design_units2": 50656.73274739584,
+      "canonical_bounds": [
+        -400.0,
+        -175.38209533691406,
+        478.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "fdd1b96863eb3c7ca2c28f8695a53dc2d17f911b15d64a01853cc8aeecf615f2"
+    },
+    {
+      "name": "arrow_down",
+      "codepoint": 8595,
+      "angle": 270,
+      "ends": "right",
+      "unicode_name": "DOWNWARDS ARROW",
+      "contours": 1,
+      "area_design_units2": 50656.73366292318,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -478.5875244140625,
+        175.38209533691406,
+        400.0
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "d0cb5330953a165bf4c95e59c8db116c05e15241e11f505a0909b229944c69db"
+    },
+    {
+      "name": "arrow_leftright",
+      "codepoint": 8596,
+      "angle": 0,
+      "ends": "both",
+      "unicode_name": "LEFT RIGHT ARROW",
+      "contours": 1,
+      "area_design_units2": 69313.46549479167,
+      "canonical_bounds": [
+        -478.5875244140625,
+        -175.38209533691406,
+        478.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "20e489ba282118ec56df6d50acd2d9d2ef14af7914a0177d7185df32df229868"
+    },
+    {
+      "name": "arrow_updown",
+      "codepoint": 8597,
+      "angle": 90,
+      "ends": "both",
+      "unicode_name": "UP DOWN ARROW",
+      "contours": 1,
+      "area_design_units2": 69313.46732584636,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -478.5875244140625,
+        175.38209533691406,
+        478.5875244140625
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "09f5f862eb0504adb6379823fc51b6a0fed327bca7abf77847f71742d19a6564"
+    },
+    {
+      "name": "arrow_northwest",
+      "codepoint": 8598,
+      "angle": 135,
+      "ends": "right",
+      "unicode_name": "NORTH WEST ARROW",
+      "contours": 1,
+      "area_design_units2": 50656.74992116292,
+      "canonical_bounds": [
+        -338.4124755859375,
+        -296.98486328125,
+        296.98486328125,
+        338.4124755859375
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "2e9de4b6b3bbdabec5c350755e88ff4e31a19bf055776e92dc3ee1016d775177"
+    },
+    {
+      "name": "arrow_northeast",
+      "codepoint": 8599,
+      "angle": 45,
+      "ends": "right",
+      "unicode_name": "NORTH EAST ARROW",
+      "contours": 1,
+      "area_design_units2": 50656.746503194176,
+      "canonical_bounds": [
+        -296.98486328125,
+        -296.98486328125,
+        338.4124755859375,
+        338.4124755859375
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "1b259bc5c8c544b41d2192de6f1aeb66cd7ddb6b68debc7d5dd2c20a82b797ec"
+    },
+    {
+      "name": "arrow_southeast",
+      "codepoint": 8600,
+      "angle": 315,
+      "ends": "right",
+      "unicode_name": "SOUTH EAST ARROW",
+      "contours": 1,
+      "area_design_units2": 50656.74992116292,
+      "canonical_bounds": [
+        -296.98486328125,
+        -338.4124755859375,
+        338.4124755859375,
+        296.98486328125
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "8d43e91db0afb6547e053827154043959e057f38c8e31de04831d5355a8102c7"
+    },
+    {
+      "name": "arrow_southwest",
+      "codepoint": 8601,
+      "angle": 225,
+      "ends": "right",
+      "unicode_name": "SOUTH WEST ARROW",
+      "contours": 1,
+      "area_design_units2": 50656.746503194176,
+      "canonical_bounds": [
+        -338.4124755859375,
+        -338.4124755859375,
+        296.98486328125,
+        296.98486328125
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "7e9d5b83b2e1f26911e5d6fb326c5f9e05d0330b625c5cb58413f07daf0421a3"
+    },
+    {
+      "name": "arrow_frombar_left",
+      "codepoint": 8612,
+      "angle": 180,
+      "ends": "right",
+      "bar": true,
+      "unicode_name": "LEFTWARDS ARROW FROM BAR",
+      "contours": 1,
+      "area_design_units2": 61456.73274739584,
+      "canonical_bounds": [
+        -478.5875244140625,
+        -175.38209533691406,
+        420.0,
+        175.38209533691406
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "dbcf3792557aacc2936faeabf10a36679df8d7915024f4bdbba12e3e6c6c2072"
+    },
+    {
+      "name": "arrow_frombar_up",
+      "codepoint": 8613,
+      "angle": 90,
+      "ends": "right",
+      "bar": true,
+      "unicode_name": "UPWARDS ARROW FROM BAR",
+      "contours": 1,
+      "area_design_units2": 61456.73366292319,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -420.0,
+        175.38209533691406,
+        478.5875244140625
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "75a6de85d7a37ff4069c61d6e11fa81dfc330f8880e2c7bc897b71767dba7e1c"
+    },
+    {
+      "name": "arrow_frombar_right",
+      "codepoint": 8614,
+      "angle": 0,
+      "ends": "right",
+      "bar": true,
+      "unicode_name": "RIGHTWARDS ARROW FROM BAR",
+      "contours": 1,
+      "area_design_units2": 61456.73274739584,
+      "canonical_bounds": [
+        -420.0,
+        -175.38209533691406,
+        478.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "d6490156508b4b5b434d10a1f924319b1595f2526c5c6c9161788001ee3ddf06"
+    },
+    {
+      "name": "arrow_frombar_down",
+      "codepoint": 8615,
+      "angle": 270,
+      "ends": "right",
+      "bar": true,
+      "unicode_name": "DOWNWARDS ARROW FROM BAR",
+      "contours": 1,
+      "area_design_units2": 61456.73366292319,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -478.5875244140625,
+        175.38209533691406,
+        420.0
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "403f65c54107fedc9e5f3d1f64d2766bb2689c3dd79cff3ddbdb57a16f0d1ebf"
+    },
+    {
+      "name": "arrow_double_left",
+      "codepoint": 8656,
+      "angle": 180,
+      "ends": "right",
+      "double": true,
+      "unicode_name": "LEFTWARDS DOUBLE ARROW",
+      "contours": 1,
+      "area_design_units2": 76563.75218403338,
+      "canonical_bounds": [
+        -478.5875244140625,
+        -175.38209533691406,
+        400.0,
+        175.38209533691406
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "06619df0cafacac54196ad41fc784e325300a4c61e9ac55cc63e694e4affbcfc"
+    },
+    {
+      "name": "arrow_double_up",
+      "codepoint": 8657,
+      "angle": 90,
+      "ends": "right",
+      "double": true,
+      "unicode_name": "UPWARDS DOUBLE ARROW",
+      "contours": 1,
+      "area_design_units2": 76563.74601185322,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -400.0,
+        175.38209533691406,
+        478.5875244140625
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "5b483e65c68b75deb04f2d2486d22169f080a5f483be0fb174e9835d56096e76"
+    },
+    {
+      "name": "arrow_double_right",
+      "codepoint": 8658,
+      "angle": 0,
+      "ends": "right",
+      "double": true,
+      "unicode_name": "RIGHTWARDS DOUBLE ARROW",
+      "contours": 1,
+      "area_design_units2": 76563.75218403338,
+      "canonical_bounds": [
+        -400.0,
+        -175.38209533691406,
+        478.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "aa83b94ef91cb3c85160eb3433a1037af5e9efc393ac58ceb688c798e3039cb4"
+    },
+    {
+      "name": "arrow_double_down",
+      "codepoint": 8659,
+      "angle": 270,
+      "ends": "right",
+      "double": true,
+      "unicode_name": "DOWNWARDS DOUBLE ARROW",
+      "contours": 1,
+      "area_design_units2": 76563.74601185322,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -478.5875244140625,
+        175.38209533691406,
+        400.0
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "7c2806e4504144e751fa5b5d791dccd1f2e4529f31e95a2c051043d6a83b75f0"
+    },
+    {
+      "name": "arrow_double_leftright",
+      "codepoint": 8660,
+      "angle": 0,
+      "ends": "both",
+      "double": true,
+      "unicode_name": "LEFT RIGHT DOUBLE ARROW",
+      "contours": 2,
+      "area_design_units2": 89127.49655556679,
+      "canonical_bounds": [
+        -478.5875244140625,
+        -175.38209533691406,
+        478.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 4,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "ee9e479f1344725d038d0768168cfa581b10ba335fd1fd0c97c7b1e0d9f32a96"
+    },
+    {
+      "name": "arrow_double_updown",
+      "codepoint": 8661,
+      "angle": 90,
+      "ends": "both",
+      "double": true,
+      "unicode_name": "UP DOWN DOUBLE ARROW",
+      "contours": 2,
+      "area_design_units2": 89127.49202370644,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -478.5875244140625,
+        175.38209533691406,
+        478.5875244140625
+      ],
+      "component_count_before_union": 4,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "5c5aa90ff78c9cb8c5b7cf581b25827f109034a0d8217865a0bbf7f22f8e7f51"
+    },
+    {
+      "name": "harpoon_left_up",
+      "codepoint": 8636,
+      "angle": 180,
+      "ends": "right",
+      "half_head": "lower",
+      "unicode_name": "LEFTWARDS HARPOON WITH BARB UPWARDS",
+      "contours": 1,
+      "area_design_units2": 40509.24066058795,
+      "canonical_bounds": [
+        -405.0898742675781,
+        -20.0,
+        400.0,
+        175.38209533691406
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "ceb310e5dc948d8083fbc888916a60ff141cc416c20b2de2f14c0d8bf31bf237"
+    },
+    {
+      "name": "harpoon_left_down",
+      "codepoint": 8637,
+      "angle": 180,
+      "ends": "right",
+      "half_head": "upper",
+      "unicode_name": "LEFTWARDS HARPOON WITH BARB DOWNWARDS",
+      "contours": 1,
+      "area_design_units2": 40509.24064024289,
+      "canonical_bounds": [
+        -405.0898742675781,
+        -175.38209533691406,
+        400.0,
+        20.0
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "7e3d72f3335269b0138c146445854a0ede5c336b744ce18b95c4f9cddb2bec32"
+    },
+    {
+      "name": "harpoon_up_right",
+      "codepoint": 8638,
+      "angle": 90,
+      "ends": "right",
+      "half_head": "lower",
+      "unicode_name": "UPWARDS HARPOON WITH BARB RIGHTWARDS",
+      "contours": 1,
+      "area_design_units2": 40509.240233341836,
+      "canonical_bounds": [
+        -20.0,
+        -400.0,
+        175.38209533691406,
+        405.0898742675781
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "41c656a04ea19e27afd24df11db00bf6f1726fe1e611cd901a266fe241a9930e"
+    },
+    {
+      "name": "harpoon_up_left",
+      "codepoint": 8639,
+      "angle": 90,
+      "ends": "right",
+      "half_head": "upper",
+      "unicode_name": "UPWARDS HARPOON WITH BARB LEFTWARDS",
+      "contours": 1,
+      "area_design_units2": 40509.2402129968,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -400.0,
+        20.0,
+        405.0898742675781
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "6861844498336fe64d2a396d2a3184daba0ef7a7cca62becae4d5be426155080"
+    },
+    {
+      "name": "harpoon_right_up",
+      "codepoint": 8640,
+      "angle": 0,
+      "ends": "right",
+      "half_head": "upper",
+      "unicode_name": "RIGHTWARDS HARPOON WITH BARB UPWARDS",
+      "contours": 1,
+      "area_design_units2": 40509.24064024289,
+      "canonical_bounds": [
+        -400.0,
+        -20.0,
+        405.0898742675781,
+        175.38209533691406
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "e8fbdd13e55ebf009fbbbaaa3e1ebb07eaefc52c8d109156b27b7bef7daa233f"
+    },
+    {
+      "name": "harpoon_right_down",
+      "codepoint": 8641,
+      "angle": 0,
+      "ends": "right",
+      "half_head": "lower",
+      "unicode_name": "RIGHTWARDS HARPOON WITH BARB DOWNWARDS",
+      "contours": 1,
+      "area_design_units2": 40509.24066058795,
+      "canonical_bounds": [
+        -400.0,
+        -175.38209533691406,
+        405.0898742675781,
+        20.0
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "f7f4118bb0921fb07e4e62710208a7a9c977c08246a1210d8b80f655e168ff59"
+    },
+    {
+      "name": "harpoon_down_right",
+      "codepoint": 8642,
+      "angle": 270,
+      "ends": "right",
+      "half_head": "upper",
+      "unicode_name": "DOWNWARDS HARPOON WITH BARB RIGHTWARDS",
+      "contours": 1,
+      "area_design_units2": 40509.2402129968,
+      "canonical_bounds": [
+        -20.0,
+        -405.0898742675781,
+        175.38209533691406,
+        400.0
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "1b2849884781d8f03c1456f40bc973bb52a83586f4d714d9e0dd00ecd0322603"
+    },
+    {
+      "name": "harpoon_down_left",
+      "codepoint": 8643,
+      "angle": 270,
+      "ends": "right",
+      "half_head": "lower",
+      "unicode_name": "DOWNWARDS HARPOON WITH BARB LEFTWARDS",
+      "contours": 1,
+      "area_design_units2": 40509.240233341836,
+      "canonical_bounds": [
+        -175.38209533691406,
+        -405.0898742675781,
+        20.0,
+        400.0
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "9d3230ae27878528575b3f042bd2a47202a3f2ee80be9a5617851076ebf58f6b"
+    },
+    {
+      "name": "arrow_long_left",
+      "codepoint": 10229,
+      "angle": 180,
+      "ends": "right",
+      "long": true,
+      "double": false,
+      "unicode_name": "LONG LEFTWARDS ARROW",
+      "contours": 1,
+      "area_design_units2": 74656.71304321288,
+      "canonical_bounds": [
+        -778.5875244140625,
+        -175.38209533691406,
+        700.0,
+        175.38209533691406
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "3f3907a27c6f3b8145cad83b2acf15fa23c0b19d09935acfd61cb2fea7e02b24"
+    },
+    {
+      "name": "arrow_long_right",
+      "codepoint": 10230,
+      "angle": 0,
+      "ends": "right",
+      "long": true,
+      "double": false,
+      "unicode_name": "LONG RIGHTWARDS ARROW",
+      "contours": 1,
+      "area_design_units2": 74656.71304321288,
+      "canonical_bounds": [
+        -700.0,
+        -175.38209533691406,
+        778.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 2,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "40da4489c8ebee0a70a6c548254b0c3f16480092582a63f30cea67ca9522e1e7"
+    },
+    {
+      "name": "arrow_long_leftright",
+      "codepoint": 10231,
+      "angle": 0,
+      "ends": "both",
+      "long": true,
+      "double": false,
+      "unicode_name": "LONG LEFT RIGHT ARROW",
+      "contours": 1,
+      "area_design_units2": 93313.4299926758,
+      "canonical_bounds": [
+        -778.5875244140625,
+        -175.38209533691406,
+        778.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "08cb3fa3d483847cf6115788484bede426c2377556b2694c80018705d5a3b58e"
+    },
+    {
+      "name": "arrow_long_double_left",
+      "codepoint": 10232,
+      "angle": 180,
+      "ends": "right",
+      "long": true,
+      "double": true,
+      "unicode_name": "LONG LEFTWARDS DOUBLE ARROW",
+      "contours": 1,
+      "area_design_units2": 124563.7219532331,
+      "canonical_bounds": [
+        -778.5875244140625,
+        -175.38209533691406,
+        700.0,
+        175.38209533691406
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "13c6e2e118e51a2f43d21dcd02feccd1e1b86bd9613b627fb8c990a6a9c2b2b6"
+    },
+    {
+      "name": "arrow_long_double_right",
+      "codepoint": 10233,
+      "angle": 0,
+      "ends": "right",
+      "long": true,
+      "double": true,
+      "unicode_name": "LONG RIGHTWARDS DOUBLE ARROW",
+      "contours": 1,
+      "area_design_units2": 124563.7219532331,
+      "canonical_bounds": [
+        -700.0,
+        -175.38209533691406,
+        778.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 3,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "1808bcb9a7af329e2607e8d0f8187e8773ea286bbfd23ed5a4ae5f047cd9bdcb"
+    },
+    {
+      "name": "arrow_long_double_leftright",
+      "codepoint": 10234,
+      "angle": 0,
+      "ends": "both",
+      "long": true,
+      "double": true,
+      "unicode_name": "LONG LEFT RIGHT DOUBLE ARROW",
+      "contours": 2,
+      "area_design_units2": 137127.45953146613,
+      "canonical_bounds": [
+        -778.5875244140625,
+        -175.38209533691406,
+        778.5875244140625,
+        175.38209533691406
+      ],
+      "component_count_before_union": 4,
+      "shaft_thickness": 40,
+      "head_length": 190,
+      "head_half_height": 170,
+      "curves_sha256": "455aeb9eb723fed44b1ab1b373e6ab1cb375edeedd5ce1b0d8fc449b2b791d72"
+    }
+  ],
+  "limitations": [
+    "Normal and long finite lengths only; no MATH assemblies.",
+    "Head proportions, weight, spacing, and script behavior need actual working-size optical approval.",
+    "Harpoons and double arrows are authored grammar derivatives, not accepted raster fits."
+  ]
+}

@@ -1,0 +1,4387 @@
+{
+  "schema_version": 1,
+  "root_id": "baskerville-unified-master-v2-candidate-01",
+  "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+  "image_size": [
+    1024,
+    1536
+  ],
+  "grid_bands_inclusive": {
+    "horizontal": [
+      [
+        10,
+        11
+      ],
+      [
+        217,
+        218
+      ],
+      [
+        420,
+        420
+      ],
+      [
+        625,
+        626
+      ],
+      [
+        828,
+        828
+      ],
+      [
+        1024,
+        1024
+      ],
+      [
+        1210,
+        1210
+      ],
+      [
+        1366,
+        1366
+      ],
+      [
+        1524,
+        1524
+      ]
+    ],
+    "vertical": [
+      [
+        11,
+        11
+      ],
+      [
+        135,
+        136
+      ],
+      [
+        259,
+        260
+      ],
+      [
+        385,
+        385
+      ],
+      [
+        511,
+        511
+      ],
+      [
+        637,
+        638
+      ],
+      [
+        764,
+        764
+      ],
+      [
+        890,
+        890
+      ],
+      [
+        1012,
+        1012
+      ]
+    ]
+  },
+  "row_ink_label_windows": [
+    {
+      "row": 1,
+      "glyph_dark_y_inclusive": [
+        49,
+        171
+      ],
+      "label_dark_y_inclusive": [
+        182,
+        201
+      ],
+      "separating_whitespace_y": [
+        172,
+        182
+      ],
+      "crop_y": [
+        14,
+        177
+      ],
+      "label_exclusion_y": [
+        177,
+        215
+      ]
+    },
+    {
+      "row": 2,
+      "glyph_dark_y_inclusive": [
+        249,
+        375
+      ],
+      "label_dark_y_inclusive": [
+        382,
+        402
+      ],
+      "separating_whitespace_y": [
+        376,
+        382
+      ],
+      "crop_y": [
+        221,
+        379
+      ],
+      "label_exclusion_y": [
+        379,
+        418
+      ]
+    },
+    {
+      "row": 3,
+      "glyph_dark_y_inclusive": [
+        454,
+        574
+      ],
+      "label_dark_y_inclusive": [
+        589,
+        608
+      ],
+      "separating_whitespace_y": [
+        575,
+        589
+      ],
+      "crop_y": [
+        423,
+        582
+      ],
+      "label_exclusion_y": [
+        582,
+        623
+      ]
+    },
+    {
+      "row": 4,
+      "glyph_dark_y_inclusive": [
+        662,
+        778
+      ],
+      "label_dark_y_inclusive": [
+        791,
+        810
+      ],
+      "separating_whitespace_y": [
+        779,
+        791
+      ],
+      "crop_y": [
+        629,
+        785
+      ],
+      "label_exclusion_y": [
+        785,
+        826
+      ]
+    },
+    {
+      "row": 5,
+      "glyph_dark_y_inclusive": [
+        857,
+        965
+      ],
+      "label_dark_y_inclusive": [
+        984,
+        1003
+      ],
+      "separating_whitespace_y": [
+        966,
+        984
+      ],
+      "crop_y": [
+        831,
+        975
+      ],
+      "label_exclusion_y": [
+        975,
+        1022
+      ]
+    },
+    {
+      "row": 6,
+      "glyph_dark_y_inclusive": [
+        1059,
+        1146
+      ],
+      "label_dark_y_inclusive": [
+        1173,
+        1191
+      ],
+      "separating_whitespace_y": [
+        1147,
+        1173
+      ],
+      "crop_y": [
+        1027,
+        1160
+      ],
+      "label_exclusion_y": [
+        1160,
+        1208
+      ]
+    },
+    {
+      "row": 7,
+      "glyph_dark_y_inclusive": [
+        1242,
+        1317
+      ],
+      "label_dark_y_inclusive": [
+        1337,
+        1356
+      ],
+      "separating_whitespace_y": [
+        1318,
+        1337
+      ],
+      "crop_y": [
+        1213,
+        1327
+      ],
+      "label_exclusion_y": [
+        1327,
+        1364
+      ]
+    },
+    {
+      "row": 8,
+      "glyph_dark_y_inclusive": [
+        1407,
+        1449
+      ],
+      "label_dark_y_inclusive": [
+        1486,
+        1505
+      ],
+      "separating_whitespace_y": [
+        1450,
+        1486
+      ],
+      "crop_y": [
+        1369,
+        1468
+      ],
+      "label_exclusion_y": [
+        1468,
+        1522
+      ]
+    }
+  ],
+  "crop_policy": "Original rectangular pixel crops only; grid gutters and label windows excluded, no ink processing.",
+  "measurement_thresholds": {
+    "grid_gray_below": 245,
+    "ink_gray_below": 128,
+    "grid_projection_fraction": 0.85,
+    "grid_clearance_pixels": 2
+  },
+  "png_encoding": {
+    "pillow_version": "13.0.0",
+    "compress_level": 9,
+    "optimize": false
+  },
+  "cells": [
+    {
+      "name": "alpha",
+      "character": "α",
+      "row": 1,
+      "column": 1,
+      "codepoints": [
+        945,
+        120572
+      ],
+      "unicode_labels": [
+        "U+03B1",
+        "U+1D6FC"
+      ],
+      "tex_command": "\\alpha",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        11,
+        10,
+        137,
+        219
+      ],
+      "source_crop_box": [
+        14,
+        14,
+        133,
+        177
+      ],
+      "crop": "crops/alpha.png",
+      "crop_sha256": "01f008d1197cf66aaf0bef79a6a4e9eac1193b5a1f3e42d55c69b86fbcef91d3",
+      "ink_bbox_in_crop": [
+        20,
+        72,
+        101,
+        137
+      ],
+      "ink_bbox_root": [
+        34,
+        86,
+        115,
+        151
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2174
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "retained_v1_anchor_redraw_evidence_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          945,
+          120572
+        ],
+        "source_crop_box": [
+          14,
+          14,
+          133,
+          177
+        ],
+        "baseline_root": 148.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 14,
+          "translate_y": 14
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "beta",
+      "character": "β",
+      "row": 1,
+      "column": 2,
+      "codepoints": [
+        946,
+        120573
+      ],
+      "unicode_labels": [
+        "U+03B2",
+        "U+1D6FD"
+      ],
+      "tex_command": "\\beta",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        135,
+        10,
+        261,
+        219
+      ],
+      "source_crop_box": [
+        139,
+        14,
+        257,
+        177
+      ],
+      "crop": "crops/beta.png",
+      "crop_sha256": "fa5507cab43f02286f23cc01dd0efb6170d395d969fc563bb939078afc3905fe",
+      "ink_bbox_in_crop": [
+        15,
+        36,
+        90,
+        156
+      ],
+      "ink_bbox_root": [
+        154,
+        50,
+        229,
+        170
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2913
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "retained_v1_anchor_redraw_evidence_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          946,
+          120573
+        ],
+        "source_crop_box": [
+          139,
+          14,
+          257,
+          177
+        ],
+        "baseline_root": 148.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 139,
+          "translate_y": 14
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "gamma",
+      "character": "γ",
+      "row": 1,
+      "column": 3,
+      "codepoints": [
+        947,
+        120574
+      ],
+      "unicode_labels": [
+        "U+03B3",
+        "U+1D6FE"
+      ],
+      "tex_command": "\\gamma",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        259,
+        10,
+        386,
+        219
+      ],
+      "source_crop_box": [
+        263,
+        14,
+        383,
+        177
+      ],
+      "crop": "crops/gamma.png",
+      "crop_sha256": "ac241c2d8642d3c61385b29752f41e05082c832ed0eb76efaa02f34ec8fb5819",
+      "ink_bbox_in_crop": [
+        31,
+        65,
+        97,
+        156
+      ],
+      "ink_bbox_root": [
+        294,
+        79,
+        360,
+        170
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1476
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          947,
+          120574
+        ],
+        "source_crop_box": [
+          263,
+          14,
+          383,
+          177
+        ],
+        "baseline_root": 148.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 263,
+          "translate_y": 14
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "delta",
+      "character": "δ",
+      "row": 1,
+      "column": 4,
+      "codepoints": [
+        948,
+        120575
+      ],
+      "unicode_labels": [
+        "U+03B4",
+        "U+1D6FF"
+      ],
+      "tex_command": "\\delta",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        385,
+        10,
+        512,
+        219
+      ],
+      "source_crop_box": [
+        388,
+        14,
+        509,
+        177
+      ],
+      "crop": "crops/delta.png",
+      "crop_sha256": "f42ad0590c92256f9fe14f6df565d5a2784459d6ea13d42feed4387f8e13c2c1",
+      "ink_bbox_in_crop": [
+        24,
+        36,
+        87,
+        138
+      ],
+      "ink_bbox_root": [
+        412,
+        50,
+        475,
+        152
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2352
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          948,
+          120575
+        ],
+        "source_crop_box": [
+          388,
+          14,
+          509,
+          177
+        ],
+        "baseline_root": 148.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 388,
+          "translate_y": 14
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "epsilon-lobed",
+      "character": "ε",
+      "row": 1,
+      "column": 5,
+      "codepoints": [
+        949,
+        120576
+      ],
+      "unicode_labels": [
+        "U+03B5",
+        "U+1D700"
+      ],
+      "tex_command": "\\varepsilon",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        511,
+        10,
+        639,
+        219
+      ],
+      "source_crop_box": [
+        514,
+        14,
+        635,
+        177
+      ],
+      "crop": "crops/epsilon-lobed.png",
+      "crop_sha256": "d07293b1dae8b81e8956c0e4cc887b6c72f66883eb0d7500dcd9dc1a17f40806",
+      "ink_bbox_in_crop": [
+        27,
+        66,
+        87,
+        138
+      ],
+      "ink_bbox_root": [
+        541,
+        80,
+        601,
+        152
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1390
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          949,
+          120576
+        ],
+        "source_crop_box": [
+          514,
+          14,
+          635,
+          177
+        ],
+        "baseline_root": 148.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 514,
+          "translate_y": 14
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "zeta",
+      "character": "ζ",
+      "row": 1,
+      "column": 6,
+      "codepoints": [
+        950,
+        120577
+      ],
+      "unicode_labels": [
+        "U+03B6",
+        "U+1D701"
+      ],
+      "tex_command": "\\zeta",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        637,
+        10,
+        765,
+        219
+      ],
+      "source_crop_box": [
+        641,
+        14,
+        762,
+        177
+      ],
+      "crop": "crops/zeta.png",
+      "crop_sha256": "71633ec718934031a67615fa3e7d51b4079c26ea2cc7f5ab31e91b5066e3ded7",
+      "ink_bbox_in_crop": [
+        21,
+        35,
+        88,
+        158
+      ],
+      "ink_bbox_root": [
+        662,
+        49,
+        729,
+        172
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1808
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          950,
+          120577
+        ],
+        "source_crop_box": [
+          641,
+          14,
+          762,
+          177
+        ],
+        "baseline_root": 148.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 641,
+          "translate_y": 14
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "eta",
+      "character": "η",
+      "row": 1,
+      "column": 7,
+      "codepoints": [
+        951,
+        120578
+      ],
+      "unicode_labels": [
+        "U+03B7",
+        "U+1D702"
+      ],
+      "tex_command": "\\eta",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        764,
+        10,
+        891,
+        219
+      ],
+      "source_crop_box": [
+        767,
+        14,
+        888,
+        177
+      ],
+      "crop": "crops/eta.png",
+      "crop_sha256": "e33098d6440d3c0a3edd6ad8cde9a095be9284e2131b2a090407595e2918e413",
+      "ink_bbox_in_crop": [
+        21,
+        66,
+        90,
+        158
+      ],
+      "ink_bbox_root": [
+        788,
+        80,
+        857,
+        172
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2430
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          951,
+          120578
+        ],
+        "source_crop_box": [
+          767,
+          14,
+          888,
+          177
+        ],
+        "baseline_root": 148.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 767,
+          "translate_y": 14
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "theta",
+      "character": "θ",
+      "row": 1,
+      "column": 8,
+      "codepoints": [
+        952,
+        120579
+      ],
+      "unicode_labels": [
+        "U+03B8",
+        "U+1D703"
+      ],
+      "tex_command": "\\theta",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        890,
+        10,
+        1013,
+        219
+      ],
+      "source_crop_box": [
+        893,
+        14,
+        1010,
+        177
+      ],
+      "crop": "crops/theta.png",
+      "crop_sha256": "4bc1279efa4d41efc068c593b4b1adab92760e4a0ff1f1d797dac9704428aac3",
+      "ink_bbox_in_crop": [
+        20,
+        40,
+        91,
+        139
+      ],
+      "ink_bbox_root": [
+        913,
+        54,
+        984,
+        153
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2827
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "retained_v1_anchor_redraw_evidence_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          952,
+          120579
+        ],
+        "source_crop_box": [
+          893,
+          14,
+          1010,
+          177
+        ],
+        "baseline_root": 148.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 893,
+          "translate_y": 14
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "iota",
+      "character": "ι",
+      "row": 2,
+      "column": 1,
+      "codepoints": [
+        953,
+        120580
+      ],
+      "unicode_labels": [
+        "U+03B9",
+        "U+1D704"
+      ],
+      "tex_command": "\\iota",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        11,
+        217,
+        137,
+        421
+      ],
+      "source_crop_box": [
+        14,
+        221,
+        133,
+        379
+      ],
+      "crop": "crops/iota.png",
+      "crop_sha256": "0f8d922c1660c2790b4fadf0e6485417c2449fb7d65a6e5776798615834c4ab0",
+      "ink_bbox_in_crop": [
+        38,
+        61,
+        73,
+        129
+      ],
+      "ink_bbox_root": [
+        52,
+        282,
+        87,
+        350
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1045
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          953,
+          120580
+        ],
+        "source_crop_box": [
+          14,
+          221,
+          133,
+          379
+        ],
+        "baseline_root": 355.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 14,
+          "translate_y": 221
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "kappa",
+      "character": "κ",
+      "row": 2,
+      "column": 2,
+      "codepoints": [
+        954,
+        120581
+      ],
+      "unicode_labels": [
+        "U+03BA",
+        "U+1D705"
+      ],
+      "tex_command": "\\kappa",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        135,
+        217,
+        261,
+        421
+      ],
+      "source_crop_box": [
+        139,
+        221,
+        257,
+        379
+      ],
+      "crop": "crops/kappa.png",
+      "crop_sha256": "9de70e5d9343c0375ffc3624deb7257cbaf79249915b119724ff7deaac7cc7fc",
+      "ink_bbox_in_crop": [
+        17,
+        60,
+        95,
+        130
+      ],
+      "ink_bbox_root": [
+        156,
+        281,
+        234,
+        351
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2125
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          954,
+          120581
+        ],
+        "source_crop_box": [
+          139,
+          221,
+          257,
+          379
+        ],
+        "baseline_root": 355.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 139,
+          "translate_y": 221
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "lambda",
+      "character": "λ",
+      "row": 2,
+      "column": 3,
+      "codepoints": [
+        955,
+        120582
+      ],
+      "unicode_labels": [
+        "U+03BB",
+        "U+1D706"
+      ],
+      "tex_command": "\\lambda",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        259,
+        217,
+        386,
+        421
+      ],
+      "source_crop_box": [
+        263,
+        221,
+        383,
+        379
+      ],
+      "crop": "crops/lambda.png",
+      "crop_sha256": "79ee106ba9b5da5851263cf69d5949f8b03ba65ffed57a191fb05ed6858d7afd",
+      "ink_bbox_in_crop": [
+        22,
+        30,
+        99,
+        129
+      ],
+      "ink_bbox_root": [
+        285,
+        251,
+        362,
+        350
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1996
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          955,
+          120582
+        ],
+        "source_crop_box": [
+          263,
+          221,
+          383,
+          379
+        ],
+        "baseline_root": 355.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 263,
+          "translate_y": 221
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "mu",
+      "character": "μ",
+      "row": 2,
+      "column": 4,
+      "codepoints": [
+        956,
+        120583
+      ],
+      "unicode_labels": [
+        "U+03BC",
+        "U+1D707"
+      ],
+      "tex_command": "\\mu",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        385,
+        217,
+        512,
+        421
+      ],
+      "source_crop_box": [
+        388,
+        221,
+        509,
+        379
+      ],
+      "crop": "crops/mu.png",
+      "crop_sha256": "7b9a94ea72b994c879aab93e84395f30a3621d60ec09d982824f100d10c1d275",
+      "ink_bbox_in_crop": [
+        14,
+        63,
+        96,
+        155
+      ],
+      "ink_bbox_root": [
+        402,
+        284,
+        484,
+        376
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2533
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          956,
+          120583
+        ],
+        "source_crop_box": [
+          388,
+          221,
+          509,
+          379
+        ],
+        "baseline_root": 355.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 388,
+          "translate_y": 221
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "nu",
+      "character": "ν",
+      "row": 2,
+      "column": 5,
+      "codepoints": [
+        957,
+        120584
+      ],
+      "unicode_labels": [
+        "U+03BD",
+        "U+1D708"
+      ],
+      "tex_command": "\\nu",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        511,
+        217,
+        639,
+        421
+      ],
+      "source_crop_box": [
+        514,
+        221,
+        635,
+        379
+      ],
+      "crop": "crops/nu.png",
+      "crop_sha256": "b413638caf898b7598bb1e12a62b70f5c76528f4031727f7d22d51a0f6eb2865",
+      "ink_bbox_in_crop": [
+        25,
+        61,
+        90,
+        129
+      ],
+      "ink_bbox_root": [
+        539,
+        282,
+        604,
+        350
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1361
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "retained_v1_anchor_redraw_evidence_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          957,
+          120584
+        ],
+        "source_crop_box": [
+          514,
+          221,
+          635,
+          379
+        ],
+        "baseline_root": 355.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 514,
+          "translate_y": 221
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "xi",
+      "character": "ξ",
+      "row": 2,
+      "column": 6,
+      "codepoints": [
+        958,
+        120585
+      ],
+      "unicode_labels": [
+        "U+03BE",
+        "U+1D709"
+      ],
+      "tex_command": "\\xi",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        637,
+        217,
+        765,
+        421
+      ],
+      "source_crop_box": [
+        641,
+        221,
+        762,
+        379
+      ],
+      "crop": "crops/xi.png",
+      "crop_sha256": "a45bcc2d9fcdbe3dae21d0ee0065bb5c41c7b25c451a94d6620b560a195b5186",
+      "ink_bbox_in_crop": [
+        23,
+        28,
+        89,
+        154
+      ],
+      "ink_bbox_root": [
+        664,
+        249,
+        730,
+        375
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2164
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "retained_v1_anchor_redraw_evidence_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          958,
+          120585
+        ],
+        "source_crop_box": [
+          641,
+          221,
+          762,
+          379
+        ],
+        "baseline_root": 355.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 641,
+          "translate_y": 221
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "omicron",
+      "character": "ο",
+      "row": 2,
+      "column": 7,
+      "codepoints": [
+        959,
+        120586
+      ],
+      "unicode_labels": [
+        "U+03BF",
+        "U+1D70A"
+      ],
+      "tex_command": "\\omicron",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        764,
+        217,
+        891,
+        421
+      ],
+      "source_crop_box": [
+        767,
+        221,
+        888,
+        379
+      ],
+      "crop": "crops/omicron.png",
+      "crop_sha256": "caf2f64160dfda08a98aadc1b9d60753bfd4cc13be8a4400269dc3ef50e60490",
+      "ink_bbox_in_crop": [
+        22,
+        59,
+        90,
+        131
+      ],
+      "ink_bbox_root": [
+        789,
+        280,
+        857,
+        352
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2006
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          959,
+          120586
+        ],
+        "source_crop_box": [
+          767,
+          221,
+          888,
+          379
+        ],
+        "baseline_root": 355.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 767,
+          "translate_y": 221
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "pi",
+      "character": "π",
+      "row": 2,
+      "column": 8,
+      "codepoints": [
+        960,
+        120587
+      ],
+      "unicode_labels": [
+        "U+03C0",
+        "U+1D70B"
+      ],
+      "tex_command": "\\pi",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        890,
+        217,
+        1013,
+        421
+      ],
+      "source_crop_box": [
+        893,
+        221,
+        1010,
+        379
+      ],
+      "crop": "crops/pi.png",
+      "crop_sha256": "ee30b96d8a883cf6db6ee1b163ca4f95a2e093c5935501b811bb8c50d3bbc32f",
+      "ink_bbox_in_crop": [
+        14,
+        61,
+        102,
+        131
+      ],
+      "ink_bbox_root": [
+        907,
+        282,
+        995,
+        352
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2378
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          960,
+          120587
+        ],
+        "source_crop_box": [
+          893,
+          221,
+          1010,
+          379
+        ],
+        "baseline_root": 355.05778790389394,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 893,
+          "translate_y": 221
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "rho",
+      "character": "ρ",
+      "row": 3,
+      "column": 1,
+      "codepoints": [
+        961,
+        120588
+      ],
+      "unicode_labels": [
+        "U+03C1",
+        "U+1D70C"
+      ],
+      "tex_command": "\\rho",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        11,
+        420,
+        137,
+        627
+      ],
+      "source_crop_box": [
+        14,
+        423,
+        133,
+        582
+      ],
+      "crop": "crops/rho.png",
+      "crop_sha256": "d3f581b3cb74a03a89210604cfb1d0bfdad063c6026b7da9edfbb7a7c2ac9655",
+      "ink_bbox_in_crop": [
+        19,
+        54,
+        98,
+        148
+      ],
+      "ink_bbox_root": [
+        33,
+        477,
+        112,
+        571
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2359
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          961,
+          120588
+        ],
+        "source_crop_box": [
+          14,
+          423,
+          133,
+          582
+        ],
+        "baseline_root": 558.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 14,
+          "translate_y": 423
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "final-sigma",
+      "character": "ς",
+      "row": 3,
+      "column": 2,
+      "codepoints": [
+        962,
+        120589
+      ],
+      "unicode_labels": [
+        "U+03C2",
+        "U+1D70D"
+      ],
+      "tex_command": "\\varsigma",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        135,
+        420,
+        261,
+        627
+      ],
+      "source_crop_box": [
+        139,
+        423,
+        257,
+        582
+      ],
+      "crop": "crops/final-sigma.png",
+      "crop_sha256": "4c805aecd37949e61f5b8bd02e6fe17f64c011173af33dda91f2e3755638266d",
+      "ink_bbox_in_crop": [
+        31,
+        63,
+        90,
+        149
+      ],
+      "ink_bbox_root": [
+        170,
+        486,
+        229,
+        572
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1499
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          962,
+          120589
+        ],
+        "source_crop_box": [
+          139,
+          423,
+          257,
+          582
+        ],
+        "baseline_root": 558.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 139,
+          "translate_y": 423
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "sigma",
+      "character": "σ",
+      "row": 3,
+      "column": 3,
+      "codepoints": [
+        963,
+        120590
+      ],
+      "unicode_labels": [
+        "U+03C3",
+        "U+1D70E"
+      ],
+      "tex_command": "\\sigma",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        259,
+        420,
+        386,
+        627
+      ],
+      "source_crop_box": [
+        263,
+        423,
+        383,
+        582
+      ],
+      "crop": "crops/sigma.png",
+      "crop_sha256": "2c5611fa953630b2b45d1496743e182cfef4f5f9906fdbed9c47f5d5c73d300c",
+      "ink_bbox_in_crop": [
+        20,
+        54,
+        102,
+        125
+      ],
+      "ink_bbox_root": [
+        283,
+        477,
+        365,
+        548
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2135
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          963,
+          120590
+        ],
+        "source_crop_box": [
+          263,
+          423,
+          383,
+          582
+        ],
+        "baseline_root": 558.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 263,
+          "translate_y": 423
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "tau",
+      "character": "τ",
+      "row": 3,
+      "column": 4,
+      "codepoints": [
+        964,
+        120591
+      ],
+      "unicode_labels": [
+        "U+03C4",
+        "U+1D70F"
+      ],
+      "tex_command": "\\tau",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        385,
+        420,
+        512,
+        627
+      ],
+      "source_crop_box": [
+        388,
+        423,
+        509,
+        582
+      ],
+      "crop": "crops/tau.png",
+      "crop_sha256": "cba5e3c8cfcf4ddc208e2d7690e5c1d18658499cf17ccefb34bf8988f56d0ed0",
+      "ink_bbox_in_crop": [
+        22,
+        54,
+        97,
+        126
+      ],
+      "ink_bbox_root": [
+        410,
+        477,
+        485,
+        549
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1607
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          964,
+          120591
+        ],
+        "source_crop_box": [
+          388,
+          423,
+          509,
+          582
+        ],
+        "baseline_root": 558.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 388,
+          "translate_y": 423
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "upsilon",
+      "character": "υ",
+      "row": 3,
+      "column": 5,
+      "codepoints": [
+        965,
+        120592
+      ],
+      "unicode_labels": [
+        "U+03C5",
+        "U+1D710"
+      ],
+      "tex_command": "\\upsilon",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        511,
+        420,
+        639,
+        627
+      ],
+      "source_crop_box": [
+        514,
+        423,
+        635,
+        582
+      ],
+      "crop": "crops/upsilon.png",
+      "crop_sha256": "076b40cf2018fcb6d3d9fb64819fb0f1c102566867222022c21cf826ebc59f53",
+      "ink_bbox_in_crop": [
+        24,
+        56,
+        91,
+        125
+      ],
+      "ink_bbox_root": [
+        538,
+        479,
+        605,
+        548
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1634
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          965,
+          120592
+        ],
+        "source_crop_box": [
+          514,
+          423,
+          635,
+          582
+        ],
+        "baseline_root": 558.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 514,
+          "translate_y": 423
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "phi-looped",
+      "character": "φ",
+      "row": 3,
+      "column": 6,
+      "codepoints": [
+        966,
+        120593
+      ],
+      "unicode_labels": [
+        "U+03C6",
+        "U+1D711"
+      ],
+      "tex_command": "\\varphi",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        637,
+        420,
+        765,
+        627
+      ],
+      "source_crop_box": [
+        641,
+        423,
+        762,
+        582
+      ],
+      "crop": "crops/phi-looped.png",
+      "crop_sha256": "8f48d7d81dccdea35057268f67d76f65b0e87421b5a98a3f26201321bac51231",
+      "ink_bbox_in_crop": [
+        13,
+        56,
+        100,
+        151
+      ],
+      "ink_bbox_root": [
+        654,
+        479,
+        741,
+        574
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        3010
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "quarantined_semantic_failure",
+      "review_note": "Straight oblique central stem and near-duplicate phi-straight silhouette; requested distinct looped varphi anatomy absent.",
+      "quarantined": true,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          966,
+          120593
+        ],
+        "source_crop_box": [
+          641,
+          423,
+          762,
+          582
+        ],
+        "baseline_root": 558.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 641,
+          "translate_y": 423
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "chi",
+      "character": "χ",
+      "row": 3,
+      "column": 7,
+      "codepoints": [
+        967,
+        120594
+      ],
+      "unicode_labels": [
+        "U+03C7",
+        "U+1D712"
+      ],
+      "tex_command": "\\chi",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        764,
+        420,
+        891,
+        627
+      ],
+      "source_crop_box": [
+        767,
+        423,
+        888,
+        582
+      ],
+      "crop": "crops/chi.png",
+      "crop_sha256": "677ac9df8bb48b36b492f74f9d36ae9366aea0e3ebdb8e995ec561a62a39ba04",
+      "ink_bbox_in_crop": [
+        12,
+        56,
+        100,
+        150
+      ],
+      "ink_bbox_root": [
+        779,
+        479,
+        867,
+        573
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2413
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          967,
+          120594
+        ],
+        "source_crop_box": [
+          767,
+          423,
+          888,
+          582
+        ],
+        "baseline_root": 558.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 767,
+          "translate_y": 423
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "psi",
+      "character": "ψ",
+      "row": 3,
+      "column": 8,
+      "codepoints": [
+        968,
+        120595
+      ],
+      "unicode_labels": [
+        "U+03C8",
+        "U+1D713"
+      ],
+      "tex_command": "\\psi",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        890,
+        420,
+        1013,
+        627
+      ],
+      "source_crop_box": [
+        893,
+        423,
+        1010,
+        582
+      ],
+      "crop": "crops/psi.png",
+      "crop_sha256": "431e35349513179dcf87fc561977b7249c0c968fbb620875e7fd9dca407bc022",
+      "ink_bbox_in_crop": [
+        11,
+        31,
+        103,
+        152
+      ],
+      "ink_bbox_root": [
+        904,
+        454,
+        996,
+        575
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        3046
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          968,
+          120595
+        ],
+        "source_crop_box": [
+          893,
+          423,
+          1010,
+          582
+        ],
+        "baseline_root": 558.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 893,
+          "translate_y": 423
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "omega",
+      "character": "ω",
+      "row": 4,
+      "column": 1,
+      "codepoints": [
+        969,
+        120596
+      ],
+      "unicode_labels": [
+        "U+03C9",
+        "U+1D714"
+      ],
+      "tex_command": "\\omega",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        11,
+        625,
+        137,
+        829
+      ],
+      "source_crop_box": [
+        14,
+        629,
+        133,
+        785
+      ],
+      "crop": "crops/omega.png",
+      "crop_sha256": "a95d0384f9c3cdc3687a22c62b727bd300ad0226e42cb2366a8be41f30b29622",
+      "ink_bbox_in_crop": [
+        14,
+        61,
+        104,
+        131
+      ],
+      "ink_bbox_root": [
+        28,
+        690,
+        118,
+        760
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2444
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "retained_v1_anchor_redraw_evidence_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          969,
+          120596
+        ],
+        "source_crop_box": [
+          14,
+          629,
+          133,
+          785
+        ],
+        "baseline_root": 763.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 14,
+          "translate_y": 629
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "epsilon-lunate",
+      "character": "ϵ",
+      "row": 4,
+      "column": 2,
+      "codepoints": [
+        1013,
+        120598
+      ],
+      "unicode_labels": [
+        "U+03F5",
+        "U+1D716"
+      ],
+      "tex_command": "\\epsilon",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        135,
+        625,
+        261,
+        829
+      ],
+      "source_crop_box": [
+        139,
+        629,
+        257,
+        785
+      ],
+      "crop": "crops/epsilon-lunate.png",
+      "crop_sha256": "7f13437330d1cd08bdc44f2c3a4d04e2a8c3dff57d7f99cca5d993136b4c72a4",
+      "ink_bbox_in_crop": [
+        28,
+        63,
+        85,
+        132
+      ],
+      "ink_bbox_root": [
+        167,
+        692,
+        224,
+        761
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1388
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "quarantined_semantic_failure",
+      "review_note": "Wrong variant: visibly two-lobed epsilon, not the requested lunate epsilon with middle bar.",
+      "quarantined": true,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          1013,
+          120598
+        ],
+        "source_crop_box": [
+          139,
+          629,
+          257,
+          785
+        ],
+        "baseline_root": 763.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 139,
+          "translate_y": 629
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "theta-variant",
+      "character": "ϑ",
+      "row": 4,
+      "column": 3,
+      "codepoints": [
+        977,
+        120599
+      ],
+      "unicode_labels": [
+        "U+03D1",
+        "U+1D717"
+      ],
+      "tex_command": "\\vartheta",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        259,
+        625,
+        386,
+        829
+      ],
+      "source_crop_box": [
+        263,
+        629,
+        383,
+        785
+      ],
+      "crop": "crops/theta-variant.png",
+      "crop_sha256": "0926b7beecc28fce834fb2c52eb7b6dbac33bbba0154d1efcdd70d9f0e39b891",
+      "ink_bbox_in_crop": [
+        19,
+        33,
+        97,
+        131
+      ],
+      "ink_bbox_root": [
+        282,
+        662,
+        360,
+        760
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2542
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          977,
+          120599
+        ],
+        "source_crop_box": [
+          263,
+          629,
+          383,
+          785
+        ],
+        "baseline_root": 763.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 263,
+          "translate_y": 629
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "kappa-variant",
+      "character": "ϰ",
+      "row": 4,
+      "column": 4,
+      "codepoints": [
+        1008,
+        120600
+      ],
+      "unicode_labels": [
+        "U+03F0",
+        "U+1D718"
+      ],
+      "tex_command": "\\varkappa",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        385,
+        625,
+        512,
+        829
+      ],
+      "source_crop_box": [
+        388,
+        629,
+        509,
+        785
+      ],
+      "crop": "crops/kappa-variant.png",
+      "crop_sha256": "ad60c7b61d8141b265705882f43e7c33e42f972ce72970fd8948ecb8027040d2",
+      "ink_bbox_in_crop": [
+        20,
+        62,
+        100,
+        131
+      ],
+      "ink_bbox_root": [
+        408,
+        691,
+        488,
+        760
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2106
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "quarantined_semantic_failure",
+      "review_note": "Near duplicate of regular kappa; distinct varkappa anatomy is not established.",
+      "quarantined": true,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          1008,
+          120600
+        ],
+        "source_crop_box": [
+          388,
+          629,
+          509,
+          785
+        ],
+        "baseline_root": 763.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 388,
+          "translate_y": 629
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "phi-straight",
+      "character": "ϕ",
+      "row": 4,
+      "column": 5,
+      "codepoints": [
+        981,
+        120601
+      ],
+      "unicode_labels": [
+        "U+03D5",
+        "U+1D719"
+      ],
+      "tex_command": "\\phi",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        511,
+        625,
+        639,
+        829
+      ],
+      "source_crop_box": [
+        514,
+        629,
+        635,
+        785
+      ],
+      "crop": "crops/phi-straight.png",
+      "crop_sha256": "aae2439524003bc47c592cb0d472eacc9e8ab9c548846e8ed700862c1e5914e4",
+      "ink_bbox_in_crop": [
+        20,
+        63,
+        97,
+        150
+      ],
+      "ink_bbox_root": [
+        534,
+        692,
+        611,
+        779
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2449
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Independently reviewed: plausible straight-stem phi (ϕ); duplicate r3c6 does not establish distinct varphi. Optical acceptance pending.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          981,
+          120601
+        ],
+        "source_crop_box": [
+          514,
+          629,
+          635,
+          785
+        ],
+        "baseline_root": 763.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 514,
+          "translate_y": 629
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "rho-variant",
+      "character": "ϱ",
+      "row": 4,
+      "column": 6,
+      "codepoints": [
+        1009,
+        120602
+      ],
+      "unicode_labels": [
+        "U+03F1",
+        "U+1D71A"
+      ],
+      "tex_command": "\\varrho",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        637,
+        625,
+        765,
+        829
+      ],
+      "source_crop_box": [
+        641,
+        629,
+        762,
+        785
+      ],
+      "crop": "crops/rho-variant.png",
+      "crop_sha256": "025cf0e048b8462f7353caf9b54bd3a368f92175d20ec640ff347a6eb07df438",
+      "ink_bbox_in_crop": [
+        23,
+        59,
+        89,
+        150
+      ],
+      "ink_bbox_root": [
+        664,
+        688,
+        730,
+        779
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2325
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          1009,
+          120602
+        ],
+        "source_crop_box": [
+          641,
+          629,
+          762,
+          785
+        ],
+        "baseline_root": 763.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 641,
+          "translate_y": 629
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "pi-variant",
+      "character": "ϖ",
+      "row": 4,
+      "column": 7,
+      "codepoints": [
+        982,
+        120603
+      ],
+      "unicode_labels": [
+        "U+03D6",
+        "U+1D71B"
+      ],
+      "tex_command": "\\varpi",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        764,
+        625,
+        891,
+        829
+      ],
+      "source_crop_box": [
+        767,
+        629,
+        888,
+        785
+      ],
+      "crop": "crops/pi-variant.png",
+      "crop_sha256": "a3e73a2bcaf3b86c309bab35188e5db88108ff32f1611217034faf8e7a49790d",
+      "ink_bbox_in_crop": [
+        12,
+        62,
+        106,
+        131
+      ],
+      "ink_bbox_root": [
+        779,
+        691,
+        873,
+        760
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2874
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "greek",
+        "codepoints": [
+          982,
+          120603
+        ],
+        "source_crop_box": [
+          767,
+          629,
+          888,
+          785
+        ],
+        "baseline_root": 763.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 767,
+          "translate_y": 629
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "partial",
+      "character": "∂",
+      "row": 4,
+      "column": 8,
+      "codepoints": [
+        8706,
+        120597
+      ],
+      "unicode_labels": [
+        "U+2202",
+        "U+1D715"
+      ],
+      "tex_command": "\\partial",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        890,
+        625,
+        1013,
+        829
+      ],
+      "source_crop_box": [
+        893,
+        629,
+        1010,
+        785
+      ],
+      "crop": "crops/partial.png",
+      "crop_sha256": "90ed577ca61da90ddb95c9d30f197abc79eb22d36a2f56afe51eb8d9b6bef000",
+      "ink_bbox_in_crop": [
+        22,
+        33,
+        91,
+        132
+      ],
+      "ink_bbox_root": [
+        915,
+        662,
+        984,
+        761
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        2456
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "provisional_greek_design_reference",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": true,
+      "font_source_ready": false,
+      "coverage_credit": false,
+      "builder_calibration_proposal": {
+        "kind": "symbol",
+        "codepoints": [
+          8706,
+          120597
+        ],
+        "source_crop_box": [
+          893,
+          629,
+          1010,
+          785
+        ],
+        "baseline_root": 763.057787903894,
+        "source_em_pixels": 128.08616404308202,
+        "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+        "registration_to_root_for_unresized_crop": {
+          "scale": 1,
+          "translate_x": 893,
+          "translate_y": 629
+        },
+        "status": "incomplete proposal; no curves/provenance; calibration and semantic eligibility must be reviewed"
+      }
+    },
+    {
+      "name": "left-bracket",
+      "character": "[",
+      "row": 5,
+      "column": 1,
+      "codepoints": [
+        91
+      ],
+      "unicode_labels": [
+        "U+005B"
+      ],
+      "tex_command": "\\lbrack",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        11,
+        828,
+        137,
+        1025
+      ],
+      "source_crop_box": [
+        14,
+        831,
+        133,
+        975
+      ],
+      "crop": "crops/left-bracket.png",
+      "crop_sha256": "979b72568816ddab6e2cd99d70feef8331c5256d962de95591675a85c785ca63",
+      "ink_bbox_in_crop": [
+        48,
+        28,
+        75,
+        133
+      ],
+      "ink_bbox_root": [
+        62,
+        859,
+        89,
+        964
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1172
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "right-bracket",
+      "character": "]",
+      "row": 5,
+      "column": 2,
+      "codepoints": [
+        93
+      ],
+      "unicode_labels": [
+        "U+005D"
+      ],
+      "tex_command": "\\rbrack",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        135,
+        828,
+        261,
+        1025
+      ],
+      "source_crop_box": [
+        139,
+        831,
+        257,
+        975
+      ],
+      "crop": "crops/right-bracket.png",
+      "crop_sha256": "2cafd00e8f6267e2cbc3589f08e5ff9d058ac56317350044fc6552ee4fedb9a7",
+      "ink_bbox_in_crop": [
+        43,
+        28,
+        71,
+        133
+      ],
+      "ink_bbox_root": [
+        182,
+        859,
+        210,
+        964
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1268
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "left-brace",
+      "character": "{",
+      "row": 5,
+      "column": 3,
+      "codepoints": [
+        123
+      ],
+      "unicode_labels": [
+        "U+007B"
+      ],
+      "tex_command": "\\lbrace",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        259,
+        828,
+        386,
+        1025
+      ],
+      "source_crop_box": [
+        263,
+        831,
+        383,
+        975
+      ],
+      "crop": "crops/left-brace.png",
+      "crop_sha256": "2d303ba0cbccf2c8ac5bfc13f2568d7c22f158e99e402ffb133e96e8dfe93040",
+      "ink_bbox_in_crop": [
+        40,
+        26,
+        74,
+        135
+      ],
+      "ink_bbox_root": [
+        303,
+        857,
+        337,
+        966
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1036
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "right-brace",
+      "character": "}",
+      "row": 5,
+      "column": 4,
+      "codepoints": [
+        125
+      ],
+      "unicode_labels": [
+        "U+007D"
+      ],
+      "tex_command": "\\rbrace",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        385,
+        828,
+        512,
+        1025
+      ],
+      "source_crop_box": [
+        388,
+        831,
+        509,
+        975
+      ],
+      "crop": "crops/right-brace.png",
+      "crop_sha256": "260dba551a572907fc7efc3ac49f7691d03171f7528f501a32dbdbdd6b9e979b",
+      "ink_bbox_in_crop": [
+        50,
+        26,
+        84,
+        135
+      ],
+      "ink_bbox_root": [
+        438,
+        857,
+        472,
+        966
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1046
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "left-floor",
+      "character": "⌊",
+      "row": 5,
+      "column": 5,
+      "codepoints": [
+        8970
+      ],
+      "unicode_labels": [
+        "U+230A"
+      ],
+      "tex_command": "\\lfloor",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        511,
+        828,
+        639,
+        1025
+      ],
+      "source_crop_box": [
+        514,
+        831,
+        635,
+        975
+      ],
+      "crop": "crops/left-floor.png",
+      "crop_sha256": "c14f92968cded602d96f40df91cd3fe95b9bf4375e08cf08dc3d96bdead6313d",
+      "ink_bbox_in_crop": [
+        41,
+        40,
+        85,
+        123
+      ],
+      "ink_bbox_root": [
+        555,
+        871,
+        599,
+        954
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        686
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "right-floor",
+      "character": "⌋",
+      "row": 5,
+      "column": 6,
+      "codepoints": [
+        8971
+      ],
+      "unicode_labels": [
+        "U+230B"
+      ],
+      "tex_command": "\\rfloor",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        637,
+        828,
+        765,
+        1025
+      ],
+      "source_crop_box": [
+        641,
+        831,
+        762,
+        975
+      ],
+      "crop": "crops/right-floor.png",
+      "crop_sha256": "8e3d40d1873da8a60136ef9fdfb8c8d3162135f7b77f7ce4c15ae405b306f0d9",
+      "ink_bbox_in_crop": [
+        36,
+        40,
+        80,
+        123
+      ],
+      "ink_bbox_root": [
+        677,
+        871,
+        721,
+        954
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        646
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "left-ceil",
+      "character": "⌈",
+      "row": 5,
+      "column": 7,
+      "codepoints": [
+        8968
+      ],
+      "unicode_labels": [
+        "U+2308"
+      ],
+      "tex_command": "\\lceil",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        764,
+        828,
+        891,
+        1025
+      ],
+      "source_crop_box": [
+        767,
+        831,
+        888,
+        975
+      ],
+      "crop": "crops/left-ceil.png",
+      "crop_sha256": "3cfcbf85c6731662da8cabdd47f266d56fe008c6dd2c66e884e961507d6f4f80",
+      "ink_bbox_in_crop": [
+        46,
+        40,
+        75,
+        122
+      ],
+      "ink_bbox_root": [
+        813,
+        871,
+        842,
+        953
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        503
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "right-ceil",
+      "character": "⌉",
+      "row": 5,
+      "column": 8,
+      "codepoints": [
+        8969
+      ],
+      "unicode_labels": [
+        "U+2309"
+      ],
+      "tex_command": "\\rceil",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        890,
+        828,
+        1013,
+        1025
+      ],
+      "source_crop_box": [
+        893,
+        831,
+        1010,
+        975
+      ],
+      "crop": "crops/right-ceil.png",
+      "crop_sha256": "ff842c7e1a81e984d3c75b02448b9c4b58db72072a72b0144f00f713c07c923a",
+      "ink_bbox_in_crop": [
+        44,
+        40,
+        70,
+        122
+      ],
+      "ink_bbox_root": [
+        937,
+        871,
+        963,
+        953
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        573
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "element",
+      "character": "∈",
+      "row": 6,
+      "column": 1,
+      "codepoints": [
+        8712
+      ],
+      "unicode_labels": [
+        "U+2208"
+      ],
+      "tex_command": "\\in",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        11,
+        1024,
+        137,
+        1211
+      ],
+      "source_crop_box": [
+        14,
+        1027,
+        133,
+        1160
+      ],
+      "crop": "crops/element.png",
+      "crop_sha256": "64c23eba3e8d4b69561b53f6a699c59ce7ba7913c172b3240e9bdc1a0f28ba21",
+      "ink_bbox_in_crop": [
+        30,
+        50,
+        84,
+        109
+      ],
+      "ink_bbox_root": [
+        44,
+        1077,
+        98,
+        1136
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        897
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "not-element",
+      "character": "∉",
+      "row": 6,
+      "column": 2,
+      "codepoints": [
+        8713
+      ],
+      "unicode_labels": [
+        "U+2209"
+      ],
+      "tex_command": "\\notin",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        135,
+        1024,
+        261,
+        1211
+      ],
+      "source_crop_box": [
+        139,
+        1027,
+        257,
+        1160
+      ],
+      "crop": "crops/not-element.png",
+      "crop_sha256": "9e40b14eeaf67c99126f0cba509195c31f3a38ee013d9aa42d6c1ae5d4ec2ab7",
+      "ink_bbox_in_crop": [
+        27,
+        32,
+        83,
+        120
+      ],
+      "ink_bbox_root": [
+        166,
+        1059,
+        222,
+        1147
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1325
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "subset",
+      "character": "⊂",
+      "row": 6,
+      "column": 3,
+      "codepoints": [
+        8834
+      ],
+      "unicode_labels": [
+        "U+2282"
+      ],
+      "tex_command": "\\subset",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        259,
+        1024,
+        386,
+        1211
+      ],
+      "source_crop_box": [
+        263,
+        1027,
+        383,
+        1160
+      ],
+      "crop": "crops/subset.png",
+      "crop_sha256": "c7778d7718711ac52decbd48598e2beffaf7c64924a50a0de67805f6dd99ffae",
+      "ink_bbox_in_crop": [
+        25,
+        53,
+        91,
+        107
+      ],
+      "ink_bbox_root": [
+        288,
+        1080,
+        354,
+        1134
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        801
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "subset-equal",
+      "character": "⊆",
+      "row": 6,
+      "column": 4,
+      "codepoints": [
+        8838
+      ],
+      "unicode_labels": [
+        "U+2286"
+      ],
+      "tex_command": "\\subseteq",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        385,
+        1024,
+        512,
+        1211
+      ],
+      "source_crop_box": [
+        388,
+        1027,
+        509,
+        1160
+      ],
+      "crop": "crops/subset-equal.png",
+      "crop_sha256": "fadb8431daee132b8b6842ba784c8537bf715911795bfd5b8e04073b49882040",
+      "ink_bbox_in_crop": [
+        28,
+        44,
+        90,
+        110
+      ],
+      "ink_bbox_root": [
+        416,
+        1071,
+        478,
+        1137
+      ],
+      "components_8_connected": 2,
+      "component_areas": [
+        708,
+        295
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "precedes",
+      "character": "≺",
+      "row": 6,
+      "column": 5,
+      "codepoints": [
+        8826
+      ],
+      "unicode_labels": [
+        "U+227A"
+      ],
+      "tex_command": "\\prec",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        511,
+        1024,
+        639,
+        1211
+      ],
+      "source_crop_box": [
+        514,
+        1027,
+        635,
+        1160
+      ],
+      "crop": "crops/precedes.png",
+      "crop_sha256": "89a6c400701f56575719d8b79440c4d7dbfa293d3b15a27370763442b83e7161",
+      "ink_bbox_in_crop": [
+        32,
+        52,
+        85,
+        109
+      ],
+      "ink_bbox_root": [
+        546,
+        1079,
+        599,
+        1136
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        592
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "precedes-equal",
+      "character": "≼",
+      "row": 6,
+      "column": 6,
+      "codepoints": [
+        8828
+      ],
+      "unicode_labels": [
+        "U+227C"
+      ],
+      "tex_command": "\\preccurlyeq",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        637,
+        1024,
+        765,
+        1211
+      ],
+      "source_crop_box": [
+        641,
+        1027,
+        762,
+        1160
+      ],
+      "crop": "crops/precedes-equal.png",
+      "crop_sha256": "6a503ab3f47d8cee54d755fc07116b76be5eb9ca4444f3f9fc739d5a84c2dbf7",
+      "ink_bbox_in_crop": [
+        33,
+        46,
+        85,
+        108
+      ],
+      "ink_bbox_root": [
+        674,
+        1073,
+        726,
+        1135
+      ],
+      "components_8_connected": 2,
+      "component_areas": [
+        525,
+        260
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "succeeds",
+      "character": "≻",
+      "row": 6,
+      "column": 7,
+      "codepoints": [
+        8827
+      ],
+      "unicode_labels": [
+        "U+227B"
+      ],
+      "tex_command": "\\succ",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        764,
+        1024,
+        891,
+        1211
+      ],
+      "source_crop_box": [
+        767,
+        1027,
+        888,
+        1160
+      ],
+      "crop": "crops/succeeds.png",
+      "crop_sha256": "8b525e99198b6d672c7135423685e0d208400f2a2ee90b607acafb05bd707c81",
+      "ink_bbox_in_crop": [
+        35,
+        52,
+        86,
+        108
+      ],
+      "ink_bbox_root": [
+        802,
+        1079,
+        853,
+        1135
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        584
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "succeeds-equal",
+      "character": "≽",
+      "row": 6,
+      "column": 8,
+      "codepoints": [
+        8829
+      ],
+      "unicode_labels": [
+        "U+227D"
+      ],
+      "tex_command": "\\succcurlyeq",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        890,
+        1024,
+        1013,
+        1211
+      ],
+      "source_crop_box": [
+        893,
+        1027,
+        1010,
+        1160
+      ],
+      "crop": "crops/succeeds-equal.png",
+      "crop_sha256": "34363d329d17a9d2043e77c7f86812b11c4ca379fd0f7649db29f0e9c0831c4e",
+      "ink_bbox_in_crop": [
+        33,
+        48,
+        84,
+        105
+      ],
+      "ink_bbox_root": [
+        926,
+        1075,
+        977,
+        1132
+      ],
+      "components_8_connected": 2,
+      "component_areas": [
+        474,
+        251
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "forall",
+      "character": "∀",
+      "row": 7,
+      "column": 1,
+      "codepoints": [
+        8704
+      ],
+      "unicode_labels": [
+        "U+2200"
+      ],
+      "tex_command": "\\forall",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        11,
+        1210,
+        137,
+        1367
+      ],
+      "source_crop_box": [
+        14,
+        1213,
+        133,
+        1327
+      ],
+      "crop": "crops/forall.png",
+      "crop_sha256": "db473c8e10618fd98a9f166d89ff128ce625d5bdb9846e18f1e0545d001af199",
+      "ink_bbox_in_crop": [
+        30,
+        35,
+        89,
+        99
+      ],
+      "ink_bbox_root": [
+        44,
+        1248,
+        103,
+        1312
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        889
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "exists",
+      "character": "∃",
+      "row": 7,
+      "column": 2,
+      "codepoints": [
+        8707
+      ],
+      "unicode_labels": [
+        "U+2203"
+      ],
+      "tex_command": "\\exists",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        135,
+        1210,
+        261,
+        1367
+      ],
+      "source_crop_box": [
+        139,
+        1213,
+        257,
+        1327
+      ],
+      "crop": "crops/exists.png",
+      "crop_sha256": "3a4c0984d41c692c1afb3377ac9825781021438856364821498ba5b38da5a315",
+      "ink_bbox_in_crop": [
+        36,
+        35,
+        79,
+        96
+      ],
+      "ink_bbox_root": [
+        175,
+        1248,
+        218,
+        1309
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        877
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "emptyset",
+      "character": "∅",
+      "row": 7,
+      "column": 3,
+      "codepoints": [
+        8709
+      ],
+      "unicode_labels": [
+        "U+2205"
+      ],
+      "tex_command": "\\varnothing",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        259,
+        1210,
+        386,
+        1367
+      ],
+      "source_crop_box": [
+        263,
+        1213,
+        383,
+        1327
+      ],
+      "crop": "crops/emptyset.png",
+      "crop_sha256": "5d860eb1549b8c544c80c1f0eb624ca49d0299193f49497733df9fcb3108bb77",
+      "ink_bbox_in_crop": [
+        29,
+        29,
+        90,
+        105
+      ],
+      "ink_bbox_root": [
+        292,
+        1242,
+        353,
+        1318
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1635
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "nabla",
+      "character": "∇",
+      "row": 7,
+      "column": 4,
+      "codepoints": [
+        8711
+      ],
+      "unicode_labels": [
+        "U+2207"
+      ],
+      "tex_command": "\\nabla",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        385,
+        1210,
+        512,
+        1367
+      ],
+      "source_crop_box": [
+        388,
+        1213,
+        509,
+        1327
+      ],
+      "crop": "crops/nabla.png",
+      "crop_sha256": "54f4870d05b91267e154da97f48bfe11efce7b863f21d75f824a410135080ee5",
+      "ink_bbox_in_crop": [
+        31,
+        36,
+        93,
+        100
+      ],
+      "ink_bbox_root": [
+        419,
+        1249,
+        481,
+        1313
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        1088
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "vdash",
+      "character": "⊢",
+      "row": 7,
+      "column": 5,
+      "codepoints": [
+        8866
+      ],
+      "unicode_labels": [
+        "U+22A2"
+      ],
+      "tex_command": "\\vdash",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        511,
+        1210,
+        639,
+        1367
+      ],
+      "source_crop_box": [
+        514,
+        1213,
+        635,
+        1327
+      ],
+      "crop": "crops/vdash.png",
+      "crop_sha256": "b2aa84b90291925f74ae216b41bcacbb904cc1449163d80fbd53db15a29c846f",
+      "ink_bbox_in_crop": [
+        37,
+        35,
+        87,
+        98
+      ],
+      "ink_bbox_root": [
+        551,
+        1248,
+        601,
+        1311
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        539
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "dashv",
+      "character": "⊣",
+      "row": 7,
+      "column": 6,
+      "codepoints": [
+        8867
+      ],
+      "unicode_labels": [
+        "U+22A3"
+      ],
+      "tex_command": "\\dashv",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        637,
+        1210,
+        765,
+        1367
+      ],
+      "source_crop_box": [
+        641,
+        1213,
+        762,
+        1327
+      ],
+      "crop": "crops/dashv.png",
+      "crop_sha256": "f9b3b107a8dedab4bef751ab0da8e981c19a0c0301cf15f4f9a5e84c94691983",
+      "ink_bbox_in_crop": [
+        32,
+        35,
+        81,
+        98
+      ],
+      "ink_bbox_root": [
+        673,
+        1248,
+        722,
+        1311
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        592
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "models",
+      "character": "⊨",
+      "row": 7,
+      "column": 7,
+      "codepoints": [
+        8872
+      ],
+      "unicode_labels": [
+        "U+22A8"
+      ],
+      "tex_command": "\\models",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        764,
+        1210,
+        891,
+        1367
+      ],
+      "source_crop_box": [
+        767,
+        1213,
+        888,
+        1327
+      ],
+      "crop": "crops/models.png",
+      "crop_sha256": "b47aa6597cbe0e41cb9749f512da96e752f7561fdee4054383e293a75ec1f7a9",
+      "ink_bbox_in_crop": [
+        37,
+        36,
+        85,
+        100
+      ],
+      "ink_bbox_root": [
+        804,
+        1249,
+        852,
+        1313
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        802
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "perpendicular",
+      "character": "⊥",
+      "row": 7,
+      "column": 8,
+      "codepoints": [
+        8869
+      ],
+      "unicode_labels": [
+        "U+22A5"
+      ],
+      "tex_command": "\\perp",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        890,
+        1210,
+        1013,
+        1367
+      ],
+      "source_crop_box": [
+        893,
+        1213,
+        1010,
+        1327
+      ],
+      "crop": "crops/perpendicular.png",
+      "crop_sha256": "be2c8f4a246fa82c57ff4cd26610fa7e225f79d1b05f341c1bda2554e5244a00",
+      "ink_bbox_in_crop": [
+        29,
+        36,
+        88,
+        96
+      ],
+      "ink_bbox_root": [
+        922,
+        1249,
+        981,
+        1309
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        569
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "right-arrow",
+      "character": "→",
+      "row": 8,
+      "column": 1,
+      "codepoints": [
+        8594
+      ],
+      "unicode_labels": [
+        "U+2192"
+      ],
+      "tex_command": "\\rightarrow",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        11,
+        1366,
+        137,
+        1525
+      ],
+      "source_crop_box": [
+        14,
+        1369,
+        133,
+        1468
+      ],
+      "crop": "crops/right-arrow.png",
+      "crop_sha256": "be71ff0e5c351ad083e35d66834d1a20288cc19d7592872c0d7eb41578535bca",
+      "ink_bbox_in_crop": [
+        17,
+        42,
+        101,
+        80
+      ],
+      "ink_bbox_root": [
+        31,
+        1411,
+        115,
+        1449
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        596
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "double-iff",
+      "character": "⇔",
+      "row": 8,
+      "column": 2,
+      "codepoints": [
+        8660
+      ],
+      "unicode_labels": [
+        "U+21D4"
+      ],
+      "tex_command": "\\Leftrightarrow",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        135,
+        1366,
+        261,
+        1525
+      ],
+      "source_crop_box": [
+        139,
+        1369,
+        257,
+        1468
+      ],
+      "crop": "crops/double-iff.png",
+      "crop_sha256": "66163c51db30a593102399400bf945b832f1c20b35d1f39a81874d68b172d2a3",
+      "ink_bbox_in_crop": [
+        15,
+        41,
+        104,
+        81
+      ],
+      "ink_bbox_root": [
+        154,
+        1410,
+        243,
+        1450
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        930
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "maps-to",
+      "character": "↦",
+      "row": 8,
+      "column": 3,
+      "codepoints": [
+        8614
+      ],
+      "unicode_labels": [
+        "U+21A6"
+      ],
+      "tex_command": "\\mapsto",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        259,
+        1366,
+        386,
+        1525
+      ],
+      "source_crop_box": [
+        263,
+        1369,
+        383,
+        1468
+      ],
+      "crop": "crops/maps-to.png",
+      "crop_sha256": "f54018e4758f56b6f62edfd1339de7debb51475c59b056a9abf4d37c5b2fb8a6",
+      "ink_bbox_in_crop": [
+        26,
+        43,
+        102,
+        79
+      ],
+      "ink_bbox_root": [
+        289,
+        1412,
+        365,
+        1448
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        668
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "left-right-arrow",
+      "character": "↔",
+      "row": 8,
+      "column": 4,
+      "codepoints": [
+        8596
+      ],
+      "unicode_labels": [
+        "U+2194"
+      ],
+      "tex_command": "\\leftrightarrow",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        385,
+        1366,
+        512,
+        1525
+      ],
+      "source_crop_box": [
+        388,
+        1369,
+        509,
+        1468
+      ],
+      "crop": "crops/left-right-arrow.png",
+      "crop_sha256": "cb6aa3de4b03ae06dadc9affa93c533d5584752182a2cff1e0ebc65ec909faf9",
+      "ink_bbox_in_crop": [
+        16,
+        41,
+        104,
+        81
+      ],
+      "ink_bbox_root": [
+        404,
+        1410,
+        492,
+        1450
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        812
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "left-harpoon",
+      "character": "↼",
+      "row": 8,
+      "column": 5,
+      "codepoints": [
+        8636
+      ],
+      "unicode_labels": [
+        "U+21BC"
+      ],
+      "tex_command": "\\leftharpoonup",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        511,
+        1366,
+        639,
+        1525
+      ],
+      "source_crop_box": [
+        514,
+        1369,
+        635,
+        1468
+      ],
+      "crop": "crops/left-harpoon.png",
+      "crop_sha256": "bffb780ad3edd61e340459bdcbee1457323fc976042616b693640d97d820d9d2",
+      "ink_bbox_in_crop": [
+        19,
+        43,
+        97,
+        79
+      ],
+      "ink_bbox_root": [
+        533,
+        1412,
+        611,
+        1448
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        544
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "quarantined_semantic_failure",
+      "review_note": "Full two-sided arrowhead, not the requested single-sided harpoon.",
+      "quarantined": true,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "right-harpoon",
+      "character": "⇀",
+      "row": 8,
+      "column": 6,
+      "codepoints": [
+        8640
+      ],
+      "unicode_labels": [
+        "U+21C0"
+      ],
+      "tex_command": "\\rightharpoonup",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        637,
+        1366,
+        765,
+        1525
+      ],
+      "source_crop_box": [
+        641,
+        1369,
+        762,
+        1468
+      ],
+      "crop": "crops/right-harpoon.png",
+      "crop_sha256": "21b806e92ecc4bb8ff11b3ad1b951dd8d06d6746e6a8e7148639d8b75ba90704",
+      "ink_bbox_in_crop": [
+        22,
+        44,
+        98,
+        78
+      ],
+      "ink_bbox_root": [
+        663,
+        1413,
+        739,
+        1447
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        520
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "quarantined_semantic_failure",
+      "review_note": "Full two-sided arrowhead, not the requested single-sided harpoon.",
+      "quarantined": true,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "hook-left",
+      "character": "↩",
+      "row": 8,
+      "column": 7,
+      "codepoints": [
+        8617
+      ],
+      "unicode_labels": [
+        "U+21A9"
+      ],
+      "tex_command": "\\hookleftarrow",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        764,
+        1366,
+        891,
+        1525
+      ],
+      "source_crop_box": [
+        767,
+        1369,
+        888,
+        1468
+      ],
+      "crop": "crops/hook-left.png",
+      "crop_sha256": "9dd46ef8d4161da2de0ef3dd739866066561ab42ee13f147dfeab9243f81aac3",
+      "ink_bbox_in_crop": [
+        22,
+        38,
+        93,
+        79
+      ],
+      "ink_bbox_root": [
+        789,
+        1407,
+        860,
+        1448
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        572
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "family_grammar_prototype_only",
+      "review_note": "Identity is visually plausible; not optical acceptance or font coverage.",
+      "quarantined": false,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    },
+    {
+      "name": "twohead-right",
+      "character": "↠",
+      "row": 8,
+      "column": 8,
+      "codepoints": [
+        8608
+      ],
+      "unicode_labels": [
+        "U+21A0"
+      ],
+      "tex_command": "\\twoheadrightarrow",
+      "root_id": "baskerville-unified-master-v2-candidate-01",
+      "root_sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+      "grid_cell_box": [
+        890,
+        1366,
+        1013,
+        1525
+      ],
+      "source_crop_box": [
+        893,
+        1369,
+        1010,
+        1468
+      ],
+      "crop": "crops/twohead-right.png",
+      "crop_sha256": "c6c2ff6bef948f7d23a64ffe1cc31d4dfc21683f5b9f52db7196b693f7434f08",
+      "ink_bbox_in_crop": [
+        19,
+        42,
+        101,
+        81
+      ],
+      "ink_bbox_root": [
+        912,
+        1411,
+        994,
+        1450
+      ],
+      "components_8_connected": 1,
+      "component_areas": [
+        765
+      ],
+      "removed_ink_pixels_inside_crop": 0,
+      "status": "quarantined_semantic_failure",
+      "review_note": "Double horizontal shaft/implication-like arrow, not two arrowheads on one shaft.",
+      "quarantined": true,
+      "usable_as_design_reference": false,
+      "font_source_ready": false,
+      "coverage_credit": false
+    }
+  ],
+  "scope": "31 Greek targets plus partial and 32 sign prototypes; no digamma; no coverage credit."
+}

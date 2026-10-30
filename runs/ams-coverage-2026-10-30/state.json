@@ -1,5 +1,5 @@
 {
-  "stage": "master_v2_semantic_review",
+  "stage": "arrow_family_proved_missing_greek_queued",
   "image_calls": {
     "master_design": 1,
     "greek_enlargements": 0,
@@ -23,5 +23,19 @@
     "Greek variants require explicit semantic check/correction",
     "Harpoon cells show full heads; twohead-right shows double-shaft form; quarantine, do not trace",
     "Arrow families will use shared parametric head/shaft grammar, not per-arrow regeneration"
-  ]
+  ],
+  "arrow_grammar": "design/arrow-grammar.json",
+  "arrow_sources": "runs/ams-coverage-2026-10-30/arrows-v1/sources.json",
+  "delivery": "runs/ams-coverage-2026-10-30/delivery-arrows-03",
+  "authored_arrow_count": 34,
+  "actual_font_checks_per_engine": 296,
+  "full_ams_complete": false,
+  "next_steps": [
+    "Prove remaining correctly drawn lowercase Greek from the reviewed unified atlas; retain six frozen pilot glyphs.",
+    "Correct three quarantined Greek variant cells in one unified-root revision, not isolated category designs.",
+    "Derive hooks, successive heads, paired and extensible arrows from the shared grammar.",
+    "Engineer braces and growing constructions; complete exact AMS command/style proofs."
+  ],
+  "runtime_status": "passed",
+  "unit_checks": 29
 }
