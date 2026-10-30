@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "stage": "pilot_enlargements",
-  "status": "pilot_O_enlarged_traced_reviewed",
+  "status": "stopped_quota_observability_blocker",
   "image_calls": {
     "master_design": 1,
     "pilot_enlargements": 3,
@@ -10,7 +10,13 @@
   },
   "active_image_request": null,
   "accepted_root": "runs/unified-master-2026-10-29/candidate-01/master.png",
-  "major_blockers": [],
+  "major_blockers": [
+    {
+      "id": "quota-cli-timeout",
+      "finding": "quota --json did not return within the 45-second subprocess timeout. Scheduled continuation accumulated pending messages; no further image work was dispatched.",
+      "action": "Restore reliable quota readings before resuming the saved alpha step. The existing timer is disabled."
+    }
+  ],
   "next_action": "Next bounded step: faithful enlargement of italic Greek alpha (cell index3, U+1D6FC) from the SAME regular-companion root and exact crop, with substantial Storm reference. Preserve alpha bowl, counter and tail; do not substitute old heavier seed. Trace, measure and review; no root/correction change requested.",
   "latest_master_candidate": "runs/unified-master-2026-10-29/candidate-01/master.png",
   "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
@@ -29,5 +35,6 @@
     "H": "runs/overnight-2026-10-29/pilot/H/review.md",
     "O": "runs/overnight-2026-10-29/pilot/O/review.md"
   },
-  "registration_caution": "Legacy registered() selects largest component; use only for confirmed connected targets. Equals needs full-component registration, not silent band loss."
+  "registration_caution": "Legacy registered() selects largest component; use only for confirmed connected targets. Equals needs full-component registration, not silent band loss.",
+  "scheduler_enabled": false
 }

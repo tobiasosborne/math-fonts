@@ -60,3 +60,13 @@ Upright O enlarged once, traced and reviewed. Its one counter survives;
 slightly narrower proportions and contour drift are recorded for font-proof
 review. No correction used. Four image calls total: one root, three pilot
 enlargements. Next is italic Greek alpha from the SAME regular-companion root.
+
+## Stop: quota observability blocker
+
+The next scheduled alpha step stopped before dispatch: quota --json exceeded
+its 45-second subprocess timeout. Several continuation messages accumulated
+while the read was pending. No alpha generation or additional image call was
+made. The existing scheduled task is confirmed disabled. Final completed
+image work is one unified master plus A/H/O enlargements: four image calls.
+The 24-target font pilot, font binary and math-rendering proofs remain unfinished.
+Resume at alpha only after reliable quota observation and renewed work timing.
