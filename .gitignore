@@ -31,6 +31,11 @@
 !/runs/pipeline-reproduction-2026-10-29/
 !/runs/overnight-2026-10-29/
 !/runs/unified-master-2026-10-29/
+!/runs/pipeline-2026-10-30/
+
+# Intermediate font probes are local controls; publish the final pinned build.
+/runs/pipeline-2026-10-30/font-bootstrap/
+/runs/pipeline-2026-10-30/font-checkpoint-*/
 
 # Account snapshots and local campaign coordination are never public inputs.
 /.local/

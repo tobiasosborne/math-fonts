@@ -7,13 +7,34 @@ the ignored .local directory. Polls are separated by at least five minutes.
 import argparse
 from datetime import datetime, timedelta, timezone
 import json
+import os
 from pathlib import Path
 import re
+import signal
 import subprocess
 import time
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.local/quota-window-cache.json'
+
+
+def read_cli(timeout_seconds=10):
+    """Bound the entire CLI process group; a timed-out poll cannot linger."""
+    process=subprocess.Popen(['quota','--json'],stdout=subprocess.PIPE,
+                             stderr=subprocess.PIPE,text=True,start_new_session=True)
+    try:
+        stdout,_=process.communicate(timeout=timeout_seconds)
+    except subprocess.TimeoutExpired:
+        try:
+            os.killpg(process.pid,signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+        process.communicate()
+        raise RuntimeError(f'Quota CLI exceeded {timeout_seconds}s; poll process group stopped')
+    if process.returncode:
+        # CLI stderr may contain account/provider details: do not publish it.
+        raise RuntimeError('Quota CLI failed; no fresh allowance established')
+    return json.loads(stdout)
 
 
 def timestamp(value):
@@ -93,8 +114,16 @@ def sample(vendor):
         age = boot_now-cache['boot_time']
         if 0 <= age < 300:
             return cache, age, False
-    response = subprocess.run(['quota','--json'], capture_output=True, text=True, check=True, timeout=45)
-    data = json.loads(response.stdout)
+    attempt=CACHE.with_name('quota-last-attempt.json')
+    if attempt.exists():
+        previous=json.loads(attempt.read_text())
+        gap=boot_now-previous.get('boot_time',0)
+        if previous.get('boot_id')==boot_id and 0<=gap<300:
+            raise ValueError('Recent quota poll failed/interrupted; five-minute retry cooldown is active')
+    CACHE.parent.mkdir(exist_ok=True)
+    attempt.write_text(json.dumps({'boot_id':boot_id,'boot_time':boot_now})+'\n')
+    attempt.chmod(0o600)
+    data = read_cli()
     provider = next((x for x in data if x['vendor']==vendor), None)
     if not provider:
         raise ValueError('Requested provider is absent from the quota CLI')

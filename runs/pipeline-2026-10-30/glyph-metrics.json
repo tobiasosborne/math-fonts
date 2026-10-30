@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "name": "alpha",
+      "master_iou": 0.8862930893644829,
+      "mean_boundary_master_px": 0.9338941914848806,
+      "aspect_change": 0.056357138762015646,
+      "native_trace_iou": 0.9963127088634507,
+      "cubic_segments": 27,
+      "topology_preserved": true
+    },
+    {
+      "name": "beta",
+      "master_iou": 0.9134074180978496,
+      "mean_boundary_master_px": 0.6836543717187276,
+      "aspect_change": 0.030327495084957468,
+      "native_trace_iou": 0.9962431348023132,
+      "cubic_segments": 27,
+      "topology_preserved": true
+    },
+    {
+      "name": "theta",
+      "master_iou": 0.9371211053150994,
+      "mean_boundary_master_px": 0.5542612998994871,
+      "aspect_change": 0.026425154865521883,
+      "native_trace_iou": 0.9960532840848851,
+      "cubic_segments": 14,
+      "topology_preserved": true
+    },
+    {
+      "name": "nu",
+      "master_iou": 0.9483969465648855,
+      "mean_boundary_master_px": 0.37679946989484703,
+      "aspect_change": 0.03877716765458139,
+      "native_trace_iou": 0.9965299247350803,
+      "cubic_segments": 17,
+      "topology_preserved": true
+    },
+    {
+      "name": "xi",
+      "master_iou": 0.9112808460634547,
+      "mean_boundary_master_px": 0.5986721533471361,
+      "aspect_change": 0.02741949870662741,
+      "native_trace_iou": 0.9904835534000023,
+      "cubic_segments": 27,
+      "topology_preserved": true
+    },
+    {
+      "name": "omega",
+      "master_iou": 0.8782593375616632,
+      "mean_boundary_master_px": 0.9456820264365813,
+      "aspect_change": 0.05961483184823213,
+      "native_trace_iou": 0.9968245465232207,
+      "cubic_segments": 24,
+      "topology_preserved": true
+    }
+  ],
+  "limits": "Raster agreement only; not design grades or release acceptance."
+}

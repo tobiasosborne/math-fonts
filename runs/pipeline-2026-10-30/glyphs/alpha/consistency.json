@@ -1,0 +1,33 @@
+{
+  "method": "Connected Greek: one uniform scale and translation only. Full-component trace; explicit RGB luminance conversion.",
+  "metrics": {
+    "silhouette_iou": 0.8862930893644829,
+    "boundary_mean_master_px": 0.9338941914848806,
+    "boundary_p95_master_px": 2.0,
+    "boundary_max_master_px": 3.0,
+    "boundary_mean_fraction_height": 0.008979751841200775,
+    "darkness_rmse_union": 0.27002230286598206,
+    "ink_area_change_fraction": -0.014103887168902651,
+    "aspect_change_fraction": 0.056357138762015646,
+    "master_counters": 1,
+    "enlarged_counters": 1,
+    "master_thickness_proxy_px": 12.806248474865697,
+    "enlarged_thickness_proxy_px": 11.313708498984761,
+    "master_glyph_height_px": 104,
+    "extra_dark_pixels_outside_main_component": 0,
+    "master_extra_dark_pixels": 0,
+    "registration": {
+      "uniform_scale": 0.13826355448212269,
+      "translate_x": 37.98250631684627,
+      "translate_y": 68.21123571930126,
+      "function_evaluations": 250,
+      "independent_width_stretch": false
+    }
+  },
+  "registration_to_root": {
+    "scale": 0.13826355448212269,
+    "translate_x": 790.8924927183318,
+    "translate_y": 58.134091079448794
+  },
+  "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae"
+}

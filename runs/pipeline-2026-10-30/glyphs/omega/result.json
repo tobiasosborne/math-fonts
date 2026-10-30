@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "image": "enlarged.png",
+  "sha256": "73126820712aca9e1f876f6dbafa8417c13cf48801573fea2106249d882039bd",
+  "dimensions": [
+    1448,
+    1086
+  ],
+  "tool": "built-in imagegen",
+  "image_calls": 1,
+  "token_usage_exposed": false
+}

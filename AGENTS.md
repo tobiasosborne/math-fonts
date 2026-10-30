@@ -119,3 +119,13 @@ replacements, and engineer growth/layout separately. Use externally supplied
 Storm files through explicit tested font configuration; do not copy commercial
 outlines into the public AGPL payload. The timer remains disabled; the earlier
 eight-hour authorization is not extended by this plan correction.
+
+RENEWED IMPLEMENTATION AUTHORIZATION (2026-10-30): the user now directs us to
+get the full pipeline running and present intermittent results. This renews
+active work beyond the expired overnight window. Reuse ordinary Storm glyphs,
+retain the single unified root and custom Greek, and make a real end-to-end
+font/rendering pilot. Technical Sol assistance is within the previously
+requested delegation scope. Check quota before expensive work, preserve the
+roughly three-point tolerance, use bounded image calls and checkpoint commits.
+Do not reactivate the obsolete overnight timer or rejected arena. No new image
+call is needed for stock Latin/numerals. Public payload excludes Storm binaries.

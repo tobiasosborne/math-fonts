@@ -1,0 +1,50 @@
+{
+  "status": "dispatched",
+  "name": "omega",
+  "cell": {
+    "name": "omega",
+    "character": "ω",
+    "target_codepoint": "U+1D714",
+    "inventory_target_id": "u1D714",
+    "row": 6,
+    "column": 4,
+    "root_id": "baskerville-unified-master-v1",
+    "root_image": "runs/unified-master-2026-10-29/candidate-01/master.png",
+    "source_crop_box": [
+      776,
+      1308,
+      1000,
+      1476
+    ],
+    "crop": "runs/unified-master-2026-10-29/candidate-01/crops/omega.png",
+    "crop_sha256": "f7172f719ffd8b802b8613eee9ffebfab90d46b50adb2dabcfc4e97b2347a9ae",
+    "ink_bbox_in_crop": [
+      41,
+      43,
+      183,
+      139
+    ],
+    "components": 1,
+    "component_areas": [
+      5432
+    ],
+    "status": "source_ready_for_review_not_font_coverage"
+  },
+  "references": [
+    {
+      "path": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae"
+    },
+    {
+      "path": "runs/unified-master-2026-10-29/candidate-01/crops/omega.png",
+      "sha256": "f7172f719ffd8b802b8613eee9ffebfab90d46b50adb2dabcfc4e97b2347a9ae"
+    },
+    {
+      "path": "fonts/private/reference-specimens/storm-baskerville-2026-10-29/storm-baskerville-reference.png",
+      "sha256": "a0ff84fe38a27b8839f7b7dddb5fafbaa80b64873a0acb2aaf648e30b8647dce"
+    }
+  ],
+  "prompt_sha256": "7db0bf067a91000b7d689e49177585aa2fdfd5140216fc40bb997cda75471145",
+  "image_calls": 1,
+  "dispatched_at": "2026-10-30T05:12:45.599984+00:00"
+}

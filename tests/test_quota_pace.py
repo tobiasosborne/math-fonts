@@ -1,10 +1,12 @@
 import sys
 import unittest
+from unittest.mock import Mock, patch
+import subprocess
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'tools'))
-from quota_pace import evaluate
+from quota_pace import evaluate,read_cli
 
 
 class QuotaPaceTests(unittest.TestCase):
@@ -39,6 +41,23 @@ class QuotaPaceTests(unittest.TestCase):
         self.snapshot['windows'][0]['used']=1.
         result=evaluate(self.snapshot,self.start+timedelta(days=2))
         self.assertEqual(datetime.fromisoformat(result['next_eligible_at']),self.reset+timedelta(seconds=60))
+
+    def test_hung_cli_process_group_is_killed_and_reaped(self):
+        process=Mock(pid=12345)
+        process.communicate.side_effect=[subprocess.TimeoutExpired('quota',10),('','')]
+        with patch('quota_pace.subprocess.Popen',return_value=process),patch('quota_pace.os.killpg') as kill:
+            with self.assertRaisesRegex(RuntimeError,'poll process group stopped'):
+                read_cli()
+            kill.assert_called_once()
+            self.assertEqual(process.communicate.call_count,2)
+
+    def test_failed_cli_does_not_expose_stderr_or_allowance(self):
+        process=Mock(returncode=1)
+        process.communicate.return_value=('','private-provider-details')
+        with patch('quota_pace.subprocess.Popen',return_value=process):
+            with self.assertRaisesRegex(RuntimeError,'no fresh allowance') as error:
+                read_cli()
+            self.assertNotIn('private-provider-details',str(error.exception))
 
 
 if __name__=='__main__':

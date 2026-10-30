@@ -1,0 +1,58 @@
+{
+  "sources": {
+    "alpha": {
+      "curves": "glyphs/alpha/trace/curves.json",
+      "registration_to_root": {
+        "scale": 0.13826355448212269,
+        "translate_x": 790.8924927183318,
+        "translate_y": 58.134091079448794
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+    },
+    "beta": {
+      "curves": "glyphs/beta/trace/curves.json",
+      "registration_to_root": {
+        "scale": 0.17131752033753359,
+        "translate_x": 783.836991490595,
+        "translate_y": 276.55914636264214
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+    },
+    "theta": {
+      "curves": "glyphs/theta/trace/curves.json",
+      "registration_to_root": {
+        "scale": 0.1537145826675638,
+        "translate_x": 794.8355661014365,
+        "translate_y": 539.6370239620072
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+    },
+    "nu": {
+      "curves": "glyphs/nu/trace/curves.json",
+      "registration_to_root": {
+        "scale": 0.12991691702994468,
+        "translate_x": 810.6279900793553,
+        "translate_y": 815.3243831191794
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+    },
+    "xi": {
+      "curves": "glyphs/xi/trace/curves.json",
+      "registration_to_root": {
+        "scale": 0.16632595385968035,
+        "translate_x": 787.9755425294856,
+        "translate_y": 1045.4617252102423
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+    },
+    "omega": {
+      "curves": "glyphs/omega/trace/curves.json",
+      "registration_to_root": {
+        "scale": 0.12479974697565477,
+        "translate_x": 798.355242697854,
+        "translate_y": 1328.8584384392395
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting."
+    }
+  }
+}
