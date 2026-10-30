@@ -47,5 +47,14 @@
   "new_image_campaign_authorized_by_this_manifest": false,
   "substantial_text_reference": "design/storm-reference.json",
   "guidelines_policy": "Deterministic thin removable overlay + mask + measured coordinates; always preserve clean original for tracing.",
-  "active_campaign_contract": "runs/overnight-2026-10-29/contract.json"
+  "active_campaign_contract": "runs/ams-coverage-2026-10-30/contract.json",
+  "pending_expansion": {
+    "id": "baskerville-unified-master-v2",
+    "path": "runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+    "sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+    "parent": "baskerville-unified-master-v1",
+    "status": "semantic review; invalid cells quarantined; no wholesale promotion",
+    "preserve_v1_pilot_six": true,
+    "geometry_rule": "Arrow family components are authored consistently against valid root prototype, not independently generated per symbol."
+  }
 }

@@ -1,0 +1,16 @@
+{
+  "authorization": "User directs AMS coverage expansion and continued work; native Storm Greek retained only as explicit alternates.",
+  "target_inventory": "design/ams-glyph-inventory.json",
+  "root_parent": "runs/unified-master-2026-10-29/candidate-01/master.png",
+  "scope": "First expansion: runtime source reuse and native alternates; unified full-lowercase Greek/AMS-grammar atlas; missing default Greek; exact coverage reports.",
+  "image_caps": {
+    "master_design": 2,
+    "greek_enlargements": 26,
+    "other_ams_enlargements": 8,
+    "automatic_corrections": 0
+  },
+  "native_greek_policy": "Explicit opt-in alternate; custom Greek remains default and missing default shapes are not silently substituted.",
+  "quota_policy": "Use quota CLI, minimum5min live polls, one imagecall atatime, aimat/below weeklytimepace; preserve3pointbuffer.",
+  "old_timers": "Remain disabled; any new quota continuation uses a new AMS-specific contract and pauses itself on entry.",
+  "not_claimed": "Full AMS coverage until every frozen binding/style/construction is verified; cmap presence or macro definition alone is not rendered coverage."
+}

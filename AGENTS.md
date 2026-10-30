@@ -139,3 +139,19 @@ font contains no Storm letter/figure outlines. Private proofs embed Storm and
 remain excluded. Full AMS coverage and final optical acceptance are not done;
 finite growth forms/scripts remain provisional. Do not silently extend the
 completed six-image-call run or restart old timers/arena work.
+
+AMS EXPANSION AUTHORIZED: the user now says to go for AMS coverage and keep
+going. Extend the working hybrid pipeline toward the frozen inventory, with
+ordinary Storm reuse, single-root lineage, quota pacing, bounded batches,
+intermittent real proofs and checkpoint pushes. New technical Sol tasks are
+authorized within that scope. Keep the completed pilot immutable; use a new
+`runs/ams-coverage-2026-10-30/` campaign. Inventory availability is not design
+acceptance; do not fill gaps with unacknowledged unrelated font fallback.
+
+LATEST FAMILY RULES: custom Greek remains the default, with native Storm Greek
+available only through explicit opt-in alternates. Missing native variants must
+not silently substitute different shapes. Arrows and related geometric symbols
+use a shared vector grammar: common shaft weight, head profile, spacing, hooks
+and bars, deployed consistently across directions and semantic variants. Most
+do not need separate image regeneration. Wrong harpoon/twohead cells in the new
+atlas are quarantined, not authority for wrong Unicode mappings.

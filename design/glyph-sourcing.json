@@ -144,5 +144,23 @@
   "new_image_calls_authorized_by_this_change": 0,
   "timer_enabled": false,
   "runtime_evidence": "runs/pipeline-2026-10-30/delivery/runtime/summary.json",
-  "custom_math_scope_note": "Nine generated root math bases remain provisional pilot constructions; audit available Storm signs before production expansion."
+  "custom_math_scope_note": "Nine generated root math bases remain provisional pilot constructions; audit available Storm signs before production expansion.",
+  "native_greek_alternates": {
+    "policy": "Custom Greek is the default. Native Storm Greek is available only through explicit opt-in; alternate coverage does not close custom-design gaps.",
+    "runtime": "tex/baskervillecompanionams.sty",
+    "interfaces": [
+      "mathstormgreek",
+      "mathstormgreekup"
+    ],
+    "absent_variant_policy": "hard error; never substitute a different shape"
+  },
+  "geometric_symbol_policy": {
+    "arrows": "One shared vector grammar for shaft weight, head profile, hooks and bars; calibrated to the unified root and math-rule weight. Derive related directions and semantic variants; no per-arrow image call.",
+    "semantic_gates": [
+      "harpoon half-head differs from full arrowhead",
+      "two successive heads differs from double shaft",
+      "mapsto bar differs from ordinary tail"
+    ],
+    "image_cells": "Invalid atlas arrow cells are quarantined, never traced as production references."
+  }
 }

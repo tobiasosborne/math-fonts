@@ -13,6 +13,10 @@ plan; earlier generated studies and their call ledger remain unchanged.
 - Keep the accepted newly designed Greek as custom work. It is part of the
   requested visual identity; do not replace it with Storm's native Greek by
   assuming that available coverage always means the desired drawing.
+- Retain Storm's native Greek as explicit upright/italic alternates. The user's
+  preferred custom Greek stays the default; an alternate does not close a
+  missing custom glyph. Unavailable native variants must report an error rather
+  than substitute a different epsilon, phi, kappa or other shape.
 - Audit existing arithmetic signs, parentheses and accent bases before drawing
   replacements. A cmap entry establishes availability only; test shape,
   math-class spacing, accent positioning, scripts and actual rendering.
@@ -21,6 +25,13 @@ plan; earlier generated studies and their call ledger remain unchanged.
   explicit runtime mapping where practical; author missing construction pieces
   and shapes from the unified design root. Do not assume that a text font
   supplies MATH data or that arbitrary geometric stretching is acceptable.
+- Construct related geometric symbols from shared vector components. For
+  arrows, choose shaft weight, head profile, bar spacing and hook curvature
+  against the unified root and math rules, then reuse those parameters across
+  directions, lengths and semantic variants. Separate raster generations must
+  not introduce different heads into the same family. Harpoons, double shafts
+  and two successive heads remain distinct constructions. Record any optical
+  correction explicitly rather than hiding per-glyph deviations.
 
 One unified design image still governs **new drawing** and provides a visual
 comparison with actual Baskerville. Existing-letter cells in the current

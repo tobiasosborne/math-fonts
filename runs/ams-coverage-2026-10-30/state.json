@@ -1,0 +1,27 @@
+{
+  "stage": "master_v2_semantic_review",
+  "image_calls": {
+    "master_design": 1,
+    "greek_enlargements": 0,
+    "other_ams_enlargements": 0,
+    "total": 1
+  },
+  "active_image_request": null,
+  "native_greek_alternates": "Explicit opt-in only",
+  "completed_default_greek": [
+    "alpha",
+    "beta",
+    "theta",
+    "nu",
+    "xi",
+    "omega"
+  ],
+  "rendered_ams_coverage": "Pending final runtime report; source availability is not credited.",
+  "major_blockers": [],
+  "new_master_candidate": "runs/ams-coverage-2026-10-30/master-v2/candidate-01/master.png",
+  "known_candidate_issues": [
+    "Greek variants require explicit semantic check/correction",
+    "Harpoon cells show full heads; twohead-right shows double-shaft form; quarantine, do not trace",
+    "Arrow families will use shared parametric head/shaft grammar, not per-arrow regeneration"
+  ]
+}

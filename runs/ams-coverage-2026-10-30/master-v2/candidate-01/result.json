@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "sha256": "edfb27bedf078bcba86d18112c15d4f03bc25b2bdc6fc0e23083209e85390db7",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "tool": "built-in imagegen",
+  "image_calls": 1,
+  "approval": "Pending semantic review. Known issues: epsilon/kappa/phi variant distinctions; harpoon and twohead arrow cells are not production references."
+}

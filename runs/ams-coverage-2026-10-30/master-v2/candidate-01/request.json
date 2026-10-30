@@ -1,0 +1,26 @@
+{
+  "status": "dispatched",
+  "purpose": "Versioned expansion of unified root; full custom lowercase Greek plus AMS grammar anchors",
+  "image_calls": 1,
+  "references": [
+    {
+      "path": "runs/unified-master-2026-10-29/candidate-01/master.png",
+      "sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae"
+    },
+    {
+      "path": "fonts/private/reference-specimens/storm-baskerville-2026-10-29/storm-baskerville-reference.png",
+      "sha256": "a0ff84fe38a27b8839f7b7dddb5fafbaa80b64873a0acb2aaf648e30b8647dce"
+    },
+    {
+      "path": "fonts/private/reference-specimens/greek-semantics-2026-10-30/variants.png",
+      "sha256": "a19360b1742f3fc04941dc2857fa3139471a523611f050780328f65bbc12cda5"
+    },
+    {
+      "path": "runs/glyph-consistency-2026-10-29/master.png",
+      "sha256": "7538ac467dc73705b289ea99937d6d659c01cff5052d20b212fffc77ed4af98e"
+    }
+  ],
+  "prompt_sha256": "84baeb6af3d19c94bdee312b53b939dede5d08c577cc47f50f419da5c981d530",
+  "dispatched_at": "2026-10-30T05:51:35.564110+00:00",
+  "production_approval": "pending visual and semantic inspection; no automatic adoption"
+}

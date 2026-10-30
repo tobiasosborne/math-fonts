@@ -1,0 +1,36 @@
+Use case: one unified typography design atlas, revision of an established family.
+
+Input 1 is the CURRENT UNIFIED BASKERVILLE MATH MASTER. It establishes the regular-companion family; its six Greek forms alpha, beta, theta, nu, xi and omega are the accepted anchors. Preserve their anatomy, slant, stress, contrast, counters and weight. This is an expansion of that SAME family, not a different category design.
+Input 2 is a substantial actual STORM BASKERVILLE 10 PRO reference page: paragraphs, alphabets, numbers and Greek in four real faces. It sets text compatibility and regular/italic weight context. Native Storm Greek is an OPTIONAL alternate, not the default drawing: continue the more attractive custom Greek from input 1 instead.
+Input 3 is a SEMANTIC glyph-identity reference showing the distinct Unicode/TeX Greek variants. It identifies which form is meant, not the style to copy. Keep epsilon/phi/kappa/theta/rho/pi pairs genuinely distinct; do not collapse them into duplicate silhouettes.
+Input 4 is the older full Greek seed. It supplies missing-letter anatomy and family history, but it is heavier. Do NOT switch back to its weight. The current master in input 1 governs regular weight and current design identity.
+
+Create ONE high-resolution portrait design atlas, exactly 8 columns by 8 rows, 64 cells. Same typographic em, common baseline and x-height/cap height logic in each row. Keep legitimate narrow/wide and ascender/descender differences. No individual ink-box maximization, stretched widths or equal-height normalization. The whole image is a coherent mathematics family: all new design will derive from this root revision. Black FILLED glyphs on pure white; highest practical original resolution, generous identical cells and readable shapes.
+
+Rows 1–4 are the complete custom lowercase Greek and variants. Preserve the six existing anchors faithfully. Make missing letters native Greek, distinct and rhythmically related. Do not substitute standard Storm Greek. Regular contrast and clear apertures must work with reading-size Baskerville. Epsilon ε is the two-lobed form (TeX varepsilon); ϵ is the lunate form with middle bar (TeX epsilon). φ and ϕ are distinct as shown in the semantic guide (varphi vs phi). κ and ϰ must not be duplicates. ν is not υ. Final sigma ς is not σ.
+
+Rows 5–8 establish the accompanying AMS construction language: delimiters, relations, logic and arrows. Use curves, terminals and stroke/rule weight harmonized with the same Greek and Baskerville. These are family grammar prototypes, not independent font styles. Delimiters must have shapes that could be extended with compatible joins; arrowheads/harpoons and relation strokes must share a consistent axis and weight. In relations, preserve meaningful slant, bar counts, enclosure and negation. Keep every target semantically recognizable.
+
+EXACT grid, 8 glyphs per row, one glyph per cell:
+Row 1: α β γ δ ε ζ η θ
+Row 2: ι κ λ μ ν ξ ο π
+Row 3: ρ ς σ τ υ φ χ ψ
+Row 4: ω ϵ ϑ ϰ ϕ ϱ ϖ ∂
+Row 5: [ ] { } ⌊ ⌋ ⌈ ⌉
+Row 6: ∈ ∉ ⊂ ⊆ ≺ ≼ ≻ ≽
+Row 7: ∀ ∃ ∅ ∇ ⊢ ⊣ ⊨ ⊥
+Row 8: → ⇔ ↦ ↔ ↼ ⇀ ↩ ↠
+
+EXACT small plain Latin labels, in separate lower gutters (not touching ink):
+Row 1: alpha; beta; gamma; delta; epsilon-lobed; zeta; eta; theta
+Row 2: iota; kappa; lambda; mu; nu; xi; omicron; pi
+Row 3: rho; final-sigma; sigma; tau; upsilon; phi-looped; chi; psi
+Row 4: omega; epsilon-lunate; theta-variant; kappa-variant; phi-straight; rho-variant; pi-variant; partial
+Row 5: left-bracket; right-bracket; left-brace; right-brace; left-floor; right-floor; left-ceil; right-ceil
+Row 6: element; not-element; subset; subset-equal; precedes; precedes-equal; succeeds; succeeds-equal
+Row 7: forall; exists; emptyset; nabla; vdash; dashv; models; perpendicular
+Row 8: right-arrow; double-iff; maps-to; left-right-arrow; left-harpoon; right-harpoon; hook-left; twohead-right
+
+Every glyph must be fully unclipped and separated from its label. Thin cell boundaries may be confined to gutters. NO guides through glyph interiors, no imaginary measurements or handles; measured removable overlays are added locally afterward. No headings, prose, formulas, decorative typography, outlines, nodes, arrows pointing at anatomy, shadows, paper texture, gradients or duplicate styles. Do not redraw normal Latin letters or numerals. This is one clean unified source atlas, not a publicity poster.
+
+The whole atlas is reviewed before any new glyph production. Source/font availability and mathematical identity are separate from visual attractiveness. Produce all 64 actual shapes legibly; do not fake coverage with placeholders or duplicate Greek variants.
