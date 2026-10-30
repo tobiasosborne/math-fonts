@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "reproduction": "One command from retained registered inputs; no image calls",
+  "font_byte_identical": true,
+  "font_sha256": "8061a0af396a7298f430a3b92e4c407051355863c55b4a865308ff2d07756aa8",
+  "both_engine_role_checks": {
+    "lualatex": 20,
+    "xelatex": 20
+  },
+  "interactive_viewer_built": true,
+  "unit_tests_passed": 34,
+  "input_image_calls_new": 6,
+  "historical_calls_unchanged": 4
+}

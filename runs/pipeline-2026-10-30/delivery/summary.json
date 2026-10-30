@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "font": "font/BaskervilleCompanionMath-Pilot.otf",
+  "font_sha256": "8061a0af396a7298f430a3b92e4c407051355863c55b4a865308ff2d07756aa8",
+  "runtime_summary": "runtime/summary.json",
+  "glyph_count": 33,
+  "engine_role_checks": {
+    "lualatex": 20,
+    "xelatex": 20
+  }
+}

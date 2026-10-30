@@ -1,0 +1,304 @@
+{
+  "sources": {
+    "alpha": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/alpha/trace/curves.json",
+      "source_crop_box": [
+        776,
+        22,
+        1000,
+        217
+      ],
+      "baseline_root": 197,
+      "registration": {
+        "scale": 0.13826355448212269,
+        "offset_root": [
+          790.8924927183318,
+          58.134091079448794
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.13826355448212269,
+        "translate_x": 790.8924927183318,
+        "translate_y": 58.134091079448794
+      }
+    },
+    "beta": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/beta/trace/curves.json",
+      "source_crop_box": [
+        776,
+        277,
+        1000,
+        480
+      ],
+      "baseline_root": 445,
+      "registration": {
+        "scale": 0.17131752033753359,
+        "offset_root": [
+          783.836991490595,
+          276.55914636264214
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.17131752033753359,
+        "translate_x": 783.836991490595,
+        "translate_y": 276.55914636264214
+      }
+    },
+    "theta": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/theta/trace/curves.json",
+      "source_crop_box": [
+        776,
+        539,
+        1000,
+        733
+      ],
+      "baseline_root": 710,
+      "registration": {
+        "scale": 0.1537145826675638,
+        "offset_root": [
+          794.8355661014365,
+          539.6370239620072
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.1537145826675638,
+        "translate_x": 794.8355661014365,
+        "translate_y": 539.6370239620072
+      }
+    },
+    "nu": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/nu/trace/curves.json",
+      "source_crop_box": [
+        776,
+        792,
+        1000,
+        971
+      ],
+      "baseline_root": 950,
+      "registration": {
+        "scale": 0.12991691702994468,
+        "offset_root": [
+          810.6279900793553,
+          815.3243831191794
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.12991691702994468,
+        "translate_x": 810.6279900793553,
+        "translate_y": 815.3243831191794
+      }
+    },
+    "xi": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/xi/trace/curves.json",
+      "source_crop_box": [
+        776,
+        1037,
+        1000,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration": {
+        "scale": 0.16632595385968035,
+        "offset_root": [
+          787.9755425294856,
+          1045.4617252102423
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.16632595385968035,
+        "translate_x": 787.9755425294856,
+        "translate_y": 1045.4617252102423
+      }
+    },
+    "omega": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/omega/trace/curves.json",
+      "source_crop_box": [
+        776,
+        1308,
+        1000,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration": {
+        "scale": 0.12479974697565477,
+        "offset_root": [
+          798.355242697854,
+          1328.8584384392395
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.12479974697565477,
+        "translate_x": 798.355242697854,
+        "translate_y": 1328.8584384392395
+      }
+    },
+    "plus": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/plus/curves.json",
+      "source_crop_box": [
+        23,
+        792,
+        248,
+        971
+      ],
+      "baseline_root": 950,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          23,
+          792
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    },
+    "minus": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/minus/curves.json",
+      "source_crop_box": [
+        272,
+        792,
+        500,
+        971
+      ],
+      "baseline_root": 950,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          272,
+          792
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    },
+    "equals": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/equals/curves.json",
+      "source_crop_box": [
+        524,
+        792,
+        752,
+        971
+      ],
+      "baseline_root": 950,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          524,
+          792
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    },
+    "sum": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/sum/curves.json",
+      "source_crop_box": [
+        23,
+        1037,
+        248,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          23,
+          1037
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    },
+    "integral": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/integral/curves.json",
+      "source_crop_box": [
+        272,
+        1037,
+        500,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          272,
+          1037
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    },
+    "radical": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/radical/curves.json",
+      "source_crop_box": [
+        524,
+        1037,
+        752,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          524,
+          1037
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    },
+    "left-paren": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/left-paren/curves.json",
+      "source_crop_box": [
+        23,
+        1308,
+        248,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          23,
+          1308
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    },
+    "right-paren": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/right-paren/curves.json",
+      "source_crop_box": [
+        272,
+        1308,
+        500,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          272,
+          1308
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    },
+    "hat-accent": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/hat-accent/curves.json",
+      "source_crop_box": [
+        524,
+        1308,
+        752,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          524,
+          1308
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates."
+    }
+  }
+}

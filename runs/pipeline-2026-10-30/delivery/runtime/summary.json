@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "font_sha256": "8061a0af396a7298f430a3b92e4c407051355863c55b4a865308ff2d07756aa8",
+  "font": "runs/pipeline-2026-10-30/delivery/font/BaskervilleCompanionMath-Pilot.otf",
+  "storm_sha256": {
+    "Baskerville10Pro.otf": "402c85ca431a105b56e34cdbd5a01dae9f44f129e6b4f3c2e062cf5cb21dad3e",
+    "Baskerville10Pro-Italic.otf": "b7c1c8e26c169eaa8a05d1354793a3cb9351c7a763c1e0864189f41860c652af",
+    "Baskerville10Pro-Bold.otf": "ddc7383e768b3291368a454efef9f2bbddfd36aa55b6b4fc92e61d2bcbcaaa4a",
+    "Baskerville10Pro-BoldItalic.otf": "4430977b025b08c62f975fbfc06d120fde12be4cab08119fd89ae3752d5bf81f"
+  },
+  "engines": {
+    "lualatex": {
+      "status": "passed",
+      "actual_pdf_fonts": [
+        "Baskerville10Pro",
+        "Baskerville10Pro-Bold",
+        "Baskerville10Pro-BoldItalic",
+        "Baskerville10Pro-Italic",
+        "BaskervilleCompanionMath-Pilot"
+      ],
+      "proof_pages": 2,
+      "role_checks": [
+        {
+          "role": "bare-variables",
+          "formula": "xfdAHO",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 6
+        },
+        {
+          "role": "bare-numerals",
+          "formula": "012",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 3
+        },
+        {
+          "role": "variable-scripts",
+          "formula": "x_{f_d}^{A^{H}}",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            4.98132,
+            6.97385,
+            9.96264
+          ],
+          "glyph_count": 5
+        },
+        {
+          "role": "numeral-scripts",
+          "formula": "0_{1_2}^{2^{1}}",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            4.98132,
+            6.97385,
+            9.96264
+          ],
+          "glyph_count": 5
+        },
+        {
+          "role": "mathrm",
+          "formula": "\\mathrm{xfdAHO012}",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "mathit",
+          "formula": "\\mathit{xfdAHO012}",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "mathbf",
+          "formula": "\\mathbf{xfdAHO012}",
+          "actual_fonts": [
+            "Baskerville10Pro-Bold"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "mathbfit",
+          "formula": "\\mathbfit{xfdAHO012}",
+          "actual_fonts": [
+            "Baskerville10Pro-BoldItalic"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "mathrm-scripts",
+          "formula": "\\mathrm{x_{0_1}^{2}}",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            4.98132,
+            6.97385,
+            9.96264
+          ],
+          "glyph_count": 4
+        },
+        {
+          "role": "mathit-scripts",
+          "formula": "\\mathit{x_{0_1}^{2}}",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            4.98132,
+            6.97385,
+            9.96264
+          ],
+          "glyph_count": 4
+        },
+        {
+          "role": "mathbf-scripts",
+          "formula": "\\mathbf{x_{0_1}^{2}}",
+          "actual_fonts": [
+            "Baskerville10Pro-Bold"
+          ],
+          "sizes_pt": [
+            4.98132,
+            6.97385,
+            9.96264
+          ],
+          "glyph_count": 4
+        },
+        {
+          "role": "mathbfit-scripts",
+          "formula": "\\mathbfit{x_{0_1}^{2}}",
+          "actual_fonts": [
+            "Baskerville10Pro-BoldItalic"
+          ],
+          "sizes_pt": [
+            4.98132,
+            6.97385,
+            9.96264
+          ],
+          "glyph_count": 4
+        },
+        {
+          "role": "unicode-italic",
+          "formula": "𝐴𝐻𝑂𝑥𝑓𝑑ℎ",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 7
+        },
+        {
+          "role": "unicode-bold",
+          "formula": "𝐀𝐇𝐎𝐱𝐟𝐝𝟎𝟏𝟐",
+          "actual_fonts": [
+            "Baskerville10Pro-Bold"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "unicode-bolditalic",
+          "formula": "𝑨𝑯𝑶𝒙𝒇𝒅",
+          "actual_fonts": [
+            "Baskerville10Pro-BoldItalic"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 6
+        },
+        {
+          "role": "named-operator",
+          "formula": "\\operatorname{foo}",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 3
+        },
+        {
+          "role": "custom-greek",
+          "formula": "\\alpha\\beta\\theta\\nu\\xi\\omega",
+          "actual_fonts": [
+            "BaskervilleCompanionMath-Pilot"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 6
+        },
+        {
+          "role": "greek-scripts",
+          "formula": "\\alpha_{\\beta_\\theta}^{\\nu^\\xi}",
+          "actual_fonts": [
+            "BaskervilleCompanionMath-Pilot"
+          ],
+          "sizes_pt": [
+            4.98132,
+            6.97385,
+            9.96264
+          ],
+          "glyph_count": 5
+        },
+        {
+          "role": "custom-symbols",
+          "formula": "+- = \\sum\\int\\sqrt{\\alpha}\\hat{\\omega}",
+          "actual_fonts": [
+            "BaskervilleCompanionMath-Pilot"
+          ],
+          "sizes_pt": [
+            9.96264
+          ],
+          "glyph_count": 13
+        },
+        {
+          "role": "growing-parentheses",
+          "formula": "\\left(\\frac{\\alpha}{\\frac{\\beta}{\\theta}}\\right)",
+          "actual_fonts": [
+            "BaskervilleCompanionMath-Pilot"
+          ],
+          "sizes_pt": [
+            4.98132,
+            6.97385,
+            9.96264
+          ],
+          "glyph_count": 7
+        }
+      ],
+      "unsupported_gamma_hard_failure": [
+        "Missing character: There is no 𝛾 (U+1D6FE) in font [/home/tobias/.t3/projects"
+      ],
+      "private_proof": "private/lualatex/proof.pdf",
+      "private_rasters": [
+        "private/lualatex/page-1-300dpi.png",
+        "private/lualatex/page-2-300dpi.png"
+      ]
+    },
+    "xelatex": {
+      "status": "passed",
+      "actual_pdf_fonts": [
+        "Baskerville10Pro",
+        "Baskerville10Pro-Bold",
+        "Baskerville10Pro-BoldItalic",
+        "Baskerville10Pro-Italic",
+        "BaskervilleCompanionMath-Pilot"
+      ],
+      "proof_pages": 2,
+      "role_checks": [
+        {
+          "role": "bare-variables",
+          "formula": "xfdAHO",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 6
+        },
+        {
+          "role": "bare-numerals",
+          "formula": "012",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 3
+        },
+        {
+          "role": "variable-scripts",
+          "formula": "x_{f_d}^{A^{H}}",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            4.9813,
+            6.9738,
+            9.9626
+          ],
+          "glyph_count": 5
+        },
+        {
+          "role": "numeral-scripts",
+          "formula": "0_{1_2}^{2^{1}}",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            4.9813,
+            6.9738,
+            9.9626
+          ],
+          "glyph_count": 5
+        },
+        {
+          "role": "mathrm",
+          "formula": "\\mathrm{xfdAHO012}",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "mathit",
+          "formula": "\\mathit{xfdAHO012}",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "mathbf",
+          "formula": "\\mathbf{xfdAHO012}",
+          "actual_fonts": [
+            "Baskerville10Pro-Bold"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "mathbfit",
+          "formula": "\\mathbfit{xfdAHO012}",
+          "actual_fonts": [
+            "Baskerville10Pro-BoldItalic"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "mathrm-scripts",
+          "formula": "\\mathrm{x_{0_1}^{2}}",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            4.9813,
+            6.9738,
+            9.9626
+          ],
+          "glyph_count": 4
+        },
+        {
+          "role": "mathit-scripts",
+          "formula": "\\mathit{x_{0_1}^{2}}",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            4.9813,
+            6.9738,
+            9.9626
+          ],
+          "glyph_count": 4
+        },
+        {
+          "role": "mathbf-scripts",
+          "formula": "\\mathbf{x_{0_1}^{2}}",
+          "actual_fonts": [
+            "Baskerville10Pro-Bold"
+          ],
+          "sizes_pt": [
+            4.9813,
+            6.9738,
+            9.9626
+          ],
+          "glyph_count": 4
+        },
+        {
+          "role": "mathbfit-scripts",
+          "formula": "\\mathbfit{x_{0_1}^{2}}",
+          "actual_fonts": [
+            "Baskerville10Pro-BoldItalic"
+          ],
+          "sizes_pt": [
+            4.9813,
+            6.9738,
+            9.9626
+          ],
+          "glyph_count": 4
+        },
+        {
+          "role": "unicode-italic",
+          "formula": "𝐴𝐻𝑂𝑥𝑓𝑑ℎ",
+          "actual_fonts": [
+            "Baskerville10Pro-Italic"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 7
+        },
+        {
+          "role": "unicode-bold",
+          "formula": "𝐀𝐇𝐎𝐱𝐟𝐝𝟎𝟏𝟐",
+          "actual_fonts": [
+            "Baskerville10Pro-Bold"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 9
+        },
+        {
+          "role": "unicode-bolditalic",
+          "formula": "𝑨𝑯𝑶𝒙𝒇𝒅",
+          "actual_fonts": [
+            "Baskerville10Pro-BoldItalic"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 6
+        },
+        {
+          "role": "named-operator",
+          "formula": "\\operatorname{foo}",
+          "actual_fonts": [
+            "Baskerville10Pro"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 3
+        },
+        {
+          "role": "custom-greek",
+          "formula": "\\alpha\\beta\\theta\\nu\\xi\\omega",
+          "actual_fonts": [
+            "BaskervilleCompanionMath-Pilot"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 6
+        },
+        {
+          "role": "greek-scripts",
+          "formula": "\\alpha_{\\beta_\\theta}^{\\nu^\\xi}",
+          "actual_fonts": [
+            "BaskervilleCompanionMath-Pilot"
+          ],
+          "sizes_pt": [
+            4.9813,
+            6.9738,
+            9.9626
+          ],
+          "glyph_count": 5
+        },
+        {
+          "role": "custom-symbols",
+          "formula": "+- = \\sum\\int\\sqrt{\\alpha}\\hat{\\omega}",
+          "actual_fonts": [
+            "BaskervilleCompanionMath-Pilot"
+          ],
+          "sizes_pt": [
+            9.9626
+          ],
+          "glyph_count": 14
+        },
+        {
+          "role": "growing-parentheses",
+          "formula": "\\left(\\frac{\\alpha}{\\frac{\\beta}{\\theta}}\\right)",
+          "actual_fonts": [
+            "BaskervilleCompanionMath-Pilot"
+          ],
+          "sizes_pt": [
+            4.9813,
+            6.9738,
+            9.9626
+          ],
+          "glyph_count": 7
+        }
+      ],
+      "unsupported_gamma_hard_failure": [
+        "Missing character: There is no 𝛾 (U+1D6FE) in font [/home/tobias/.t3/projects"
+      ],
+      "private_proof": "private/xelatex/proof.pdf",
+      "private_rasters": [
+        "private/xelatex/page-1-300dpi.png",
+        "private/xelatex/page-2-300dpi.png"
+      ]
+    }
+  },
+  "scope": "15 custom symbol roles plus externally supplied Storm Latin alphabets and numerals; not full AMS coverage",
+  "limitations": [
+    "No script optical drawings: fonts scale to script sizes; ssty is explicitly disabled.",
+    "Finite growing variants, no arbitrary-size assembly.",
+    "Custom Greek weight/spacing remain provisional; technical tests do not establish visual acceptance.",
+    "Only tested math alphabets are supported; no full bold symbol version or AMS repertoire."
+  ]
+}

@@ -18,6 +18,12 @@ backup remain local. Historical links below may require the original workspace.
 
 ## Active entry points
 
+- **[Running end-to-end pilot](runs/pipeline-2026-10-30/README.md):** original
+  Baskerville reuse, six custom Greek enlargements, an authored MATH font,
+  both-engine proofs and actual-font-use checks. Includes a one-command rebuild.
+- [Pilot math font](runs/pipeline-2026-10-30/delivery/font/BaskervilleCompanionMath-Pilot.otf)
+  and [compiled vector specimen](runs/pipeline-2026-10-30/delivery/font-specimen.svg).
+
 - [Glyph reuse policy](docs/glyph-reuse-policy.md): reuse actual Baskerville
   letters/numerals; design only the companion work that is needed.
 

@@ -1,0 +1,776 @@
+{
+  "schema_version": 1,
+  "font": "BaskervilleCompanionMath-Pilot.otf",
+  "font_sha256": "8061a0af396a7298f430a3b92e4c407051355863c55b4a865308ff2d07756aa8",
+  "license": "AGPL-3.0-or-later",
+  "units_per_em": 1000,
+  "root_sha256": "eb7fb8f8a21476bd0e422aba80bb38882f16548c950575afd158f23246f5b6ae",
+  "source_em_pixels": 200,
+  "glyphs": {
+    "alpha": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/alpha/trace/curves.json",
+      "source_crop_box": [
+        776,
+        22,
+        1000,
+        217
+      ],
+      "baseline_root": 197,
+      "registration": {
+        "scale": 0.13826355448212269,
+        "offset_root": [
+          790.8924927183318,
+          58.134091079448794
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.13826355448212269,
+        "translate_x": 790.8924927183318,
+        "translate_y": 58.134091079448794
+      },
+      "curves_sha256": "d0ce5f358d862277735b51d68350828725149f1050214c2bd97c3a68cd842f6e",
+      "contour_count": 2,
+      "bounds_upm": [
+        40.0,
+        18.947668135681084,
+        774.4633816804508,
+        528.297838224303
+      ],
+      "advance_upm": 814,
+      "status": "custom Greek pilot"
+    },
+    "beta": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/beta/trace/curves.json",
+      "source_crop_box": [
+        776,
+        277,
+        1000,
+        480
+      ],
+      "baseline_root": 445,
+      "registration": {
+        "scale": 0.17131752033753359,
+        "offset_root": [
+          783.836991490595,
+          276.55914636264214
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.17131752033753359,
+        "translate_x": 783.836991490595,
+        "translate_y": 276.55914636264214
+      },
+      "curves_sha256": "f90a20d44ff159d7939f54ddf45b255ecdae59680de1b9dd608893177f03a4e6",
+      "contour_count": 2,
+      "bounds_upm": [
+        40.0,
+        -147.15441176246713,
+        699.179171524255,
+        741.1178432907267
+      ],
+      "advance_upm": 739,
+      "status": "custom Greek pilot"
+    },
+    "theta": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/theta/trace/curves.json",
+      "source_crop_box": [
+        776,
+        539,
+        1000,
+        733
+      ],
+      "baseline_root": 710,
+      "registration": {
+        "scale": 0.1537145826675638,
+        "offset_root": [
+          794.8355661014365,
+          539.6370239620072
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.1537145826675638,
+        "translate_x": 794.8355661014365,
+        "translate_y": 539.6370239620072
+      },
+      "curves_sha256": "0f772b3a12ba0af9664394505c496c5f75349789557884083b31ef3d2ef278e1",
+      "contour_count": 3,
+      "bounds_upm": [
+        39.99999999999997,
+        -26.050540397117516,
+        631.3668658918742,
+        727.7918318809334
+      ],
+      "advance_upm": 671,
+      "status": "custom Greek pilot"
+    },
+    "nu": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/nu/trace/curves.json",
+      "source_crop_box": [
+        776,
+        792,
+        1000,
+        971
+      ],
+      "baseline_root": 950,
+      "registration": {
+        "scale": 0.12991691702994468,
+        "offset_root": [
+          810.6279900793553,
+          815.3243831191794
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.12991691702994468,
+        "translate_x": 810.6279900793553,
+        "translate_y": 815.3243831191794
+      },
+      "curves_sha256": "3e415e04ebba54a7063c58303ef35e529cb6efa856f22f1020949b99a5824e2c",
+      "contour_count": 1,
+      "bounds_upm": [
+        39.99999999999998,
+        1.791512963216309,
+        580.781744167231,
+        502.79572499569747
+      ],
+      "advance_upm": 621,
+      "status": "custom Greek pilot"
+    },
+    "xi": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/xi/trace/curves.json",
+      "source_crop_box": [
+        776,
+        1037,
+        1000,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration": {
+        "scale": 0.16632595385968035,
+        "offset_root": [
+          787.9755425294856,
+          1045.4617252102423
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.16632595385968035,
+        "translate_x": 787.9755425294856,
+        "translate_y": 1045.4617252102423
+      },
+      "curves_sha256": "8c8c573d49c4d3cb5fcc264d72dc48385c5a6adcff45f67d76224124fe0af1a0",
+      "contour_count": 1,
+      "bounds_upm": [
+        39.99999999999998,
+        -106.38294584461158,
+        561.9912833094029,
+        816.7107026013148
+      ],
+      "advance_upm": 602,
+      "status": "custom Greek pilot"
+    },
+    "omega": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/pipeline-2026-10-30/glyphs/omega/trace/curves.json",
+      "source_crop_box": [
+        776,
+        1308,
+        1000,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration": {
+        "scale": 0.12479974697565477,
+        "offset_root": [
+          798.355242697854,
+          1328.8584384392395
+        ]
+      },
+      "registration_note": "Measured uniform registration of retained enlargement to frozen root; no width fitting.",
+      "registration_to_root": {
+        "scale": 0.12479974697565477,
+        "translate_x": 798.355242697854,
+        "translate_y": 1328.8584384392395
+      },
+      "curves_sha256": "2b67a47a8f07cad20efeeb06d492183da29dc05fb1a8399bb4bbdd0c0d9b7277",
+      "contour_count": 1,
+      "bounds_upm": [
+        40.00000000000001,
+        26.09939904903401,
+        758.3232829236058,
+        484.20066284895535
+      ],
+      "advance_upm": 798,
+      "status": "custom Greek pilot"
+    },
+    "plus": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/plus/curves.json",
+      "source_crop_box": [
+        23,
+        792,
+        248,
+        971
+      ],
+      "baseline_root": 950,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          23,
+          792
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "27bf022d429c2437a788148ec520ed3d3397da653fc6aab80edf6fb0e607c72b",
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        65.0,
+        615.0,
+        570.5479119089171
+      ],
+      "advance_upm": 675,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    },
+    "minus": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/minus/curves.json",
+      "source_crop_box": [
+        272,
+        792,
+        500,
+        971
+      ],
+      "baseline_root": 950,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          272,
+          792
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "9a2c500701d5865054de5265bb2d9afd335a81d16f9ef3bf7c690cd727c92f82",
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        305.0,
+        655.0,
+        355.0
+      ],
+      "advance_upm": 715,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    },
+    "equals": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/equals/curves.json",
+      "source_crop_box": [
+        524,
+        792,
+        752,
+        971
+      ],
+      "baseline_root": 950,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          524,
+          792
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "fef39e426ce91e3b436af9991eedd31ea9298037f2c256be3eb9093bcd95807e",
+      "contour_count": 2,
+      "bounds_upm": [
+        60.0,
+        200.0,
+        655.0,
+        445.0
+      ],
+      "advance_upm": 715,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    },
+    "sum": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/sum/curves.json",
+      "source_crop_box": [
+        23,
+        1037,
+        248,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          23,
+          1037
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "6fe5540059910fb405dde05a55a7c848e2b4fd706b2566e980abb21e7bb8dd79",
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -8.895247638721436,
+        789.134389603223,
+        770.0
+      ],
+      "advance_upm": 849,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    },
+    "integral": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/integral/curves.json",
+      "source_crop_box": [
+        272,
+        1037,
+        500,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          272,
+          1037
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "28f153a809eea8012274ace9df15656950a4224128eda29807e83e11b2648de5",
+      "contour_count": 1,
+      "bounds_upm": [
+        60.00000000000002,
+        -79.72222633682702,
+        602.9536173704462,
+        884.9514248366818
+      ],
+      "advance_upm": 663,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    },
+    "radical": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/radical/curves.json",
+      "source_crop_box": [
+        524,
+        1037,
+        752,
+        1252
+      ],
+      "baseline_root": 1223,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          524,
+          1037
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "c5141a1b586dfc408ef69f029475491eeb5cc8eb09670cb3476767c525e49c06",
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -44.66412282025783,
+        1003.9617554774271,
+        795.0
+      ],
+      "advance_upm": 983,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    },
+    "left-paren": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/left-paren/curves.json",
+      "source_crop_box": [
+        23,
+        1308,
+        248,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          23,
+          1308
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "1c65621c95f1d6bdff768233f84bbca09b7fc5be112167d54383288d989eaec1",
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        -70.0,
+        295.7658000145756,
+        652.8623399183701
+      ],
+      "advance_upm": 356,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    },
+    "right-paren": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/right-paren/curves.json",
+      "source_crop_box": [
+        272,
+        1308,
+        500,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          272,
+          1308
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "c3164a9b2211f277663f5dbb1ae97ced372f5b6411ed3c4aee4149e59f8b0451",
+      "contour_count": 1,
+      "bounds_upm": [
+        59.99999999999997,
+        -69.09181016446817,
+        288.34488659030325,
+        654.5062571096748
+      ],
+      "advance_upm": 348,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    },
+    "hat-accent": {
+      "curves": "/home/tobias/.t3/projects/math-fonts/runs/unified-master-2026-10-29/candidate-01/small-source-traces/hat-accent/curves.json",
+      "source_crop_box": [
+        524,
+        1308,
+        752,
+        1476
+      ],
+      "baseline_root": 1450,
+      "registration": {
+        "scale": 1,
+        "offset_root": [
+          524,
+          1308
+        ]
+      },
+      "registration_note": "Unchanged clean crop from unified root; 1:1 source coordinates.",
+      "curves_sha256": "0b74c052c73ab2ddffa7070b1c04fcfa6225c319936c8a951444bca5a1c3ae7b",
+      "contour_count": 1,
+      "bounds_upm": [
+        60.0,
+        525.0,
+        462.7261837052616,
+        698.8467228867837
+      ],
+      "advance_upm": 523,
+      "status": "experimental custom sign; stock-sign audit pending production decision"
+    }
+  },
+  "derived_recipes": [
+    {
+      "glyph": "radical",
+      "source": "registered original radical",
+      "advance_rule": "floor(ink xMax)-20 UPM; joins engine vinculum with 20-UPM overlap",
+      "roof_thickness_upm": 50,
+      "source_roof_y_upm": [
+        745,
+        795
+      ]
+    },
+    {
+      "glyph": "hat-accent",
+      "source": "registered original hat",
+      "placement_rule": "positive advance and bearings; explicit ink-center MATH attachment; translate ink ymin to AccentBaseHeight+25",
+      "target_ink_ymin_upm": 525,
+      "source_y_translation_upm": 150.0,
+      "reason": "avoid negative-bearing normalization in math loaders"
+    },
+    {
+      "glyph": "left-paren.size1",
+      "source": "left-paren",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "left-paren.size2",
+      "source": "left-paren",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "left-paren.size3",
+      "source": "left-paren",
+      "vertical_scale": 3.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "left-paren.size4",
+      "source": "left-paren",
+      "vertical_scale": 4.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "right-paren.size1",
+      "source": "right-paren",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "right-paren.size2",
+      "source": "right-paren",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "right-paren.size3",
+      "source": "right-paren",
+      "vertical_scale": 3.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "right-paren.size4",
+      "source": "right-paren",
+      "vertical_scale": 4.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "radical.size1",
+      "source": "radical",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": true,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "radical.size2",
+      "source": "radical",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": true,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "sum.size1",
+      "source": "sum",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "sum.size2",
+      "source": "sum",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "integral.size1",
+      "source": "integral",
+      "vertical_scale": 1.5,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "integral.size2",
+      "source": "integral",
+      "vertical_scale": 2.0,
+      "around_y": 250,
+      "roof_preserving_piecewise_y": false,
+      "status": "finite stretched proof placeholder; optical redesign needed"
+    },
+    {
+      "glyph": "hat-accent.wide1",
+      "source": "hat-accent",
+      "horizontal_scale": 1.5,
+      "status": "finite stretched proof placeholder"
+    },
+    {
+      "glyph": "hat-accent.wide2",
+      "source": "hat-accent",
+      "horizontal_scale": 2.0,
+      "status": "finite stretched proof placeholder"
+    }
+  ],
+  "glyph_order": [
+    ".notdef",
+    "space",
+    "alpha",
+    "beta",
+    "theta",
+    "nu",
+    "xi",
+    "omega",
+    "plus",
+    "minus",
+    "equals",
+    "sum",
+    "integral",
+    "radical",
+    "left-paren",
+    "right-paren",
+    "hat-accent",
+    "left-paren.size1",
+    "left-paren.size2",
+    "left-paren.size3",
+    "left-paren.size4",
+    "right-paren.size1",
+    "right-paren.size2",
+    "right-paren.size3",
+    "right-paren.size4",
+    "radical.size1",
+    "radical.size2",
+    "sum.size1",
+    "sum.size2",
+    "integral.size1",
+    "integral.size2",
+    "hat-accent.wide1",
+    "hat-accent.wide2"
+  ],
+  "cmap": {
+    "U+0020": "space",
+    "U+0028": "left-paren",
+    "U+0029": "right-paren",
+    "U+002B": "plus",
+    "U+003D": "equals",
+    "U+0302": "hat-accent",
+    "U+03B1": "alpha",
+    "U+03B2": "beta",
+    "U+03B8": "theta",
+    "U+03BD": "nu",
+    "U+03BE": "xi",
+    "U+03C9": "omega",
+    "U+2211": "sum",
+    "U+2212": "minus",
+    "U+221A": "radical",
+    "U+222B": "integral",
+    "U+1D6FC": "alpha",
+    "U+1D6FD": "beta",
+    "U+1D703": "theta",
+    "U+1D708": "nu",
+    "U+1D709": "xi",
+    "U+1D714": "omega"
+  },
+  "math_constants": {
+    "ScriptPercentScaleDown": 70,
+    "ScriptScriptPercentScaleDown": 50,
+    "DelimitedSubFormulaMinHeight": 1300,
+    "DisplayOperatorMinHeight": 1300,
+    "MathLeading": 150,
+    "AxisHeight": 250,
+    "AccentBaseHeight": 500,
+    "FlattenedAccentBaseHeight": 685,
+    "SubscriptShiftDown": 220,
+    "SubscriptTopMax": 400,
+    "SubscriptBaselineDropMin": 100,
+    "SuperscriptShiftUp": 400,
+    "SuperscriptShiftUpCramped": 350,
+    "SuperscriptBottomMin": 120,
+    "SuperscriptBaselineDropMax": 250,
+    "SubSuperscriptGapMin": 160,
+    "SuperscriptBottomMaxWithSubscript": 300,
+    "SpaceAfterScript": 50,
+    "UpperLimitGapMin": 120,
+    "UpperLimitBaselineRiseMin": 600,
+    "LowerLimitGapMin": 120,
+    "LowerLimitBaselineDropMin": 600,
+    "StackTopShiftUp": 450,
+    "StackTopDisplayStyleShiftUp": 650,
+    "StackBottomShiftDown": 350,
+    "StackBottomDisplayStyleShiftDown": 600,
+    "StackGapMin": 160,
+    "StackDisplayStyleGapMin": 280,
+    "StretchStackTopShiftUp": 600,
+    "StretchStackBottomShiftDown": 500,
+    "StretchStackGapAboveMin": 120,
+    "StretchStackGapBelowMin": 120,
+    "FractionNumeratorShiftUp": 400,
+    "FractionNumeratorDisplayStyleShiftUp": 650,
+    "FractionDenominatorShiftDown": 350,
+    "FractionDenominatorDisplayStyleShiftDown": 600,
+    "FractionNumeratorGapMin": 100,
+    "FractionNumDisplayStyleGapMin": 180,
+    "FractionRuleThickness": 40,
+    "FractionDenominatorGapMin": 100,
+    "FractionDenomDisplayStyleGapMin": 180,
+    "SkewedFractionHorizontalGap": 300,
+    "SkewedFractionVerticalGap": 150,
+    "OverbarVerticalGap": 120,
+    "OverbarRuleThickness": 40,
+    "OverbarExtraAscender": 40,
+    "UnderbarVerticalGap": 120,
+    "UnderbarRuleThickness": 40,
+    "UnderbarExtraDescender": 40,
+    "RadicalVerticalGap": 80,
+    "RadicalDisplayStyleVerticalGap": 160,
+    "RadicalRuleThickness": 50,
+    "RadicalExtraAscender": 40,
+    "RadicalKernBeforeDegree": 250,
+    "RadicalKernAfterDegree": -100,
+    "RadicalDegreeBottomRaisePercent": 60
+  },
+  "italic_corrections": {
+    "alpha": 59,
+    "beta": 53,
+    "theta": 47,
+    "nu": 43,
+    "xi": 42,
+    "omega": 57
+  },
+  "math_script_declaration": "GPOS math/dflt zero alpha-beta pair plus empty GSUB math/dflt; no substitutions",
+  "top_accent_attachments": {
+    ".notdef": 300,
+    "alpha": 407,
+    "beta": 370,
+    "theta": 336,
+    "nu": 310,
+    "xi": 301,
+    "omega": 399,
+    "plus": 338,
+    "minus": 358,
+    "equals": 358,
+    "sum": 425,
+    "integral": 331,
+    "radical": 532,
+    "left-paren": 178,
+    "right-paren": 174,
+    "hat-accent": 261,
+    "left-paren.size1": 178,
+    "left-paren.size2": 178,
+    "left-paren.size3": 178,
+    "left-paren.size4": 178,
+    "right-paren.size1": 174,
+    "right-paren.size2": 174,
+    "right-paren.size3": 174,
+    "right-paren.size4": 174,
+    "radical.size1": 532,
+    "radical.size2": 532,
+    "sum.size1": 425,
+    "sum.size2": 425,
+    "integral.size1": 331,
+    "integral.size2": 331,
+    "hat-accent.wide1": 392,
+    "hat-accent.wide2": 523
+  },
+  "limitations": [
+    "15 custom pilot roles only; not full AMS coverage.",
+    "Frozen small-source traces are provisional; source pinholes and all components preserved.",
+    "Greek visual weight unresolved; Regular is a technical style name only.",
+    "Common source-em and row baselines are provisional, not Storm calibration.",
+    "MATH constants, sidebearings, italic corrections and accent attachments require visual calibration.",
+    "Finite scaled variants only (parens up to 4x); no assemblies, optical large sizes, math kerns, or ssty.",
+    "Radical finite variants preserve 50-UPM source roof; tick optical proportions remain provisional.",
+    "No third-party outlines; ordinary Latin and numerals deliberately absent.",
+    "Custom signs are experimental existing design evidence; production sourcing audit remains required."
+  ]
+}

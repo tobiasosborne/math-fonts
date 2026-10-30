@@ -129,3 +129,13 @@ requested delegation scope. Check quota before expensive work, preserve the
 roughly three-point tolerance, use bounded image calls and checkpoint commits.
 Do not reactivate the obsolete overnight timer or rejected arena. No new image
 call is needed for stock Latin/numerals. Public payload excludes Storm binaries.
+
+RUNNING PILOT: `runs/pipeline-2026-10-30/README.md` is the current concrete
+delivery. Six regular-companion Greek enlargements are retained and registered
+to the same frozen root. `tools/run_math_pipeline.py` builds the authored CFF/
+MATH OTF, reuses original external Storm Latin/numeral faces via the loader,
+and proves both engines with actual per-glyph font-use checks. The public
+font contains no Storm letter/figure outlines. Private proofs embed Storm and
+remain excluded. Full AMS coverage and final optical acceptance are not done;
+finite growth forms/scripts remain provisional. Do not silently extend the
+completed six-image-call run or restart old timers/arena work.

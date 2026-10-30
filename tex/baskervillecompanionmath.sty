@@ -1,0 +1,70 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{baskervillecompanionmath}[2026/10/30 bounded hybrid math pilot]
+% This loader deliberately supports a partial symbol font. It supplies no fallback.
+\RequirePackage{iftex}
+\ifPDFTeX
+  \PackageError{baskervillecompanionmath}{Use LuaLaTeX or XeLaTeX}{This pilot needs Unicode OpenType math.}
+  \expandafter\endinput
+\fi
+\RequirePackage{kvoptions}
+\SetupKeyvalOptions{family=BCM,prefix=BCM@}
+\DeclareStringOption[]{mathfont}
+\DeclareStringOption[]{textfontdir}
+\ProcessKeyvalOptions*
+\ifx\BCM@mathfont\@empty
+  \PackageError{baskervillecompanionmath}{Set mathfont to the authored OTF file}{See docs/runtime-pilot.md.}
+\fi
+\IfFileExists{\BCM@mathfont}{}{\PackageError{baskervillecompanionmath}{Math font file is missing}{Use an explicit existing OTF path.}}
+\IfFileExists{\BCM@textfontdir/Baskerville10Pro.otf}{}{\PackageError{baskervillecompanionmath}{Storm text font is missing}{Set textfontdir to your external four-face Storm directory.}}
+\RequirePackage{amsmath}
+\RequirePackage{fontspec}
+\setmainfont{Baskerville10Pro.otf}[
+  Path={\BCM@textfontdir/},
+  ItalicFont=Baskerville10Pro-Italic.otf,
+  BoldFont=Baskerville10Pro-Bold.otf,
+  BoldItalicFont=Baskerville10Pro-BoldItalic.otf]
+\RequirePackage[math-style=TeX,bold-style=TeX]{unicode-math}
+\ExplSyntaxOn
+% An undeclared math script otherwise makes unicode-math load Latin Modern.
+\msg_redirect_name:nnn {unicode-math}{not-ot-math}{error}
+\ExplSyntaxOff
+\expandafter\filename@parse\expandafter{\BCM@mathfont}
+\edef\BCM@fontname{\filename@base.\filename@ext}
+\edef\BCM@fontpath{\filename@area}
+\setmathfont{\BCM@fontname}[Path={\BCM@fontpath},script-features={},sscript-features={}]
+% These text alphabets load the actual original files, without conversion.
+\setmathfontface\mathrm{Baskerville10Pro.otf}[Path={\BCM@textfontdir/}]
+\setmathfontface\mathit{Baskerville10Pro-Italic.otf}[Path={\BCM@textfontdir/}]
+\setmathfontface\mathbf{Baskerville10Pro-Bold.otf}[Path={\BCM@textfontdir/}]
+\setmathfontface\BCMbolditalic{Baskerville10Pro-BoldItalic.otf}[Path={\BCM@textfontdir/}]
+\let\mathbfit\BCMbolditalic
+% Reuse fontspec's explicitly selected four-face NFSS family at every size.
+\begingroup\normalfont\xdef\BCM@family{\f@family}\endgroup
+\DeclareSymbolFont{bcmup}{TU}{\BCM@family}{m}{n}
+\DeclareSymbolFont{bcmit}{TU}{\BCM@family}{m}{it}
+\DeclareSymbolFont{bcmbf}{TU}{\BCM@family}{b}{n}
+\DeclareSymbolFont{bcmbi}{TU}{\BCM@family}{b}{it}
+\ExplSyntaxOn
+\cs_new_protected:Npn \bcm_map:nnn #1#2#3
+  {\Umathcode #1 = 7 #2 #3 \scan_stop:}
+\cs_new_protected:Npn \bcm_map_range:nnnn #1#2#3#4
+  {\int_step_inline:nnn {0}{#2}
+    {\bcm_map:nnn {\int_eval:n {#1+##1}}{#3}{\int_eval:n {#4+##1}}}}
+\AtBeginDocument{
+  \bcm_map_range:nnnn {65}{25}{\symbcmit}{65}
+  \bcm_map_range:nnnn {97}{25}{\symbcmit}{97}
+  \bcm_map_range:nnnn {48}{9}{\symbcmup}{48}
+  % Literal mathematical Unicode alphabets resolve back to original Storm slots.
+  \bcm_map_range:nnnn {"1D434}{25}{\symbcmit}{65}
+  \bcm_map_range:nnnn {"1D44E}{25}{\symbcmit}{97}
+  \bcm_map:nnn {"210E}{\symbcmit}{104}
+  \bcm_map_range:nnnn {"1D400}{25}{\symbcmbf}{65}
+  \bcm_map_range:nnnn {"1D41A}{25}{\symbcmbf}{97}
+  \bcm_map_range:nnnn {"1D7CE}{9}{\symbcmbf}{48}
+  \bcm_map_range:nnnn {"1D468}{25}{\symbcmbi}{65}
+  \bcm_map_range:nnnn {"1D482}{25}{\symbcmbi}{97}
+}
+\ExplSyntaxOff
+% Strict TeX missing-glyph errors are supplemented by the proof runner's log audit.
+\tracinglostchars=3
+\endinput

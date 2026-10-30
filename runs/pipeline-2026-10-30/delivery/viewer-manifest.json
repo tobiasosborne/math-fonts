@@ -1,0 +1,12 @@
+{
+  "font_sha256": "8061a0af396a7298f430a3b92e4c407051355863c55b4a865308ff2d07756aa8",
+  "units_per_em": 1000,
+  "font_specimen": "font-specimen.svg",
+  "private_viewer": "runtime/private/viewer.html",
+  "guides": {
+    "baseline": 0,
+    "x-height": 500,
+    "cap height": 685,
+    "math axis": 250
+  }
+}

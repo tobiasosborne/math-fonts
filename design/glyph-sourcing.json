@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "adopted_sourcing_policy_integration_not_yet_proved",
+  "status": "ordinary_font_reuse_proved_in_end_to_end_pilot",
   "authority": "User correction: reuse existing Baskerville glyphs rather than regenerate ordinary letters.",
   "reference_manifest": "design/storm-reference.json",
   "external_pilot_roles": [
@@ -9,63 +9,63 @@
       "source_font_codepoint": "U+0041",
       "face": "regular",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     },
     {
       "name": "H",
       "source_font_codepoint": "U+0048",
       "face": "regular",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     },
     {
       "name": "O",
       "source_font_codepoint": "U+004F",
       "face": "regular",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     },
     {
       "name": "f",
       "source_font_codepoint": "U+0066",
       "face": "italic",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     },
     {
       "name": "x",
       "source_font_codepoint": "U+0078",
       "face": "italic",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     },
     {
       "name": "d",
       "source_font_codepoint": "U+0064",
       "face": "italic",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     },
     {
       "name": "zero",
       "source_font_codepoint": "U+0030",
       "face": "regular",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     },
     {
       "name": "one",
       "source_font_codepoint": "U+0031",
       "face": "regular",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     },
     {
       "name": "two",
       "source_font_codepoint": "U+0032",
       "face": "regular",
       "new_drawing": false,
-      "integration_status": "explicit runtime math-alphabet mapping still to prove; Unicode math scalar may differ from source text scalar"
+      "integration_status": "Original Storm reuse verified through isolated actual rendered-font checks on LuaLaTeX and XeLaTeX, including styles and nested scripts."
     }
   ],
   "custom_greek_roles": [
@@ -142,5 +142,7 @@
   "distribution_policy": "External user-supplied Storm fonts; no commercial outlines or binaries copied into the public AGPL payload.",
   "image_calls_already_spent": 4,
   "new_image_calls_authorized_by_this_change": 0,
-  "timer_enabled": false
+  "timer_enabled": false,
+  "runtime_evidence": "runs/pipeline-2026-10-30/delivery/runtime/summary.json",
+  "custom_math_scope_note": "Nine generated root math bases remain provisional pilot constructions; audit available Storm signs before production expansion."
 }

@@ -36,6 +36,7 @@
 # Intermediate font probes are local controls; publish the final pinned build.
 /runs/pipeline-2026-10-30/font-bootstrap/
 /runs/pipeline-2026-10-30/font-checkpoint-*/
+/runs/pipeline-2026-10-30/runtime-*/
 
 # Account snapshots and local campaign coordination are never public inputs.
 /.local/
